@@ -31,6 +31,8 @@ $(document).ready(function(){
 
 </script>
 
+<script type="text/javascript" src="/assets/js/jekyll-search.js"></script>
+
 
 <!-- GOOGLE ANALYTICS -->
 <script>
@@ -81,6 +83,12 @@ $(document).ready(function(){
           
         
           
+        
+          
+        
+          
+        
+          
           <a class="page-link" href="/About Me/">About Me</a>
           
         
@@ -113,92 +121,284 @@ $(document).ready(function(){
           <div class="wrapper notes-text transparent-background">
             
 <div class="home">
-        <h1 class="page-heading">Notes</h1>
+        <h1 class="page-heading">Notes</h1>    
+
+<!-- Search Bar HTML -->
+<div id="search-bar">
+  <input type="text" id="search-input" placeholder="Quick Search...">
+  <ul id="results-container"></ul>
+</div>
+
+<!-- End Search Bar -->
 
           <ul class="post-list">
             
             <li>
               <span class="post-meta">Sep 2, 2014</span>
 
-        <h2><a class="post-link" href="/teis/blog/2014/09/02/India-Day-2.html">First look at Research &amp; Innovation in India</a></h2>
+            <h2><a class="post-link" href="/teis%20blog/2014/09/02/India-Day-2.html">First look at Research &amp; Innovation in India</a></h2>
+            
+            <span class="category-tag-icon">TEIS blog</span>
+              
+                <span class="category-tag-icon">India</span>
+              
+                <span class="category-tag-icon">Business</span>
+              
+                <span class="category-tag-icon">Technology</span>
+              
+                <span class="category-tag-icon">Stanford</span>
+              
             </li>
+            
             
             <li>
               <span class="post-meta">Sep 1, 2014</span>
 
-        <h2><a class="post-link" href="/teis/blog/2014/09/01/India-Day-1.html">Bangaluru: Progress and Progress Needed</a></h2>
+            <h2><a class="post-link" href="/teis%20blog/2014/09/01/India-Day-1.html">Bangaluru: Progress and Progress Needed</a></h2>
+            
+            <span class="category-tag-icon">TEIS blog</span>
+              
+                <span class="category-tag-icon">India</span>
+              
+                <span class="category-tag-icon">Stanford</span>
+              
+                <span class="category-tag-icon">Travel</span>
+              
             </li>
+            
             
             <li>
               <span class="post-meta">Aug 31, 2014</span>
 
-        <h2><a class="post-link" href="/teis/blog/2014/08/31/India-Accenture-sighting.html">Accenture!</a></h2>
+            <h2><a class="post-link" href="/teis%20blog/2014/08/31/India-Accenture-sighting.html">Accenture!</a></h2>
+            
+            <span class="category-tag-icon">TEIS blog</span>
+              
+                <span class="category-tag-icon">India</span>
+              
+                <span class="category-tag-icon">Stanford</span>
+              
+                <span class="category-tag-icon">Travel</span>
+              
             </li>
+            
             
             <li>
               <span class="post-meta">Sep 14, 2013</span>
 
-        <h2><a class="post-link" href="/tecs/blog/2013/09/14/TECS-2013-Takeaways.html">TECS 2013: Takeaways</a></h2>
+            <h2><a class="post-link" href="/tecs%20blog/2013/09/14/TECS-2013-Takeaways.html">TECS 2013: Takeaways</a></h2>
+            
+            <span class="category-tag-icon">TECS blog</span>
+              
+                <span class="category-tag-icon">China</span>
+              
+                <span class="category-tag-icon">Travel</span>
+              
+                <span class="category-tag-icon">TECS</span>
+              
+                <span class="category-tag-icon">Stanford</span>
+              
+                <span class="category-tag-icon">Top Lessons</span>
+              
             </li>
+            
             
             <li>
               <span class="post-meta">Sep 14, 2013</span>
 
-        <h2><a class="post-link" href="/tecs/blog/2013/09/14/TECS-2013-A-Whole-New-Perspective-from-Foxconn.html">TECS 2013: A Whole New Perspective from Foxconn</a></h2>
+            <h2><a class="post-link" href="/tecs%20blog/2013/09/14/TECS-2013-A-Whole-New-Perspective-from-Foxconn.html">TECS 2013: A Whole New Perspective from Foxconn</a></h2>
+            
+            <span class="category-tag-icon">TECS blog</span>
+              
+                <span class="category-tag-icon">China</span>
+              
+                <span class="category-tag-icon">Travel</span>
+              
+                <span class="category-tag-icon">TECS</span>
+              
+                <span class="category-tag-icon">Stanford</span>
+              
+                <span class="category-tag-icon">Engineering</span>
+              
+                <span class="category-tag-icon">Manufacturing</span>
+              
             </li>
+            
             
             <li>
               <span class="post-meta">Sep 12, 2013</span>
 
-        <h2><a class="post-link" href="/tecs/blog/2013/09/12/TECS-2013-Touring-Bao-Steel.html">TECS 2013: Touring Bao Steel</a></h2>
+            <h2><a class="post-link" href="/tecs%20blog/2013/09/12/TECS-2013-Touring-Bao-Steel.html">TECS 2013: Touring Bao Steel</a></h2>
+            
+            <span class="category-tag-icon">TECS blog</span>
+              
+                <span class="category-tag-icon">China</span>
+              
+                <span class="category-tag-icon">Travel</span>
+              
+                <span class="category-tag-icon">TECS</span>
+              
+                <span class="category-tag-icon">Stanford</span>
+              
+                <span class="category-tag-icon">Engineering</span>
+              
             </li>
+            
             
             <li>
               <span class="post-meta">Sep 12, 2013</span>
 
-        <h2><a class="post-link" href="/tecs/blog/2013/09/12/TECS-2013-Shanghai-and-a-Trip-to-Hangzhou-for-Alibaba-and-Chint-Solar.html">TECS 2013: Shanghai and a Trip to Hangzhou for Alibaba and Chint Solar</a></h2>
+            <h2><a class="post-link" href="/tecs%20blog/2013/09/12/TECS-2013-Shanghai-and-a-Trip-to-Hangzhou-for-Alibaba-and-Chint-Solar.html">TECS 2013: Shanghai and a Trip to Hangzhou for Alibaba and Chint Solar</a></h2>
+            
+            <span class="category-tag-icon">TECS blog</span>
+              
+                <span class="category-tag-icon">China</span>
+              
+                <span class="category-tag-icon">Travel</span>
+              
+                <span class="category-tag-icon">TECS</span>
+              
+                <span class="category-tag-icon">Stanford</span>
+              
+                <span class="category-tag-icon">Tech</span>
+              
             </li>
+            
             
             <li>
               <span class="post-meta">Sep 11, 2013</span>
 
-        <h2><a class="post-link" href="/tecs/blog/2013/09/11/TECS-2013-On-to-Yi-Chang-and-the-Three-Gorges-Dam.html">TECS 2013: On to Yi Chang and the Three Gorges Dam</a></h2>
+            <h2><a class="post-link" href="/tecs%20blog/2013/09/11/TECS-2013-On-to-Yi-Chang-and-the-Three-Gorges-Dam.html">TECS 2013: On to Yi Chang and the Three Gorges Dam</a></h2>
+            
+            <span class="category-tag-icon">TECS blog</span>
+              
+                <span class="category-tag-icon">China</span>
+              
+                <span class="category-tag-icon">Travel</span>
+              
+                <span class="category-tag-icon">TECS</span>
+              
+                <span class="category-tag-icon">Stanford</span>
+              
+                <span class="category-tag-icon">Engineering</span>
+              
             </li>
+            
             
             <li>
               <span class="post-meta">Sep 10, 2013</span>
 
-        <h2><a class="post-link" href="/tecs/blog/2013/09/10/TECS-2013-Hurst-Lin-at-DCM.html">TECS 2013: Hurst Lin at DCM</a></h2>
+            <h2><a class="post-link" href="/tecs%20blog/2013/09/10/TECS-2013-Hurst-Lin-at-DCM.html">TECS 2013: Hurst Lin at DCM</a></h2>
+            
+            <span class="category-tag-icon">TECS blog</span>
+              
+                <span class="category-tag-icon">China</span>
+              
+                <span class="category-tag-icon">Travel</span>
+              
+                <span class="category-tag-icon">TECS</span>
+              
+                <span class="category-tag-icon">Stanford</span>
+              
+                <span class="category-tag-icon">Venture Capital</span>
+              
             </li>
+            
             
             <li>
               <span class="post-meta">Sep 9, 2013</span>
 
-        <h2><a class="post-link" href="/tecs/blog/2013/09/09/TECS-2013-More%20on-Scale-from-a-Cultural-Perspective.html">TECS 2013: More on Scale from a Cultural Perspective</a></h2>
+            <h2><a class="post-link" href="/tecs%20blog/2013/09/09/TECS-2013-More%20on-Scale-from-a-Cultural-Perspective.html">TECS 2013: More on Scale from a Cultural Perspective</a></h2>
+            
+            <span class="category-tag-icon">TECS blog</span>
+              
+                <span class="category-tag-icon">China</span>
+              
+                <span class="category-tag-icon">Travel</span>
+              
+                <span class="category-tag-icon">TECS</span>
+              
+                <span class="category-tag-icon">Stanford</span>
+              
             </li>
+            
             
             <li>
               <span class="post-meta">Sep 8, 2013</span>
 
-        <h2><a class="post-link" href="/tecs/blog/2013/09/08/TECS-2013-ZTE-and-a-Note-on-My-Generation.html">TECS 2013: ZTE and a Note on My Generation</a></h2>
+            <h2><a class="post-link" href="/tecs%20blog/2013/09/08/TECS-2013-ZTE-and-a-Note-on-My-Generation.html">TECS 2013: ZTE and a Note on My Generation</a></h2>
+            
+            <span class="category-tag-icon">TECS blog</span>
+              
+                <span class="category-tag-icon">China</span>
+              
+                <span class="category-tag-icon">Travel</span>
+              
+                <span class="category-tag-icon">TECS</span>
+              
+                <span class="category-tag-icon">Stanford</span>
+              
+                <span class="category-tag-icon">Engineering</span>
+              
+                <span class="category-tag-icon">Business</span>
+              
             </li>
+            
             
             <li>
               <span class="post-meta">Sep 5, 2013</span>
 
-        <h2><a class="post-link" href="/tecs/blog/2013/09/05/TECS-2013-Beijing-So-Far.html">TECS 2013: Beijing So Far</a></h2>
+            <h2><a class="post-link" href="/tecs%20blog/2013/09/05/TECS-2013-Beijing-So-Far.html">TECS 2013: Beijing So Far</a></h2>
+            
+            <span class="category-tag-icon">TECS blog</span>
+              
+                <span class="category-tag-icon">China</span>
+              
+                <span class="category-tag-icon">Travel</span>
+              
+                <span class="category-tag-icon">TECS</span>
+              
+                <span class="category-tag-icon">Stanford</span>
+              
             </li>
+            
             
             <li>
               <span class="post-meta">Sep 1, 2013</span>
 
-        <h2><a class="post-link" href="/tecs/blog/2013/09/01/TECS%202013-First-Impression-Scale.html">TECS 2013: First Impression? Scale.</a></h2>
+            <h2><a class="post-link" href="/tecs%20blog/2013/09/01/TECS%202013-First-Impression-Scale.html">TECS 2013: First Impression? Scale.</a></h2>
+            
+            <span class="category-tag-icon">TECS blog</span>
+              
+                <span class="category-tag-icon">China</span>
+              
+                <span class="category-tag-icon">Travel</span>
+              
+                <span class="category-tag-icon">TECS</span>
+              
+                <span class="category-tag-icon">Stanford</span>
+              
             </li>
+            
             
           </ul>
 
   <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
   </div>
+
+  <!-- Search Bar JS -->
+
+<script type="text/javascript">
+      SimpleJekyllSearch.init({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        dataSource: '../search.json',
+        searchResultTemplate: '<li id="search results"><a href="{url}" title={title}">{title}</a></li>',
+        noResultsText: 'Sorry, no search matches. Try something else.',
+        limit: 5,
+        fuzzy: false,
+      })
+    </script>  
 
   <div class="post">
 
