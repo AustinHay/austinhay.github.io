@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- Posts -->
+  <url><loc>http://austinhay.com/personal%20developement/2015/01/01/Year-in-Review.html</loc></url>
+  
+  <url><loc>http://austinhay.com/coding/2014/12/28/how-ive-learned-to-code.html</loc></url>
+  
+  <url><loc>http://austinhay.com/personal%20developement/2014/12/15/catching-up-to-speed.html</loc></url>
+  
   <url><loc>http://austinhay.com/teis%20blog/2014/09/02/India-Day-2.html</loc></url>
   
   <url><loc>http://austinhay.com/teis%20blog/2014/09/01/India-Day-1.html</loc></url>
@@ -54,10 +60,28 @@
   
   <url><loc>http://austinhay.com/search.html?tags=technology</loc></url>
   
+  <url><loc>http://austinhay.com/search.html?tags=awareness</loc></url>
+  
+  <url><loc>http://austinhay.com/search.html?tags=reflection</loc></url>
+  
+  <url><loc>http://austinhay.com/search.html?tags=writing</loc></url>
+  
+  <url><loc>http://austinhay.com/search.html?tags=ruby</loc></url>
+  
+  <url><loc>http://austinhay.com/search.html?tags=rails</loc></url>
+  
+  <url><loc>http://austinhay.com/search.html?tags=webprogramming</loc></url>
+  
+  <url><loc>http://austinhay.com/search.html?tags=self-development</loc></url>
+  
 
   <!-- Category Indexes -->
   <url><loc>http://austinhay.com/search.html?category=tecs blog</loc></url>
   
   <url><loc>http://austinhay.com/search.html?category=teis blog</loc></url>
+  
+  <url><loc>http://austinhay.com/search.html?category=personal developement</loc></url>
+  
+  <url><loc>http://austinhay.com/search.html?category=coding</loc></url>
   
 </urlset>

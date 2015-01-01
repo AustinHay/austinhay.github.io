@@ -10,12 +10,12 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
     <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title>Follow</title>
+    <title>Catching up to Speed</title>
     <meta name="description" content="This website and all its content, design and code are ©2014 Austin Hay. Questions, comments, consulting inquiry, or anything else? Shoot me an email.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://www.austinhay.com//follow/">
+    <link rel="canonical" href="http://www.austinhay.com//personal%20developement/2014/12/15/catching-up-to-speed.html">
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' >
@@ -56,21 +56,7 @@ $(document).ready(function(){
 
 
 
-  <head>
-  <script type="text/javscript">
-
-  $(document).ready(function(){
-    var images = ['../images/post-backgrounds/1.jpg', '../images/post-backgrounds/2.jpg'];
-    $('home-img-top').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
-    });
-	</script>
-
-  <script type="text/javascript" src="/assets/js/instafeed.min.js"></script>
-  
-  </head>
-
   <body>
-
     <header class="site-header">
 
   <div class="wrapper">
@@ -133,47 +119,28 @@ $(document).ready(function(){
 
 </header>
 
-	<div>
-       <div class="follow-background-img">  
-          <div class="wrapper transparent-background">
+
+          <div class="notes-background-img">
+          
+            <div class="wrapper transparent-background post-content">
             
+              <h1 class="post-title">Catching up to Speed</h1>
 
-	<h1 class="page-heading">Follow</h1>
-    <!-- Twitter Widget -->
-          <a href="https://twitter.com/AustinAHay" data-widget-id="540548955508318208" class="twitter-timeline">Tweets by @AustinAHay</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-          </script>
-		
+              <article class="post-content">
+                <p>It's been a long time since I wrote on my blog. At the time of my last update, I was in India, half-heartedly documenting my experiences, and desperately trying to relax and cool the jet engines after a grueling start to 2014.
+</p>
+<img class="imageleft" src="/images/blogs/code_ex_1.jpg">
+<!--more-->
+<p>Since that time, things have changed in my own life. For one, I enjoyed another extended vacation in Japan and returned home feeling rejuvinated and ready to take on the world. But as the weeks transpired I became a bit exaspirated with my slated employment. Instead of letting my mind wander and prepare, I delved back into computer programming and taught myself some cool tricks. October was very much a month of self-exploration, navigating life after grad school &amp; all its nuances, and reminding myself how to learn efficiently. </p>
 
-        <!-- Strava Widget -->
-        <iframe id="strava-widget" height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='http://app.strava.com/athletes/3615909/latest-rides/2c6325ca570da2b816ab3644488c4f207bc9cbe4'>
-        </iframe>
-<!-- Instagram Photos -->
-          
-          
+<p>As November rolled about, I kept learning and building in Ruby, Rails, JS, and a few other languages. Eventually I got the idea to build a small <a href="http://austinhay.com/projects">app</a> to help me be more efficient in my role as a CA at Stanford. Then I got some inspiration from finance and google-search analytics. Now, I'm trying to stay busy with code and dive deeper into advanced topics in programming. I'm not sure how this plays in the long-term, but these projects have been incredibly exciting and have pushed my intellectual curiosity further than anything else before.</p>
 
-<div style="width: 100%">
-          <script type="text/javascript">
-              var feed = new Instafeed({
-                  get: 'user',
-                  userId: 1505275294,
-                  accessToken: '1505275294.467ede5.624b9e4478884a7aa6b0c9ea6ca2667e', 
-                  sortBy: 'random',
-                  limit: '12',
-                  resolution: 'standard_resolution',
-                  template: '<li><a href="{{link}}"><img src="{{image}}"/></a><li>'
-                  });
-                  feed.run();
-          </script>
-          
-          <div id="instafeed"></div>
-</div>
+<p>Beyond this, I've spent a good deal of time revamping my website and digging into the meat of how <a href="http://jekyllrb.com/">Jekyll</a> static website templating works. In the next year I plan to really build out the content for the things I'm passionate about. </p>
 
+</article>
 
-
+            </div>
           </div>
-        </div>
-      </div>
     
     <footer class="site-footer">
 
@@ -236,5 +203,3 @@ $(document).ready(function(){
   </body>
 
 </html>
-
-
