@@ -4,6 +4,8 @@
   <!-- Posts -->
   <url><loc>http://austinhay.com/coding/2015/01/05/Prepping-for-Django.html</loc></url>
   
+  <url><loc>http://austinhay.com/coding/2015/01/05/Django-Tutorial-Walkthrough-P1.html</loc></url>
+  
   <url><loc>http://austinhay.com/personal%20developement/2015/01/01/Year-in-Review.html</loc></url>
   
   <url><loc>http://austinhay.com/coding/2014/12/28/how-ive-learned-to-code.html</loc></url>
@@ -76,8 +78,6 @@
   
   <url><loc>http://austinhay.com/search.html?tags=self-development</loc></url>
   
-  <url><loc>http://austinhay.com/search.html?tags=coding</loc></url>
-  
   <url><loc>http://austinhay.com/search.html?tags=web-development</loc></url>
   
   <url><loc>http://austinhay.com/search.html?tags=django</loc></url>
@@ -85,6 +85,8 @@
   <url><loc>http://austinhay.com/search.html?tags=python</loc></url>
   
   <url><loc>http://austinhay.com/search.html?tags=software</loc></url>
+  
+  <url><loc>http://austinhay.com/search.html?tags=documentation breakdown</loc></url>
   
 
   <!-- Category Indexes -->
