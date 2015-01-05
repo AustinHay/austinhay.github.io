@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Prepping for Django",
+      "category" : "coding",
+      "tags"     : "coding, web-development, django, python, and software",
+      "url"      : "/coding/2015/01/05/Prepping-for-Django.html",
+      "date"     : "2015-01-05 00:00:00 -0500"
+    } ,
+  
+    {
       "title"    : "Year in Review",
       "category" : "personal developement",
       "tags"     : "awareness, reflection, and self-development",

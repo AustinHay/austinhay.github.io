@@ -6,18 +6,196 @@
 </description>
     <link>http://www.austinhay.com//</link>
     <atom:link href="http://www.austinhay.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Jan 2015 17:23:49 -0500</pubDate>
-    <lastBuildDate>Thu, 01 Jan 2015 17:23:49 -0500</lastBuildDate>
+    <pubDate>Mon, 05 Jan 2015 12:18:49 -0500</pubDate>
+    <lastBuildDate>Mon, 05 Jan 2015 12:18:49 -0500</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
-        <title>Year in Review</title>
-        <description>&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/2014-year-in-review/washington_monument.jpg&quot;&gt;
+        <title>Prepping for Django</title>
+        <description>&lt;p&gt;In my free time I’ve been trying to dive deeper into alternative web-frameworks and coding languages. Python has been my primary target for its ease-of-use and ubiquity among the web’s top development languages. &lt;/p&gt;
 
-&lt;p&gt;2014 was a ridiculous year. In my mind it represents the most wild, crazy, stressful, exciting, fun and empowering year I have ever had. When I rung in 2014 last year I was in NYC with &lt;a href=&quot;http://instagram.com/p/tbT-TdBJ4l/?modal=true&quot;&gt;my beautiful girlfriend of 5 years&lt;/a&gt;. We ended up having a quiet night -- literally, we fell asleep on a couch before it was midnight. (Spoiler Alert: 2015 also involved a couch and grandpa&#39;s bed-time) The bright side is that Virginia and DC are both ridiculously beautiful places to spend the holidays.
+&lt;!--more--&gt;
+
+&lt;p&gt;In my experiences learning Python I have found that it’s actually quite similar to Ruby. It’s a lot less cumbersome than C or C++ and it has some killer docs to support both beginner &amp;amp; intermediate programmers. In fact, the “create your own first Django app” is one of the best &lt;a href=&quot;https://docs.djangoproject.com/en/1.7/intro/tutorial01/&quot;&gt;resources&lt;/a&gt; I have found out there.&lt;/p&gt;
+
+&lt;p&gt;With the hopes to start in a casual coding internship role soon, I took to developing a Python &amp;amp; Django prep guide for my friend, Stephen, at SCOOPR Media. Learning about Django and getting setup on both PyCharm &amp;amp; VirtualEnvironment was difficult and is still confusing, but this guide covers the basics. Enjoy!&lt;/p&gt;
+
+&lt;p&gt;The most updated prep file can be found &lt;a href=&quot;https://github.com/AustinHay/django_tutorial/blob/master/django_prep.md&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.licdn.com/media/p/2/005/0a3/019/1fbd870.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;django-prep-for-scoopr-internship&quot;&gt;Django Prep for SCOOPR Internship&lt;/h1&gt;
+
+&lt;p&gt;Lead Software Engineer: Stephen Estrada&lt;/p&gt;
+
+&lt;p&gt;Software Intern: Austin Hay&lt;/p&gt;
+
+&lt;p&gt;Updated January 5, 2014&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;get-comfy-with-cl-and-learn-to-create-repo-remotely-from-cl&quot;&gt;1. Get comfy with CL and learn to create REPO remotely from CL.&lt;/h3&gt;
+
+&lt;p&gt;There are a few ways to do it. You could create a custom command in bash, use the API tools from Github, or use HUB, which adds a bunch of cool features. I did it the gritty way – with straight Github API.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;curl -u USER https://api.github.com/user/repos -d &quot;{\&quot;name\&quot;:\&quot; $REPO_NAME\&quot;}&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next, you (might?) need to add the remotes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git remote add origin git@github.com:USER/REPO_NAME.git
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;USER &amp;amp; REPO_NAME should be replaced with their respective values.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a cool &lt;a href=&quot;https://gist.github.com/robwierzbowski/5430952&quot;&gt;bash script&lt;/a&gt; that automates this process, but I’m not sure if this is kosher with your crew, &lt;a href=&quot;https://github.com/stcrestrada&quot;&gt;Stephen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;b&gt;Sidenote&lt;/b&gt;&lt;/u&gt;: cURL is an awesome CL tool that I spent a good amount of time learning about. The cURL &lt;a href=&quot;http://curl.haxx.se/docs/manpage.html&quot;&gt;tags&lt;/a&gt; are where the magic is at.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;create-a-virtualenv-wrapper-for-your-new-repo&quot;&gt;2. Create a virtualenv wrapper for your new repo:&lt;/h3&gt;
+
+&lt;h4 id=&quot;step-a-getting-up-to-speed-on-virtualenv&quot;&gt;Step A. Getting Up to Speed on VirtualEnv&lt;/h4&gt;
+
+&lt;p&gt;Follow the &lt;a href=&quot;http://virtualenvwrapper.readthedocs.org/en/latest/&quot;&gt;link&lt;/a&gt; to the virtual wrapper docs.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ sudo pip install virtualenvwrapper
+$ cd
+$ ls -a
+$ cat &amp;lt;&amp;lt; EOF &amp;gt;&amp;gt; .bashrc 
+	export WORKON_HOME=$HOME/.virtualenvs
+	export PROJECT_HOME=$HOME/Devel
+	source /usr/local/bin/virtualenvwrapper.sh
+$ EOF
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;It’s really important that you use &lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt; on the right hand side of EOF. If you use &lt;code&gt;&amp;gt;&lt;/code&gt; then you’ll override your whole .bashrc file. I learned this the hard way…&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, reload the startup file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ source ~/.bashrc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;What I learned about Virtual Wrapper so far…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;virtualenvwrapper&lt;/code&gt; is a virtual environment tool extension that includes wrappers for creating and deleting virtual environments and thus managing development workflow. This makes it easier to work on more than on project at a time without introducing conflicts in the project’s dependencies.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The variable &lt;code&gt;WORKON_HOME&lt;/code&gt; tells virtual wrapper where to place your virtual environments. Default is &lt;code&gt;$HOME/.virtualenvs&lt;/code&gt;. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;VWrapper is customizable @ &lt;code&gt;virtualwrapper.sh&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At startup, Vwrapper finds the first &lt;code&gt;python&lt;/code&gt; and &lt;code&gt;virtualenv&lt;/code&gt; programs on &lt;code&gt;$PATH&lt;/code&gt;. &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;step-b-creating-a-wrapper-around-a-github-repo&quot;&gt;Step B. Creating a wrapper around a Github Repo&lt;/h4&gt;
+
+&lt;p&gt;A great &lt;a href=&quot;https://github.com/zookeepr/zookeepr/wiki/Creating-a-Development-Environment-with-pip-and-virtualenv&quot;&gt;walkthrough&lt;/a&gt; is available online. But there are many others as well. We all love &lt;a href=&quot;http://stackoverflow.com/&quot;&gt;StackOverflow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;First, navigate to the directory where you’ll store your Django projects.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone [https://etc.etc.REPO_NAME] # Just grab the url from Github if you have trouble.
+mkvirtualenv --no-site-packages REPO_NAME
+$ touch requirements.txt
+$ cat &amp;lt;&amp;lt; EOF &amp;gt; requirements.txt
+    AuthKit
+    Beaker
+    FormEncode
+    Mako
+    MarkupSafe
+    Paste
+    PasteDeploy
+    PasteScript
+    PIL
+    Pygments
+    Pydns
+    Pylons==0.9.7
+    pytz
+    Routes
+    SQLAlchemy==0.6.3
+    Tempita
+    WebError
+    WebHelpers
+    WebOb==0.9.8
+    WebTest
+    decorator
+    dnspython
+    elementtree
+    lxml
+    nose
+    python-openid
+    simplejson
+    wsgiref 
+    EOF
+$ pip install -r requirements.txt 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Make sure your &lt;code&gt;virtualenv&lt;/code&gt; is activated when you run this comand so that pip will only install these packages for this specific virtual environment.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;All of these requirements were what I found to be useful. This could totally vary on the project. The purpose is mostly to demonstrate how to load custom packages into a virtual environment for use in further development.&lt;/p&gt;
+
+&lt;p&gt;Beyond this, there’s so much more that I don’t fully understand about virtual environment; this includes Pylons and a bunch of other stuff. At the very least this will get us off the ground and running. Afterwards, it would be good to check out more virtual environment &lt;a href=&quot;http://virtualenvwrapper.readthedocs.org/en/latest/index.html&quot;&gt;documentation&lt;/a&gt; to fully understand what’s going on.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;download-pycharm-and-play-with-it&quot;&gt;3. Download PyCharm and play with it&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.jetbrains.com/pycharm/download/&quot;&gt;Download&lt;/a&gt; it and play around with it.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;make-the-django-tutorial-project&quot;&gt;4. Make the Django Tutorial Project&lt;/h3&gt;
+
+&lt;p&gt;Instructions can be found &lt;a href=&quot;https://docs.djangoproject.com/en/1.7/intro/tutorial01/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;final-notes&quot;&gt;5. Final Notes&lt;/h3&gt;
+
+&lt;p&gt;This internship will be focused on front-end engineering, so keep in mind the &lt;a href=&quot;https://docs.djangoproject.com/en/1.7/howto/static-files/&quot;&gt;static files architecture&lt;/a&gt; and proper placement methodologies.&lt;/p&gt;
+
+&lt;p&gt;Become familiar with other web development frameworks, such as Sinatra, Rails, etc. Django is also considered an MVC framework, but goes by another name MVT. Do some research on it.  &lt;/p&gt;
+
+&lt;h3 id=&quot;additional-awesome-resources&quot;&gt;Additional (awesome) Resources:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Great &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;markdown&lt;/a&gt; resource. Oh, and &lt;a href=&quot;http://nestacms.com/docs/creating-content/markdown-cheat-sheet&quot;&gt;another&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 05 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://www.austinhay.com//coding/2015/01/05/Prepping-for-Django.html</link>
+        <guid isPermaLink="true">http://www.austinhay.com//coding/2015/01/05/Prepping-for-Django.html</guid>
+        
+        <category>coding</category>
+        
+        <category>web-development</category>
+        
+        <category>django</category>
+        
+        <category>python</category>
+        
+        <category>software</category>
+        
+        
+        <category>coding</category>
+        
+      </item>
+    
+      <item>
+        <title>Year in Review</title>
+        <description>&lt;p&gt;2014 was a ridiculous year. In my mind it represents the most wild, crazy, stressful, exciting, fun and empowering year I have ever had. When I rung in 2014 last year I was in NYC with &lt;a href=&quot;http://instagram.com/p/tbT-TdBJ4l/?modal=true&quot;&gt;my beautiful girlfriend of 5 years&lt;/a&gt;. We ended up having a quiet night -- literally, we fell asleep on a couch before it was midnight. (Spoiler Alert: 2015 also involved a couch and grandpa&#39;s bed-time) The bright side is that Virginia and DC are both ridiculously beautiful places to spend the holidays.
 
 &lt;/p&gt;&lt;!--more--&gt;
-
+&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/2014-year-in-review/washington_monument.jpg&quot;&gt;
 &lt;p&gt;It&#39;s funny that the way we started the year was hardly how we ended up sprinting through the days to come. Looking back on my year, the best parts of 2014 were about...
 &lt;/p&gt;
 
@@ -470,50 +648,6 @@ On our first glance into Bangalore &lt;!--more--&gt;we came across one of Accent
         <category>Stanford</category>
         
         <category>Engineering</category>
-        
-        
-        <category>tecs blog</category>
-        
-      </item>
-    
-      <item>
-        <title>TECS 2013: Shanghai and a Trip to Hangzhou for Alibaba and Chint Solar</title>
-        <description>&lt;p&gt;The first day in Shanghai actually took us outside of the city to visit well-known internet titan Alibaba as well as PV maker Chint Solar.&amp;nbsp; Our mode of transport, you ask? High speed rail.&lt;/p&gt;
-&lt;!--more--&gt;
-
-
-&lt;p&gt;&lt;img class=&quot;imageright&quot; src=&quot;/images/img-4518.jpg&quot; border=&quot;0&quot; alt=&quot;Our train to Hanzhou.&quot; width=&quot;700&quot; height=&quot;700&quot;/&gt;I had never actually travelled on a rail like this in my life, so the experience was pretty incredible. &amp;nbsp;Beyond the sci-fi look and feel of the train&amp;rsquo;s exterior, the cabin was remarkably clean and the ride was smooth. Did I mention also that it travelled at 300 kilometers per hour? I wish there was a way I could send the memo to Cal Train back home in the Bay. More important, I think I have a newfound respect for California&amp;rsquo;s ambitions to construct a similar rail, despite its high cost. Vacuum transport is all the hype after Elon Musk&amp;rsquo;s alpha design, but after experiencing high speed rail for myself, I believe that it is an amazing technology that not only is clearly working well in China, but that could have practical applications in the US.&lt;/p&gt;
-&lt;p&gt;Once at Hangzhou city, our whole day consisted of visiting Alibaba and Chint Solar. At Chint we gained special access to the actual manufacturing facility and got to see PV fabrication from washing and grating the initial silicon slab to doping, cleaning, and inspecting the final cell. Much of our time at Chint consisted of understanding the solar cell manufacturing process and so there were few opportunities to jot business notes or snap photos. In reality my focus for the day lay on Alibaba, which we had visited in the morning.&lt;/p&gt;
-&lt;p&gt;Last week, at the Stanford Center in Peking University we watched a short video on Alibaba and its founder, Jack Ma, so I think I had lofty expectations for the company. The Alibaba headquarters met these initial feelings just based on the beautiful complex that served many of its 25,000 employees. The HQ was a sprawling modern complex with green trees, sunny plazas and winding paths. It was enormous and reminded me of other HQs out of Silicon Valley&amp;hellip;but bigger.&lt;/p&gt;
-&lt;p&gt;Through my attention to the company&amp;rsquo;s hype and personal interest in Yahoo! I had come to understand Alibaba as something completely different than what I have discovered through the documentary at Peking and through our visit. I&amp;rsquo;ll try to break this down with greater detail.&lt;/p&gt;
-&lt;p&gt;First, when we arrived at the HQ we were taken to a large conference room where we got the general company low-down from an HR representative. On the way up to the room I couldn&amp;rsquo;t help but notice a well-used white board, a foosball table and a spread of delicious treats. Yep, this place would fit in around Mountain View.&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;imageleft&quot; src=&quot;/images/img-4535.jpg&quot; border=&quot;0&quot; width=&quot;600&quot; height=&quot;600&quot; /&gt;It was hard to bridge the language barrier with the HR representative, but I think I got all the essentials. Not surprisingly, at Alibaba, culture is king. It seems the company, like its founder, Jack, focuses on creating a fun environment and holds tightly to core values in the same way any small startup might. Most of the first hour was spent detailing how Alibaba keeps their employees happy through special awards, fun days, ceremonies and daily activities. Despite these reinforcing details, I wondered how authentic the culture actually was. It was clear that Jack Ma was a legend in the company&amp;rsquo;s founding, but had expansion and growth changed this portion of the company&amp;rsquo;s identity? It was hard to tell. &amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Next, we got a much more informative session with an Alibaba engineer from the cloud computing space. He spent most of the time explaining the technical side of Alibaba&amp;rsquo;s entrance into this the cloud and it was useful to see how these new services compared with those of other giants like Amazon and Google.&lt;/p&gt;
-&lt;p&gt;Beyond this, he also explained that Alibaba was not really an e-commerce company at all, but mostly an internet one. Roughly 70% of Alibaba&amp;rsquo;s revenues come from its person-to-person website Tao Bao, of which 100% of revenues are from advertisements alone. The rest of Alibaba&amp;rsquo;s overall profits are segmented among its variety of projects, including Alibaba.com, which provides a platform for business-to-business transactions.&lt;/p&gt;
-&lt;p&gt;As a side note, Tao Bao is essentially like eBay in the United States (&amp;hellip;actually they pushed eBay out of the China market in their rise to fame), but Tao Bao doesn&amp;rsquo;t charge transaction fees, and unlike Amazon, it doesn&amp;rsquo;t hold inventory or have any delivery infrastructure. Instead it cultivates a space where Chinese individuals can transact in a way that is more sensitive to their cultural needs than a platform like eBay.&lt;/p&gt;
-&lt;p&gt;As one example of this, Tao Bao has a chat box function on their site where individuals can communicate, bargain on price and other order details, get to know each other better, and build trust before transacting. These are all fundamental aspects of Chinese culture and so the move seems natural. In the US, however, this feature on a website like eBay would drive away all its American users.&lt;/p&gt;
-&lt;p&gt;In this way, Alibaba really gained control of the Chinese market by tailoring its service to its people. While it seems almost obvious, this is a point that has come up across almost all the companies we have visited. It has been shocking to hear how many international companies take models that work in the US and Europe and try to simple apply them to the Chinese market, expecting it to work perfectly and to gain control of much larger volumes of customers. This simply isn&amp;rsquo;t true. If I take away anything from this trip it&amp;rsquo;s that you can never underestimate the power and magnitude of culture in business within China.&lt;/p&gt;
-&lt;p&gt;In the future Alibaba appears poised to dominate the micro-lending and cloud-computing markets in the country. In China, the credit system appears broken and big central banks hardly lend to the country&amp;rsquo;s 1.2 billion population. This has created major opportunities for small lending and Alibaba hopes to leverage the customer data from its many platforms in order to better assess the risk of default among its borrowers and to offer the best rates possible based on this information.
-
-	&lt;img class=&quot;imageright&quot; src=&quot;/images/img-4532.jpg&quot; border=&quot;0&quot; width=&quot;800&quot; height=&quot;800&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;On the flip side, the cloud-computing sector posts very low profit margins and comes with extremely high upfront capital costs, but China is in need of this database infrastructure. In light of the US NSA&amp;rsquo;s requests to domestic companies like Google, Facebook and Microsoft among others, it will be especially interesting to see how the Chinese government approaches Alibaba&amp;rsquo;s new data resources in coming years.&lt;/p&gt;
-&lt;p&gt;As for global outlook, right now Alibaba has no incentive to enter the US market because of competition and because its core competencies are linked to the market it serves: China. In my mind Alibaba is approaching its growth carefully and with an odd sense of humility. Perhaps this is something more US companies could learn from&amp;hellip;&lt;/p&gt;
-&lt;p&gt;Today&amp;rsquo;s look at tech and solar further sharpened my insight into these industries and gave the whole group useful perspective on where these companies and their products are headed within the China market.&lt;/p&gt;
-&lt;p&gt;Tomorrow we head to Bao Steel &amp;amp; Foxconn to take a deeper look at manufacturing and to see both how steel is made and how Apple lightning connectors are assembled!&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;*TECS 2013 is short for my adventures with Stanford University&#39;s TECS two week immersive business and technology program in China. Over the next two weeks I am travelling from Beijing to Shanghai and meeting with incredible businesses along the way. All posts from the program will be tagged.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</description>
-        <pubDate>Thu, 12 Sep 2013 00:00:00 -0400</pubDate>
-        <link>http://www.austinhay.com//tecs%20blog/2013/09/12/TECS-2013-Shanghai-and-a-Trip-to-Hangzhou-for-Alibaba-and-Chint-Solar.html</link>
-        <guid isPermaLink="true">http://www.austinhay.com//tecs%20blog/2013/09/12/TECS-2013-Shanghai-and-a-Trip-to-Hangzhou-for-Alibaba-and-Chint-Solar.html</guid>
-        
-        <category>China</category>
-        
-        <category>Travel</category>
-        
-        <category>TECS</category>
-        
-        <category>Stanford</category>
-        
-        <category>Tech</category>
         
         
         <category>tecs blog</category>
