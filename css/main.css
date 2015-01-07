@@ -153,10 +153,26 @@ pre {
       padding-right: 12.5px;
       padding-left: 12.5px; } }
 
+.wrapper-centered {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  max-width: -webkit-calc(450px - (25px * 2));
+  max-width: calc(450px - (25px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 25px;
+  padding-left: 25px; }
+  @media screen and (max-width: 700px) {
+    .wrapper-centered {
+      max-width: -webkit-calc(450px - (25px));
+      max-width: calc(450px - (25px));
+      padding-right: 12.5px;
+      padding-left: 12.5px; } }
+
 /**
  * Clearfix
  */
-.wrapper:after, .wrapper-small:after, .wrapper-smallest:after, .footer-col-wrapper:after {
+.wrapper:after, .wrapper-small:after, .wrapper-smallest:after, .wrapper-centered:after, .footer-col-wrapper:after {
   content: "";
   display: table;
   clear: both; }
@@ -260,7 +276,6 @@ f
 
 .career-list {
   list-style: none;
-  margin-top: 14%;
   vertical-align: middle; }
 
 .footer-col-wrapper {
@@ -303,7 +318,9 @@ f
  * Homepage Career col content formats
  */
 .career-col {
+  display: inline;
   margin-left: auto;
+  margin-right: auto;
   vertical-align: middle;
   overflow: hidden;
   z-index: 1;
@@ -314,10 +331,12 @@ f
   .career-col {
     vertical-align: middle;
     float: none;
+    display: inline;
     min-width: -webkit-calc(50% - (25px / 2));
     min-width: calc(50% - (25px / 2)); } }
 @media screen and (max-width: 400px) {
   .career-col {
+    display: inline;
     vertical-align: middle;
     float: none;
     min-width: -webkit-calc(100% - (25px / 2));
@@ -388,20 +407,33 @@ f
   width: auto;
   text-align: center;
   vertical-align: middle;
-  background: url(/images/post-backgrounds/13.jpeg) no-repeat center center fixed;
+  background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   overflow: hidden; }
 
-.home-img-bottom {
+#home-img-bottom-1 {
   height: cover;
   width: auto;
   z-index: 0;
   text-align: center;
   vertical-align: top;
-  background: url(/images/post-backgrounds/4.jpeg) no-repeat center center fixed;
+  background: url(/images/post-backgrounds/2.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow: hidden; }
+
+#home-img-bottom-2 {
+  height: cover;
+  width: auto;
+  z-index: 0;
+  text-align: center;
+  vertical-align: top;
+  background: url(/images/post-backgrounds/3.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -423,9 +455,9 @@ f
 .home-career-titles {
   font-family: 'Lobster', cursive;
   color: #111;
-  line-height: 1.5;
+  line-height: 1.8;
   vertical-align: middle;
-  font-size: 124%;
+  font-size: 160%;
   padding: auto; }
 
 .home-career-titles:visited {
@@ -441,25 +473,32 @@ f
   font-weight: 900;
   color: black;
   width: auto;
+  line-height: 1.5;
   vertical-align: middle;
-  font-size: 200%;
+  font-size: 135%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.3);
   background-size: cover;
   padding: 5%; }
 
-.headshot_wrap {
-  max-width: -webkit-calc(300px - (25px * 2));
-  max-width: calc(300px - (25px * 2));
-  float: left;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 25px;
-  padding-left: 25px; }
+#coding-text {
+  font: 14px/1.8em Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+  font-weight: 425;
+  color: white;
+  width: auto;
+  vertical-align: middle;
+  font-size: 160%;
+  height: 110%;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-size: cover;
+  padding: 5%; }
 
 .circularheadshot_center {
-  float: left;
-  width: auto;
+  float: none;
+  display: inline;
+  width: 40%;
+  margin-left: 25%;
+  margin-right: 25%;
   vertical-align: middle;
   border-radius: 300%;
   -webkit-border-radius: 300%;
@@ -498,7 +537,7 @@ f
   width: auto;
   z-index: 0;
   vertical-align: middle;
-  background: url(/images/post-backgrounds/7.jpeg) no-repeat center center fixed;
+  background: url(/images/post-backgrounds/4.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -510,7 +549,7 @@ f
   width: auto;
   z-index: 0;
   vertical-align: middle;
-  background: url(/images/post-backgrounds/follow.jpg) no-repeat center center fixed;
+  background: url(/images/post-backgrounds/5.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -536,7 +575,7 @@ f
   width: auto;
   z-index: 0;
   vertical-align: middle;
-  background: url(/images/post-backgrounds/12.jpeg) no-repeat center center fixed;
+  background: url(/images/post-backgrounds/6.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

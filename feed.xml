@@ -6,9 +6,172 @@
 </description>
     <link>http://www.austinhay.com//</link>
     <atom:link href="http://www.austinhay.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 05 Jan 2015 17:10:37 -0600</pubDate>
-    <lastBuildDate>Mon, 05 Jan 2015 17:10:37 -0600</lastBuildDate>
+    <pubDate>Tue, 06 Jan 2015 22:47:12 -0800</pubDate>
+    <lastBuildDate>Tue, 06 Jan 2015 22:47:12 -0800</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>The Essential System Setup for Beginner Coders</title>
+        <description>&lt;p&gt;The other day I got setup on a new machine and I found myself scratching my head. How the heck did I get Ruby, Rails, Python and all those other tools set up? My command line tools weren’t even accessible. I am guessing this realization isn’t new to anyone in programming, but it was a new phenomenon to me. I decided the best solution was to draft up a short list of all the items I needed to install and how I would install them. For newbies looking to dive into coding, this should serve as a perfect checklist when getting your machine set up. Enjoy!
+&lt;!--more--&gt;
+PS I don’t go into detail explaining each one of these installs or why they are relevant. I just show you how to get stuff up and running with helpful links. I’ll leave the relevancy part to you, as its a good edification process.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: &lt;i&gt;This installation &amp;amp; setup guide is only applicable for those running OS X.&lt;/i&gt; I personally was running Yosemite when I did the setup process again, but I went through all this stuff on Lion and Mavericks. Just make sure to pick your installations appropriately from the links provided.&lt;/p&gt;
+
+&lt;h3 id=&quot;chromehttpswwwgooglecomchrome&quot;&gt;&lt;a href=&quot;https://www.google.com/chrome/&quot;&gt;Chrome&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Really? REALLY? You’re not using Chrome? Come on.&lt;/p&gt;
+
+&lt;h3 id=&quot;markdown-previewhttpschromegooglecomwebstoredetailmarkdown-previewjmchmkecamhbiokiopfpnfgbidieafmd&quot;&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd&quot;&gt;Markdown Preview&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I love writing in Markdown. This handy extension let’s you view files offline in Chrome.&lt;/p&gt;
+
+&lt;h3 id=&quot;sublime-text-editorhttpwwwsublimetextcom&quot;&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text Editor&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Tons of text editors out there. This one is my favorite. If you install Sublime you should also install the &lt;code&gt;subl&lt;/code&gt; CLI. Sublime talks about in their [documentation], but you can also find a read on it &lt;a href=&quot;http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Long story short:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Check your PATH to verify that usr/local/bin is included
+echo $PATH
+ln -s &quot;/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl&quot; /usr/local/bin/subl
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can replace the &lt;code&gt;subl&lt;/code&gt; with sublime or anything you want really to call the command. &lt;/p&gt;
+
+&lt;h3 id=&quot;latest-version-of-xquartzhttpsxquartzmacosforgeorg&quot;&gt;&lt;a href=&quot;https://xquartz.macosforge.org&quot;&gt;Latest Version of XQuartz&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Just download and install the &lt;code&gt;.dmg&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;h3 id=&quot;command-line-toolshttprailsappsgithubioxcode-command-line-toolshtml&quot;&gt;&lt;a href=&quot;http://railsapps.github.io/xcode-command-line-tools.html&quot;&gt;Command Line Tools&lt;/a&gt;&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;xcode-select --install
+gcc --version
+sudo xcodebuild -license
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;homebrewhttpbrewsh&quot;&gt;&lt;a href=&quot;http://brew.sh/&quot;&gt;HomeBrew&lt;/a&gt;&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+brew doctor
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;macportshttpswwwmacportsorginstallphp&quot;&gt;&lt;a href=&quot;https://www.macports.org/install.php&quot;&gt;MacPorts&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Make sure you have Xcode installed and the licensed accepted. Install the &lt;code&gt;.dmg&lt;/code&gt; file corresponding to your version of OS X.&lt;/p&gt;
+
+&lt;h3 id=&quot;ruby-version-manager-rvmhttpsrvmio&quot;&gt;&lt;a href=&quot;https://rvm.io/&quot;&gt;Ruby Version Manager (RVM)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install gpg
+brew install gpg2
+gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
+\curl -sSL https://get.rvm.io | bash -s stable
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I found that when I first started RVM was a bit confusing. There’s a great cheat sheet &lt;a href=&quot;Also, a great RVM cheat sheet can be found [here](http://cheat.errtheblog.com/s/rvm)&quot;&gt;here&lt;/a&gt; that will help you keep on track.&lt;/p&gt;
+
+&lt;p&gt;Installing Ruby
+There are a few different ways to get Ruby. I’m going to explain a few, but only listen to the last one.&lt;/p&gt;
+
+&lt;p&gt;First, you could download the &lt;code&gt;.tar.gz&lt;/code&gt; for the version you want to install. OS X Yosemite comes with ruby 2.0.0, but you can update it to the latest version or others from this &lt;a href=&quot;https://www.ruby-lang.org/en/downloads/&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another way to install Ruby is with &lt;code&gt;rbenv&lt;/code&gt; found &lt;a href=&quot;https://github.com/sstephenson/ruby-build#readme&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install ruby-build
+brew install rbenv
+rbenv install 2.2.0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;BUT, the way that I’m going to do it, and I recommend you doing it too, is with a Ruby manager, like RVM, which we JUST installed. At the end of installing a few essential version of Ruby, don’t forget to set RVM’s default. I like to use the most current stable build.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rvm install 1.9.3
+rvm install 2.0.0
+rvm install 2.1.5
+rvm install 2.2.0
+rvm use --default 2.2.0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;updating-githttpkj-princecomcodeinstall-git-mac-osx-homebrew-from-the-pre-installed-os-x-version&quot;&gt;&lt;a href=&quot;http://kj-prince.com/code/install-git-mac-osx-homebrew/&quot;&gt;Updating Git&lt;/a&gt; from the Pre-Installed OS X Version&lt;/h3&gt;
+&lt;p&gt;This isn’t a requirement because Git comes pre-installed on Macs, but it is nice to have the latest stable build, so I’d recommend doing it. There are many ways. If you’re just starting &lt;a href=&quot;http://git-scm.com/book/en/v2/Getting-Started-Installing-Git&quot;&gt;Github&lt;/a&gt; has a nice process flow for it. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install git
+git --version
+which git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You should notice that there’s a difference here. The pre-installed OS X Git takes precedence, so let’s fix that. Tell bash to look in the correct path for the Homebrew managed version of Git. Restart your terminal after execution.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;echo &#39;export PATH=&quot;/usr/local/bin:/usr/local/sbin:~/bin:$PATH&quot;&#39; &amp;gt;&amp;gt; ~/.bash_profile
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When I first starting coding this is one thing that really got me. What the heck is &lt;code&gt;$PATH&lt;/code&gt;? Simmer down. Check out this good read on &lt;a href=&quot;http://superuser.com/questions/284342/what-are-path-and-other-environment-variables-and-how-can-i-set-or-use-them&quot;&gt;environmental variables&lt;/a&gt; and all will be revealed.&lt;/p&gt;
+
+&lt;h3 id=&quot;coffeescripthttpcoffeescriptorg&quot;&gt;&lt;a href=&quot;http://coffeescript.org/&quot;&gt;CoffeeScript&lt;/a&gt;&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install -g coffee-script
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;nodejshttpnodejsorg&quot;&gt;&lt;a href=&quot;http://nodejs.org/&quot;&gt;Node.JS&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Follow the link to download. Or follow it with Brew.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install node
+echo &#39;export NODE_PATH=/usr/local/lib/node_modules&#39; &amp;gt;&amp;gt; ~/.bashrc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;get-ruby-gemshttpsrubygemsorgpagesdownload-amp-railshttprubyonrailsorgdownload&quot;&gt;Get &lt;a href=&quot;https://rubygems.org/pages/download&quot;&gt;Ruby Gems&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://rubyonrails.org/download/&quot;&gt;RAILS&lt;/a&gt;!&lt;/h3&gt;
+&lt;p&gt;No Ruby would be complete without some GEMs. Here are a few to start.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gem install RubyGems
+gem install rails
+gem install jekyll
+gem install json
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;get-pythonhttpswwwpythonorgdownloads&quot;&gt;Get &lt;a href=&quot;https://www.python.org/downloads/&quot;&gt;Python&lt;/a&gt;!&lt;/h3&gt;
+
+&lt;p&gt;Most experienced Python-ers know to pick 3.0; I still don’t know all the in’s &amp;amp;amp’ out’s and by no means an expert. I do know that 3 is gaining traction and 2 is not going to be used in the long-term horizon. But,if you’re just starting then stick with Zed Shaw in his AMAZING &lt;a href=&quot;http://learnpythonthehardway.org/book/&quot;&gt;“Learning Python the Hard Way”&lt;/a&gt; and just go with 2. Python 3 is cool if you’re building up-to-date apps in Django.&lt;/p&gt;
+
+&lt;h3 id=&quot;python-virtual-environment&quot;&gt;Python &lt;a href=&quot;&quot;&gt;Virtual Environment&lt;/a&gt;&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo pip install virtualenvwrapper
+cd
+ls -a
+cat &amp;lt;&amp;lt; EOF &amp;gt;&amp;gt; .bashrc
+	export WORKON_HOME=$HOME/.virtualenvs
+	export PROJECT_HOME=$HOME/Devel
+	source /usr/local/bin/virtualenvwrapper.sh
+EOF
+source ~/.bashrc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;piphttpspippypaioenlatestinstallinghtmlpython-os-support&quot;&gt;&lt;a href=&quot;https://pip.pypa.io/en/latest/installing.html#python-os-support&quot;&gt;Pip&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Follow the link and click “Save As…” on the the &lt;code&gt;.py&lt;/code&gt; file. Save it in your local directory or downloads. Next…&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# If you saved it in ~/Downloads...
+cd 
+mv ~/downloads/get-pip.py ~/get-pip.py
+sudo python get-pip.py
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;get-djangohttpswwwdjangoprojectcomdownload&quot;&gt;Get &lt;a href=&quot;https://www.djangoproject.com/download/&quot;&gt;Django&lt;/a&gt;&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;pip install Django==1.7.2
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        <pubDate>Tue, 06 Jan 2015 00:00:00 -0800</pubDate>
+        <link>http://www.austinhay.com//coding/2015/01/06/Essential-System-Setup-For-Beginner-Coders.html</link>
+        <guid isPermaLink="true">http://www.austinhay.com//coding/2015/01/06/Essential-System-Setup-For-Beginner-Coders.html</guid>
+        
+        <category>web-development</category>
+        
+        <category>software</category>
+        
+        <category>system setup</category>
+        
+        <category>rookie tricks</category>
+        
+        
+        <category>coding</category>
+        
+      </item>
     
       <item>
         <title>Prepping for Django</title>
@@ -171,7 +334,7 @@ $ pip install -r requirements.txt
   &lt;li&gt;Great &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;markdown&lt;/a&gt; resource. Oh, and &lt;a href=&quot;http://nestacms.com/docs/creating-content/markdown-cheat-sheet&quot;&gt;another&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 05 Jan 2015 00:00:00 -0600</pubDate>
+        <pubDate>Mon, 05 Jan 2015 00:00:00 -0800</pubDate>
         <link>http://www.austinhay.com//coding/2015/01/05/Prepping-for-Django.html</link>
         <guid isPermaLink="true">http://www.austinhay.com//coding/2015/01/05/Prepping-for-Django.html</guid>
         
@@ -324,9 +487,9 @@ from django.conf import settings
   &lt;li&gt;&lt;code&gt;python manage.py shell&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Mon, 05 Jan 2015 00:00:00 -0600</pubDate>
-        <link>http://www.austinhay.com//coding/2015/01/05/Django-Tutorial-Walkthrough-P1.html</link>
-        <guid isPermaLink="true">http://www.austinhay.com//coding/2015/01/05/Django-Tutorial-Walkthrough-P1.html</guid>
+        <pubDate>Sun, 04 Jan 2015 00:00:00 -0800</pubDate>
+        <link>http://www.austinhay.com//coding/2015/01/04/Django-Tutorial-Walkthrough-P1.html</link>
+        <guid isPermaLink="true">http://www.austinhay.com//coding/2015/01/04/Django-Tutorial-Walkthrough-P1.html</guid>
         
         <category>web-development</category>
         
@@ -501,7 +664,7 @@ Every list of goals deserves and requires a roadmap to success.
 
 
 </description>
-        <pubDate>Thu, 01 Jan 2015 00:00:00 -0600</pubDate>
+        <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
         <link>http://www.austinhay.com//personal%20developement/2015/01/01/Year-in-Review.html</link>
         <guid isPermaLink="true">http://www.austinhay.com//personal%20developement/2015/01/01/Year-in-Review.html</guid>
         
@@ -527,7 +690,7 @@ Last March I signed up for &lt;a href=&quot;http://www.devbootcamp.com&quot;&gt;
 
 &lt;p&gt;Blazing fast internet connection and a multitude of connecitivity devices has driven a real need for applications to be light, flexible, and &lt;u&gt;powered by the web&lt;/u&gt;. This shouldn&#39;t come as a surprise either. Desktop software has seen competition for a while -- see &lt;a href=&quot;http://successfulsoftware.net/2013/10/28/is-desktop-software-dead/&quot;&gt;a full breakdown&lt;a/&gt;. Even those that &lt;a href=&quot;http://techcrunch.com/2012/05/04/the-rise-of-big-data-apps-and-the-fall-of-saas/&quot;&gt;question&lt;/a&gt; the strength of SAAS compared to upcoming Big Data Applications underscore the &quot;web&quot; characteristics of most businesses moving forward. Microsoft&#39;s move of its legacy desktop product (Office) to the cloud is a recent example highlighting that web-applications are the future of how businesses will compete and operate over the web.
 &lt;/p&gt;</description>
-        <pubDate>Sun, 28 Dec 2014 00:00:00 -0600</pubDate>
+        <pubDate>Sun, 28 Dec 2014 00:00:00 -0800</pubDate>
         <link>http://www.austinhay.com//coding/2014/12/28/how-ive-learned-to-code.html</link>
         <guid isPermaLink="true">http://www.austinhay.com//coding/2014/12/28/how-ive-learned-to-code.html</guid>
         
@@ -557,7 +720,7 @@ Last March I signed up for &lt;a href=&quot;http://www.devbootcamp.com&quot;&gt;
 &lt;p&gt;Beyond this, I&#39;ve spent a good deal of time revamping my website and digging into the meat of how &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; static website templating works. In the next year I plan to really build out the content for the things I&#39;m passionate about. &lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 15 Dec 2014 00:00:00 -0600</pubDate>
+        <pubDate>Mon, 15 Dec 2014 00:00:00 -0800</pubDate>
         <link>http://www.austinhay.com//personal%20developement/2014/12/15/catching-up-to-speed.html</link>
         <guid isPermaLink="true">http://www.austinhay.com//personal%20developement/2014/12/15/catching-up-to-speed.html</guid>
         
@@ -592,7 +755,7 @@ Last March I signed up for &lt;a href=&quot;http://www.devbootcamp.com&quot;&gt;
 
 &lt;p&gt;Tomorrow we head to InfoSys and Embrace, the latter of which is a Stanford Design for Extreme Affordability founded venture. &lt;/p&gt;
 </description>
-        <pubDate>Tue, 02 Sep 2014 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 02 Sep 2014 00:00:00 -0700</pubDate>
         <link>http://www.austinhay.com//teis%20blog/2014/09/02/India-Day-2.html</link>
         <guid isPermaLink="true">http://www.austinhay.com//teis%20blog/2014/09/02/India-Day-2.html</guid>
         
@@ -618,7 +781,7 @@ Last March I signed up for &lt;a href=&quot;http://www.devbootcamp.com&quot;&gt;
 
 &lt;p&gt;Bangalore is very much a city of progress and of progress needed. &lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Sep 2014 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 01 Sep 2014 00:00:00 -0700</pubDate>
         <link>http://www.austinhay.com//teis%20blog/2014/09/01/India-Day-1.html</link>
         <guid isPermaLink="true">http://www.austinhay.com//teis%20blog/2014/09/01/India-Day-1.html</guid>
         
@@ -642,7 +805,7 @@ On our first glance into Bangalore &lt;!--more--&gt;we came across one of Accent
 
 
 </description>
-        <pubDate>Sun, 31 Aug 2014 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 31 Aug 2014 00:00:00 -0700</pubDate>
         <link>http://www.austinhay.com//teis%20blog/2014/08/31/India-Accenture-sighting.html</link>
         <guid isPermaLink="true">http://www.austinhay.com//teis%20blog/2014/08/31/India-Accenture-sighting.html</guid>
         
@@ -673,7 +836,7 @@ On our first glance into Bangalore &lt;!--more--&gt;we came across one of Accent
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;More importantly, everyone on the trip has maintained a unique willingness to share about their lives, to be vulnerable, to express their true thoughts and feelings and to connect.&amp;nbsp; It was easy to create heartfelt bonds with these individuals because their core values were so well aligned with those that I cherish most in others.&amp;nbsp; Through our two weeks together I have learned that they all prioritize the things that matter most in life, like self-development, and learning. They are all truly wonderful people.&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;One of my favorite quotes in life is, &amp;ldquo;People are at the heart of everything great.&amp;rdquo; This trip once again reminds me of this truth. Cheers to TECS 2013 and to the growth we will all gain from from this experience.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;*TECS 2013 is short for my adventures with Stanford University&#39;s TECS two week immersive business and technology program in China. Over the next two weeks I am travelling from Beijing to Shanghai and meeting with incredible businesses along the way. All posts from the program will be tagged.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;</description>
-        <pubDate>Sat, 14 Sep 2013 00:00:00 -0500</pubDate>
+        <pubDate>Sat, 14 Sep 2013 00:00:00 -0700</pubDate>
         <link>http://www.austinhay.com//tecs%20blog/2013/09/14/TECS-2013-Takeaways.html</link>
         <guid isPermaLink="true">http://www.austinhay.com//tecs%20blog/2013/09/14/TECS-2013-Takeaways.html</guid>
         
@@ -686,72 +849,6 @@ On our first glance into Bangalore &lt;!--more--&gt;we came across one of Accent
         <category>Stanford</category>
         
         <category>Top Lessons</category>
-        
-        
-        <category>tecs blog</category>
-        
-      </item>
-    
-      <item>
-        <title>TECS 2013: A Whole New Perspective from Foxconn</title>
-        <description>&lt;p&gt;When we first walked in to the Foxconn building I thought we must have been at the wrong place. The entrance was dark and dusty and the lights were off. Overall the place looked run-down and pretty sketchy &amp;ndash; I think this is honestly the best word to describe it! Quickly we followed an HR representative up to a small theater on the second floor where we sat through a ridiculous company introduction video. Not only was it all in Chinese, but it was so loud and the Chinese was so fast that not even our native speakers in the group could understand or translate properly.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;img class=&quot;imageright&quot; src=&quot;/images/img-4595.jpg&quot;&gt;
-
-&lt;p&gt;After a short and barely discernible speech from an unnamed executive we made our way to another part of the building where we got to see the facility&amp;rsquo;s R&amp;amp;D lab. The place looked like something out of Orwell&amp;rsquo;s 1984. The square complex had white washed walls with large labeled signs. Identically dressed employees in lab coats sat at stations testing technical components while we looked on through a glass partition. It felt like we were watching lab mice &amp;ndash; but these were real people! At one point we came across a series of walls that were glazed over with a white frost. The HR representative informed us that these were Apple&amp;rsquo;s secret labs&amp;hellip;&lt;/p&gt;
-&lt;p&gt;Next up, we took a short bus ride to the factory we were going to tour. I am so incredibly grateful for this experience. I wish my deepest gratitude to Stanford and Foxconn for this experience because it truly changed me. As a note, it was made very clear that no photographs were allowed. In reality, it wouldn&amp;rsquo;t have mattered much: The only way to understand manufacturing at a place like Foxconn is to see if for yourself.&lt;/p&gt;
-&lt;p&gt;The factory manager met us at the entrance of his plant with a welcoming smile and an informative debrief on his operation. At this particular location Foxconn manufactured a particular Apple product, which consisted of a PCB and metal casing; not the cord or anything else. I am not sure of Apple&amp;rsquo;s policy, but the last thing I want to do is get sued by my former employer or Foxconn over my writing, so I will leave this factory product unspecified.&amp;nbsp; I will say, however, that it wasn&amp;rsquo;t the iPhone (wah wah) &amp;ndash; it was just an Apple accessory item.&lt;/p&gt;
-&lt;p&gt;Additional parts of this product, like the plastic casing and the cord, were outsourced to other Foxconn facilities. Almost all of Foxconn&amp;rsquo;s products adhere to a similar type of vertical integration.&lt;/p&gt;
-&lt;p&gt;Once inside we moved through a winding maze of industrial hallways. As we passed by one I looked up and noticed nets covering us overhead about 20 feet off the ground. Shivers ran down my spine when I inquired about their purpose: they were to prevent employees from committing suicide by jumping from the higher ramparts.&lt;/p&gt;
-&lt;p&gt;Our group then put on yellow visitor gowns and blue footies and walked through to the main factory floor. After exiting the blast air chamber my ears were instantly ringing with the sound of automation. Before me lay hundreds of machines clicking, whirling, buzzing and beeping as they busily fulfilled unique tasks. It was a symphony of robotic melodies all chiming in harmony as raw components were transformed.&lt;/p&gt;
-
-&lt;p&gt;The manager took us down one of the countless rows of customized machinery. He explained that each lane cost over $600,000 to create. He had a team of 500 engineers, 300 of which were automation engineers, all who had contributed to hand-building these long and dedicated production lanes. The whole thing was virtually automatic. Here and there a worker in all brown garb monitored, but the process seemed highly independent of human interaction.&lt;/p&gt;
-
-&lt;p&gt;At the end of the rows we finally came across what I had initially expected &amp;ndash; a factory floor of workers hunched over small workstations manipulating small electronic pieces. The manager explained that the demand for Apple products waxed and waned with different launches. Normally, his automatic machines could churn out enough of this particular Apple product to meet demand. But sometimes he had to bring in a workforce of 2,000 employees to create the component by hand. The extra workforce helped his factory meet the world&amp;rsquo;s demand during peak season. I was rather impressed to hear that since the factory&amp;rsquo;s launch it has made major production improvements. The 2,000 employees that were brought in used to number 8,000 before the automatic lines were perfected.&lt;/p&gt;
-
-&lt;p&gt;We continued along with our tour and eventually came to a mind-blowing part of the factory where large yellow robotic arms moved with blazing speed and razor-sharp accuracy, picking up and manipulating small electrical components. At each station an employee worked &amp;ldquo;in unison&amp;rdquo; with the machine, moving plates and loading new cartridges of material after the robot had rapidly completed its task.&lt;/p&gt;
-
-&lt;p&gt;The next area in the facility was a deformation and QA/QC machine that analyzed and sorted each product in a matter of miliseconds. As we walked along I couldn&amp;rsquo;t help but stop and be amazed once again: a 5 foot tall, unmanned robotic cart with supplies and other factory items moved through the factory isle blasting pop music for the employees!&lt;/p&gt;
-
-&lt;p&gt;Our final destination in the factory was a dark room where once again the beeping sound of robots surrounded us. This time all the lights were off. The manager was nice enough to turn them on for us so we could see the production lines, but he explained that normally the lights were kept off to conserve energy. No lights or employees were needed either since this part of production was 100% automated and perfected. They could run it day and night without any kind of supervision. I was blown away.&lt;/p&gt;
-
-&lt;p&gt;Finally, we wrapped up our tour of Foxconn by seeing where some of the employees lived. The tall buildings oddly resembled the college dorms I lived in as an undergrad, hah. Then, I noticed again that nets surrounded all the exteriors. The manager shared that most employees at this plant were single and there was no family housing available. In their free time employees had fun events and access to on site movie theaters and computer stations with hundreds of PCs and free internet/TV. It was hard to believe that an employee could find the time or energy for much fun with such a rigorous job.&lt;/p&gt;
-
-&lt;img class=&quot;imageleft&quot; src=&quot;/images/img-4598.jpg&quot;&gt;
-
-
-&lt;p&gt;I might be missing some of the details related to end of our journey because this point I was exhausted from our day and conflicted by so many different emotions. It didn&amp;rsquo;t help that the sky had become overcast and a hot rain began to fall alongside the crash of thunder.&lt;/p&gt;
-&lt;p&gt;As I rode back in the bus and watched the lightning I reflected. I was in shock at the ubiquitous nature of machines in the factory, but I was amazed again by the complex production machines and how they had been created to carry out the task of humans, albeit with tenfold efficiency and speed. At the same time, I felt strangely scared, confused, and melancholy by these machines.&lt;/p&gt;
-
-&lt;p&gt;The employees in these factories work 5 to 6 days a week for over 10 hours a day. While we weren&amp;rsquo;t given any indication of their salaries some data from around the web suggests that Foxconn workers make around $400 a month, so, $20 a day or $2 an hour. Most of them are just kids with an average age of 20. All of this felt so wrong.&lt;/p&gt;
-
-&lt;p&gt;I always imagined that our world was moving towards this Sci-Fi like state, but then to actually see it with my eyes was almost too much to handle. My heart felt for many of the factory workers after experiencing the conditions they worked in and the dull and confined lifestyle they faced.&lt;/p&gt;
-&lt;p&gt;On this note I think it&amp;rsquo;s important to clarify my position. The conditions I saw in the factory almost brought me to tears. I didn&amp;rsquo;t know how to react to seeing nets that prevented employees from jumping to their deaths or how to digest the fact that the humans that work in these factories are just as much slaves to supply and demand as machines are.&lt;/p&gt;
-
-&lt;p&gt;After careful reflection I somewhat understand now that these emotions and feelings are a function of my world-view and my privileged upbringing. My heart felt for the employees because I wish I could have done something to give them all a better life. Selfishly, I wanted the production to be completely automated so that they wouldn&amp;rsquo;t have to endure such difficult lives. But I know this thinking is very flawed.&lt;/p&gt;
-&lt;p&gt;My good friend, who is a native of China, explained that in reality if some Chinese workers didn&amp;rsquo;t have these types of jobs then they might be somewhere much worse. While the factory lifestyle seemed horrible from my perspective, for many it is quite good and actually an improvement in comparison to where they came from. As I was told, working in a factory like Foxconn can provide a real means of moving out of poor and rural living and in to bigger tiered cities. It&amp;rsquo;s a socioeconomic stepping stool.&lt;/p&gt;
-
-&lt;p&gt;The conditions that Chinese workers face is highly controversial, but I think Foxconn gets a bad rap because of its close attachment to Apple. I think this experience really showed me that China is very different from the US and the standards of what&amp;rsquo;s &amp;ldquo;fair&amp;rdquo; or &amp;ldquo;right&amp;rdquo; differ greatly between the nations. I am still trying to come to terms with this fact. I don&amp;rsquo;t really know what to think and I haven&amp;rsquo;t made up my mind yet, but I know that I will probably never fully understand until I explore China more.&lt;/p&gt;
-
-&lt;p&gt;So, I tried to be descriptive and give an account of my tour of Foxconn from my own eyes. Beyond my feelings, one thing that really stuck with me was the manager of the factory. He seemed like such a kind and driven leader. Not only had he started on the floor like so many of his colleagues, but he also had stayed for over a decade to work up to his role. He seemed like a compassionate man and I felt that he truly cared for others.&lt;/p&gt;
-
-&lt;p&gt;I guess this is just another instance in life where you can never evaluate things at face value. I wonder how the employees at Foxconn felt. I wonder how their backgrounds shaped their understanding of their position. I wonder what their hopes and dreams were. Even if the conditions at Foxconn are the norm, and even if the company is doing its best to take care of the employees while remaining profitable &amp;ndash; which is fundamentally sound business practice &amp;ndash; I still can&amp;rsquo;t shake my sadness. Are they really happy, and if not, will they ever be? These are all questions and thoughts that will take time to understand.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;*TECS 2013 is short for my adventures with Stanford University&#39;s TECS two week immersive business and technology program in China. Over the next two weeks I am travelling from Beijing to Shanghai and meeting with incredible businesses along the way. All posts from the program will be tagged.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;</description>
-        <pubDate>Sat, 14 Sep 2013 00:00:00 -0500</pubDate>
-        <link>http://www.austinhay.com//tecs%20blog/2013/09/14/TECS-2013-A-Whole-New-Perspective-from-Foxconn.html</link>
-        <guid isPermaLink="true">http://www.austinhay.com//tecs%20blog/2013/09/14/TECS-2013-A-Whole-New-Perspective-from-Foxconn.html</guid>
-        
-        <category>China</category>
-        
-        <category>Travel</category>
-        
-        <category>TECS</category>
-        
-        <category>Stanford</category>
-        
-        <category>Engineering</category>
-        
-        <category>Manufacturing</category>
         
         
         <category>tecs blog</category>
