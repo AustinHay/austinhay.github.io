@@ -6,9 +6,8 @@
   <head>
     <!--- Basic Info -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <!--- Open Graph Data -->
 
 
@@ -126,12 +125,33 @@ $(document).ready(function(){
 </header>
 
 
-    
- 	<div class="home-img-top soft-blur">
-    	<div style="max-width:95%">
+    <script>
+$(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('.home-img-bottom-2').css('background-position', 'left ' + ((scrolledY)) + 'px');
+});
+</script>
+
+ 	<div class="home-img-top">
+    	<div>
         <h1 id="home-title">Austin Alexander Hay</h1>
       </div>
   </div>
+
+<!--   <div class="wrapper-centered">
+          <img class="circularheadshot_center_homepage" src="images/headshot-alt.jpg">
+  </div> -->
+
+  <div class="wrapper-centered" style="height: 400px">
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+                <!-- Front Image -->
+                <img class="circularheadshot_center_homepage front" src="images/headshots/homepage-1.jpg">
+                <!-- Back Image -->
+                <img class="circularheadshot_center_homepage back" src="images/headshots/scuba-1.png">
+            </div>
+          </div>
+  </div>     
 
       <div class="wrapper-centered">
    			<div class="career-col"> 
@@ -149,17 +169,14 @@ $(document).ready(function(){
           </div>
         </div>
 
-    <div id="home-img-bottom-2">
+    <div id="home-img-bottom-1">
         <div id="coding-text">
           <p>I code in...  Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, Sinatra.</p>
         </div>
-    </div>
 
-  <div class="wrapper-centered">
-          <img class="circularheadshot_center" src="images/headshot-alt.jpg">
   </div>
 
-    <div id="home-img-bottom-1">
+    <div id="home-img-bottom-2">
       	<div id="home-text">
         	<p>Engineering Management, Business Operations & Development, Computer Programming, Software, Web-Development, High-tech Strategy, Product Design, Social Impact, Sanitation, WASH, Social Entrepreneurship</p>
       	</div>
@@ -175,12 +192,10 @@ $(document).ready(function(){
         <div class="home">
         <h1 class="page-heading"><b>The Latest</b></h1>
         
-        <span class="post-meta">Jan 6, 2015</span>
+        <span class="post-meta">Jan 8, 2015</span>
         <h2>
-          <a class="post-link" href="/coding/2015/01/06/Essential-System-Setup-For-Beginner-Coders.html">The Essential System Setup for Beginner Coders</a>
-            <p>The other day I got setup on a new machine and I found myself scratching my head. How the heck did I get Ruby, Rails, Python and all those other tools set up? My command line tools weren’t even accessible. I am guessing this realization isn’t new to anyone in programming, but it was a new phenomenon to me. I decided the best solution was to draft up a short list of all the items I needed to install and how I would install them. For newbies looking to dive into coding, this should serve as a perfect checklist when getting your machine set up. Enjoy!
-<!--more-->
-PS I don’t go into detail explaining each one of these installs or why they are relevant. I just show you how to get stuff up and running with helpful links. I’ll leave the relevancy part to you, as its a good edification process.</p>
+          <a class="post-link" href="/coding/2015/01/08/Opening-Up-Open-Graph.html">Opening Up Open Graph</a>
+            <p>As I’ve dug deeper into how content is displayed across the web, I’ve found that it’s not always as rosy as I’d like. A big problem is that I am a total <code>n00b</code> and don’t always get my code just right when writing up my thoughts. In turn this means my pages don’t always display correctly across different applicaitons like Facebook or Linked-In. </p>
 
 
         </h2>
@@ -188,6 +203,14 @@ PS I don’t go into detail explaining each one of these installs or why they ar
 
   <ul class="post-list">
         <h1 class="page-heading">A Few More...</h1>
+    
+      <li>
+        <span class="post-meta">Jan 6, 2015</span>
+
+        <h2>
+          <a class="post-link" href="/coding/2015/01/06/Essential-System-Setup-For-Beginner-Coders.html">The Essential System Setup for Beginner Coders</a>
+        </h2>
+      </li>
     
       <li>
         <span class="post-meta">Jan 5, 2015</span>
@@ -218,14 +241,6 @@ PS I don’t go into detail explaining each one of these installs or why they ar
 
         <h2>
           <a class="post-link" href="/coding/2014/12/28/how-ive-learned-to-code.html">Why Web Development Matters</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 15, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/personal%20developement/2014/12/15/catching-up-to-speed.html">Catching up to Speed</a>
         </h2>
       </li>
     

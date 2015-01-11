@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!--- Basic Info -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--- Open Graph Data -->
+
+
+    <!--- Favicon Icon -->
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    <title>Opening Up Open Graph</title>
+    <meta name="description" content="This website and all its content, design and code are ©2014 Austin Hay. Questions, comments, consulting inquiry, or anything else? Shoot me an email.
+">
+
+    <!--- Style Sheets -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://www.austinhay.com//coding/2015/01/08/Opening-Up-Open-Graph.html">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' >
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Josefin+Sans:600'>
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto' >
+  	<link rel='stylesheet' type='text/csshref=' href='https://fonts.googleapis.com/css?family=Raleway'>
+    <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Javascripts -->
+<script type="text/javscript">
+
+$(document).ready(function(){
+  var images = ['../images/post-backgrounds/1.jpg', '../images/post-backgrounds/2.jpg'];
+  $('home-img-top').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
+});
+
+</script>
+
+<script type="text/javascript" src="/assets/js/jekyll-search.js"></script>
+
+
+<!-- GOOGLE ANALYTICS -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57400841-1', 'auto');
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+
+
+
+  <body>
+    <header class="site-header">
+
+  <div class="wrapper">
+        
+    
+        <a class="site-title" href="/" style="max-width:85%">Austin A. Hay</a>
+    
+    
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+
+        
+
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/About Me/">About Me</a>
+          
+        
+          
+          <a class="page-link" href="/notes/">Notes</a>
+          
+        
+          
+          <a class="page-link" href="/projects/">Projects</a>
+          
+        
+          
+          <a class="page-link" href="/follow/">Follow</a>
+          
+        
+          
+          <a class="page-link" href="/contact/">Contact</a>
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+          <div class="notes-background-img">
+          
+            <div class="wrapper transparent-background post-content">
+            
+              <h1 class="post-title">Opening Up Open Graph</h1>
+
+              <article class="post-content">
+                <p>As I’ve dug deeper into how content is displayed across the web, I’ve found that it’s not always as rosy as I’d like. A big problem is that I am a total <code>n00b</code> and don’t always get my code just right when writing up my thoughts. In turn this means my pages don’t always display correctly across different applicaitons like Facebook or Linked-In. </p>
+
+<!--more-->
+
+<p>See how lame this looks? Nobody is going to read this crap without a picture.</p>
+
+<p><img src="/images/blogs/open-graph-ex-1.png" alt="alt text" /></p>
+
+<p>After doing some research though, I’ve found there’s this amazing thing out there called <a href="http://ogp.me/">OpenGraph</a>.</p>
+
+<p>Controlling how links are displayed in preview mode</p>
+
+<p>https://www.gavick.com/blog/controlling-facebook-link-previews-and-getting-to-know-open-graph</p>
+
+<p>The basic code structure:</p>
+
+<pre><code>&lt;meta property="" content="" /&gt;
+</code></pre>
+
+<p>Different properties:
+    property=”og:title”
+    property=”og:image” </p>
+
+<pre><code>How to [implement](http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/) in Jekyll 
+</code></pre>
+
+<p>How to implement in your <a href="http://jekyllrb.com/">Jekyll</a> blog</p>
+
+<pre><code>        &lt;meta content="coding" property="article:section"&gt;
+    
+
+
+
+    
+        &lt;meta content="web-development" property="article:tag"&gt;
+    
+        &lt;meta content="software" property="article:tag"&gt;
+    
+        &lt;meta content="blogging essentials" property="article:tag"&gt;
+    
+
+
+
+&lt;meta content="Austin A. Hay" property="og:site_name"&gt;
+
+        &lt;meta content="Opening Up Open Graph" property="og:title"&gt;
+</code></pre>
+
+<meta content="article" property="og:type" />
+
+<meta content="This website and all its content, design and code are ©2014 Austin Hay. Questions, comments, consulting inquiry, or anything else? Shoot me an email.
+" property="og:description" />
+
+<meta content="http://www.austinhay.com//coding/2015/01/08/Opening-Up-Open-Graph.html" property="og:url" />
+
+<meta content="2015-01-08T00:00:00-08:00" property="article:published_time" />
+
+<meta content="http://www.austinhay.com//about/" property="article:author" />
+
+<meta content="/img/logo-high-resolution.png" property="og:image" />
+
+<meta content="coding" property="article:section" />
+
+<meta content="web-development" property="article:tag" />
+
+<meta content="software" property="article:tag" />
+
+<meta content="blogging essentials" property="article:tag" />
+
+</article>
+
+            </div>
+          </div>
+    
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Contact Me:</li>
+          <li><a href="mailto:austin@austinhay.com">austin@austinhay.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+            <a href="https://github.com/austinhay">
+              <span class="icon"><i class="fa fa-github"></i></span>
+              <span class="username">austinhay</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/austinahay">
+              <span class="icon"><i class="fa fa-twitter"></i></span>
+              <span class="username">austinahay</span>
+            </a>
+          </li>
+          
+
+
+          
+          <li>
+            <a href="https://linkedin.com/">
+              <span class="icon"><i class="fa fa-linkedin"></i></span>
+              <span class="username">austinhay</span>
+            </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">This website and all its content, design and code are ©2014 Austin Hay. Questions, comments, consulting inquiry, or anything else? Shoot me an email.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

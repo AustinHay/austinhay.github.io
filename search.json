@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Opening Up Open Graph",
+      "category" : "coding",
+      "tags"     : "web-development, software, and blogging essentials",
+      "url"      : "/coding/2015/01/08/Opening-Up-Open-Graph.html",
+      "date"     : "2015-01-08 00:00:00 -0800"
+    } ,
+  
+    {
       "title"    : "The Essential System Setup for Beginner Coders",
       "category" : "coding",
       "tags"     : "web-development, software, system setup, and rookie tricks",

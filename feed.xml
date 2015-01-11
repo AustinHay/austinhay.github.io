@@ -6,9 +6,96 @@
 </description>
     <link>http://www.austinhay.com//</link>
     <atom:link href="http://www.austinhay.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Jan 2015 16:24:22 -0800</pubDate>
-    <lastBuildDate>Wed, 07 Jan 2015 16:24:22 -0800</lastBuildDate>
+    <pubDate>Sun, 11 Jan 2015 15:35:25 -0800</pubDate>
+    <lastBuildDate>Sun, 11 Jan 2015 15:35:25 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Opening Up Open Graph</title>
+        <description>&lt;p&gt;As I’ve dug deeper into how content is displayed across the web, I’ve found that it’s not always as rosy as I’d like. A big problem is that I am a total &lt;code&gt;n00b&lt;/code&gt; and don’t always get my code just right when writing up my thoughts. In turn this means my pages don’t always display correctly across different applicaitons like Facebook or Linked-In. &lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;See how lame this looks? Nobody is going to read this crap without a picture.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blogs/open-graph-ex-1.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After doing some research though, I’ve found there’s this amazing thing out there called &lt;a href=&quot;http://ogp.me/&quot;&gt;OpenGraph&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Controlling how links are displayed in preview mode&lt;/p&gt;
+
+&lt;p&gt;https://www.gavick.com/blog/controlling-facebook-link-previews-and-getting-to-know-open-graph&lt;/p&gt;
+
+&lt;p&gt;The basic code structure:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;meta property=&quot;&quot; content=&quot;&quot; /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Different properties:
+    property=”og:title”
+    property=”og:image” &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;How to [implement](http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/) in Jekyll 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How to implement in your &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; blog&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        &amp;lt;meta content=&quot;coding&quot; property=&quot;article:section&quot;&amp;gt;
+    
+
+
+
+    
+        &amp;lt;meta content=&quot;web-development&quot; property=&quot;article:tag&quot;&amp;gt;
+    
+        &amp;lt;meta content=&quot;software&quot; property=&quot;article:tag&quot;&amp;gt;
+    
+        &amp;lt;meta content=&quot;blogging essentials&quot; property=&quot;article:tag&quot;&amp;gt;
+    
+
+
+
+&amp;lt;meta content=&quot;Austin A. Hay&quot; property=&quot;og:site_name&quot;&amp;gt;
+
+        &amp;lt;meta content=&quot;Opening Up Open Graph&quot; property=&quot;og:title&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;meta content=&quot;article&quot; property=&quot;og:type&quot; /&gt;
+
+&lt;meta content=&quot;This website and all its content, design and code are ©2014 Austin Hay. Questions, comments, consulting inquiry, or anything else? Shoot me an email.
+&quot; property=&quot;og:description&quot; /&gt;
+
+&lt;meta content=&quot;http://www.austinhay.com//coding/2015/01/08/Opening-Up-Open-Graph.html&quot; property=&quot;og:url&quot; /&gt;
+
+&lt;meta content=&quot;2015-01-08T00:00:00-08:00&quot; property=&quot;article:published_time&quot; /&gt;
+
+&lt;meta content=&quot;http://www.austinhay.com//about/&quot; property=&quot;article:author&quot; /&gt;
+
+&lt;meta content=&quot;/img/logo-high-resolution.png&quot; property=&quot;og:image&quot; /&gt;
+
+&lt;meta content=&quot;coding&quot; property=&quot;article:section&quot; /&gt;
+
+&lt;meta content=&quot;web-development&quot; property=&quot;article:tag&quot; /&gt;
+
+&lt;meta content=&quot;software&quot; property=&quot;article:tag&quot; /&gt;
+
+&lt;meta content=&quot;blogging essentials&quot; property=&quot;article:tag&quot; /&gt;
+
+</description>
+        <pubDate>Thu, 08 Jan 2015 00:00:00 -0800</pubDate>
+        <link>http://www.austinhay.com//coding/2015/01/08/Opening-Up-Open-Graph.html</link>
+        <guid isPermaLink="true">http://www.austinhay.com//coding/2015/01/08/Opening-Up-Open-Graph.html</guid>
+        
+        <category>web-development</category>
+        
+        <category>software</category>
+        
+        <category>blogging essentials</category>
+        
+        
+        <category>coding</category>
+        
+      </item>
     
       <item>
         <title>The Essential System Setup for Beginner Coders</title>
@@ -711,7 +798,7 @@ Last March I signed up for &lt;a href=&quot;http://www.devbootcamp.com&quot;&gt;
         <title>Catching up to Speed</title>
         <description>&lt;p&gt;It&#39;s been a long time since I wrote on my blog. At the time of my last update, I was in India, half-heartedly documenting my experiences, and desperately trying to relax and cool the jet engines after a grueling start to 2014.
 &lt;/p&gt;
-&lt;img class=&quot;imageleft&quot; src=&quot;/images/blogs/code_ex_1.jpg&quot;&gt;
+&lt;img class=&quot;imageleft&quot; src=&quot;/images/blogs/teis/code_ex_1.jpg&quot;&gt;
 &lt;!--more--&gt;
 &lt;p&gt;Since that time, things have changed in my own life. For one, I enjoyed another extended vacation in Japan and returned home feeling rejuvinated and ready to take on the world. But as the weeks transpired I became a bit exaspirated with my slated employment. Instead of letting my mind wander and prepare, I delved back into computer programming and taught myself some cool tricks. October was very much a month of self-exploration, navigating life after grad school &amp;amp; all its nuances, and reminding myself how to learn efficiently. &lt;/p&gt;
 
@@ -747,7 +834,7 @@ Last March I signed up for &lt;a href=&quot;http://www.devbootcamp.com&quot;&gt;
 
 &lt;p&gt;Our group was privileged to see GE&#39;s materials research and materials characterization lab along with their laser technology unit. Here, scientists study, model, and synthesize the composite metals that go into the world&#39;s most impressive turbine engines. The name of this game is all about developing novel materials that operate at high stress and heat, the main environment for airplane engines. &lt;/p&gt;
 
-&lt;img class=&quot;imageright&quot; src=&quot;/images/india-photo-2.jpg&quot;&gt;
+&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/teis/india-photo-2.jpg&quot;&gt;
 
 &lt;p&gt;The laser unit worked on technologies that will characterize emissions from power plants all over the world. Pardon my butchering, but in its simplest form, a laser is passed through the gas coming off an emissions tower. The light from the laser is captured after its passed through the gas and the emissions concentrations of the gases can be discovered at a very precise level. &lt;/p&gt;
 
@@ -798,7 +885,7 @@ Last March I signed up for &lt;a href=&quot;http://www.devbootcamp.com&quot;&gt;
     
       <item>
         <title>Accenture!</title>
-        <description>&lt;img class=&quot;imageright&quot; src=&quot;/images/india-photo-4.jpg&quot;&gt;
+        <description>&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/teis/india-photo-4.jpg&quot;&gt;
 
 On our first glance into Bangalore &lt;!--more--&gt;we came across one of Accenture&#39;s many offices located in the city. This wasn&#39;t the main headquarters, but it was still cool to see their presence is so dominantly displayed in India.
 
@@ -817,41 +904,6 @@ On our first glance into Bangalore &lt;!--more--&gt;we came across one of Accent
         
         
         <category>teis blog</category>
-        
-      </item>
-    
-      <item>
-        <title>TECS 2013: Takeaways</title>
-        <description>&lt;p&gt;It&amp;rsquo;s a little bit scary to look back and see how fast two weeks went by. In such a short amount of time I was exposed to an unimaginable amount of information. Everyday was filled with observation and understanding. The coolest part of going to China is that I felt like I had travelled in time to my youth where the world still felt very mysterious. &amp;nbsp;Like the world of my childhood China was so different, so big, and so deeply complex. It was incredible to get to experience this heighted type of curiosity, wonder again, and explore the nuances of life around me.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;The blog that I&amp;rsquo;ve set up is my best attempt at reflecting on my experiences, and I think it does a good job of capturing both the arc and main inflection points of the trip. Like all things, I think its good practice to debrief and synthesize what I learned. Here&amp;rsquo;s my list:&lt;/p&gt;
-&lt;p&gt;1. Scale: Every time I think of this word I remember my first moments in China when I looked out over a sea of skyscrapers and condominiums. There is just nothing to describe the sight. You really cannot understand issues of population or China&amp;rsquo;s increasing metropolitan growth until you see cities like Beijing or Shanghai for yourself or travel in its labyrinth of public transportation. Size and scale is not just limited to these sectors either. China has had to plan its infrastructure and development to accommodate this immense volume of people. The Three Gorges Dam put this particular aspect into perspective.&lt;/p&gt;
-&lt;p&gt;2. Business in China will not be &amp;ldquo;Business as Usual&amp;rdquo;: The exploration of so many different companies in a wide variety of industries demonstrated the truly dynamic nature of business in China.&amp;nbsp; The status quo is change. Everything in China is under development.&lt;/p&gt;
-&lt;p&gt;The powerpoint presentations from various executives and their numerical keypoints may fade from my memory, but the upward trends won&amp;rsquo;t. Most of these signify that China is growing in more ways that people can believe or are willing to imagine. Don&amp;rsquo;t believe everything the media claims, or what your friends tell you. Fly here and see the country for yourself. Business in China will never be the same as it is in the US or any country for that matter. It requires a willingness to understand and adapt to the changing needs of the Chinese consumer. Approach with an open mind and be sure to leave your ego at the door&lt;/p&gt;
-&lt;p&gt;3. People are still people: Fundamentally Chinese are not much different than Americans or any other person for that matter.&amp;nbsp; There are clear and undeniable differences in government, language, culture, and identity, but at base level Chinese all have basic needs and human desires. They need energy, food, water, and safety. They want good jobs, a home, a family, an education and a purpose. They seek happiness. Aren&amp;rsquo;t these the things that we all cherish so much?&lt;/p&gt;
-&lt;p&gt;Perhaps I&amp;rsquo;m oversimplifying things too much, but at least for me, memories are fleeting. The best lessons are those that are simple &amp;ndash; ones that don&amp;rsquo;t necessarily tell us what to do or how to act, but change the way we think about the world.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;In this respect, I&amp;rsquo;ve left one out one major aspect of my adventure to China. My peers. Throughout my trip I have blogged about my thoughts, but I have to attribute most of my realizations to the brilliant students who accompanied me on TECS 2013 and created an environment for these conversations to occur. The 16 or so students that came on the trip are the most intelligent, thoughtful, and articulate people I have ever met. Each and every one of them has a deeply rooted eagerness to listen, learn, reflect and share. They have taught me how to approach issues with an open but critical mind, and the importance of listening. They have showed me how to be humble, respectful, and attentive.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;More importantly, everyone on the trip has maintained a unique willingness to share about their lives, to be vulnerable, to express their true thoughts and feelings and to connect.&amp;nbsp; It was easy to create heartfelt bonds with these individuals because their core values were so well aligned with those that I cherish most in others.&amp;nbsp; Through our two weeks together I have learned that they all prioritize the things that matter most in life, like self-development, and learning. They are all truly wonderful people.&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;One of my favorite quotes in life is, &amp;ldquo;People are at the heart of everything great.&amp;rdquo; This trip once again reminds me of this truth. Cheers to TECS 2013 and to the growth we will all gain from from this experience.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;*TECS 2013 is short for my adventures with Stanford University&#39;s TECS two week immersive business and technology program in China. Over the next two weeks I am travelling from Beijing to Shanghai and meeting with incredible businesses along the way. All posts from the program will be tagged.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;</description>
-        <pubDate>Sat, 14 Sep 2013 00:00:00 -0700</pubDate>
-        <link>http://www.austinhay.com//tecs%20blog/2013/09/14/TECS-2013-Takeaways.html</link>
-        <guid isPermaLink="true">http://www.austinhay.com//tecs%20blog/2013/09/14/TECS-2013-Takeaways.html</guid>
-        
-        <category>China</category>
-        
-        <category>Travel</category>
-        
-        <category>TECS</category>
-        
-        <category>Stanford</category>
-        
-        <category>Top Lessons</category>
-        
-        
-        <category>tecs blog</category>
         
       </item>
     
