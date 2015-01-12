@@ -1,32 +1,102 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <!--- Basic Info -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--- Open Graph Data -->
+  <html prefix="og: http://ogp.me/ns#"/>
 
+<head>
+    <!--- Basic Info -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>
+      
+          Working Through the Django Tutorial: Outline &amp; Takeaways Part 1
+        
+    </title>
+    
+    <!--- OPEN GRAPH DATA -->
+
+    <!--- Site Name -->
+    <meta property="og:site_name" content="Austin A. Hay"/>
+
+    <!--- Page Titles -->
+    
+            <meta property="og:title" content="Working Through the Django Tutorial: Outline &amp; Takeaways Part 1"/>
+        
+
+    <!--- Page Type -->
+    
+        <meta property="og:type" content="article"/>
+      
+
+    <!--- Description -->
+    
+      <meta property="og:description" content="AustinHay.com is a blog for coding and entrepeneurship. Austin Hay is a millenial blogger who codes in Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, and Sinatra. His interests and writings lie at the intersect of engineering management, business operations &amp; development, computer programming, software, web-development, high-tech strategy, product design, social impact, sanitation, wash, social entrepreneurship."/>
+    
+
+    <!--- URL -->
+    
+      <meta property="og:url" content="http://www.austinhay.com/coding/2015/01/04/Django-Tutorial-Walkthrough-P1.html" />
+    
+
+    <!--- Page Category -->
+    
+        
+            <meta property="article:section" content="coding"/>
+        
+    
+
+    <!--- Tag Categories -->
+    
+        
+            <meta property="article:tag" content="web-development"/>
+        
+            <meta property="article:tag" content="django"/>
+        
+            <meta property="article:tag" content="python"/>
+        
+            <meta property="article:tag" content="software"/>
+        
+            <meta property="article:tag" content="documentation breakdown"/>
+        
+    
+
+    <!--- Date  -->
+    
+        <meta property="article:published_time" content="2015-01-04T00:00:00-08:00"/>
+    
+
+    <!--- Author  -->
+    
+          
+            <meta property="article:section" content="Austin Hay"/>
+          
+        
+
+    <!-- Images -->
+    
+        <meta property="og:image" content="/images/og-images/1.png" />
+    
+
+    <!--- OTHER META INFO -->
+    <meta property="og:locale" content="en_us"/>
+
+    <!--- END OF OPEN GRAPH META DATA -->
 
     <!--- Favicon Icon -->
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
-
-    <title>Working Through the Django Tutorial: Outline &amp; Takeaways Part 1</title>
-    <meta name="description" content="This website and all its content, design and code are ©2014 Austin Hay. Questions, comments, consulting inquiry, or anything else? Shoot me an email.
-">
-
+    
     <!--- Style Sheets -->
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://www.austinhay.com//coding/2015/01/04/Django-Tutorial-Walkthrough-P1.html">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' >
-  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Josefin+Sans:600'>
-  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto' >
-  	<link rel='stylesheet' type='text/csshref=' href='https://fonts.googleapis.com/css?family=Raleway'>
-    <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="canonical" href="http://www.austinhay.com/coding/2015/01/04/Django-Tutorial-Walkthrough-P1.html"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=La+Belle+Aurore'/>
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Josefin+Sans:600'/>
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto'/>
+  	<link rel='stylesheet' type='text/csshref=' href='https://fonts.googleapis.com/css?family=Raleway'/>
+    <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <!-- Javascripts -->
@@ -317,8 +387,7 @@ from django.conf import settings
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">This website and all its content, design and code are ©2014 Austin Hay. Questions, comments, consulting inquiry, or anything else? Shoot me an email.
-</p>
+        <p class="text">AustinHay.com is a blog for coding and entrepeneurship. Austin Hay is a millenial blogger who codes in Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, and Sinatra. His interests and writings lie at the intersect of engineering management, business operations &amp; development, computer programming, software, web-development, high-tech strategy, product design, social impact, sanitation, wash, social entrepreneurship.</p>
       </div>
     </div>
 
