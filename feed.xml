@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Austin A. Hay</title>
-    <description>AustinHay.com is a blog for coding and entrepeneurship. Austin Hay is a millenial blogger who codes in Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, and Sinatra. His interests and writings lie at the intersect of engineering management, business operations &amp;amp; development, computer programming, software, web-development, high-tech strategy, product design, social impact, sanitation, wash, social entrepreneurship.</description>
+    <description>AustinHay.com is a millenial blog &amp; consulting stop focused on strategy, leadership, self-developement, entrepreneurship, and rookie programming. Don&#39;t be a stranger - drop me an email to connect. Contents and code &amp;copy; 2015</description>
     <link>http://www.austinhay.com/</link>
     <atom:link href="http://www.austinhay.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Jan 2015 20:17:42 -0800</pubDate>
-    <lastBuildDate>Sun, 11 Jan 2015 20:17:42 -0800</lastBuildDate>
+    <pubDate>Sun, 11 Jan 2015 20:35:15 -0800</pubDate>
+    <lastBuildDate>Sun, 11 Jan 2015 20:35:15 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
