@@ -212,7 +212,8 @@ pre {
   font-size: 200%;
   letter-spacing: -1px;
   float: left;
-  color: #3B3B3B; }
+  color: #3B3B3B;
+  margin-top: 7px; }
   .site-title, .site-title:visited {
     color: #424242; }
   .site-title:hover {
