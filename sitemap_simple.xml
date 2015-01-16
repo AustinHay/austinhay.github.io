@@ -32,6 +32,11 @@
 
   <!-- Posts -->
   
+  <url><loc>http://austinhay.com/entrepreneurship/2015/01/14/Entrepreneurs-Becoming-Entrepreneurial-Resources-to-Get-You-Started.html</loc>
+  <changefreq>daily</changefreq>
+  <lastmod>2015-01-14T00:00:00-08:00</lastmod>
+  </url>
+  
   <url><loc>http://austinhay.com/coding/2015/01/08/Opening-Up-Open-Graph.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2015-01-08T00:00:00-08:00</lastmod>
@@ -243,6 +248,18 @@
     <changefreq>daily</changefreq>
     </url>
   
+    <url><loc>http://austinhay.com/search.html?tags=strategy</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=leadership</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=good reads</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
 
   <!-- Category Indexes -->
   
@@ -259,6 +276,10 @@
   </url>
   
   <url><loc>http://austinhay.com/search.html?category=coding</loc>
+  <changefreq>daily</changefreq>
+  </url>
+  
+  <url><loc>http://austinhay.com/search.html?category=entrepreneurship</loc>
   <changefreq>daily</changefreq>
   </url>
   
