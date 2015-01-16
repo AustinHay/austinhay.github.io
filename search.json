@@ -4,7 +4,7 @@
       "title"    : "Entrepreneurs, Becoming Entrepreneurial, and Resources to Get You Started",
       "category" : "entrepreneurship",
       "tags"     : "self-development, strategy, leadership, and good reads",
-      "url"      : "/entrepreneurship/2015/01/14/Entrepreneurs-Becoming-Entrepreneurial-Resources-to-Get-You-Started.html",
+      "url"      : "/Entrepreneurship-and-Becoming-Entrepreneurial",
       "date"     : "2015-01-14 00:00:00 -0800"
     } ,
   
@@ -12,7 +12,7 @@
       "title"    : "Opening Up Open Graph",
       "category" : "coding",
       "tags"     : "web-development, software, and blogging essentials",
-      "url"      : "/coding/2015/01/08/Opening-Up-Open-Graph.html",
+      "url"      : "/Opening-Up-Open-Graph",
       "date"     : "2015-01-08 00:00:00 -0800"
     } ,
   
@@ -20,7 +20,7 @@
       "title"    : "The Essential System Setup for Beginner Coders",
       "category" : "coding",
       "tags"     : "web-development, software, system setup, and rookie tricks",
-      "url"      : "/coding/2015/01/06/Essential-System-Setup-For-Beginner-Coders.html",
+      "url"      : "/The-Essential-System-Setup-for-Beginner-Coders",
       "date"     : "2015-01-06 00:00:00 -0800"
     } ,
   
@@ -28,7 +28,7 @@
       "title"    : "Prepping for Django",
       "category" : "coding",
       "tags"     : "web-development, django, python, and software",
-      "url"      : "/coding/2015/01/05/Prepping-for-Django.html",
+      "url"      : "/Prepping-for-Django",
       "date"     : "2015-01-05 00:00:00 -0800"
     } ,
   
@@ -44,7 +44,7 @@
       "title"    : "Year in Review",
       "category" : "personal developement",
       "tags"     : "awareness, reflection, and self-development",
-      "url"      : "/personal%20developement/2015/01/01/Year-in-Review.html",
+      "url"      : "/Year-in-Review-2014",
       "date"     : "2015-01-01 00:00:00 -0800"
     } ,
   
@@ -52,7 +52,7 @@
       "title"    : "Why Web Development Matters",
       "category" : "coding",
       "tags"     : "ruby, rails, webprogramming, and self-development",
-      "url"      : "/coding/2014/12/28/how-ive-learned-to-code.html",
+      "url"      : "/Why-Web-Development-Matters",
       "date"     : "2014-12-28 00:00:00 -0800"
     } ,
   
@@ -60,7 +60,7 @@
       "title"    : "Catching up to Speed",
       "category" : "personal developement",
       "tags"     : "awareness, reflection, and writing",
-      "url"      : "/personal%20developement/2014/12/15/catching-up-to-speed.html",
+      "url"      : "/Catching-Up-to-Speed-2014",
       "date"     : "2014-12-15 00:00:00 -0800"
     } ,
   
@@ -68,7 +68,7 @@
       "title"    : "First look at Research and Innovation in India",
       "category" : "TEIS blog",
       "tags"     : "India, Business, Technology, and Stanford",
-      "url"      : "/teis%20blog/2014/09/02/India-Day-2.html",
+      "url"      : "/Research-and-Innovation-in-India",
       "date"     : "2014-09-02 00:00:00 -0700"
     } ,
   
@@ -76,7 +76,7 @@
       "title"    : "Bangaluru: Progress and Progress Needed",
       "category" : "TEIS blog",
       "tags"     : "India, Stanford, and Travel",
-      "url"      : "/teis%20blog/2014/09/01/India-Day-1.html",
+      "url"      : "/Progress-and-Progress-Needed",
       "date"     : "2014-09-01 00:00:00 -0700"
     } ,
   
@@ -84,7 +84,7 @@
       "title"    : "Accenture!",
       "category" : "TEIS blog",
       "tags"     : "India, Stanford, and Travel",
-      "url"      : "/teis%20blog/2014/08/14/India-Accenture-sighting.html",
+      "url"      : "/Accenture-in-India",
       "date"     : "2014-08-14 00:00:00 -0700"
     } ,
   
@@ -92,7 +92,7 @@
       "title"    : "TECS 2013: Takeaways",
       "category" : "TECS blog",
       "tags"     : "China, Travel, TECS, Stanford, and Top Lessons",
-      "url"      : "/tecs%20blog/2013/09/14/TECS-2013-Takeaways.html",
+      "url"      : "/TECS-2014-Takeaways",
       "date"     : "2013-09-14 00:00:00 -0700"
     } ,
   
@@ -100,7 +100,7 @@
       "title"    : "TECS 2013: A Whole New Perspective from Foxconn",
       "category" : "TECS blog",
       "tags"     : "China, Travel, TECS, Stanford, Engineering, and Manufacturing",
-      "url"      : "/tecs%20blog/2013/09/14/TECS-2013-A-Whole-New-Perspective-from-Foxconn.html",
+      "url"      : "/New-Perspective-Foxconn",
       "date"     : "2013-09-14 00:00:00 -0700"
     } ,
   
@@ -108,7 +108,7 @@
       "title"    : "TECS 2013: Touring Bao Steel",
       "category" : "TECS blog",
       "tags"     : "China, Travel, TECS, Stanford, and Engineering",
-      "url"      : "/tecs%20blog/2013/09/12/TECS-2013-Touring-Bao-Steel.html",
+      "url"      : "/Touring-Bao-Steel",
       "date"     : "2013-09-12 00:00:00 -0700"
     } ,
   
@@ -116,7 +116,7 @@
       "title"    : "TECS 2013: Shanghai and a Trip to Hangzhou for Alibaba and Chint Solar",
       "category" : "TECS blog",
       "tags"     : "China, Travel, TECS, Stanford, and Tech",
-      "url"      : "/tecs%20blog/2013/09/12/TECS-2013-Shanghai-and-a-Trip-to-Hangzhou-for-Alibaba-and-Chint-Solar.html",
+      "url"      : "/Shanghai-and-Hanzhou",
       "date"     : "2013-09-12 00:00:00 -0700"
     } ,
   
@@ -124,7 +124,7 @@
       "title"    : "TECS 2013: On to Yi Chang and the Three Gorges Dam",
       "category" : "TECS blog",
       "tags"     : "China, Travel, TECS, Stanford, and Engineering",
-      "url"      : "/tecs%20blog/2013/09/11/TECS-2013-On-to-Yi-Chang-and-the-Three-Gorges-Dam.html",
+      "url"      : "/Yi-Chang-and-Three-Gorges",
       "date"     : "2013-09-11 00:00:00 -0700"
     } ,
   
@@ -132,7 +132,7 @@
       "title"    : "TECS 2013: Hurst Lin at DCM",
       "category" : "TECS blog",
       "tags"     : "China, Travel, TECS, Stanford, and Venture Capital",
-      "url"      : "/tecs%20blog/2013/09/10/TECS-2013-Hurst-Lin-at-DCM.html",
+      "url"      : "/DCM-and-Hurst-Lin",
       "date"     : "2013-09-10 00:00:00 -0700"
     } ,
   
@@ -140,7 +140,7 @@
       "title"    : "TECS 2013: More on Scale from a Cultural Perspective",
       "category" : "TECS blog",
       "tags"     : "China, Travel, TECS, and Stanford",
-      "url"      : "/tecs%20blog/2013/09/09/TECS-2013-More%20on-Scale-from-a-Cultural-Perspective.html",
+      "url"      : "/More-On-Scale",
       "date"     : "2013-09-09 00:00:00 -0700"
     } ,
   
@@ -148,7 +148,7 @@
       "title"    : "TECS 2013: ZTE and a Note on My Generation",
       "category" : "TECS blog",
       "tags"     : "China, Travel, TECS, Stanford, Engineering, and Business",
-      "url"      : "/tecs%20blog/2013/09/08/TECS-2013-ZTE-and-a-Note-on-My-Generation.html",
+      "url"      : "/ZTE-and-My-Generation",
       "date"     : "2013-09-08 00:00:00 -0700"
     } ,
   
@@ -156,7 +156,7 @@
       "title"    : "TECS 2013: Beijing So Far",
       "category" : "TECS blog",
       "tags"     : "China, Travel, TECS, and Stanford",
-      "url"      : "/tecs%20blog/2013/09/05/TECS-2013-Beijing-So-Far.html",
+      "url"      : "/Beijing-So-Far",
       "date"     : "2013-09-05 00:00:00 -0700"
     } ,
   
@@ -164,7 +164,7 @@
       "title"    : "TECS 2013: First Impression? Scale.",
       "category" : "TECS blog",
       "tags"     : "China, Travel, TECS, and Stanford",
-      "url"      : "/tecs%20blog/2013/09/01/TECS%202013-First-Impression-Scale.html",
+      "url"      : "/First-Impression?-Scale",
       "date"     : "2013-09-01 00:00:00 -0700"
     } 
   

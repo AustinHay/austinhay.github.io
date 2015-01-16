@@ -5,8 +5,8 @@
     <description>AustinHay.com is a millenial blog &amp; consulting stop focused on strategy, leadership, self-developement, entrepreneurship, and rookie programming. Don&#39;t be a stranger - drop me an email to connect. Contents and code &amp;copy; 2015</description>
     <link>http://www.austinhay.com/</link>
     <atom:link href="http://www.austinhay.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 16 Jan 2015 07:51:35 -0800</pubDate>
-    <lastBuildDate>Fri, 16 Jan 2015 07:51:35 -0800</lastBuildDate>
+    <pubDate>Fri, 16 Jan 2015 08:27:42 -0800</pubDate>
+    <lastBuildDate>Fri, 16 Jan 2015 08:27:42 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -60,7 +60,7 @@
   &lt;li&gt;&lt;a href=&quot;http://andreessenhorowitz.com&quot;&gt;http://andreessenhorowitz.com&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://steveblank.com/&quot;&gt;http://steveblank.com/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.venturehacks.com/&quot;&gt;http://www.venturehacks.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;&quot;&gt;http://www.avc.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.avc.com/&quot;&gt;http://www.avc.com/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.bothsidesofthetable.com/&quot;&gt;http://www.bothsidesofthetable.com/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://startuplessonslearned.blogspot.com&quot;&gt;http://startuplessonslearned.blogspot.com&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://redeye.firstround.com/&quot;&gt;http://redeye.firstround.com/&lt;/a&gt;&lt;/li&gt;
@@ -115,8 +115,8 @@
 
 </description>
         <pubDate>Wed, 14 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://www.austinhay.com/entrepreneurship/2015/01/14/Entrepreneurs-Becoming-Entrepreneurial-Resources-to-Get-You-Started.html</link>
-        <guid isPermaLink="true">http://www.austinhay.com/entrepreneurship/2015/01/14/Entrepreneurs-Becoming-Entrepreneurial-Resources-to-Get-You-Started.html</guid>
+        <link>http://www.austinhay.com/Entrepreneurship-and-Becoming-Entrepreneurial</link>
+        <guid isPermaLink="true">http://www.austinhay.com/Entrepreneurship-and-Becoming-Entrepreneurial</guid>
         
         <category>self-development</category>
         
@@ -183,8 +183,8 @@ property=&quot;article:section&quot;
 
 </description>
         <pubDate>Thu, 08 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://www.austinhay.com/coding/2015/01/08/Opening-Up-Open-Graph.html</link>
-        <guid isPermaLink="true">http://www.austinhay.com/coding/2015/01/08/Opening-Up-Open-Graph.html</guid>
+        <link>http://www.austinhay.com/Opening-Up-Open-Graph</link>
+        <guid isPermaLink="true">http://www.austinhay.com/Opening-Up-Open-Graph</guid>
         
         <category>web-development</category>
         
@@ -344,8 +344,8 @@ sudo python get-pip.py
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Tue, 06 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://www.austinhay.com/coding/2015/01/06/Essential-System-Setup-For-Beginner-Coders.html</link>
-        <guid isPermaLink="true">http://www.austinhay.com/coding/2015/01/06/Essential-System-Setup-For-Beginner-Coders.html</guid>
+        <link>http://www.austinhay.com/The-Essential-System-Setup-for-Beginner-Coders</link>
+        <guid isPermaLink="true">http://www.austinhay.com/The-Essential-System-Setup-for-Beginner-Coders</guid>
         
         <category>web-development</category>
         
@@ -522,8 +522,8 @@ $ pip install -r requirements.txt
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 05 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://www.austinhay.com/coding/2015/01/05/Prepping-for-Django.html</link>
-        <guid isPermaLink="true">http://www.austinhay.com/coding/2015/01/05/Prepping-for-Django.html</guid>
+        <link>http://www.austinhay.com/Prepping-for-Django</link>
+        <guid isPermaLink="true">http://www.austinhay.com/Prepping-for-Django</guid>
         
         <category>web-development</category>
         
@@ -852,8 +852,8 @@ Every list of goals deserves and requires a roadmap to success.
 
 </description>
         <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://www.austinhay.com/personal%20developement/2015/01/01/Year-in-Review.html</link>
-        <guid isPermaLink="true">http://www.austinhay.com/personal%20developement/2015/01/01/Year-in-Review.html</guid>
+        <link>http://www.austinhay.com/Year-in-Review-2014</link>
+        <guid isPermaLink="true">http://www.austinhay.com/Year-in-Review-2014</guid>
         
         <category>awareness</category>
         
@@ -878,8 +878,8 @@ Last March I signed up for &lt;a href=&quot;http://www.devbootcamp.com&quot;&gt;
 &lt;p&gt;Blazing fast internet connection and a multitude of connecitivity devices has driven a real need for applications to be light, flexible, and &lt;u&gt;powered by the web&lt;/u&gt;. This shouldn&#39;t come as a surprise either. Desktop software has seen competition for a while -- see &lt;a href=&quot;http://successfulsoftware.net/2013/10/28/is-desktop-software-dead/&quot;&gt;a full breakdown&lt;a/&gt;. Even those that &lt;a href=&quot;http://techcrunch.com/2012/05/04/the-rise-of-big-data-apps-and-the-fall-of-saas/&quot;&gt;question&lt;/a&gt; the strength of SAAS compared to upcoming Big Data Applications underscore the &quot;web&quot; characteristics of most businesses moving forward. Microsoft&#39;s move of its legacy desktop product (Office) to the cloud is a recent example highlighting that web-applications are the future of how businesses will compete and operate over the web.
 &lt;/p&gt;</description>
         <pubDate>Sun, 28 Dec 2014 00:00:00 -0800</pubDate>
-        <link>http://www.austinhay.com/coding/2014/12/28/how-ive-learned-to-code.html</link>
-        <guid isPermaLink="true">http://www.austinhay.com/coding/2014/12/28/how-ive-learned-to-code.html</guid>
+        <link>http://www.austinhay.com/Why-Web-Development-Matters</link>
+        <guid isPermaLink="true">http://www.austinhay.com/Why-Web-Development-Matters</guid>
         
         <category>ruby</category>
         
@@ -908,8 +908,8 @@ Last March I signed up for &lt;a href=&quot;http://www.devbootcamp.com&quot;&gt;
 
 </description>
         <pubDate>Mon, 15 Dec 2014 00:00:00 -0800</pubDate>
-        <link>http://www.austinhay.com/personal%20developement/2014/12/15/catching-up-to-speed.html</link>
-        <guid isPermaLink="true">http://www.austinhay.com/personal%20developement/2014/12/15/catching-up-to-speed.html</guid>
+        <link>http://www.austinhay.com/Catching-Up-to-Speed-2014</link>
+        <guid isPermaLink="true">http://www.austinhay.com/Catching-Up-to-Speed-2014</guid>
         
         <category>awareness</category>
         
@@ -943,8 +943,8 @@ Last March I signed up for &lt;a href=&quot;http://www.devbootcamp.com&quot;&gt;
 &lt;p&gt;Tomorrow we head to InfoSys and Embrace, the latter of which is a Stanford Design for Extreme Affordability founded venture. &lt;/p&gt;
 </description>
         <pubDate>Tue, 02 Sep 2014 00:00:00 -0700</pubDate>
-        <link>http://www.austinhay.com/teis%20blog/2014/09/02/India-Day-2.html</link>
-        <guid isPermaLink="true">http://www.austinhay.com/teis%20blog/2014/09/02/India-Day-2.html</guid>
+        <link>http://www.austinhay.com/Research-and-Innovation-in-India</link>
+        <guid isPermaLink="true">http://www.austinhay.com/Research-and-Innovation-in-India</guid>
         
         <category>India</category>
         
@@ -969,8 +969,8 @@ Last March I signed up for &lt;a href=&quot;http://www.devbootcamp.com&quot;&gt;
 &lt;p&gt;Bangalore is very much a city of progress and of progress needed. &lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Sep 2014 00:00:00 -0700</pubDate>
-        <link>http://www.austinhay.com/teis%20blog/2014/09/01/India-Day-1.html</link>
-        <guid isPermaLink="true">http://www.austinhay.com/teis%20blog/2014/09/01/India-Day-1.html</guid>
+        <link>http://www.austinhay.com/Progress-and-Progress-Needed</link>
+        <guid isPermaLink="true">http://www.austinhay.com/Progress-and-Progress-Needed</guid>
         
         <category>India</category>
         

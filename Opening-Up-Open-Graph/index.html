@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<!-- If this value is assigned anything other than nil then the Austin Hay cursive icon will appear in the header. -->
-
-
   <html prefix="og: http://ogp.me/ns#"/>
 
 <head>
@@ -13,8 +10,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <title>
       
-          Austin A. Hay
-      
+          Opening Up Open Graph
+        
     </title>
     
     <!--- OPEN GRAPH DATA -->
@@ -24,13 +21,13 @@
 
     <!--- Page Titles -->
     
-            <meta property="og:title" content="Austin A. Hay"/>
-    
+            <meta property="og:title" content="Opening Up Open Graph"/>
+        
 
     <!--- Page Type -->
     
-        <meta property="og:type" content="website"/>
-    
+        <meta property="og:type" content="article"/>
+      
 
     <!--- Description -->
     
@@ -39,27 +36,43 @@
 
     <!--- URL -->
     
-      <meta property="og:url" content="http://www.austinhay.com/index.html" />
+      <meta property="og:url" content="http://www.austinhay.com/Opening-Up-Open-Graph" />
     
 
     <!--- Page Category -->
     
+        
+            <meta property="article:section" content="coding"/>
+        
+    
 
     <!--- Tag Categories -->
+    
+        
+            <meta property="article:tag" content="web-development"/>
+        
+            <meta property="article:tag" content="software"/>
+        
+            <meta property="article:tag" content="blogging essentials"/>
+        
     
 
     <!--- Date  -->
     
+        <meta property="article:published_time" content="2015-01-08T00:00:00-08:00"/>
+    
 
     <!--- Author  -->
     
+          
             <meta property="article:section" content="Austin Hay"/>
-    
+          
+        
 
     <!-- Images -->
     
-        <meta property="og:image" content="/images/og-images/1.png" />
-    
+        <meta property="og:image" content="http://www.austinhay.com/images/blogs/open-graph-ex-2.png" />
+      
 
     <!--- OTHER META INFO -->
     <meta property="og:locale" content="en_us"/>
@@ -72,7 +85,7 @@
     
     <!--- Style Sheets -->
     <link rel="stylesheet" href="/css/main.css"/>
-    <link rel="canonical" href="http://www.austinhay.com/"/>
+    <link rel="canonical" href="http://www.austinhay.com/Opening-Up-Open-Graph"/>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
   	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=La+Belle+Aurore'/>
   	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Josefin+Sans:600'/>
@@ -114,11 +127,12 @@ $(document).ready(function(){
 
 
   <body>
-
     <header class="site-header">
 
   <div class="wrapper">
         
+    
+        <a class="site-title" href="/" style="max-width:85%">Austin A. Hay</a>
     
     
 
@@ -178,136 +192,66 @@ $(document).ready(function(){
 </header>
 
 
-    <script>
-$(window).scroll(function() {
-  var scrolledY = $(window).scrollTop();
-  $('.home-img-bottom-2').css('background-position', 'left ' + ((scrolledY)) + 'px');
-});
-</script>
+          <div class="notes-background-img">
+          
+            <div class="wrapper transparent-background post-content">
+            
+              <h1 class="post-title">Opening Up Open Graph</h1>
 
- 	<div class="home-img-top">
-    	<div>
-        <h1 id="home-title">Austin Alexander Hay</h1>
-      </div>
-  </div>
+              <article class="post-content">
+                <p>As I’ve dug deeper into how content is displayed across the web, I’ve found that it’s not always as rosy as I’d like. A big problem is that I am a total <code>n00b</code> and don’t always get my code just right when writing up my thoughts. In turn this means my pages don’t always display correctly across different applicaitons like Facebook or Linked-In. </p>
 
-<!--   <div class="wrapper-centered">
-          <img class="circularheadshot_center_homepage" src="images/headshot-alt.jpg">
-  </div> -->
+<!--more-->
 
-  <div class="wrapper-centered" style="height: 400px">
-          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-            <div class="flipper">
-                <!-- Front Image -->
-                <img class="circularheadshot_center_homepage front" src="images/headshots/homepage-1.jpg">
-                <!-- Back Image -->
-                <img class="circularheadshot_center_homepage back" src="images/headshots/scuba-1.png">
+<p>See how lame this looks? Nobody is going to read this without a picture and some awesome OG tags.</p>
+
+<p><img src="/images/blogs/open-graph-ex-1.png" alt="alt text" /></p>
+
+<p>After doing some research, I’ve found there are amazing <code>meta</code> tags out there that fall under <a href="http://ogp.me/">OpenGraph</a>.</p>
+
+<p>The concept and application is simple. Whenever you list your site on the internet, web crawlers look for <code>meta</code> tags to compile information about your site and map it within their database. The more <code>meta</code> information you have the better, as it makes it easier for your website to be properly linked and mapped in a web-search. Beyond this, Facebook, Twitter, and other social media sites use OpenGraph tags in order to generate previews for articles and webpages among many other things. </p>
+
+<h4 id="implementation">Implementation</h4>
+
+<p>The basic code structure for open graph meta tags is simple:</p>
+
+<pre><code>&lt;meta property="" content="" /&gt;
+</code></pre>
+
+<p>There are different properties as well. Here are a few to get you started:</p>
+
+<pre><code>property="og:title"
+property="og:image" 
+property="og:site"
+property="og:description"
+property="og:type"
+property="og:url"
+property="article:author
+property="article:section"
+</code></pre>
+
+<p>From there you just have to enter the <code>"content"</code> portion of the code. If you’re doing it with static pages then this is just <code>text</code>, otherwise you should generate it dynamically. For my own purposes, I used <a href="http://docs.shopify.com/themes/liquid-documentation/basics"><code>liquid tags</code></a> and plugged into the power of <a href="http://jekyllrb.com/">Jekyll</a> to generate my tags automatically for every static page I work up. Here’s a code snippet from my website of what this would actually look like:</p>
+
+<p><img src="/images/blogs/open-graph-ex-2.png" alt="alt text" /></p>
+
+<p>Oh, and it’s VERY important to remember to call the <code>og</code> tag in the beginning of the <code>html</code>. Just throw this in your <code>head</code> section somewhere:</p>
+
+<pre><code>&lt;html prefix="og: http://ogp.me/ns#"/&gt;
+</code></pre>
+
+<p>As always, this doesn’t even scratch the surface of all the cool things that OpenGraph can deliver. Explore it on your own and <a href="http://www.austinhay.com/contact">let me know</a> what you find. Here are some fun resources that you might check out with more time:</p>
+
+<ul>
+  <li><a href="https://www.gavick.com/blog/controlling-facebook-link-previews-and-getting-to-know-open-graph">Getting to Know Open Graph</a></li>
+  <li><a href="http://www.iacquire.com/blog/18-meta-tags-every-webpage-should-have-in-2013">Essential Meta Tags from 2013</a></li>
+  <li>How to <a href="http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/">implement</a> in Jekyll, like I did.</li>
+</ul>
+
+</article>
+
             </div>
           </div>
-  </div>   
-
-
-      <div class="wrapper-centered">
-   			<div class="career-col"> 
-				<ul class="career-list">
-					
-          			<li>
-              			<a href=""> <span class="home-career-titles"><i class="fa fa-briefcase"></i> 		Engineer</span></a> </br>
-              			<a href="http://extreme.stanford.edu/projects/limedrop"> <span class="home-career-titles"><i class="fa fa-users"></i>			Business Ops & Strategy</span></a></br>
-              			<a href="https://github.com/austinhay"> <span class="home-career-titles"><i class="fa fa-code"></i>				Web-dev Junior Programmer</span></a></br>
-              			<a href="http://web.stanford.edu/~aboehm/"> <span class="home-career-titles"><i class="fa fa-graduation-cap"></i>	Stanford & USC Grad</span></a></br>
-          			</li>
-          			
-          		<ul>
-          	</div>
-          </div>
-        </div>
-
-    <div id="home-img-bottom-1">
-        <div id="coding-text">
-          <p>I code in...  Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, Sinatra.</p>
-        </div>
-
-  </div>
-
-    <div id="home-img-bottom-2">
-      	<div id="home-text">
-        	<p>Engineering Management, Business Operations & Development, Computer Programming, Software, Web-Development, High-tech Strategy, Product Design, Social Impact, Sanitation, WASH, Social Entrepreneurship</p>
-      	</div>
-    </div>
-
     
-
-
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
-        <h1 class="page-heading"><b>The Latest</b></h1>
-        
-        <span class="post-meta">Jan 14, 2015</span>
-        <h2>
-          <a class="post-link" href="/Entrepreneurship-and-Becoming-Entrepreneurial">Entrepreneurs, Becoming Entrepreneurial, and Resources to Get You Started</a>
-            <p><span class="category-tag-icon">entrepreneurship</span><span class="category-tag-icon">self-development</span><span class="category-tag-icon">strategy</span><span class="category-tag-icon">leadership</span><span class="category-tag-icon">good reads</span></p>
-
-
-        </h2>
-        
-
-  <ul class="post-list">
-        <h1 class="page-heading">A Few More...</h1>
-    
-      <li>
-        <span class="post-meta">Jan 8, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/Opening-Up-Open-Graph">Opening Up Open Graph</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 6, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/The-Essential-System-Setup-for-Beginner-Coders">The Essential System Setup for Beginner Coders</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 5, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/Prepping-for-Django">Prepping for Django</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 4, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/coding/2015/01/04/Django-Tutorial-Walkthrough-P1.html">Working Through the Django Tutorial: Outline &amp; Takeaways Part 1</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 1, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/Year-in-Review-2014">Year in Review</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
-</div>
-
-
-      </div>
-    </div>
-
     <footer class="site-footer">
 
   <div class="wrapper">
