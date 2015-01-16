@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+
+  <html prefix="og: http://ogp.me/ns#"/>
+
+<head>
+    <!--- Basic Info -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>
+      
+          Prepping for Django
+        
+    </title>
+    
+    <!--- OPEN GRAPH DATA -->
+
+    <!--- Site Name -->
+    <meta property="og:site_name" content="Austin A. Hay"/>
+
+    <!--- Page Titles -->
+    
+            <meta property="og:title" content="Prepping for Django"/>
+        
+
+    <!--- Page Type -->
+    
+        <meta property="og:type" content="article"/>
+      
+
+    <!--- Description -->
+    
+      <meta property="og:description" content="AustinHay.com is a blog for coding and entrepeneurship. Austin Hay is a millenial blogger who codes in Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, and Sinatra. His interests and writings lie at the intersect of engineering management, business operations &amp; development, computer programming, software, web-development, high-tech strategy, product design, social impact, sanitation, wash, social entrepreneurship."/>
+    
+
+    <!--- URL -->
+    
+      <meta property="og:url" content="http://www.austinhay.com/coding/2015/01/05/Prepping-for-Django.html" />
+    
+
+    <!--- Page Category -->
+    
+        
+            <meta property="article:section" content="coding"/>
+        
+    
+
+    <!--- Tag Categories -->
+    
+        
+            <meta property="article:tag" content="web-development"/>
+        
+            <meta property="article:tag" content="django"/>
+        
+            <meta property="article:tag" content="python"/>
+        
+            <meta property="article:tag" content="software"/>
+        
+    
+
+    <!--- Date  -->
+    
+        <meta property="article:published_time" content="2015-01-05T00:00:00-08:00"/>
+    
+
+    <!--- Author  -->
+    
+          
+            <meta property="article:section" content="Austin Hay"/>
+          
+        
+
+    <!-- Images -->
+    
+        <meta property="og:image" content="/images/og-images/2014-1.png" />
+    
+
+    <!--- OTHER META INFO -->
+    <meta property="og:locale" content="en_us"/>
+
+    <!--- END OF OPEN GRAPH META DATA -->
+
+    <!--- Favicon Icon -->
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+    
+    <!--- Style Sheets -->
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="canonical" href="http://www.austinhay.com/coding/2015/01/05/Prepping-for-Django.html"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=La+Belle+Aurore'/>
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Josefin+Sans:600'/>
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto'/>
+  	<link rel='stylesheet' type='text/csshref=' href='https://fonts.googleapis.com/css?family=Raleway'/>
+    <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Javascripts -->
+<script type="text/javscript">
+
+$(document).ready(function(){
+  var images = ['../images/post-backgrounds/1.jpg', '../images/post-backgrounds/2.jpg'];
+  $('home-img-top').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
+});
+
+</script>
+
+<script type="text/javascript" src="/assets/js/jekyll-search.js"></script>
+
+
+<!-- GOOGLE ANALYTICS -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57400841-1', 'auto');
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+
+
+
+  <body>
+    <header class="site-header">
+
+  <div class="wrapper">
+        
+    
+        <a class="site-title" href="/" style="max-width:85%">Austin A. Hay</a>
+    
+    
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+
+        
+
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/About Me/">About Me</a>
+          
+        
+          
+          <a class="page-link" href="/notes/">Notes</a>
+          
+        
+          
+          <a class="page-link" href="/projects/">Projects</a>
+          
+        
+          
+          <a class="page-link" href="/follow/">Follow</a>
+          
+        
+          
+          <a class="page-link" href="/contact/">Contact</a>
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+          <div class="notes-background-img">
+          
+            <div class="wrapper transparent-background post-content">
+            
+              <h1 class="post-title">Prepping for Django</h1>
+
+              <article class="post-content">
+                <p>In my free time I’ve been trying to dive deeper into alternative web-frameworks and coding languages. Python has been my primary target for its ease-of-use and ubiquity among the web’s top development languages. </p>
+
+<!--more-->
+
+<p>In my experiences learning Python I have found that it’s actually quite similar to Ruby. It’s a lot less cumbersome than C or C++ and it has some killer docs to support both beginner &amp; intermediate programmers. In fact, the “create your own first Django app” is one of the best <a href="https://docs.djangoproject.com/en/1.7/intro/tutorial01/">resources</a> I have found out there.</p>
+
+<p>With the hopes to start in a casual coding internship role soon, I took to developing a Python &amp; Django prep guide for my friend, Stephen, at SCOOPR Media. Learning about Django and getting setup on both PyCharm &amp; VirtualEnvironment was difficult and is still confusing, but this guide covers the basics. Enjoy!</p>
+
+<p>The most updated prep file can be found <a href="https://github.com/AustinHay/django_tutorial/blob/master/django_prep.md">here</a></p>
+
+<hr />
+
+<p><img src="https://media.licdn.com/media/p/2/005/0a3/019/1fbd870.png" alt="alt text" /></p>
+
+<h1 id="django-prep-for-scoopr-internship">Django Prep for SCOOPR Internship</h1>
+
+<p>Lead Software Engineer: Stephen Estrada</p>
+
+<p>Software Intern: Austin Hay</p>
+
+<p>Updated January 5, 2014</p>
+
+<hr />
+
+<h3 id="get-comfy-with-cl-and-learn-to-create-repo-remotely-from-cl">1. Get comfy with CL and learn to create REPO remotely from CL.</h3>
+
+<p>There are a few ways to do it. You could create a custom command in bash, use the API tools from Github, or use HUB, which adds a bunch of cool features. I did it the gritty way – with straight Github API.</p>
+
+<pre><code>curl -u USER https://api.github.com/user/repos -d "{\"name\":\" $REPO_NAME\"}"
+</code></pre>
+
+<p>Next, you (might?) need to add the remotes:</p>
+
+<pre><code>git remote add origin git@github.com:USER/REPO_NAME.git
+git push origin master
+</code></pre>
+
+<p><strong>USER &amp; REPO_NAME should be replaced with their respective values.</strong></p>
+
+<p>There’s a cool <a href="https://gist.github.com/robwierzbowski/5430952">bash script</a> that automates this process, but I’m not sure if this is kosher with your crew, <a href="https://github.com/stcrestrada">Stephen</a>.</p>
+
+<p><u><b>Sidenote</b></u>: cURL is an awesome CL tool that I spent a good amount of time learning about. The cURL <a href="http://curl.haxx.se/docs/manpage.html">tags</a> are where the magic is at.</p>
+
+<hr />
+
+<h3 id="create-a-virtualenv-wrapper-for-your-new-repo">2. Create a virtualenv wrapper for your new repo:</h3>
+
+<h4 id="step-a-getting-up-to-speed-on-virtualenv">Step A. Getting Up to Speed on VirtualEnv</h4>
+
+<p>Follow the <a href="http://virtualenvwrapper.readthedocs.org/en/latest/">link</a> to the virtual wrapper docs.</p>
+
+<pre><code>$ sudo pip install virtualenvwrapper
+$ cd
+$ ls -a
+$ cat &lt;&lt; EOF &gt;&gt; .bashrc 
+	export WORKON_HOME=$HOME/.virtualenvs
+	export PROJECT_HOME=$HOME/Devel
+	source /usr/local/bin/virtualenvwrapper.sh
+$ EOF
+</code></pre>
+
+<p><em>It’s really important that you use <code>&gt;&gt;</code> on the right hand side of EOF. If you use <code>&gt;</code> then you’ll override your whole .bashrc file. I learned this the hard way…</em></p>
+
+<p>Finally, reload the startup file:</p>
+
+<pre><code>$ source ~/.bashrc
+</code></pre>
+
+<p><strong>What I learned about Virtual Wrapper so far…</strong></p>
+
+<ul>
+  <li>
+    <p><code>virtualenvwrapper</code> is a virtual environment tool extension that includes wrappers for creating and deleting virtual environments and thus managing development workflow. This makes it easier to work on more than on project at a time without introducing conflicts in the project’s dependencies.</p>
+  </li>
+  <li>
+    <p>The variable <code>WORKON_HOME</code> tells virtual wrapper where to place your virtual environments. Default is <code>$HOME/.virtualenvs</code>. </p>
+  </li>
+  <li>
+    <p>VWrapper is customizable @ <code>virtualwrapper.sh</code>.</p>
+  </li>
+  <li>
+    <p>At startup, Vwrapper finds the first <code>python</code> and <code>virtualenv</code> programs on <code>$PATH</code>. </p>
+  </li>
+</ul>
+
+<h4 id="step-b-creating-a-wrapper-around-a-github-repo">Step B. Creating a wrapper around a Github Repo</h4>
+
+<p>A great <a href="https://github.com/zookeepr/zookeepr/wiki/Creating-a-Development-Environment-with-pip-and-virtualenv">walkthrough</a> is available online. But there are many others as well. We all love <a href="http://stackoverflow.com/">StackOverflow</a>.</p>
+
+<p>First, navigate to the directory where you’ll store your Django projects.</p>
+
+<pre><code>git clone [https://etc.etc.REPO_NAME] # Just grab the url from Github if you have trouble.
+mkvirtualenv --no-site-packages REPO_NAME
+$ touch requirements.txt
+$ cat &lt;&lt; EOF &gt; requirements.txt
+    AuthKit
+    Beaker
+    FormEncode
+    Mako
+    MarkupSafe
+    Paste
+    PasteDeploy
+    PasteScript
+    PIL
+    Pygments
+    Pydns
+    Pylons==0.9.7
+    pytz
+    Routes
+    SQLAlchemy==0.6.3
+    Tempita
+    WebError
+    WebHelpers
+    WebOb==0.9.8
+    WebTest
+    decorator
+    dnspython
+    elementtree
+    lxml
+    nose
+    python-openid
+    simplejson
+    wsgiref 
+    EOF
+$ pip install -r requirements.txt 
+</code></pre>
+
+<p><em>Make sure your <code>virtualenv</code> is activated when you run this comand so that pip will only install these packages for this specific virtual environment.</em></p>
+
+<p>All of these requirements were what I found to be useful. This could totally vary on the project. The purpose is mostly to demonstrate how to load custom packages into a virtual environment for use in further development.</p>
+
+<p>Beyond this, there’s so much more that I don’t fully understand about virtual environment; this includes Pylons and a bunch of other stuff. At the very least this will get us off the ground and running. Afterwards, it would be good to check out more virtual environment <a href="http://virtualenvwrapper.readthedocs.org/en/latest/index.html">documentation</a> to fully understand what’s going on.</p>
+
+<hr />
+
+<h3 id="download-pycharm-and-play-with-it">3. Download PyCharm and play with it</h3>
+
+<p><a href="https://www.jetbrains.com/pycharm/download/">Download</a> it and play around with it.</p>
+
+<hr />
+
+<h3 id="make-the-django-tutorial-project">4. Make the Django Tutorial Project</h3>
+
+<p>Instructions can be found <a href="https://docs.djangoproject.com/en/1.7/intro/tutorial01/">here</a>.</p>
+
+<hr />
+
+<h3 id="final-notes">5. Final Notes</h3>
+
+<p>This internship will be focused on front-end engineering, so keep in mind the <a href="https://docs.djangoproject.com/en/1.7/howto/static-files/">static files architecture</a> and proper placement methodologies.</p>
+
+<p>Become familiar with other web development frameworks, such as Sinatra, Rails, etc. Django is also considered an MVC framework, but goes by another name MVT. Do some research on it.  </p>
+
+<h3 id="additional-awesome-resources">Additional (awesome) Resources:</h3>
+
+<ul>
+  <li>Great <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">markdown</a> resource. Oh, and <a href="http://nestacms.com/docs/creating-content/markdown-cheat-sheet">another</a>.</li>
+</ul>
+</article>
+
+            </div>
+          </div>
+    
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Contact Me:</li>
+          <li><a href="mailto:austin@austinhay.com">austin@austinhay.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+            <a href="https://github.com/austinhay">
+              <span class="icon"><i class="fa fa-github"></i></span>
+              <span class="username">austinhay</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/austinahay">
+              <span class="icon"><i class="fa fa-twitter"></i></span>
+              <span class="username">austinahay</span>
+            </a>
+          </li>
+          
+
+
+          
+          <li>
+            <a href="https://linkedin.com/">
+              <span class="icon"><i class="fa fa-linkedin"></i></span>
+              <span class="username">austinhay</span>
+            </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">AustinHay.com is a millenial blog & consulting stop focused on strategy, leadership, self-developement, entrepreneurship, and rookie programming. Don't be a stranger - drop me an email to connect. Contents and code &copy; 2015</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
