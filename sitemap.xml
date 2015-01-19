@@ -66,7 +66,14 @@
   <!-- Posts -->
   
   <tr>
-  	<td><url><loc>http://www.austinhay.com/entrepreneurship/2015/01/14/Entrepreneurs-Becoming-Entrepreneurial-Resources-to-Get-You-Started.html</loc></td>
+  	<td><url><loc>http://www.austinhay.com/personal%20finance/2015/01/18/A-Millenial-Guide-to-Finance.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-01-18T00:00:00-08:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/entrepreneurship/2015/01/14/Entrepreneurs-Becoming-Entrepreneurial-Resources-to-Get-You-Started%20copy.html</loc></td>
     <td><changefreq>daily</changefreq></td>
   	<td><lastmod>2015-01-14T00:00:00-08:00</lastmod></td>
     </url>
@@ -395,6 +402,42 @@
       </url>
   </tr>
   
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=investing</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=life-tools</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=personal development</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=banking</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=stocks</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=retirement planning</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
 
   <!-- Category Indexes -->
   
@@ -424,6 +467,12 @@
   
   <tr>
   	<td><url><loc>http://www.austinhay.com/search.html?category=entrepreneurship</loc></td>
+  	<td><changefreq>daily</changefreq></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/search.html?category=personal finance</loc></td>
   	<td><changefreq>daily</changefreq></td>
     </url>
   </tr>

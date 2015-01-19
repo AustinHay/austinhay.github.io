@@ -32,7 +32,12 @@
 
   <!-- Posts -->
   
-  <url><loc>http://austinhay.com/entrepreneurship/2015/01/14/Entrepreneurs-Becoming-Entrepreneurial-Resources-to-Get-You-Started.html</loc>
+  <url><loc>http://austinhay.com/personal%20finance/2015/01/18/A-Millenial-Guide-to-Finance.html</loc>
+  <changefreq>daily</changefreq>
+  <lastmod>2015-01-18T00:00:00-08:00</lastmod>
+  </url>
+  
+  <url><loc>http://austinhay.com/entrepreneurship/2015/01/14/Entrepreneurs-Becoming-Entrepreneurial-Resources-to-Get-You-Started%20copy.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2015-01-14T00:00:00-08:00</lastmod>
   </url>
@@ -260,6 +265,30 @@
     <changefreq>daily</changefreq>
     </url>
   
+    <url><loc>http://austinhay.com/search.html?tags=investing</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=life-tools</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=personal development</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=banking</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=stocks</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=retirement planning</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
 
   <!-- Category Indexes -->
   
@@ -280,6 +309,10 @@
   </url>
   
   <url><loc>http://austinhay.com/search.html?category=entrepreneurship</loc>
+  <changefreq>daily</changefreq>
+  </url>
+  
+  <url><loc>http://austinhay.com/search.html?category=personal finance</loc>
   <changefreq>daily</changefreq>
   </url>
   
