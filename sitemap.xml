@@ -66,6 +66,13 @@
   <!-- Posts -->
   
   <tr>
+  	<td><url><loc>http://www.austinhay.com/personal%20development/2015/01/20/Reflections-From-SETS.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-01-20T00:00:00-08:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
   	<td><url><loc>http://www.austinhay.com/personal%20finance/2015/01/18/A-Millenial-Guide-to-Finance.html</loc></td>
     <td><changefreq>daily</changefreq></td>
   	<td><lastmod>2015-01-18T00:00:00-08:00</lastmod></td>
@@ -438,6 +445,30 @@
       </url>
   </tr>
   
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=reflections</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=global perspective</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=teis</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=sets</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
 
   <!-- Category Indexes -->
   
@@ -473,6 +504,12 @@
   
   <tr>
   	<td><url><loc>http://www.austinhay.com/search.html?category=personal finance</loc></td>
+  	<td><changefreq>daily</changefreq></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/search.html?category=personal development</loc></td>
   	<td><changefreq>daily</changefreq></td>
     </url>
   </tr>
