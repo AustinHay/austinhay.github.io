@@ -5,8 +5,8 @@
     <description>AustinHay.com is a millenial blog &amp; consulting stop focused on strategy, leadership, self-developement, entrepreneurship, and rookie programming. Don&#39;t be a stranger - drop me an email to connect. Contents and code &amp;copy; 2015</description>
     <link>http://austinhay.com/</link>
     <atom:link href="http://austinhay.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 24 Jan 2015 10:05:27 -0800</pubDate>
-    <lastBuildDate>Sat, 24 Jan 2015 10:05:27 -0800</lastBuildDate>
+    <pubDate>Sat, 24 Jan 2015 11:12:32 -0800</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 11:12:32 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -45,7 +45,7 @@
 
 &lt;p&gt;Here’s a quick snippet of what the script ended up looking like:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;imageleft-1&quot; src=&quot;/images/blogs/scripting-productivity-2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blogs/scripting-productivity-2.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The script was actually very easy to build. You see, the thing about high-level languages today is that there are incredible libraries that support the work you’re doing. For Ruby, there is a &lt;code&gt;fileutils gem&lt;/code&gt; that allows you to operate command line functions from a script. You can even add &lt;code&gt;chmod&lt;/code&gt; characterization and run it as a &lt;code&gt;shell script&lt;/code&gt;. In essence, this allows you to create double-click functions that perform WHATEVER YOU WANT!!!&lt;/p&gt;
 
@@ -61,7 +61,7 @@
 
 &lt;p&gt;Here’s a quick look at the script:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;imageleft-1&quot; src=&quot;/images/blogs/scripting-productivity-3.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blogs/scripting-productivity-3.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;bscripting-roib&quot;&gt;&lt;b&gt;Scripting ROI&lt;/b&gt;&lt;/h3&gt;
 
