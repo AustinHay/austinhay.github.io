@@ -32,6 +32,11 @@
 
   <!-- Posts -->
   
+  <url><loc>http://austinhay.com/coding/2015/01/22/Scripting-Your-Way-to-Productivity.html</loc>
+  <changefreq>daily</changefreq>
+  <lastmod>2015-01-22T00:00:00-08:00</lastmod>
+  </url>
+  
   <url><loc>http://austinhay.com/personal%20development/2015/01/20/Reflections-From-SETS.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2015-01-20T00:00:00-08:00</lastmod>
@@ -307,6 +312,14 @@
     </url>
   
     <url><loc>http://austinhay.com/search.html?tags=sets</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=scripting</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=business productivity</loc>
     <changefreq>daily</changefreq>
     </url>
   

@@ -5,9 +5,107 @@
     <description>AustinHay.com is a millenial blog &amp; consulting stop focused on strategy, leadership, self-developement, entrepreneurship, and rookie programming. Don&#39;t be a stranger - drop me an email to connect. Contents and code &amp;copy; 2015</description>
     <link>http://austinhay.com/</link>
     <atom:link href="http://austinhay.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Jan 2015 14:51:23 -0800</pubDate>
-    <lastBuildDate>Tue, 20 Jan 2015 14:51:23 -0800</lastBuildDate>
+    <pubDate>Sat, 24 Jan 2015 09:57:49 -0800</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 09:57:49 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Scripting Your Way to Productivity</title>
+        <description>&lt;p&gt;When I set out to learn to code last year, I had no real understanding of how simple web-development languages might increase my productivity and efficiency in my daily routine. In all honesty, I was just eager to learn more of what was going on under the hood of my computer. But as an engineer and somebody with a background and love of technology, I actually believed that I was maxing out my returns on my existing computer knowledge. &lt;b&gt;In hindsight, I could not have been more wrong. Learning to code over the last several months has empowered me not only to develop a new career trajectory, but to excel as a business operator. It’s allowed me to do things faster, better, and more efficiently.&lt;/b&gt; 
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.google.com/search?q=scripting&quot;&gt;
+	&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/scripting-productivity-4.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For me, coding has taken many forms, but one element – &lt;b&gt;scripting&lt;/b&gt; – has proven to be the gold-mine of skill-building. &lt;a href=&quot;http://en.wikipedia.org/wiki/Scripting_language&quot;&gt;Scripting&lt;/a&gt; is fundamentally the process of automating and executing tasks that, alternatively, would have to be performed by hand. &lt;/p&gt;
+
+&lt;p&gt;Think of how many things you do manually every day. Setting up those meeting notes? Scheduling those emails? Transferring small tidbits of data from one excel sheet to another. Sometimes these are essential details of any role. But wouldn’t it be great to invest some additional time upfront to never have to worry about it again? &lt;/p&gt;
+
+&lt;p&gt;Scripting is awesome because it allows you to do this! It lets you take new or existing knowledge of any computer language and build robust tasks that automate the things you spend countless minutes (or hours) on every week. What’s more important is that &lt;b&gt; scripting is not just a great tool for coders – it’s an essential skill for business people, students, blue-collars, white-collars, artists, professors, parents and anyone else who uses a computer to do their daily work.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Some of these &lt;a href=&quot;http://www.eweek.com/c/a/Enterprise-Applications/How-to-Save-Time-and-Money-using-Scripting-Technology&quot;&gt;high-level biz ops tasks&lt;/a&gt; can be identified easily. But really, you should be thinking about how learning computer programming – and therein investing many upfront hours – can actually increase your performance at work, improve your time flexibility, and cut away the mundane tasks that you might encounter. &lt;/p&gt;
+
+&lt;p&gt;To further this picture, let me give you some examples of how I have used scripting to improve my work flow and become a more efficient operator.&lt;/p&gt;
+
+&lt;h3 id=&quot;bcase-1-personal-use----a-simple-script-to-randomly-select-and-move-photosb&quot;&gt;&lt;b&gt;Case 1: Personal Use – A Simple Script to Randomly Select and Move Photos&lt;/b&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/scripting-productivity-1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you like this script after reading through it and want to implement the code, find it &lt;a href=&quot;https://github.com/AustinHay/jekyll_website/blob/master/assets/tasks/load.rake&quot;&gt;here on Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This first case is a personal script I wrote to help randomly select background photos from a huge repository and move them to my blog’s image asset repository. Why did I need to develop a script for this? Because I have a huge database of over 1000 photos that I want to cycle through for my blog. Everytime I pushed changes to my website, I would go through and stare at all 1000+ photos in a tiny folder on my Mac. The chances of me changing these photos intelligently are quite low. &lt;/p&gt;
+
+&lt;p&gt;So after doing this task by hand for a while, I finally decided to build a small script that operated in this way:&lt;/p&gt;
+
+&lt;p&gt;1.) Go to my background-images repository.
+2.) Fetch 10 unique, random, non-repeating images.
+3.) Rename them to fit my CSS tags.
+4.) Copy and move them to my website image assets folder.&lt;/p&gt;
+
+&lt;p&gt;Here’s a quick snippet of what the script ended up looking like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;imageleft-1&quot; src=&quot;/images/blogs/scripting-productivity-2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The script was actually very easy to build. You see, the thing about high-level languages today is that there are incredible libraries that support the work you’re doing. For Ruby, there is a &lt;code&gt;fileutils gem&lt;/code&gt; that allows you to operate command line functions from a script. You can even add &lt;code&gt;chmod&lt;/code&gt; characterization and run it as a &lt;code&gt;shell script&lt;/code&gt;. In essence, this allows you to create double-click functions that perform WHATEVER YOU WANT!!!&lt;/p&gt;
+
+&lt;p&gt;Okay, you still don’t think this is cool? Let’s check out another case study in my professional work.&lt;/p&gt;
+
+&lt;h3 id=&quot;bcase-2-professional-use----another-simple-script-to-create-on-demand-meeting-note-templatesb&quot;&gt;&lt;b&gt;Case 2: Professional Use – Another Simple Script to Create On-Demand Meeting Note Templates&lt;/b&gt;&lt;/h3&gt;
+
+&lt;p&gt;Like this script as well? It’s also on &lt;a href=&quot;https://github.com/AustinHay/ACN-Meeting-Notes-Generator&quot;&gt;my Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Part of any analyst role is to document legit meeting notes when working with your clients. I am constantly meeting with the client team members to gather data and insights about the our project scope and deliverables. In the beginning, I started every meeting the same way – prep five minutes before hand by opening up last week’s notes, finding the information I needed to carry over, redesigning the template, inputting the relevant date, time and attendees. Sometimes this simple process could take 10 minutes and I’d be strambling in the first few minutes of my meeting to get settled. &lt;/p&gt;
+
+&lt;p&gt;The more I thought about it, the more I realized that this did NOT have to be this way. Instead of sacrificing more time on the front end, I could use a simple script to automate this process everytime. &lt;/p&gt;
+
+&lt;p&gt;Here’s a quick look at the script:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;imageleft-1&quot; src=&quot;/images/blogs/scripting-productivity-3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;bscripting-roib&quot;&gt;&lt;b&gt;Scripting ROI&lt;/b&gt;&lt;/h3&gt;
+
+&lt;p&gt;Now that you’ve seen the power of scripts, it is necessary to talk value. &lt;b&gt;What is the true ROI on scripting?&lt;/b&gt; &lt;/p&gt;
+
+&lt;p&gt;We can use both our previous cases. In Case # 1 - moving photos randomly from one folder to another with unique selecting - took me about 8 minutes to do. This sounds crazy, but you have to remember that the complete process involved navigating to the folder, grabbing 10 “randomly” out of thousands and then copying, pasting and renaming them all. If I completed this task 1 time per week for every week of the year, this is roughly 7 hours! Now, all I have to do is go to command line and type &lt;code&gt;rake load:photos&lt;/code&gt; and those 8 minutes are mine again. &lt;/p&gt;
+
+&lt;p&gt;Similarly, for Case # 2 my – prepping my meeting notes – we can generalize and say that I save 5 minutes per meeting using my script. If I have 10 meetings per week, this is roughly an hour every work week I’m saving – and it means I don’t have to spend that hour mindlessly preparing a Word Doc. &lt;/p&gt;
+
+&lt;h3 id=&quot;bstart-scriptingb&quot;&gt;&lt;b&gt;Start Scripting&lt;/b&gt;&lt;/h3&gt;
+
+&lt;p&gt;I hope you’re sold on the power of scripting to help you unlock higher producivity, more time, and the end of mindless taks. If you’re wondering where to start, do not fear, I’ve included another great resource list below to help you get started. The fundamentals of scripting start on command line. From there, jump into any language you’d like.&lt;/p&gt;
+
+&lt;h4 id=&quot;biintro-to-bashib&quot;&gt;&lt;b&gt;&lt;i&gt;Intro to BASH:&lt;/i&gt;&lt;/b&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://cli.learncodethehardway.org/book/&quot;&gt;Command Line Crash Course&lt;/a&gt; Note: This is actually the site where I first learned to code. This guy does an INCREDIBLE job of teaching a lot of fundamental programming skills. If you’re looking to start somewhere, this site is the place.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc1&quot;&gt;Bash Basics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.tldp.org/LDP/Bash-Beginners-Guide/html/ß&quot;&gt;Bash for Beginners&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.codecoffee.com/tipsforlinux/articles2/043.html&quot;&gt;More Bash!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At the end of the day, I hope this reading gave you a look into developing a coder mindset. In the future rememeber to think on your daily life and ask yourself:  Is there something I do frequently, every day or every week that I should automate?&lt;/p&gt;
+
+&lt;p&gt;The power starts with YOU.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Jan 2015 00:00:00 -0800</pubDate>
+        <link>http://austinhay.com/coding/2015/01/22/Scripting-Your-Way-to-Productivity.html</link>
+        <guid isPermaLink="true">http://austinhay.com/coding/2015/01/22/Scripting-Your-Way-to-Productivity.html</guid>
+        
+        <category>scripting</category>
+        
+        <category>web-development</category>
+        
+        <category>software</category>
+        
+        <category>business productivity</category>
+        
+        
+        <category>coding</category>
+        
+      </item>
     
       <item>
         <title>Reflections from Two Summers with Stanford&#39;s Technology &amp; Entpreneurship Programs</title>
@@ -1116,34 +1214,6 @@ Last March I signed up for &lt;a href=&quot;http://www.devbootcamp.com&quot;&gt;
         
         
         <category>coding</category>
-        
-      </item>
-    
-      <item>
-        <title>Catching up to Speed</title>
-        <description>&lt;p&gt;It&#39;s been a long time since I wrote on my blog. At the time of my last update, I was in India, half-heartedly documenting my experiences, and desperately trying to relax and cool the jet engines after a grueling start to 2014.
-&lt;/p&gt;
-&lt;img class=&quot;imageleft&quot; src=&quot;/images/blogs/teis/code_ex_1.jpg&quot;&gt;
-&lt;!--more--&gt;
-&lt;p&gt;Since that time, things have changed in my own life. For one, I enjoyed another extended vacation in Japan and returned home feeling rejuvinated and ready to take on the world. But as the weeks transpired I became a bit exaspirated with my slated employment. Instead of letting my mind wander and prepare, I delved back into computer programming and taught myself some cool tricks. October was very much a month of self-exploration, navigating life after grad school &amp;amp; all its nuances, and reminding myself how to learn efficiently. &lt;/p&gt;
-
-&lt;p&gt;As November rolled about, I kept learning and building in Ruby, Rails, JS, and a few other languages. Eventually I got the idea to build a small &lt;a href=&quot;http://austinhay.com/projects&quot;&gt;app&lt;/a&gt; to help me be more efficient in my role as a CA at Stanford. Then I got some inspiration from finance and google-search analytics. Now, I&#39;m trying to stay busy with code and dive deeper into advanced topics in programming. I&#39;m not sure how this plays in the long-term, but these projects have been incredibly exciting and have pushed my intellectual curiosity further than anything else before.&lt;/p&gt;
-
-&lt;p&gt;Beyond this, I&#39;ve spent a good deal of time revamping my website and digging into the meat of how &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; static website templating works. In the next year I plan to really build out the content for the things I&#39;m passionate about. &lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 15 Dec 2014 00:00:00 -0800</pubDate>
-        <link>http://austinhay.com/personal%20developement/2014/12/15/catching-up-to-speed.html</link>
-        <guid isPermaLink="true">http://austinhay.com/personal%20developement/2014/12/15/catching-up-to-speed.html</guid>
-        
-        <category>awareness</category>
-        
-        <category>reflection</category>
-        
-        <category>writing</category>
-        
-        
-        <category>personal developement</category>
         
       </item>
     
