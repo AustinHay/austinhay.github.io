@@ -32,6 +32,11 @@
 
   <!-- Posts -->
   
+  <url><loc>http://austinhay.com/coding/2015/01/26/Bitcoining-with-Ruby.html</loc>
+  <changefreq>daily</changefreq>
+  <lastmod>2015-01-26T00:00:00-08:00</lastmod>
+  </url>
+  
   <url><loc>http://austinhay.com/coding/2015/01/24/Scripting-Your-Way-to-Productivity.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2015-01-24T00:00:00-08:00</lastmod>
@@ -42,7 +47,7 @@
   <lastmod>2015-01-20T00:00:00-08:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/personal%20finance/2015/01/18/A-Millenial-Guide-to-Finance.html</loc>
+  <url><loc>http://austinhay.com/finance/2015/01/18/A-Millenial-Guide-to-Finance.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2015-01-18T00:00:00-08:00</lastmod>
   </url>
@@ -72,7 +77,7 @@
   <lastmod>2015-01-04T00:00:00-08:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/personal%20developement/2015/01/01/Year-in-Review.html</loc>
+  <url><loc>http://austinhay.com/personal%20development/2015/01/01/Year-in-Review.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2015-01-01T00:00:00-08:00</lastmod>
   </url>
@@ -82,72 +87,72 @@
   <lastmod>2014-12-28T00:00:00-08:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/personal%20developement/2014/12/15/catching-up-to-speed.html</loc>
+  <url><loc>http://austinhay.com/personal%20development/2014/12/15/catching-up-to-speed.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2014-12-15T00:00:00-08:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/teis%20blog/2014/09/02/Research-and-Innovation-in-India.html</loc>
+  <url><loc>http://austinhay.com/innovation/2014/09/02/Research-and-Innovation-in-India.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2014-09-02T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/teis%20blog/2014/09/01/Bangaluru-Progress-and-Progress-Needed.html</loc>
+  <url><loc>http://austinhay.com/business/2014/09/01/Bangaluru-Progress-and-Progress-Needed.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2014-09-01T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/teis%20blog/2014/08/14/India-Accenture-sighting.html</loc>
+  <url><loc>http://austinhay.com/business/2014/08/14/India-Accenture-sighting.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2014-08-14T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/tecs%20blog/2013/09/14/TECS-2013-Takeaways.html</loc>
+  <url><loc>http://austinhay.com/business/2013/09/14/TECS-2013-Takeaways.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2013-09-14T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/tecs%20blog/2013/09/14/TECS-2013-A-Whole-New-Perspective-from-Foxconn.html</loc>
+  <url><loc>http://austinhay.com/business/2013/09/14/TECS-2013-A-Whole-New-Perspective-from-Foxconn.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2013-09-14T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/tecs%20blog/2013/09/12/TECS-2013-Touring-Bao-Steel.html</loc>
+  <url><loc>http://austinhay.com/business/2013/09/12/TECS-2013-Touring-Bao-Steel.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2013-09-12T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/tecs%20blog/2013/09/12/TECS-2013-Shanghai-and-a-Trip-to-Hangzhou-for-Alibaba-and-Chint-Solar.html</loc>
+  <url><loc>http://austinhay.com/business/2013/09/12/TECS-2013-Shanghai-and-a-Trip-to-Hangzhou-for-Alibaba-and-Chint-Solar.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2013-09-12T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/tecs%20blog/2013/09/11/TECS-2013-On-to-Yi-Chang-and-the-Three-Gorges-Dam.html</loc>
+  <url><loc>http://austinhay.com/business/2013/09/11/TECS-2013-On-to-Yi-Chang-and-the-Three-Gorges-Dam.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2013-09-11T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/tecs%20blog/2013/09/10/TECS-2013-Hurst-Lin-at-DCM.html</loc>
+  <url><loc>http://austinhay.com/business/2013/09/10/TECS-2013-Hurst-Lin-at-DCM.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2013-09-10T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/tecs%20blog/2013/09/09/TECS-2013-More%20on-Scale-from-a-Cultural-Perspective.html</loc>
+  <url><loc>http://austinhay.com/business/2013/09/09/TECS-2013-More%20on-Scale-from-a-Cultural-Perspective.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2013-09-09T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/tecs%20blog/2013/09/08/TECS-2013-ZTE-and-a-Note-on-My-Generation.html</loc>
+  <url><loc>http://austinhay.com/business/2013/09/08/TECS-2013-ZTE-and-a-Note-on-My-Generation.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2013-09-08T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/tecs%20blog/2013/09/05/TECS-2013-Beijing-So-Far.html</loc>
+  <url><loc>http://austinhay.com/business/2013/09/05/TECS-2013-Beijing-So-Far.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2013-09-05T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/tecs%20blog/2013/09/01/TECS%202013-First-Impression-Scale.html</loc>
+  <url><loc>http://austinhay.com/business/2013/09/01/TECS%202013-First-Impression-Scale.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2013-09-01T00:00:00-07:00</lastmod>
   </url>
@@ -156,6 +161,10 @@
   <!-- Tag Indexes -->
   
     <url><loc>http://austinhay.com/search.html?tags=china</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=global perspective</loc>
     <changefreq>daily</changefreq>
     </url>
   
@@ -175,10 +184,6 @@
     <changefreq>daily</changefreq>
     </url>
   
-    <url><loc>http://austinhay.com/search.html?tags=business</loc>
-    <changefreq>daily</changefreq>
-    </url>
-  
     <url><loc>http://austinhay.com/search.html?tags=venture capital</loc>
     <changefreq>daily</changefreq>
     </url>
@@ -191,11 +196,27 @@
     <changefreq>daily</changefreq>
     </url>
   
-    <url><loc>http://austinhay.com/search.html?tags=top lessons</loc>
+    <url><loc>http://austinhay.com/search.html?tags=life lessons</loc>
     <changefreq>daily</changefreq>
     </url>
   
     <url><loc>http://austinhay.com/search.html?tags=india</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=entrepreneurship</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=teis</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=global perspective</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=business</loc>
     <changefreq>daily</changefreq>
     </url>
   
@@ -211,7 +232,7 @@
     <changefreq>daily</changefreq>
     </url>
   
-    <url><loc>http://austinhay.com/search.html?tags=writing</loc>
+    <url><loc>http://austinhay.com/search.html?tags=growth mindset</loc>
     <changefreq>daily</changefreq>
     </url>
   
@@ -223,15 +244,27 @@
     <changefreq>daily</changefreq>
     </url>
   
-    <url><loc>http://austinhay.com/search.html?tags=webprogramming</loc>
+    <url><loc>http://austinhay.com/search.html?tags=web development</loc>
     <changefreq>daily</changefreq>
     </url>
   
-    <url><loc>http://austinhay.com/search.html?tags=self-development</loc>
+    <url><loc>http://austinhay.com/search.html?tags=self development</loc>
     <changefreq>daily</changefreq>
     </url>
   
-    <url><loc>http://austinhay.com/search.html?tags=web-development</loc>
+    <url><loc>http://austinhay.com/search.html?tags=awareness</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=reflection</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=self development</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=life lessons</loc>
     <changefreq>daily</changefreq>
     </url>
   
@@ -252,10 +285,6 @@
     </url>
   
     <url><loc>http://austinhay.com/search.html?tags=system setup</loc>
-    <changefreq>daily</changefreq>
-    </url>
-  
-    <url><loc>http://austinhay.com/search.html?tags=rookie tricks</loc>
     <changefreq>daily</changefreq>
     </url>
   
@@ -303,14 +332,6 @@
     <changefreq>daily</changefreq>
     </url>
   
-    <url><loc>http://austinhay.com/search.html?tags=global perspective</loc>
-    <changefreq>daily</changefreq>
-    </url>
-  
-    <url><loc>http://austinhay.com/search.html?tags=teis</loc>
-    <changefreq>daily</changefreq>
-    </url>
-  
     <url><loc>http://austinhay.com/search.html?tags=sets</loc>
     <changefreq>daily</changefreq>
     </url>
@@ -319,22 +340,38 @@
     <changefreq>daily</changefreq>
     </url>
   
+    <url><loc>http://austinhay.com/search.html?tags=web-development</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
     <url><loc>http://austinhay.com/search.html?tags=business productivity</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=bitcoin</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=coinbase</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=api</loc>
     <changefreq>daily</changefreq>
     </url>
   
 
   <!-- Category Indexes -->
   
-  <url><loc>http://austinhay.com/search.html?category=tecs blog</loc>
+  <url><loc>http://austinhay.com/search.html?category=business</loc>
   <changefreq>daily</changefreq>
   </url>
   
-  <url><loc>http://austinhay.com/search.html?category=teis blog</loc>
+  <url><loc>http://austinhay.com/search.html?category=innovation</loc>
   <changefreq>daily</changefreq>
   </url>
   
-  <url><loc>http://austinhay.com/search.html?category=personal developement</loc>
+  <url><loc>http://austinhay.com/search.html?category=personal development</loc>
   <changefreq>daily</changefreq>
   </url>
   
@@ -346,11 +383,7 @@
   <changefreq>daily</changefreq>
   </url>
   
-  <url><loc>http://austinhay.com/search.html?category=personal finance</loc>
-  <changefreq>daily</changefreq>
-  </url>
-  
-  <url><loc>http://austinhay.com/search.html?category=personal development</loc>
+  <url><loc>http://austinhay.com/search.html?category=finance</loc>
   <changefreq>daily</changefreq>
   </url>
   

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+  <head prefix="og: http://ogp.me/ns#">
+    <!--- Basic Info -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>
+      
+          Bitcoining with Ruby
+        
+    </title>
+    
+    <!--- OPEN GRAPH DATA -->
+
+    <!--- Site Name -->
+    <meta property="og:site_name" content="Austin A. Hay"/>
+
+    <!--- Page Titles -->
+    
+            <meta property="og:title" content="Bitcoining with Ruby"/>
+        
+
+    <!-- Images -->
+    
+    <meta property="og:image" content="http://austinhay.com/images/blogs/coinbase-with-ruby-4.png" />
+        
+
+    <!--- Page Type -->
+    
+      <meta property="og:type" content="article"/> 
+    
+
+    <!--- Description -->
+    
+      <meta property="og:description" content="With all the news about bitcoin these days, it’s hard not to think about working with the developer platforms that power access to the currency. Coinbase is one well known bitcoin platform that totally rocks and recently raised $75M in funding to grow their base. From my perspective this looks like a great starting point to learn how to plug into a bitcoin developer API – and that’s exactly what I explored earlier this week...."/>
+
+    
+
+    <!--- URL -->
+    <meta property="og:url" content="http://austinhay.com/coding/2015/01/26/Bitcoining-with-Ruby.html" />
+
+    <!--- Page Category -->
+    
+        
+            <meta property="article:section" content="coding"/>
+        
+    
+
+    <!--- Tag Categories -->
+    
+        
+            <meta property="article:tag" content="Bitcoin"/>
+        
+            <meta property="article:tag" content="Ruby"/>
+        
+            <meta property="article:tag" content="Software"/>
+        
+            <meta property="article:tag" content="Coinbase"/>
+        
+            <meta property="article:tag" content="API"/>
+        
+    
+
+    <!--- Date  -->
+    
+        <meta property="article:published_time" content="2015-01-26T00:00:00-08:00"/>
+    
+
+    <!--- Author  -->
+    
+          
+            <meta property="article:section" content="Austin Hay"/>
+          
+        
+
+    <!--- OTHER META INFO -->
+    <meta property="og:locale" content="en_us"/>
+
+    <!--- END OF OPEN GRAPH META DATA -->
+
+    <!--- Favicon Icon -->
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+    
+    <!--- Style Sheets -->
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="canonical" href="http://austinhay.com/coding/2015/01/26/Bitcoining-with-Ruby.html"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=La+Belle+Aurore'/>
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Josefin+Sans:600'/>
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto'/>
+  	<link rel='stylesheet' type='text/csshref=' href='https://fonts.googleapis.com/css?family=Raleway'/>
+    <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Javascripts -->
+<script type="text/javscript">
+
+$(document).ready(function(){
+  var images = ['../images/post-backgrounds/1.jpg', '../images/post-backgrounds/2.jpg'];
+  $('home-img-top').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
+});
+
+</script>
+
+<script type="text/javascript" src="/assets/js/jekyll-search.js"></script>
+
+
+<!-- GOOGLE ANALYTICS -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57400841-1', 'auto');
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+
+  <body>
+    <header class="site-header">
+
+  <div class="wrapper">
+        
+    
+        <a class="site-title" href="/" style="max-width:85%">Austin A. Hay</a>
+    
+    
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+
+        
+
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/AboutMe/">About Me</a>
+          
+        
+          
+          <a class="page-link" href="/notes/">Notes</a>
+          
+        
+          
+          <a class="page-link" href="/projects/">Projects</a>
+          
+        
+          
+          <a class="page-link" href="/follow/">Follow</a>
+          
+        
+          
+          <a class="page-link" href="/contact/">Contact</a>
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+        <div>
+          <div class="notes-background-img">
+            <div class="wrapper-medium transparent-background post-content">
+            
+              <h1 class="post-title">Bitcoining with Ruby</h1>
+
+              <article class="post-content">
+                <p>
+	<span class="category-tag-icon"> Coding</span><span class="category-tag-icon">Bitcoin</span><span class="category-tag-icon">Ruby</span><span class="category-tag-icon">Software</span><span class="category-tag-icon">Coinbase</span><span class="category-tag-icon">API</span>
+</p>
+
+<p>
+	<span class="post-meta">By: Austin Hay</span>
+		<br>
+	<span class="post-meta">Published: Jan 26, 2015</span>
+</p>
+                <p>With all the news about bitcoin these days, it’s hard not to think about working with the developer platforms that power access to the currency. <a href="http://coinbase.com">Coinbase</a> is one well known bitcoin platform that totally rocks and recently <a href="http://dealbook.nytimes.com/2015/01/20/coinbase-a-bitcoin-start-up-raises-75-million-in-vote-of-confidence/?_r=0">raised $75M</a> in funding to grow their base. From my perspective this looks like a great starting point to learn how to plug into a bitcoin developer API – and that’s exactly what I explored earlier this week.
+<!--more--></p>
+
+<p><img class="imageleft" src="/images/blogs/coinbase-with-ruby-4.png" /></p>
+
+<p>The full code repository from this post can be found <a href="https://github.com/AustinHay/coinbase-api-basics">here</a> – along with my other motives for exploring the Coinbase API, but I’ll start by demonstrating the end product of using the Coinbase Ruby wrapped API. </p>
+
+<p>I had used Bitcoin across other apps and had a Bitcoin account before, but I’d never really traded the currency much. I certainly hadn’t dove into the backend of how a bitcoin API functions.</p>
+
+<p>Bitcoin’s API is incredibly straightforward and easy to use. What do I love most? It’s <a href="https://github.com/coinbase/coinbase-ruby">well supported with Ruby</a>! This made my life a lot easier as this (Ruby) is where my comfort zone is developing.</p>
+
+<p>Let me walk you through some of the basic take-aways I had from exposing myself to Coinbase’s API.</p>
+
+<h3 id="background-on-coinbase-api">Background on Coinbase API</h3>
+
+<p>First, you should check out the API docs for yourself. Go <a href="https://www.coinbase.com/docs/api/overview">here</a> to get started. At a high level, the Coinbase API is a simple REST API that supports all of the core bitcoin operations, such as:</p>
+
+<ul>
+  <li>Buying / selling </li>
+  <li>Sending / Requsting via email / BTC address</li>
+  <li>Exchanging to local currency</li>
+  <li>Accept payments</li>
+  <li>Storing securely</li>
+  <li>Wallet creation &amp; management</li>
+  <li>Access raw network data, including blocks, transactions and addresses</li>
+  <li>Manage micro-transactions and recurring payments</li>
+</ul>
+
+<h3 id="working-with-ruby">Working with Ruby</h3>
+<p><img class="imageright" src="/images/blogs/coinbase-with-ruby-1.png" />
+* <a href="https://www.coinbase.com/">Signup</a> for a Coinbase account.
+* <a href="https://www.coinbase.com/settings/api">Enable an API Key</a> on your CoinBase Account</p>
+
+<ul>
+  <li>Get your machine started with:</li>
+</ul>
+
+<p><code>gem install coinbase</code></p>
+
+<h3 id="hmachttpenwikipediaorgwikihash-basedmessageauthenticationcode-authentication"><a href="http://en.wikipedia.org/wiki/Hash-based_message_authentication_code">HMAC</a> Authentication:</h3>
+
+<p>First off, HMAC is wicked cool and in my humble view a bit complicated to wrap your head around at first. A great deep dive on the content is on <a href="http://security.stackexchange.com/questions/20129/how-when-do-i-use-hmac">security exchange</a> – which is definitely worht the time if you have it. Coinbase <a href="https://www.coinbase.com/docs/api/authentication">talks security</a> in their API docs as well. </p>
+
+<p>For the purposes of this simple tutorial, however, you just need to know that in order to clear HMAC auth you’ll need to <a href="https://www.coinbase.com/settings/api">go to your account settings</a> and setup an API Key. If you’re unsure which type of key to use, here’s a quick reference:</p>
+
+<p><img src="/images/blogs/coinbase-with-ruby-2.png" /></p>
+
+<p>Now you can start using some Ruby to play with Coinbase. First, create a client instance and pass it the API key and Secret from your Coinbase account. </p>
+
+<pre><code>coinbase = Coinbase::Client.new(ENV['COINBASE_API_KEY'], ENV['COINBASE_API_SECRET'])
+</code></pre>
+
+<p>Make sure not to share your API Key or Secret with ANYONE! The reason we use environment variables (and the <a href="http://www.ruby-doc.org/core-2.2.0/ENV.html">Ruby accessor</a>) instead of hard coding it in is because you could expose your account to mailicious users. It’s generally a good security practice to hide your API Keys – read more <a href="https://www.coinbase.com/docs/api/authentication#security">here</a>.</p>
+
+<p>In practice for most Ruby apps or lightweight apps (ie Sinatra) this would be easy to implement by adding the Key and Secret to your config YAML file. Make sure to <code>.gitignore</code> this file so you don’t end up pushing it to your public repository.</p>
+
+<p>Here’s what your process flow for that might look like if you’re operating from CL:</p>
+
+<pre><code>cd [your-coinbase-script-directory]
+git init
+touch config.yaml
+echo "COINBASE_API_KEY: abcdefg12345" &gt;&gt; config.yaml
+echo "COINBASE_API_SECRET: abcdefg12345abcdefg12345" &gt;&gt; config.yaml
+touch .gitignore
+echo "config.yaml" &gt;&gt; .gitignore
+git add .
+</code></pre>
+
+<p>Now you can store your variables locally and load them up in your script. Here’s a snippet from the script I’ve been playing with to give you a sense of how this might work:</p>
+
+<pre><code>#!/usr/bin/env ruby
+
+require 'yaml'
+require 'coinbase'
+
+secrets = YAML::load(File.open('data.yml'))
+
+# Test to make sure your secrets are working
+# puts secrets['COINBASE_API_KEY']
+# puts secrets['COINBASE_API_SECRET']
+
+coinbase = Coinbase::Client.new(secrets['COINBASE_API_KEY'], secrets['COINBASE_API_SECRET'])
+balance = coinbase.balance.to_s
+</code></pre>
+
+<p>As you can see, the implementation is very basic and super powerful. There are tons of other options that you can implement on the Coinbase Github <a href="https://github.com/coinbase/coinbase-ruby">Repo</a> alongside great resource materials as well. I cannot recommend enough the utility of this page! </p>
+
+<h3 id="coinbase-tip-implementation">Coinbase Tip Implementation:</h3>
+
+<p>So if all this API implementation stuff is too much to handle and you just want a super easy and quick solution to get bitcoin on your personal website, then look no further. Coinbase has an elegant solution for that.</p>
+
+<p>Visit the <a href="https://www.coinbase.com/tip#tip-creation-form">Coinbase Tip</a> page and enter your custom URL. Coinbase does the dirty work and spits out an integrated JS script for drag and drop functionality in most major websites. This is very similar to the drag and drop functionality of most major web-apps: such as instagram, twitter, strava, facebook, etc.</p>
+
+<p>Here’s a sample of what the code might look like:</p>
+
+<pre><code>&lt;div class="cb-tip-button" data-content-location="http://austinhay.com" data-href="//www.coinbase.com/tip_buttons/show_tip" data-to-user-id="54b2fbcb0c639c8be50000c5"&gt;&lt;/div&gt;
+&lt;script&gt;!function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src="https://www.coinbase.com/assets/tips.js";cjs.parentNode.insertBefore(js,cjs);}(document, 'script', 'coinbase-tips');&lt;/script&gt;
+</code></pre>
+
+<h3 id="issues">Issues:</h3>
+
+<p>Unfortunately, I did find some issues with Coinbase’s API docs. I’ll point out a few, but this is good to know in case you get stuck while working with their developer set:</p>
+
+<p>1.) Broken/defunct link referenced as, “api reference,” on the Github Coinbase-Ruby page. </p>
+
+<p>The dead link is this:</p>
+
+<p>https://coinbase.com/api/doc</p>
+
+<p>Possible new links could be:</p>
+
+<ul>
+  <li><a href="https://www.coinbase.com/docs/api/overview">https://www.coinbase.com/docs/api/overview</a></li>
+  <li><a href="https://developers.coinbase.com/api">https://developers.coinbase.com/api</a></li>
+</ul>
+
+<p>2.) Broken/defunct links for the Python, Ruby and Java examples in the <a href="https://www.coinbase.com/docs/api/authentication#">API docs</a> for authentication:</p>
+
+<p><img src="/images/blogs/coinbase-with-ruby-3.png" /></p>
+
+<p>After these two, I started hitting some other dead, redirect links. It would be good for them to crawl their API docs and check for these, but otherwise this was a solid showing and I thought everything was very well wwritten and intuitive.</p>
+
+<h3 id="need-more">Need More?</h3>
+
+<p>Beyond personal implementation the next accomplishment is merchant setup. There are some great <a href="https://www.coinbase.com/docs/merchant_tools/examples">examples</a> with some well known names that can demonstrate OAuth and merchant setup using the API. There’s even an <a href="https://www.coinbase.com/docs/api/oauth_tutorial">OAuth tutorial</a>! If you needed more, this would be the best place to start.</p>
+
+              </article>
+   
+            </div>
+          </div>
+        </div>
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Contact Me:</li>
+          <li><a href="mailto:austin@austinhay.com">austin@austinhay.com</a></li>
+            </br>
+          <li>
+            <div class="cb-tip-button" data-content-location="http://austinhay.com" data-href="//www.coinbase.com/tip_buttons/show_tip" data-to-user-id="54b2fbcb0c639c8be50000c5"></div>
+            
+            <script>!function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src="https://www.coinbase.com/assets/tips.js";cjs.parentNode.insertBefore(js,cjs);}(document, 'script', 'coinbase-tips');</script>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+            <a href="https://github.com/austinhay">
+              <span class="icon"><i class="fa fa-github"></i></span>
+              <span class="username">austinhay</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/austinahay">
+              <span class="icon"><i class="fa fa-twitter"></i></span>
+              <span class="username">austinahay</span>
+            </a>
+          </li>
+          
+
+
+          
+          <li>
+            <a href="https://linkedin.com/">
+              <span class="icon"><i class="fa fa-linkedin"></i></span>
+              <span class="username">austinhay</span>
+            </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">AustinHay.com is a millenial blog & consulting stop focused on strategy, leadership, self-developement, entrepreneurship, and rookie programming. Don't be a stranger - drop me an email to connect. Contents and code &copy; 2015</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
