@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "What is Deep Linking?",
+      "category" : "Coding",
+      "tags"     : "Deep Linking, Software, Web-development, and Technology",
+      "url"      : "/coding/2015/02/06/What-is-Deep-Linking.html",
+      "date"     : "2015-02-06 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "Creating Ruby GEMs",
+      "category" : "Coding",
+      "tags"     : "Ruby, GEM, Software, and Web-development",
+      "url"      : "/coding/2015/02/01/Creating-GEMs.html",
+      "date"     : "2015-02-01 00:00:00 -0800"
+    } ,
+  
+    {
       "title"    : "Bitcoining with Ruby",
       "category" : "Coding",
       "tags"     : "Bitcoin, Ruby, Software, Coinbase, and API",
@@ -74,8 +90,8 @@
   
     {
       "title"    : "Year in Review",
-      "category" : "personal development",
-      "tags"     : "awareness, reflection, self development, and life lessons",
+      "category" : "Personal development",
+      "tags"     : "Awareness, Reflection, Self development, and Life lessons",
       "url"      : "/personal%20development/2015/01/01/Year-in-Review.html",
       "date"     : "2015-01-01 00:00:00 -0800"
     } ,

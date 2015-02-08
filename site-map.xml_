@@ -66,6 +66,20 @@
   <!-- Posts -->
   
   <tr>
+  	<td><url><loc>http://www.austinhay.com/coding/2015/02/06/What-is-Deep-Linking.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-02-06T00:00:00-08:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/coding/2015/02/01/Creating-GEMs.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-02-01T00:00:00-08:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
   	<td><url><loc>http://www.austinhay.com/coding/2015/01/26/Bitcoining-with-Ruby.html</loc></td>
     <td><changefreq>daily</changefreq></td>
   	<td><lastmod>2015-01-26T00:00:00-08:00</lastmod></td>
@@ -382,18 +396,6 @@
   </tr>
   
   <tr>
-  		<td><url><loc>http://www.austinhay.com/search.html?tags=awareness</loc></td>
-  		<td><changefreq>daily</changefreq></td>
-      </url>
-  </tr>
-  
-  <tr>
-  		<td><url><loc>http://www.austinhay.com/search.html?tags=reflection</loc></td>
-  		<td><changefreq>daily</changefreq></td>
-      </url>
-  </tr>
-  
-  <tr>
   		<td><url><loc>http://www.austinhay.com/search.html?tags=self development</loc></td>
   		<td><changefreq>daily</changefreq></td>
       </url>
@@ -539,6 +541,18 @@
   
   <tr>
   		<td><url><loc>http://www.austinhay.com/search.html?tags=api</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=gem</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=deep linking</loc></td>
   		<td><changefreq>daily</changefreq></td>
       </url>
   </tr>

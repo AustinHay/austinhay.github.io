@@ -5,9 +5,271 @@
     <description>AustinHay.com is a millenial blog &amp; consulting stop focused on strategy, leadership, self-developement, entrepreneurship, and rookie programming. Don&#39;t be a stranger - drop me an email to connect. Contents and code &amp;copy; 2015</description>
     <link>http://austinhay.com/</link>
     <atom:link href="http://austinhay.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 26 Jan 2015 19:01:00 -0800</pubDate>
-    <lastBuildDate>Mon, 26 Jan 2015 19:01:00 -0800</lastBuildDate>
+    <pubDate>Sun, 08 Feb 2015 14:42:28 -0800</pubDate>
+    <lastBuildDate>Sun, 08 Feb 2015 14:42:28 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>What is Deep Linking?</title>
+        <description>&lt;p&gt;Deep linking has been one of the most talked about trends in tech throughout the last year, but not everyone fully understands what it is and how it can transform mobile. Look no further – this is a quick guide on what you need to know about mobile deep linking.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;the-current-landscape&quot;&gt;The Current Landscape&lt;/h3&gt;
+
+&lt;iframe style=&quot;float: right; margin: 2%; padding-right: 3%; margin-top: 0;&quot; width=&quot;35%&quot; height=&quot;auto&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/188674648&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;First, it’s best to start with the current landscape. Mobile is taking over, and deep linking is &lt;a href=&quot;http://readwrite.com/2015/01/29/deep-linking-button-urx-sdk-now-hot&quot;&gt;heating up&lt;/a&gt; alongside as it promises to revolutionize UX and the way in which apps deliver content to users. &lt;/p&gt;
+
+&lt;p&gt;Most stories focus on the promise of deep linking to provide HTTP-like functionality for mobile apps (more on this below!). Meanwhile, companies are rapidly materializing to deliver on this potential: &lt;a href=&quot;http://branch.io&quot;&gt;Branch&lt;/a&gt;, &lt;a href=&quot;http://www.urx.com&quot;&gt;URX&lt;/a&gt;, &lt;a href=&quot;http://www.trywildcard.com/&quot;&gt;Wildcard&lt;/a&gt;, &lt;a href=&quot;http://www.usebutton.com/&quot;&gt;Button&lt;/a&gt;, and &lt;a href=&quot;https://deeplink.me/&quot;&gt;Deeplink.me&lt;/a&gt; to name a few. These new marketing and developer-centric startups are all chasing the future of how &lt;a href=&quot;http://www.huffingtonpost.com/nathaniel-cahners-hindman/a-deep-link-deep-dive-urx-wildcard-button-deeplinkme-demo-the-future-of-mobile_b_6449214.html&quot;&gt;deeplinks will define the future app ecosytem and user experience&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;What really are the benefits of deep linking? The technology helps app developers, marketers and users in a number of ways. Specifically, deep linking can:&lt;/p&gt;
+
+&lt;figure class=&quot;imageleft-1&quot;&gt;
+	&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;/images/blogs/what-is-deep-linking-1.png&quot; /&gt;&lt;/a&gt;
+	Branch Metrics is one deep linking startup that is delivering on the promises of the technology. They&#39;ve built a custom SDK and API that provides a way for developers to easily integrate deep linking into their core app, and build robust referral &amp;amp; conversion platforms. 
+&lt;/figure&gt;
+
+&lt;p&gt;1.) Drive app install and conversion - &lt;a href=&quot;http://branch.io&quot;&gt;Branch&lt;/a&gt;, &lt;a href=&quot;http://www.urx.com&quot;&gt;URX&lt;/a&gt;, &lt;a href=&quot;http://www.usebutton.com/&quot;&gt;Button&lt;/a&gt;, &lt;a href=&quot;https://deeplink.me/&quot;&gt;Deeplink.me&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2.) Track organic growth channels, understand ad campaign impact on app numbers, and analyze K factors - only &lt;a href=&quot;http://branch.io&quot;&gt;Branch&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3.) Supply dedicated user information &lt;u&gt;between&lt;/u&gt; web/mobile and &lt;u&gt;through&lt;/u&gt; app install. This includes actions between apps from users - only &lt;a href=&quot;http://branch.io&quot;&gt;Branch&lt;/a&gt;, but most deep linking vendors provide UX connectivity for between-app interactions, like &lt;a href=&quot;http://www.urx.com&quot;&gt;URX&lt;/a&gt;, &lt;a href=&quot;http://www.usebutton.com/&quot;&gt;Button&lt;/a&gt;, &lt;a href=&quot;http://www.trywildcard.com/&quot;&gt;Wildcard&lt;/a&gt;, &lt;a href=&quot;https://deeplink.me/&quot;&gt;Deeplink.me&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;4.) Linking analygous to HTTP providing a seamless way to interact with apps from links - &lt;a href=&quot;http://branch.io&quot;&gt;Branch&lt;/a&gt;, &lt;a href=&quot;http://www.urx.com&quot;&gt;URX&lt;/a&gt;, &lt;a href=&quot;http://www.trywildcard.com/&quot;&gt;Wildcard&lt;/a&gt;, &lt;a href=&quot;http://www.usebutton.com/&quot;&gt;Button&lt;/a&gt;, &lt;a href=&quot;https://deeplink.me/&quot;&gt;Deeplink.me&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;5.) Allow mobile apps to work together, intuitively streamlining the process for developers - all of them!&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;This last point is the most salient one: deep linking can allow your apps to have more exposure, higher installs and conversions, but most importantly, an easier, more intuitive integration with the mobile app ecosystem.&lt;/b&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-a-deep-link&quot;&gt;What is a Deep Link?&lt;/h3&gt;
+
+&lt;p&gt;The good thing about the internet is that there are many great resources that already exist on this subject. I’m in favor of you reading mine, but if it doesn’t quite suit your fancy, I’d recommend checking out &lt;a href=&quot;http://sarlitt.me/what-is-app-deep-linking/&quot;&gt;this other great read&lt;/a&gt; on Deep Linking.&lt;/p&gt;
+
+&lt;p&gt;Now that we’ve covered the landscape of deep linking and you have an idea of the technology’s benefits, it’s time to dive into how it works – beginning with URIs.&lt;/p&gt;
+
+&lt;h4 id=&quot;uris-are-the-foundation-of-deep-linking&quot;&gt;URI’s are the Foundation of Deep Linking&lt;/h4&gt;
+
+&lt;p&gt;In programming, a URI (Uniform Resource Identifier) is just a string of characters to identify the name of a resource on a network. URIs allows users to identify and interact with the resource representation over a network using specific protocols. &lt;b&gt;The most common URI out there is the URL, a &lt;a href=&quot;http://en.wikipedia.org/wiki/Uniform_resource_locator&quot;&gt;Uniform Resource Locator&lt;/a&gt; – or more simply, a web address.&lt;/b&gt; URIs are not not limited to just this. URIs can also be comprised of URNs (Uniform Resource Name). In practice a URN functions as a web resource’s “name” while the URL functions as its address. If you’re not sold on their differences, take a look &lt;a href=&quot;http://stackoverflow.com/questions/176264/whats-the-difference-between-a-uri-and-a-url&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;imageleft&quot;&gt;
+	&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;/images/blogs/what-is-deep-linking-2.png&quot; /&gt;&lt;/a&gt;
+	This simple visual from Michael Sarlitt shows the primary differences between web and native apps. Check out his full post for a developer focused intro to deep linking. 
+&lt;/figure&gt;
+
+&lt;p&gt;At a very high level a deep link is just a hyperlink, or a special URI that routes to a resource deeper within a site’s hierarchy. It’s a hyperlink to an indexed or searchable page on a website other than the site’s home page. Generally, a website home page is at the top page in a site’s hierarchy and any other page outside of that is considered a “deep” link. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mobiledeeplinking.org/&quot;&gt;Mobile deep linking&lt;/a&gt; is really the type of “deep linking” that you’ve heard about among conversations with app and web developers. Mobile deep liking functions conceptually in the same way as web deep linking. As we discussed, deep links on the web are direct links to resources “deeper” within a site’s hierarchy. Today the term has come to encompass the methodology of routing to a &lt;a href=&quot;http://www.techopedia.com/definition/27568/native-mobile-app&quot;&gt;native application&lt;/a&gt; via a hyperlink. In the &lt;a href=&quot;http://www.nngroup.com/articles/mobile-native-apps/&quot;&gt;war between web, native and hybrid applications&lt;/a&gt;, deep linking aims to make native applications more functional, more tightly integrated with the web, easier for users to operate. &lt;/p&gt;
+
+&lt;p&gt;So, again, &lt;b&gt;a mobile deep link is just a URI that contains all the information needed to launch directly into an app or a particular location within an app instead of just launching the app home page.&lt;/b&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;examples-of-deep-links&quot;&gt;Examples of Deep Links&lt;/h4&gt;
+
+&lt;p&gt;In the case of web deep links, the underlying &lt;a href=&quot;http://www.webopedia.com/TERM/H/HTTP.html&quot;&gt;HTTP&lt;/a&gt; and &lt;a href=&quot;http://en.wikipedia.org/wiki/Uniform_resource_locator&quot;&gt;URL&lt;/a&gt; technologies allow for deep linking by default  – which is why you pretty much never hear the term deep linking reference anything but native app links these days. Native mobile apps, however, do not have this same underlying core technology! It requires the apps to be configured to properly handle a URI.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;In this way, as a URL is an address for a website on the internet, a URI for an app on a mobile device can function the same way IF deep linking technology is built into the app.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Some simple examples help demonstrate the point…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;http://mycoolwebsite.com&lt;/code&gt; This launches a website with the respective name on the internet! &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;twitter://&lt;/code&gt; This is the iOS URI to launch Twitter’s mobile app. Depending on what follows, this could link deep into the native app with tailored and specific content. If the user doesn’t own the app it could redirect them to the app store, or to the mobile website, or prompt the user for a choice. The possibilities are endless. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;ftp://&lt;/code&gt; This launches the protocol to initiate a file transfer&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;YouTube://&lt;/code&gt; This is the iOS URI to launch YouTube’s Mobile app&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;imageright&quot;&gt;
+	&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;/images/blogs/what-is-deep-linking-3.png&quot; /&gt;&lt;/a&gt;
+	This is another awesome visual from Michael Sarlitt showing how deep links can redirect users to highly specific in-app content from any ad, but especially mobile and web ads. Check out his post on deeplinking for a more developer-focused overview. If you&#39;re interested in implementing this type of behavior check out the options up top. Currently &lt;a href=&quot;http://branch.io&quot;&gt;Branch Metrics&lt;/a&gt; seems like the best option to handle this type of action and they pass data through install as well, which opens up a whole world of possibilities for UX.
+&lt;/figure&gt;
+
+&lt;p&gt;Hopefully deep linking is starting to become more clear!&lt;/p&gt;
+
+&lt;h3 id=&quot;back-to-the-point-why-mobile-deep-linking-matters&quot;&gt;Back to the Point: Why Mobile Deep Linking Matters&lt;/h3&gt;
+
+&lt;p&gt;The greatest benefit of mobile deep linking is the fact that it allows app developers &amp;amp; their marketing teams to bring users directly into a very specific location within the app with a dedicated link. Deep linking can stop the trend of platforms losing their mobile users to the web. It can automatically detect the native experience and redirect users accordingly, just as deep links have done &lt;a href=&quot;http://www.nngroup.com/articles/deep-linking-is-good-linking/&quot;&gt;for the web&lt;/a&gt;. And this is just the start. Deep linking can create a &lt;a href=&quot;http://www.appsflyer.com/deep-linking-now-time-mobile-search-ads/&quot;&gt;better native search&lt;/a&gt;, increase &lt;a href=&quot;https://developers.facebook.com/docs/ads-for-apps/mobile-app-ads-engagement&quot;&gt;ad sales&lt;/a&gt;, drive &lt;a href=&quot;http://www.superbcrew.com/branchmetrics-helps-you-get-all-the-data-need-for-your-customer-acquisition-strategy/&quot;&gt;app conversion and organic growth channels&lt;/a&gt;, and overall create a better UX.&lt;/p&gt;
+
+&lt;p&gt;In turn this type of technology has the potential to increase the ad market across mobile and web, better manage download traffic, bring context to the core content of an app, drive conversions, and ultimately, index all the content on an app for a more intuitive and functional search. &lt;/p&gt;
+
+&lt;p&gt;Whether you’ve experienced the pains of app growth without deep linking or if you’ve just heard the term flung around at the lunch table, deep linking is worth knowing about and understanding. If &lt;a href=&quot;https://soundcloud.com/a16z/a16z-podcast-mobile-is-eating-the-world-and-apple-is-gobbling-fastest&quot;&gt;mobile is eating the world&lt;/a&gt; then deep linking is head of the table.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Feb 2015 00:00:00 -0800</pubDate>
+        <link>http://austinhay.com/coding/2015/02/06/What-is-Deep-Linking.html</link>
+        <guid isPermaLink="true">http://austinhay.com/coding/2015/02/06/What-is-Deep-Linking.html</guid>
+        
+        <category>Deep Linking</category>
+        
+        <category>Software</category>
+        
+        <category>Web-development</category>
+        
+        <category>Technology</category>
+        
+        
+        <category>coding</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating Ruby GEMs</title>
+        <description>&lt;p&gt;Every beginner Ruby developer learns the command &lt;code&gt;gem install&lt;/code&gt; early in their career, but it doesn’t take long for most to wonder what’s going on under the hood. As I’ve started to deepen my understanding of Ruby as a programming language, I’ve also become more enamored by Ruby Gems. Following this interest, I jumped into my local Gem environment and tried to make my own.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;what-are-ruby-gems&quot;&gt;What Are Ruby Gems?&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/rubygems-1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For those unfamiliar with Ruby, I can start by defining Gems. A Ruby Gem is simply a &lt;a href=&quot;http://en.wikipedia.org/wiki/Package_manager&quot;&gt;package manager&lt;/a&gt; that provides three main purposes:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A standard format for distributing Ruby libraries, programs and scripts. &lt;/li&gt;
+  &lt;li&gt;A tool that helps manage library installation.&lt;/li&gt;
+  &lt;li&gt;A server for distributing these libraries.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, simply put, Ruby Gems are plugin software packages that contain Ruby applications and/or libraries. Gems are a fundamental part of Ruby programming because they extend and manipulate the feature set and full functionality of Ruby applications. Most commonly, Gems are used to implement re-usable features and prevent developers from having to reinvent the wheel. &lt;/p&gt;
+
+&lt;p&gt;This is really how it works with all code libraries. In the past, when you built an incredible script or application that completed some task you might save it for your own purposes to use in all your applications. Over time, thousands of programmers have done this, sharing their work with the world – in this case via Gems using the &lt;a href=&quot;http://guides.rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; software package manager – so that instead of having to go solve every nuanced programming problem they come across, they can plug into the work of others and focus more attention on building the application at hand.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-do-gems-work&quot;&gt;How do Gems Work?&lt;/h3&gt;
+
+&lt;p&gt;At a high level the command &lt;code&gt;gem&lt;/code&gt; is what allows you to work with Ruby Gems from your &lt;a href=&quot;http://cli.learncodethehardway.org/book/&quot;&gt;command line&lt;/a&gt;. If it’s your first time getting started with Ruby (version &amp;gt; 1.9) you will have the RubyGems commands built in, but if not, you can always &lt;a href=&quot;https://rubygems.org/pages/download&quot;&gt;download&lt;/a&gt; and run the installer from RubyGems.org.&lt;/p&gt;
+
+&lt;p&gt;RubyGems.org provides the best resources avaiable for using and working with Ruby Gems – this shouldn’t be surprising! &lt;/p&gt;
+
+&lt;p&gt;What are some of the cool commands you can run from terminal when working with GEMs?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;gem install [ Gem library Name ]&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;gem search [ Gem library Name ]&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;irb -rpp&lt;/code&gt;: Requires a library when irb loads!&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;gem list&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;gem uninstall [ Gem library name ]&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;ri [ Gem library name ]&lt;/code&gt;: View the documentation of the requested Gem.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;gem server&lt;/code&gt;: Lets you view the documentation for your installed Gems using a local host.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;gem fetch [ Gem library name ]&lt;/code&gt;: Let’s you audit a Gem’s contents without downloading it&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;gem unpack [ Gem library name ]&lt;/code&gt;: After fetching, you can extract the contents from the &lt;code&gt;.gem&lt;/code&gt; file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This list serves as a launchpad. There are loads of other awesome &lt;a href=&quot;http://guides.rubygems.org/command-reference/&quot;&gt;Gem commands&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://guides.rubygems.org/command-reference/&quot;&gt;&lt;img src=&quot;/images/blogs/rubygems-2.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that you have an understanding of ruby Gems and how to work with them, it’s time to turn our attention to the main argument – how to &lt;b&gt;build&lt;/b&gt; Ruby Gems.&lt;/p&gt;
+
+&lt;h3 id=&quot;building-your-own-gem&quot;&gt;Building Your Own Gem&lt;/h3&gt;
+
+&lt;p&gt;The process is actually quite simple. First I recommend checking out these two resources:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://guides.rubygems.org/make-your-own-gem/&quot;&gt;Make Your Own Gem&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://quickleft.com/blog/engineering-lunch-series-step-by-step-guide-to-building-your-first-ruby-gem/&quot;&gt; Step-by-Step Guide to Building Gems &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Installing is easiest using &lt;code&gt;bundle&lt;/code&gt; as explained in the Step by Step guide. It works like this…&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ gem install bundle
+$ bundle gem [ Your Gem name ]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You don’t necessarily have to run bundle in order to create a Gem. You could also use built in Gem commands. First, navigate to where you want to build your Gem in CL. Create a &lt;code&gt;.gemspec&lt;/code&gt; file using the required syntax and nomenclature. Confused? Here’s an &lt;a href=&quot;http://guides.rubygems.org/specification-reference/&quot;&gt;example&lt;/a&gt;. And if that’s not enough, here’s one of my .gemspec files so that you understand what it might look like.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/rubygems-3.png&quot; href=&quot;http://guides.rubygems.org/command-reference/&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that you’ve made your &lt;code&gt;.gemspec&lt;/code&gt; file you can run &lt;code&gt;gem build [ Your gem name].gemspec&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The Gem will automatically get built for you with all the correct directories, subdirectories and required files.&lt;/p&gt;
+
+&lt;p&gt;Similarly, you could just start from scratch by navigating to the directory where you want to build your Gem and creating the following files / sub-directories.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Subdirectories:&lt;/b&gt;
+&lt;code&gt;lib&lt;/code&gt;
+&lt;code&gt;spec&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Files:&lt;/b&gt;
+&lt;code&gt;.gitignore&lt;/code&gt;
+&lt;code&gt;.travis.yml&lt;/code&gt;
+&lt;code&gt;[ GEM NAME ].gemspec&lt;/code&gt;
+&lt;code&gt;Gemfile&lt;/code&gt;
+&lt;code&gt;LICENSE.txt&lt;/code&gt;
+&lt;code&gt;Rakefile&lt;/code&gt;
+&lt;code&gt;README.md&lt;/code&gt;
+&lt;code&gt;GEMLOCK&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;gem-visualization&quot;&gt;Gem Visualization&lt;/h4&gt;
+
+&lt;p&gt;The above list serves as the architecture for your Gem, but you still might be wondering what the tree structure of a Gem looks like. If you ran the previous &lt;code&gt;bundle&lt;/code&gt; commands (or built it yourself) and named your Gem “freewill”, per &lt;a href=&quot;http://guides.rubygems.org/what-is-a-gem/&quot;&gt;this example&lt;/a&gt;, this is what you would have created automatically. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blogs/rubygems-4.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;building-with-test-driven-development&quot;&gt;Building with Test Driven Development&lt;/h4&gt;
+
+&lt;p&gt;From this point you will want to build your Gem using &lt;a href=&quot;http://en.wikipedia.org/wiki/Test-driven_development&quot;&gt;Test-Driven Development&lt;/a&gt; (TDD). Most people use &lt;a href=&quot;http://rspec.info/&quot;&gt;RSpec&lt;/a&gt; to do so. In TTD you’ll want to first add rspec to your Gem:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Gem:Specification.new do |spec|
+   spec.add_development_dependency &#39;rspec&#39;
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now you can create a &lt;code&gt;spec&lt;/code&gt; sub-directory within your Gem home directory. And add &lt;code&gt;spec&lt;/code&gt; helper and Gem test files. Here’s an example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir spec
+$ cd spec
+$ touch [ Gem Name ]_spec.rb
+$ touch spec_helper.rb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Using TTD and Rspec is outside of the scope of this article, but you you can add all your tests into these newly created ruby files. Learn more about that &lt;a href=&quot;http://rspec.info/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;deploying-your-gem&quot;&gt;Deploying Your Gem&lt;/h3&gt;
+
+&lt;p&gt;After many hours of building your awesome Gem you’ll probably get to the point where you’re interested in publishing. The &lt;a href=&quot;http://guides.rubygems.org/publishing/&quot;&gt;process&lt;/a&gt; is also very simple. &lt;/p&gt;
+
+&lt;p&gt;The best and easiest way to spread the gospel of your Gem to other Ruby developers (and easily use it in all your projects with a simple &lt;code&gt;gem install&lt;/code&gt; command…) is to publish to &lt;a href=&quot;http://www.rubygems.org&quot;&gt;RubyGems.org&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://rubygems.org/sign_up&quot;&gt;Signup&lt;/a&gt; on their website and then push your Gem:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ gem push [ Your Gem ].gem
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You will be prompted for login information, but RubyGems will save your credentials to &lt;code&gt;~/.gem/credentials&lt;/code&gt; from the command line so that you won’t have to do it everytime you push.&lt;/p&gt;
+
+&lt;h3 id=&quot;wrap-up&quot;&gt;Wrap Up&lt;/h3&gt;
+
+&lt;p&gt;In short, Ruby Gems are a fundamental aspect of coding in Ruby. It doesn’t take much time to start implementing them in your &lt;code&gt;.rb&lt;/code&gt; files with the &lt;code&gt;require&lt;/code&gt; tag, but creating your own Gem is a bit complicated. Hopefully this short intro gives you a first look and provides the resources needed to dive further.&lt;/p&gt;
+
+&lt;p&gt;If you have more time, I highly recommend learning to build Ruby Gems by exploring those Gems that have already been created. You can do this by navigating to the directory where your Gems are stored. Use the following in CL:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ gem environment
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Using your favorite text editor, open up some existing Gems – or Gems that you use frequently – and see how they are built. Compare the architecture you see there to the one I’ve described. Go one step further and see how their tests are established and how their primary &lt;code&gt;.rb&lt;/code&gt; file works. You will learn an extraordinary amount by immersing yourself in existing Gems! Happy coding!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Feb 2015 00:00:00 -0800</pubDate>
+        <link>http://austinhay.com/coding/2015/02/01/Creating-GEMs.html</link>
+        <guid isPermaLink="true">http://austinhay.com/coding/2015/02/01/Creating-GEMs.html</guid>
+        
+        <category>Ruby</category>
+        
+        <category>GEM</category>
+        
+        <category>Software</category>
+        
+        <category>Web-development</category>
+        
+        
+        <category>coding</category>
+        
+      </item>
     
       <item>
         <title>Bitcoining with Ruby</title>
@@ -1009,334 +1271,6 @@ $ pip install -r requirements.txt
         
         
         <category>coding</category>
-        
-      </item>
-    
-      <item>
-        <title>Working Through the Django Tutorial: Outline &amp;amp; Takeaways Part 1</title>
-        <description>&lt;p&gt;In order to better familiarize myself with Django I decided to work through the Django simple app tutorial which allows you to create a “polls” app. The walkthrough can be found on Django docs &lt;a href=&quot;https://docs.djangoproject.com/en/1.7/intro/tutorial01/&quot;&gt;here&lt;/a&gt;. 
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;b-starting-off-b&quot;&gt;&lt;b&gt; Starting Off &lt;/b&gt;&lt;/h4&gt;
-
-&lt;p&gt;Initiate a django project by &lt;code&gt;cd&lt;/code&gt; into the directory where you will store your project:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-$ django-admin.py startproject [DIR_NAME]
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;This directory name doesn’t matter and you can rename it to anything you want. But inside of this directory you’ll see a layout like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[DIR_NAME]/
-	manage.py
-	mysite/
-	__init__.py
-	settings.py
-	urls.py
-	wsgi.py
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&quot;b--breaking-down-the-framework-structure-b&quot;&gt;&lt;b&gt;  Breaking Down the Framework structure &lt;/b&gt;&lt;/h4&gt;
-
-&lt;p&gt;These different files have the following functions:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;[DIR_NAME]&lt;/code&gt; is the name of the root directory which contains your project. Django doesn’t care about this, so name it whatever you want, but make sure not to use &lt;code&gt;django&lt;/code&gt; or &lt;code&gt;test&lt;/code&gt; in your naming as this could create conflicts with the actual app.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;manage.py&lt;/code&gt; lets you interact with the Django project. It is a thin wrapper around &lt;code&gt;django-admin.py&lt;/code&gt; that does the following:
-    &lt;ul&gt;
-      &lt;li&gt;Places project’s packages on &lt;code&gt;sys.pth&lt;/code&gt;.&lt;/li&gt;
-      &lt;li&gt;Sets &lt;code&gt;DJANGO_SETTINGS_MODULE&lt;/code&gt; environment variable so that it points to your project’s &lt;code&gt;settings.py&lt;/code&gt; file.&lt;/li&gt;
-      &lt;li&gt;Calls &lt;code&gt;django.setup()&lt;/code&gt; to initialize internals for Django.&lt;/li&gt;
-      &lt;li&gt;Full documentation &lt;a href=&quot;https://docs.djangoproject.com/en/1.7/ref/django-admin/&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;Command &lt;code&gt;options&lt;/code&gt; found &lt;a href=&quot;https://docs.djangoproject.com/en/1.7/ref/django-admin/#available-commands&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;mysite/&lt;/code&gt; is the Python package for the project. Anytime we import anything inside of the project we will use this package name (e.g.&lt;code&gt;mysite.urls&lt;/code&gt;).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;__init__.py&lt;/code&gt; is just an empty file that indicates that the &lt;code&gt;mysite/&lt;/code&gt; directory should be considered a python package.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;settings.py&lt;/code&gt; in its simplest form is just a Python module with module-level variables. Since it is a Python module it won’t allow Python syntax errors, it can import values from other settings files, and it can assign settings dynamically using normal python syntax (such as using a for loop).
-    &lt;ul&gt;
-      &lt;li&gt;Settings can be used in your Django app by importing the object &lt;code&gt;django.conf.settings&lt;/code&gt;. Since it’s an object, however, you can’t import individual settings. EX:
-&lt;code&gt;
-from django.conf import settings
-&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Full documentation on settings and configurations can be found &lt;a href=&quot;https://docs.djangoproject.com/en/1.7/topics/settings/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;There are a RIDICULOUS number of settings. I spent an hour and my brain hurt just going through them all. You should do the &lt;a href=&quot;https://docs.djangoproject.com/en/1.7/ref/settings/&quot;&gt;same&lt;/a&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;urls.py&lt;/code&gt; contains the URL declarations for the Django project. You can think of it like &lt;code&gt;routes.rb&lt;/code&gt; in Rails. URLs are controlled by the &lt;a href=&quot;https://docs.djangoproject.com/en/1.7/topics/http/urls/&quot;&gt;URL Dispatcher&lt;/a&gt;.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;b&gt;So, what exactly is the &lt;code&gt;URL Dispatcher&lt;/code&gt;?&lt;/b&gt; It is the URL scheme that lets you design URLs without framework limitations commonly found in &lt;code&gt;php&lt;/code&gt; and &lt;code&gt;cgi&lt;/code&gt;. &lt;/li&gt;
-      &lt;li&gt;One of the founders of the World Wide Web (yeah, that title is for real) Tim Berners-Lee &lt;a href=&quot;http://www.w3.org/Provider/Style/URI&quot;&gt;discusses&lt;/a&gt; why URIs have to be clean and usable. This is a must read.&lt;/li&gt;
-      &lt;li&gt;&lt;code&gt;URLconf&lt;/code&gt; is the Python module made up of pure Python code that maps between URL patterns (simple expressions) and Python functions (your app views).&lt;/li&gt;
-      &lt;li&gt;Django proccesses a requestFor the sake of not totally regurgitating django docs, just read &lt;a href=&quot;https://docs.djangoproject.com/en/1.7/topics/http/urls/#how-django-processes-a-request&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;&lt;code&gt;wsgi.py&lt;/code&gt; functions as an entry point for WSGI-compatible web servers to serve up your project. &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;b--rolling-into-databases-apps-vs-projects-and-much-much-more-b&quot;&gt;&lt;b&gt;  Rolling into Databases, Apps vs. Projects and much, much more… &lt;/b&gt;&lt;/h4&gt;
-
-&lt;p&gt;From here, you are pretty much set up and ready to start the hard part (or fun part), which entails the actual coding. That’s one beautiful aspect of Django – it handles the grunt work of laying out your project and apps in a way that gives you more time to focus on building your actual content. &lt;/p&gt;
-
-&lt;h4 id=&quot;b--key-insights-b&quot;&gt;&lt;b&gt;  Key Insights &lt;/b&gt;&lt;/h4&gt;
-
-&lt;p&gt;Beyond all the learning curve that comes with pouring over documentation and grappling with new commands, I found there were some interesting points that stuck in my mind…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Django is filled with instances of pure Python code, &lt;b&gt;which means modules and other app features can be constructed dynamically&lt;/b&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;One major difference between Django and a frameowkr like Ruby on Rails is that &lt;b&gt;the data model is totally defined in one place and everything is derived from it&lt;/b&gt;. This means that things like migrations are entirely derived from your &lt;code&gt;models.py&lt;/code&gt; file. This just acts as a history that Django can roll through to update database schema to match the most current model. &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Taken straight from documentation…“&lt;b&gt;Django apps are ‘pluggable’&lt;/b&gt;: You can use an app in multiple projects, and you can distribute apps, because they don’t have to be tied to a given Django installation.” SO Awesome!!!&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;A point of clarity around migrations:&lt;/b&gt; As Django docs explains migrations are simply how Django stores changes made to the models you’ve created in your apps (ie …and so it also stores and tracks the changes made to your database schema, since these are derived from your models). These are stored as files on disk and you can read and manipulate them at will. &lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;b-beginner-essential-commands-b&quot;&gt;&lt;b&gt; Beginner Essential Commands &lt;/b&gt;&lt;/h4&gt;
-
-&lt;p&gt;Throughout the tutorial I took note of the most essential commands that would help me build a Django app and navigate it afterwards. The straight commands are listed below. If you’re confused on one of them, google it!&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;$ django-admin.py startproject [DIR_NAME]&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;python manage.py startapp [APP_NAME]&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;python manage.py runserver [port or IP address]&lt;/code&gt;
- For example:&lt;/p&gt;
-
-    &lt;p&gt;&lt;code&gt;python manage.py runserver [0.0.0.0:8000]&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;This could be used to listen on all ports and show off your work on other local machines.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;python manage.py makemigrations [APP_NAME]&lt;/code&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Creates migrations for changes made to the models.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;python manage.py migrate&lt;/code&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Actually applies the changes made to models to the database.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;python manage.py sqlmigrate [APP_NAME] [MIGRATION_NUMBER]&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;python manage.py check&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;python manage.py shell&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;python manage.py shell&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Sun, 04 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://austinhay.com/coding/2015/01/04/Django-Tutorial-Walkthrough-P1.html</link>
-        <guid isPermaLink="true">http://austinhay.com/coding/2015/01/04/Django-Tutorial-Walkthrough-P1.html</guid>
-        
-        <category>Web Development</category>
-        
-        <category>Django</category>
-        
-        <category>Python</category>
-        
-        <category>Software</category>
-        
-        <category>Documentation Breakdown</category>
-        
-        
-        <category>coding</category>
-        
-      </item>
-    
-      <item>
-        <title>Year in Review</title>
-        <description>&lt;p&gt;2014 was a ridiculous year. In my mind it represents the most wild, crazy, stressful, exciting, fun and empowering year I have ever had. When I rung in 2014 last year I was in NYC with &lt;a href=&quot;http://instagram.com/p/tbT-TdBJ4l/?modal=true&quot;&gt;my beautiful girlfriend of 5 years&lt;/a&gt;. We ended up having a quiet night -- literally, we fell asleep on a couch before it was midnight. (Spoiler Alert: 2015 also involved a couch and grandpa&#39;s bed-time) The bright side is that Virginia and DC are both ridiculously beautiful places to spend the holidays.
-
-&lt;/p&gt;&lt;!--more--&gt;
-&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/2014-year-in-review/washington_monument.jpg&quot;&gt;
-&lt;p&gt;It&#39;s funny that the way we started the year was hardly how we ended up sprinting through the days to come. Looking back on my year, the best parts of 2014 were about...
-&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Chasing opportunities abroad.
-	&lt;/li&gt;
-	&lt;li&gt;Taking big risks &amp;amp; stepping outside my comfort zone.
-	&lt;/li&gt;
-	&lt;li&gt;Practicing leadership &amp;amp; becoming a better operator.
-	&lt;/li&gt;
-	&lt;li&gt;Taking my education into my own hands, especially after graduating.
-	&lt;/li&gt;
-	&lt;li&gt;Trying to have more fun &amp;amp; love more.
-	&lt;/li&gt;
-	&lt;li&gt;Learning. Learning. Learning. About everything, everyone, and myself.
-	&lt;/li&gt;
-&lt;/ul&gt;
-
-But it wasn&#39;t all rosy. I also had some difficult times. In particular, the hardships taught me...
-&lt;ul&gt;
-	&lt;li&gt;Reflect more, listen more, and be more self-aware.
-	&lt;/li&gt;
-	&lt;li&gt;Stop being so damn tightly-wound.
-	&lt;/li&gt;
-	&lt;li&gt;Good, clear, obvious, and authentic communication is really at the heart of navigating life.
-	&lt;/li&gt;
-	&lt;li&gt;Chill out &amp;amp; focus on bringing the best out of others.
-	&lt;/li&gt;
-	&lt;li&gt;Execute as best you possibly can on the promises you make others.
-	&lt;/li&gt;
-	&lt;li&gt;Leave your ego at the door, and in this case, in 2014.
-	&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;
-What colored these lessons from 2014 were the actual experiences I created over the year. This list isn&#39;t to &quot;humble-brag&quot;, but to give context to the lessons I learned. 
-&lt;/p&gt;
-
-&lt;img class=&quot;imageleft&quot; src=&quot;/images/blogs/2014-year-in-review/friends_stanford.jpg&quot;&gt;
-
-
-&lt;p&gt;&lt;u&gt;&lt;b&gt;2014 Highlights:&lt;/b&gt;&lt;/u&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;ul&gt;
-	&lt;li&gt;Graduated from Stanford with dual MS degrees in Engineering.
- 		&lt;p&gt;&lt;i&gt;*Sidenote: This was probably the most stressful and deeply emotional process I have ever been through. I was juggling 22 units at one point and wasn&#39;t fully accepted to the MS&amp;amp;E department until late in May due to some complications with my application. I ended up writing a long letter to the Department Chair stating my case. I couldn&#39;t have made any of this happen without the love of my friends and family.&lt;/i&gt;
- 		&lt;/p&gt;
- 	&lt;/li&gt;
-
- 	&lt;li&gt;Participated in &lt;a href=&quot;http://extreme.stanford.edu/what-extreme&quot;&gt;Design for Extreme Affordability&lt;/a&gt; &amp;amp; met some of the best people ever&lt;/a&gt;.
- 	&lt;/li&gt;
-
-	&lt;li&gt;&lt;a href=&quot;/images/blogs/2014-year-in-review/austin_cambodia.jpg&quot;&gt;Travelled to Cambodia&lt;/a&gt; to conduct user insights for Extreme.
-	&lt;/li&gt;
-
-	&lt;li&gt;Developed research on the quantitative fitness industry with one of my favorite professors, &lt;a href=&quot;https://profiles.stanford.edu/kathleen-eisenhardt&quot;&gt;Dr. Kahtleen Eisenhardt&lt;/a&gt;.
-	&lt;/li&gt;
-
-	&lt;li&gt;After interviewing with dozens of firms, I accepted a job with &lt;a href=&quot;http://www.accenture.com/us-en/contact/Pages/northern-california.aspx&quot;&gt;Accenture&lt;/a&gt;.
-	&lt;/li&gt;
-
-	&lt;li&gt;Graduated and flew to NYC to participate in &lt;a href=&quot;http://devbootcamp.com/&quot;&gt;Dev Bootcamp&lt;/a&gt;, a 9 week intensive programming academy to learn dynamic web programming. The best part was creating awesome friendships with super-talented coders.
-	&lt;/li&gt;
-
-	&lt;li&gt;After finishing my last course and wrapping up a summer in the city, I came back to CA and &lt;a href=&quot;/images/blogs/2014-year-in-review/apartment.jpg&quot;&gt;created a new home&lt;/a&gt; with Leila in Mountain View.
-	&lt;/li&gt;
-
-	&lt;li&gt;Travelled to India with the &lt;a href=&quot;http://engineering.stanford.edu/portals/student/jobs-and-internships/global-engineering-programs/study-tour/india-trip-teis&quot;&gt;TEIS Stanford program&lt;/a&gt; to study business &amp;amp; entrepreneurship... and really &lt;a href=&quot;/images/blogs/2014-year-in-review/friends_india.jpg&quot;&gt;just had a blast&lt;/a&gt; for 2 weeks.
-	&lt;/li&gt;
-
-	&lt;li&gt;Took off to &lt;a href=&quot;http://instagram.com/p/tOfWfAhJ6Y/?modal=true&quot;&gt;Japan&lt;/a&gt; with a friend from Stanford and my best friend in life.
-	&lt;/li&gt;
-
-	&lt;li&gt;While travelling in Japan I accepted a great opportunity to be a Course Assistant at &lt;a href=&quot;http://scpd.stanford.edu/home&quot;&gt;Stanford SCPD&lt;/a&gt;.
-	&lt;/li&gt;
-
-	&lt;li&gt;Came home and used October to continue refining my skills as a web-programmer. I built a &lt;a href=&quot;http://www.github.com/austinhay&quot;&gt;few cool apps&lt;/a&gt;, one of which I use everyday in my job as a course assistant at Stanford.
-	&lt;/li&gt;
-
-	&lt;li&gt;In November, I enjoyed a short trip for training in &lt;a href=&quot;http://instagram.com/p/u3UdrPBJ3v/?modal=true&quot;&gt;Chicago&lt;/a&gt;, which helped me launch my professional career at Accenture.
-	&lt;/li&gt;
-	
-	&lt;li&gt;Continued &lt;a href=&quot;http://www.strava.com/athletes/3615909&quot;&gt;running&lt;/a&gt;, exercising and enjoying the outdoors ... although at this point I have determined I&#39;m much more of a social runner and avid gym-goer than anything else.
-	&lt;/li&gt;
-
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;p&gt;Honestly, when I sat down to reflect on 2014, I had trouble processing everything because the year was jam-packed with all of these amazing opportunities, lessons, friendships, and memories.
-&lt;/p&gt; 
-
-&lt;div style=&quot;width: 100%, margin: auto&quot;&gt;
-	&lt;img class=&quot;year-in-review-photos&quot; src=&quot;/images/blogs/2014-year-in-review/friends_apartment.jpg&quot;&gt;
-	&lt;img class=&quot;year-in-review-photos&quot; src=&quot;/images/blogs/2014-year-in-review/friends_extreme.jpg&quot;&gt;
-
-	&lt;img class=&quot;year-in-review-photos&quot; src=&quot;/images/blogs/2014-year-in-review/jordan+austin.jpg&quot;&gt;
-
-	&lt;img class=&quot;year-in-review-photos&quot; src=&quot;/images/blogs/2014-year-in-review/friends_wedding.jpg&quot;&gt;
-
-	&lt;img class=&quot;year-in-review-photos&quot; src=&quot;/images/blogs/2014-year-in-review/friends_dland.jpg&quot;&gt;
-
-	&lt;img class=&quot;year-in-review-photos&quot; src=&quot;/images/blogs/2014-year-in-review/friends_india_2.jpg&quot;&gt;
-	
-&lt;/div&gt;
-
-&lt;p&gt;But...if I had to distill one of the most important take-aways from the year it would be that &lt;b&gt;&lt;i&gt;people&lt;/b&gt;&lt;/i&gt; really are what make life so great. I think back to my year and its been the people that have made me most happy -- my wonderful family (Mom, Dad &amp;amp; Alexis), my incredible friends (there are literally too many to name). The best memories from the year have been sharing love and laughter with the people I care about. Reflecting has reminded me of this true-ism more than anything else.
-&lt;/p&gt;
-
-&lt;p&gt;
-So, what does 2015 have in store? I&#39;m not totally sure yet. Up until a few days ago I was feeling a bit overwhelmed by 2014. But no start to the year would be complete without an actionable list of goals. I like to keep things simple and sweet.
-&lt;/p&gt; 
-
-&lt;p&gt;&lt;b&gt;2015 Goals&lt;/b&gt;&lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;Take the time to unwind &lt;i&gt;everyday&lt;/i&gt;.
-	&lt;/li&gt;
-	&lt;li&gt;Listen, reflect, write, and improve myself.
-	&lt;/li&gt;
-	&lt;li&gt;Kill it everyday in my professional role (whether it be at Accenture or elsewhere).
-	&lt;/li&gt;
-	&lt;li&gt;Focus more of my attention on my friends and on having fun.
-	&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;How might I accomplish these goals?&lt;/b&gt;
-&lt;/br&gt;
-Every list of goals deserves and requires a roadmap to success.
-&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Live &amp;amp; breath the attitudes I hope to convey: optimism, happiness, love, openness, determination, drive, &amp;amp; adaptive capacity.
-	&lt;/li&gt;
-	&lt;li&gt;Journal every week &amp;amp; write letters to those I love.
-	&lt;/li&gt;
-	&lt;li&gt;Yoga &amp;amp; mediation every week.
-	&lt;/li&gt;
-	&lt;li&gt;Running every week (not just the gym!)
-	&lt;/li&gt;
-	&lt;li&gt;Eating clean, eating happy -- and no more sugar, because I&#39;m actually on my way to being diabetic.
-	&lt;/li&gt;
-	&lt;li&gt;Plan awesome adventures with the people that matter most to me.
-	&lt;/li&gt;
-	&lt;li&gt;Get back in touch with the ocean (SCUBA time...)
-	&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;
-	&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/2014-year-in-review/austin_diving.jpg&quot;&gt;In closing, this year has been pretty epic, but it just scratches the surface of the type of years I hope to be leading in the future. I started to find myself this year by taking risks, exploring new opportunities, failing early and often, but ultimately, bringing it all together to reflect on my journey and grow. That&#39;s what a year is supposed to be all-about, right? So, what are you waiting for. Take the dive. Jump into something new this year. Plan an epic adventure for 2015.
-&lt;/p&gt;
-
-
-
-</description>
-        <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://austinhay.com/personal%20development/2015/01/01/Year-in-Review.html</link>
-        <guid isPermaLink="true">http://austinhay.com/personal%20development/2015/01/01/Year-in-Review.html</guid>
-        
-        <category>awareness</category>
-        
-        <category>reflection</category>
-        
-        <category>self development</category>
-        
-        <category>life lessons</category>
-        
-        
-        <category>personal development</category>
         
       </item>
     
