@@ -402,10 +402,16 @@ pre {
   height: cover;
   width: auto;
   text-align: center;
+  min-height: 100%;
   vertical-align: middle;
   background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
+  -webkit-background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
+  -moz-background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
+  -o-background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
   overflow: hidden;
-  min-height: 100%;
+  -webkit-overflow: hidden;
+  -moz-overflow: hidden;
+  -o-overflow: hidden;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -608,7 +614,13 @@ pre {
   z-index: 0;
   vertical-align: middle;
   background: url(/images/post-backgrounds/4.jpg) no-repeat center center fixed;
+  -webkit-background: url(/images/post-backgrounds/4.jpg) no-repeat center center fixed;
+  -moz-background: url(/images/post-backgrounds/4.jpg) no-repeat center center fixed;
+  -o-background: url(/images/post-backgrounds/4.jpg) no-repeat center center fixed;
   overflow: hidden;
+  -webkit-overflow: hidden;
+  -moz-overflow: hidden;
+  -o-overflow: hidden;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -639,7 +651,7 @@ pre {
 .about-text {
   font-weight: 200; }
 
-.notes-background-img {
+.blog-background-img {
   height: cover;
   width: auto;
   z-index: 0;
