@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Lessons From Accenture",
+      "category" : "Personal Development",
+      "tags"     : "Reflection, Accenture, Awareness, Self development, and Life lessons",
+      "url"      : "/personal%20development/2015/02/15/Lessons-From-Accenture.html",
+      "date"     : "2015-02-15 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "A Wild Ride",
+      "category" : "Personal Development",
+      "tags"     : "Branch Metrics, Professional Development, Reflection, and Self development",
+      "url"      : "/personal%20development/2015/02/12/A-Wild-Ride.html",
+      "date"     : "2015-02-12 00:00:00 -0800"
+    } ,
+  
+    {
       "title"    : "What is Deep Linking?",
       "category" : "Coding",
       "tags"     : "Deep Linking, Software, Web-development, and Technology",

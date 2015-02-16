@@ -66,6 +66,20 @@
   <!-- Posts -->
   
   <tr>
+  	<td><url><loc>http://www.austinhay.com/personal%20development/2015/02/15/Lessons-From-Accenture.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-02-15T00:00:00-08:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/personal%20development/2015/02/12/A-Wild-Ride.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-02-12T00:00:00-08:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
   	<td><url><loc>http://www.austinhay.com/coding/2015/02/06/What-is-Deep-Linking.html</loc></td>
     <td><changefreq>daily</changefreq></td>
   	<td><lastmod>2015-02-06T00:00:00-08:00</lastmod></td>
@@ -553,6 +567,24 @@
   
   <tr>
   		<td><url><loc>http://www.austinhay.com/search.html?tags=deep linking</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=branch metrics</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=professional development</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=accenture</loc></td>
   		<td><changefreq>daily</changefreq></td>
       </url>
   </tr>
