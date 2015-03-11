@@ -666,7 +666,7 @@ pre {
 .imageright {
   float: right;
   height: auto;
-  margin: 0 0 20px 25px;
+  margin: 0 0 0 25px;
   padding-left: 25px;
   max-width: 500px;
   border-left: 1px solid #cccccc;
@@ -677,7 +677,7 @@ pre {
 .imageleft {
   float: left;
   height: auto;
-  margin: 0 25px 20px 0;
+  margin: 0 25px 0 0;
   padding-right: 25px;
   max-width: 500px;
   border-right: 1px solid #cccccc;

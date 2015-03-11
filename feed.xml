@@ -2,12 +2,525 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Austin A. Hay</title>
-    <description>AustinHay.com is a millenial blog &amp; consulting stop focused on strategy, leadership, self-developement, entrepreneurship, and rookie programming. Don&#39;t be a stranger - drop me an email to connect. Contents and code &amp;copy; 2015</description>
+    <description> is a millenial blogger, engineer &amp; operater focused on strategy, leadership, self-developement, entrepreneurship, and rookie programming. Don&#39;t be a stranger - drop me an email to connect. Contents and code &amp;copy; 2015</description>
     <link>http://austinhay.com/</link>
     <atom:link href="http://austinhay.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 Feb 2015 18:30:04 -0800</pubDate>
-    <lastBuildDate>Sun, 22 Feb 2015 18:30:04 -0800</lastBuildDate>
+    <pubDate>Tue, 10 Mar 2015 17:40:50 -0700</pubDate>
+    <lastBuildDate>Tue, 10 Mar 2015 17:40:50 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Collaborative Sales</title>
+        <description>&lt;p&gt;Everyone has felt quota anxiety - that feeling you get when your sales lead puts an often arbitrary number on the number of interactions you need to have with others per unit of time. Sometimes it’s cold outbounds per quarter, sometimes it’s calls per week. No matter what unit of measurement you look at, these quotas are inherently created to drive competition and maximize employee performance. But does it really work? And does it cause more toxicity to your sales team than it does productivity?&lt;/p&gt;
+
+&lt;h3 id=&quot;a-new-type-of-selling&quot;&gt;A New Type of Selling&lt;/h3&gt;
+
+&lt;p&gt;Everyone who’s seen Glengarry Glen Ross knows Alec Baldwin’s infamous Art of Selling scene in which he breaks down sales into a contest - 3rd prize is that you’re fired. Baldwin goes on to make some seemingly ridiculous quotes: “Leads are weak? You’re weak.” Sprinkled in are notes of sexism and the punch-line… Always be closing.&lt;/p&gt;
+
+&lt;div class=&quot;imageleft&quot;&gt;
+&lt;iframe width=&quot;500px&quot; height=&quot;320px&quot; src=&quot;https://www.youtube.com/embed/zCf46yHIzSo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Sales teams often walk far too close to this comical distopia. It may seem innocuous, but strip away all the dramatic lines, the yelling, the ridiculous analogies, and you’re still left with the toxic undertones created by hyper-competitive sales. Sales competition not only leads to &lt;a href=&quot;http://www.tlnt.com/2012/01/10/10-destructive-behaviors-that-can-bring-down-a-team%E2%80%99s-success/&quot;&gt;destructive behaviors&lt;/a&gt; that can tear the sales org apart, but it’s now being questioned as the &lt;a href=&quot;http://enterprise-gamification.com/index.php?option=com_content&amp;amp;view=article&amp;amp;id=197:9-reasons-why-competition-is-bad-for-sales&amp;amp;catid=10&amp;amp;Itemid=16&amp;amp;lang=en&quot;&gt;best practice&lt;/a&gt; in driving effective sales.&lt;/p&gt;
+
+&lt;p&gt;This is not to say that some competition isn’t healthy. Competitive sales has been around forever, but there is room for newer, more collaborative sales models that focus on productivity and employee well-being rather than arbitrary bottom lines.&lt;/p&gt;
+
+&lt;p&gt;In fact, for high-tech companies that work very closely with developers in growing their organization through the installation of SDKs or other drop in code, collaborative sales is the key to success. Github speaks to this in a recent podcast:&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/194421673&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;my-perception-the-problem-with-sales-competition&quot;&gt;My Perception: The Problem With Sales Competition&lt;/h3&gt;
+
+&lt;p&gt;Lots of other people have noted the problems with competitive sales, but in my experience, there are a few things that are worth highlighting. All of these are my own opinions and thoughts. Others might disagree or have found a competitive sales team mindset that works! That’s okay. What’s more important is being aware of how others function and adapating your sales team to be as productive as possible.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Competition incentivizes individual accomplishment and success over company goals.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Competition means splitting up value based on quantity &amp;amp; individual — which is wrong! Everyone should feel compelled to jump in and help sell and evangelize your product!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Without collaboration on the sales team, members may try to keep “secrets” to selling that help them pull greater numbers than other team members. This is immensely toxic and discourages feedback and improvement both at the process and individual level.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Competition makes it hard to learn: everyone brings a certain set of strengths and weaknesses to sales. If we incentivize numbers, people will lose sight of their long-term ability to be awesome at evangelizing Branch. &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;collaborative-sales-explained&quot;&gt;Collaborative Sales Explained&lt;/h3&gt;
+
+&lt;p&gt;Collaborative sales concentrates on the team-centric nature of selling. Less focus is placed on gathering a numerical volume of leads, and more focus is placed on cultivating real business fits. &lt;b&gt;Whereas competitive sales is transactional, collaborative sales is relational.&lt;/b&gt; Collaborative sales cares about: &lt;/p&gt;
+
+&lt;p&gt;1.) High quality business connections.
+2.) Product &amp;amp; company evangelism.
+3.) A change in mindset &amp;amp; jargon: relationship building vs selling.
+4.) Knowledge sharing.
+5.) Data driven selling and team self-awareness.&lt;/p&gt;
+
+&lt;p&gt;These core tenets of collaborative sales not only lead to a more productive sales team, but they can help reduce the anxiety that often goes hand-in-hands with hyper-competition. More imporantly, by focusing on collaboration and sharing you will create an environment where all sales team-members learn and improve, burn out less frequently (or at all), focus on the company’s success, put the the customer first, and, generally, sell more intelligently. &lt;/p&gt;
+
+&lt;h3 id=&quot;collaborative-sales-in-action&quot;&gt;Collaborative Sales in Action&lt;/h3&gt;
+
+&lt;p&gt;Talkin’ the talk is not enough with collaborative sales - you also need to &lt;a href=&quot;https://www.youtube.com/watch?v=qIOFs2onNE0&quot;&gt;walk the walk&lt;/a&gt;. To help sales teams convert, I can point out how collabortive sales worked for my team at &lt;a href=&quot;https://branch.io&quot;&gt;Branch&lt;/a&gt; during Mobile World Congress 2015. &lt;/p&gt;
+
+&lt;p&gt;The two person sales team worked together the entire conference, generating over 100 leads with a &amp;gt; 25% lead reply rate over 3 days. Part of this was due to the nature of the conference, but, I believe, much of this was due to collaborative sales. &lt;b&gt;So what does collaborative sales in action look like?&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Developed an iOS application tool together as a team, that would streamline our sales cycle and allow us to count our total number of leads so we could calculate our total ROI. Amazing meeting of technical talent, sales need, product cycle, and just raw teamwork. It was a great bonding activity that added huge value to our trip and our follow up in the sales cycle. We did this on the plane to Barcelona in a few hours!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set expectations upfront that we would work together and not set daily quotas, but that we had a cumulative number we wanted to get &lt;b&gt;together&lt;/b&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Agreed to communicate and give each other feedback on our pitching abilities, how we presented ourselves in front of partners, how we spoke about technical aspects of our product, and how we followed up.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Worked the conference floor as a team in order to properly prospect the best partners in the area we identified as “most relevant.””&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Split up when necessary to give ourselves a break, experiment, move quickly, and improve our independent selling abilities. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Both of us switched off engaging with very potential important partners to build our experience. This allowed us to build our independent selling skills, learn how to take subtle cues, and &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Over time, we became more comfortable listening, understanding one another’s statements, and contributing valuable information that made for a better pitch team pitch.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;final-takeaways&quot;&gt;Final Takeaways&lt;/h3&gt;
+
+&lt;p&gt;There are many advocates for competitive sales - I’m not here to discredit these techniques. I am here to say, however, that new sales teams should consider exploring new techniques when establishing a culture at their sales organization. Quotas are good, but are short-sighted and don’t focus on the long term prosperity of a sales orgs’ people or their ability to deliver results quarter after quarter. And in a world where people are the heart and soul of a company’s success, I think collaborative sales orgs can deliver incredible sales results while maintaining the best sales talent.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 06 Mar 2015 00:00:00 -0800</pubDate>
+        <link>http://austinhay.com/sales/2015/03/06/Collaborative-Sales.html</link>
+        <guid isPermaLink="true">http://austinhay.com/sales/2015/03/06/Collaborative-Sales.html</guid>
+        
+        <category>Collaboration</category>
+        
+        <category>Lessons Learned</category>
+        
+        <category>Selling</category>
+        
+        <category>Branch Metrics</category>
+        
+        <category>Personal Development</category>
+        
+        
+        <category>sales</category>
+        
+      </item>
+    
+      <item>
+        <title>Podcasting Takeaways - Part 1</title>
+        <description>&lt;p&gt;Since I began working at &lt;a href=&quot;http://branch.io&quot;&gt;Branch Metrics&lt;/a&gt;, I’ve had the privilege of curating the content and strategy behind our Podcast outreach. &lt;/p&gt;
+
+&lt;p&gt;In the beginning, I drew a lot of inspiration from &lt;a href=&quot;https://twitter.com/mvc&quot;&gt;Michael Copeland&lt;/a&gt; over at the A16Z podcast station. As I started doing more podcasts, I learned some important lessons on creating audio that is well-curated, compelling, thoughtful, interesting, exciting and fun. &lt;/p&gt;
+
+&lt;div class=&quot;imageleft&quot; style=&quot;width:60%;&quot;&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/138903540&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In the future, as I learn, grow, and publish more podcasts, I will throw back all the lessons I’ve learned under the same series.&lt;/p&gt;
+
+&lt;h3 id=&quot;tips-from-a-month-in-podcasting&quot;&gt;Tips from a Month in Podcasting&lt;/h3&gt;
+
+&lt;p&gt;&lt;b&gt;1.) Voice is everything:&lt;/b&gt; It might seem cliche, but I couldn’t stress this point more. Your voice and the voices of othes are what make a podcast rock or die before it gets published. As I’ve progressed in the last month I’ve had to listen to my voice hundreds of times. This has caused me to reflect on how I sound, not only to myself but to others – do I talk loud, quiet, fast, slow, or strange? What are the words I use too often? How do I ask questions? A huge part of improving your podcast outreach is having an excellent interviewer. If you’re taking on this role then don’t be afraid to reflect, get feedback and make changes to the way you use your voice.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;2.) Set the right expectations:&lt;/b&gt; A lot of speakers come into podcasts not knowing what to expect. Instead of hoping that they will get it right automatically, just be upfront in your expectations! Specifically, acknowledge how you want your podcast to flow, what flavor of questions you will ask, how you will ask those questions, what type of responses you think your audience will care about and anything else that you think will benefit them in knowing. This was some of the feedback I got early on from my first few podcasts and it has been a guiding principle ever since - don’t leave anything to chance. Be upfront, be honest, be genuine, and set your expectations early. Confirm them as often as you can.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;3.) Laughing can kill the flow:&lt;/b&gt; I like to smile and laugh a lot. Unfortunately, this doesn’t do well for my podcasts. In general, laughing can disrupt the flow of the speakers’ voices and can cause an uncomfortable interruption in the thought process of those listening. If something is funny, it’s okay to laugh on a podcast, but in general you should think about how hard you are laughing and if it really is necessary for the situation. If all else fails, take it down a notch and try chuckling instead.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;4.) Timing your questions perfectly:&lt;/b&gt; The goal of the interviewer is to guide the discussion, ask meaningful and related questions, and create a unified theme around the podcast. Much of this is done by asking questions at the right time. In general, I’ve found there are two important things to keep in mind:&lt;/p&gt;
+
+&lt;h4 id=&quot;reasons-to-ask-questions&quot;&gt;Reasons to Ask Questions&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Acknowlegment &amp;amp; Elaboration: You ask a question to confirm you understand what the speaker is saying and to inquire for deeper elaboration.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Follow up: You want them to immediately follow up on their point with a similar, related point&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Shift Directions: You want to shift into a new question or topic.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are the three main types of buckets that I think about when posing new questions. The hard part is not really thinking of the questions, but asking them in the right way.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-to-position-amp-execute-good-questions&quot;&gt;How to Position &amp;amp; Execute Good Questions:&lt;/h4&gt;
+
+&lt;p&gt;The easiest way to deliver high quality questions in the right way is to find the pause after which the speaker is finishing a threaded thought and is moving into a new moment. Don’t be afraid to insert yourself if you want to shift the conversation. The most important thing to remember is that it should be a discussion. How would you insert a comment or question into a conversation with your friend or family? Hopefully, by waiting for the right timing and by picking up on context clues based on the information they are feeding you. &lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;5.) Know your acknowledgement words:&lt;/b&gt; Almost as important as asking good questions is listening to the responses your speaker gives and ackowledging important points. It likely seems trivial that this made it onto my top tips, but when you’re listening to a speaker tell a compelling story, or describe a fascinating thought on the market, nothing kills the mood than a misplaced comment or word. From what I’ve found, it’s best to keep things simple. Use words like “Yeah, Sure, Interesting, That’s really cool.” The more you try to interrupt, use long-winded and complicated phrases, or distract the listener from the speaker, the more drop-off you’re likely to get.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;6.) Discussion &amp;amp; conversation vs. interview:&lt;/b&gt; After trying both models, I think there is a time and place for both types of podcasts. However, discussion podcasts tend to have higher listens, more shares, and are much easier to both conduct and listen to. A discussion makes things relaxed and in turn allows the speaker to talk about a subject off the cuff in a way that most audiences never get. &lt;/p&gt;
+
+&lt;p&gt;An interview can also lead to a great podcast, but most people freeze up when “interviewed” and tend to project prepared, static answers that do not lead to good pocast material. If you’re doing an interview it should be with somebody seasoned and who will be conducting the interview off the cuff (so that it feels more like a discussion) – even if the questions are curated.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;7.) Don’t forget distribution:&lt;/b&gt; Soundcloud has become my go-to for podcasts because it is incredibly simple to setup and manage. Additionally, Soundcloud has great analytics at a pretty good price-point, which make it a great place to begin logging pods. However, despite this notion, it’s important to remember that there are many other notable channels for podcast distribution. In fact, if you don’t distribute to as many channels as possible, you run the risk of losing listeners. &lt;/p&gt;
+
+&lt;p&gt;In this respect, I advise checking out the Soundcloud beta RSS program, which allows you to use your Soundcloud casts to distribute among most RSS aggregators, like iTunes, Stitcher, TuneIn and Instacast. &lt;/p&gt;
+
+&lt;p&gt;Start &lt;a href=&quot;http://help.soundcloud.com/customer/portal/articles/1197932-how-do-i-find-my-rss-feed-&quot;&gt;here&lt;/a&gt; and fill out the application that you’ll see upon reading the first paragraph: RSS beta program &lt;a href=&quot;https://docs.google.com/a/branchmetrics.io/forms/d/19VL22n_LS3MYJOxd54BwFo-a0LFTrnFQbe6kjb5SkyI/viewform&quot;&gt;application&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If approved, you can grab your RSS feed straight from SoundCloud and push a submission into &lt;a href=&quot;https://www.apple.com/itunes/podcasts/specs.html#testing&quot;&gt;iTunes&lt;/a&gt; or other RSS aggregators. By far, this is the simplest way I have found to mass distribute podcasts with as little effort as possible.&lt;/p&gt;
+
+&lt;p&gt;This list isn’t complete, but does capture an amateur’s start to podcasting. The best thing you can do for yourself as you start to curate and record podcasts is to think thoroughly about what your intent, your audience, and yourself. &lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;What&lt;/b&gt; is the reason you’re making this podcast? What message or thoughts are you hoping to capture and convey? &lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Who&lt;/b&gt; is your audience; and who’s going to be most captivated by what you’re talking about? Speak to them! &lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;How&lt;/b&gt; are you coming across? Be self-aware. Think about how you ask questions, how you speak, what your voice sounds like and try to actively improve so that your listeners get the best experience you can deliver.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 01 Mar 2015 00:00:00 -0800</pubDate>
+        <link>http://austinhay.com/podcast/2015/03/01/Podcasting-Takeaways-Part-1.html</link>
+        <guid isPermaLink="true">http://austinhay.com/podcast/2015/03/01/Podcasting-Takeaways-Part-1.html</guid>
+        
+        <category>Software</category>
+        
+        <category>Branch Metrics</category>
+        
+        <category>Personal Development</category>
+        
+        
+        <category>podcast</category>
+        
+      </item>
+    
+      <item>
+        <title>A Big Announcement via Branch Metrics</title>
+        <description>&lt;p&gt;The recent &lt;a href=&quot;http://techcrunch.com/2015/02/26/branch-metrics-raises-15-million-for-its-smarter-mobile-deep-linking-technology/&quot;&gt;announcement of our Series A&lt;/a&gt; has been received with overwhelming support! I wrote about it in greater detail over on &lt;a href=&quot;https://blog.branch.io/where-branch-is-headed/&quot;&gt;Branch&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Besides our announcement, lots of people have asked us a simple question: How did Branch get started?&lt;/p&gt;
+
+&lt;p&gt;In another podcast with Branch Metrics, I sit down with the co-founding team at Branch Metrics to answer this question and talk about the future of both Branch and mobile deeplinking. &lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193189451&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Fri, 27 Feb 2015 00:00:00 -0800</pubDate>
+        <link>http://austinhay.com/branch/2015/02/27/A-Big-Announcement.html</link>
+        <guid isPermaLink="true">http://austinhay.com/branch/2015/02/27/A-Big-Announcement.html</guid>
+        
+        <category>Mobile</category>
+        
+        <category>Deeplinking</category>
+        
+        <category>Software</category>
+        
+        <category>Series A</category>
+        
+        <category>Venture Capital</category>
+        
+        <category>Personal Development</category>
+        
+        
+        <category>branch</category>
+        
+      </item>
+    
+      <item>
+        <title>A New Frontier: First Podcast @ Branch</title>
+        <description>&lt;p&gt;An exciting career first happened earlier this week: I conducted my first podcast. It seems trivial, but in fact, podcasting is not only a great way to learn, but a great way to dive into a company’s culture and help produce interesting, useful content. In this first podcast, where I interview Branch CEO Alex Austin, we discuss mobile &amp;amp; deeplinking. What’s funny is that the podcast was an immense edification tool for myself; I hope it continues to serve this purpose not only for all the new partners and developers we work with, but also for incoming Branch employees.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192190273&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Take a listen and give me feedback! What were things you enjoyed? What would you improve? This podcast series will continue, so help me deliver compelling content for you! &lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 23 Feb 2015 00:00:00 -0800</pubDate>
+        <link>http://austinhay.com/podcast/2015/02/23/A-New-Frontier-Podcasts.html</link>
+        <guid isPermaLink="true">http://austinhay.com/podcast/2015/02/23/A-New-Frontier-Podcasts.html</guid>
+        
+        <category>Mobile</category>
+        
+        <category>Deeplinking</category>
+        
+        <category>Software</category>
+        
+        
+        <category>podcast</category>
+        
+      </item>
+    
+      <item>
+        <title>Mobile Page Rank in Review</title>
+        <description>&lt;p&gt;Earlier this year in a &lt;a href=&quot;https://soundcloud.com/a16z/a16z-podcast-searching-for&quot;&gt;podcast&lt;/a&gt; titled “Searching for Mobile’s Own Pagerank” by &lt;a href=&quot;https://twitter.com/balajis&quot;&gt;Balaji S.&lt;/a&gt;, &lt;a href=&quot;http://cdixon.org/&quot;&gt;Chris Dixon&lt;/a&gt; and &lt;a href=&quot;http://ben-evans.com/&quot;&gt;Benedict Evans&lt;/a&gt; discuss the fact that a mobile pagerank really doesn’t exist and where the future of native vs. mobile apps might be headed. Many of the questions they pose center on mobile as an ecosystem that Evans’ likes to describe as a “swirling mass.”&lt;/p&gt;
+
+&lt;p&gt;Things may not have changed much in half a year, but I think it’s important to review their podcast and think about the questions that still linger on the industry’s mind with regard to finding a native page rank solution. &lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/141242781&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;original-podcast-notes&quot;&gt;Original Podcast Notes:&lt;/h3&gt;
+
+&lt;p&gt;To save you some trouble, I’ve taken the liberty of curating a set of notes on the podcast. Enjoy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pre-Page Rank Era of Mobile&lt;/li&gt;
+  &lt;li&gt;When you look at the app store today it’s like looking at Yahoo in 1995&lt;/li&gt;
+  &lt;li&gt;No way to find the right things you want to use on the device&lt;/li&gt;
+  &lt;li&gt;App stores are like Amazon – list everything that exists, but not way to discover and explore this&lt;/li&gt;
+  &lt;li&gt;Pre-NetScape Phase as well: things are happening outside of the browser&lt;/li&gt;
+  &lt;li&gt;How to we find, explore, and interact with content.&lt;/li&gt;
+  &lt;li&gt;There’s the app, webapp, card, url, messaging app etc. but it’s not yet well defined how to find the content you’re looking for and on the dev side, how you explore engage customers within that&lt;/li&gt;
+  &lt;li&gt;Chris Dixon: Nobody has invented the real page rank for mobile yet.&lt;/li&gt;
+  &lt;li&gt;No HTML for native – no deeplinking through content, no analygous linking structure that you see on the web&lt;/li&gt;
+  &lt;li&gt;You don’t have a universal resource locator for every single piece of content with apps&lt;/li&gt;
+  &lt;li&gt;Even if you deeplink to content you still have to have the app&lt;/li&gt;
+  &lt;li&gt;The reason we had the web is because it was impossibly difficult to do anything else – it was too hard to get people to buy the desktop software&lt;/li&gt;
+  &lt;li&gt;Smartphones are communications platforms that desktops never were &lt;/li&gt;
+  &lt;li&gt;The smartphone itself becomes the social platform – the device itself is the platform&lt;/li&gt;
+  &lt;li&gt;Not limited to the browser… you can do all other sorts of things&lt;/li&gt;
+  &lt;li&gt;Pulling away from native apps (Apple with health/cards)&lt;/li&gt;
+  &lt;li&gt;An app is a view on top of an underlying data store&lt;/li&gt;
+  &lt;li&gt;Urbit – web links between pages… but how should we link between apps?&lt;/li&gt;
+  &lt;li&gt;We shouldn’t really have to document an API for every app by utilizing the internal directory structure on the local phone&lt;/li&gt;
+  &lt;li&gt;Phones as a distributed data center&lt;/li&gt;
+  &lt;li&gt;Links between applications based on data interces &lt;/li&gt;
+  &lt;li&gt;Large caches of local data – inversion of today’s model of access&lt;/li&gt;
+  &lt;li&gt;Apple runs a full stack with integration based on fingerprinting, wireless, bluetooth etc.&lt;/li&gt;
+  &lt;li&gt;Google is trying to the opposite – lifting all its services into the cloud.&lt;/li&gt;
+  &lt;li&gt;Language and player is less important than the mobile interaction – what will the icon on your homescreen look like, how did it get there?, did it appear automatically?, are there downnloads, is it geo-traced?&lt;/li&gt;
+  &lt;li&gt;Deeplinking into apps fades away in this context&lt;/li&gt;
+  &lt;li&gt;Who is it that is going to kill the native app? Apple.&lt;/li&gt;
+  &lt;li&gt;Google might try, but Apple will be the one who turns around and changes the infrastructure and platform.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;killer-questions-on-mobile-amp-deeplinking&quot;&gt;Killer Questions on Mobile &amp;amp; Deeplinking&lt;/h3&gt;
+
+&lt;p&gt;So, where does this leave us 6 months after a deep dive from the industry’s thought leaders into mobile and native? Not much further away from where we were then. As I began thinking about what’s changed, I was actually only able to come up with a new set of questions. Instead of answering questions, which I have no expertise to fully answer, I will instead leave you with a new set of questions – hopefully to help you think about the changing target that is native page rank and the mobile industry as a whole. Since I work for &lt;a href=&quot;https://branch.io&quot;&gt;Branch&lt;/a&gt;, one of my key focuses in mobile is deeplinking… this definitely flavors my view of the world:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Why isn’t there a better way to search for apps on the app stores – both for Android and iOS?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Is this a universal developer pain point? Why?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How do you think deeplinking is going to help native apps evolve out of the pre-page rank era of mobile?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Why is deeplinking so much more than just the links?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How do you think deeplinking could ansser the problem: “You don’t have a universal resource locator for every single piece of content with apps.”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do you think Apple is going to kill native apps?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do you think native apps are going to die off in the same way that desktop software has?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do you think deeplinking through the app store and deeplinking app content really fades into the background when you think about mobile interaction from a very high level? How does Branch links fit into this ecosystem?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are the questions on my mind as a technologist living in a world as unclear and swirling as Evans’ describes. For now, there are no good answers, but I feel confident knowing that perhaps &lt;a href=&quot;https://branch.io/features/&quot;&gt;links&lt;/a&gt; can get us there.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 21 Feb 2015 00:00:00 -0800</pubDate>
+        <link>http://austinhay.com/branch/2015/02/21/Mobile-Page-Rank-in-Review.html</link>
+        <guid isPermaLink="true">http://austinhay.com/branch/2015/02/21/Mobile-Page-Rank-in-Review.html</guid>
+        
+        <category>Mobile</category>
+        
+        <category>Deeplinking</category>
+        
+        <category>Software</category>
+        
+        <category>Page Rank</category>
+        
+        <category>Native</category>
+        
+        
+        <category>branch</category>
+        
+      </item>
+    
+      <item>
+        <title>Mobile Deeplinking Basics via Branch Metrics</title>
+        <description>&lt;p&gt;In this short article, oringinally &lt;a href=&quot;https://blog.branch.io/mobile-deeplinking-basics/&quot;&gt;published on Branch&lt;/a&gt;, we dive into mobile deeplinking.&lt;/p&gt;
+
+&lt;p&gt;Deep linking has been one of the most talked about trends in tech throughout the last year, but not everyone fully understands what deeplinking even is and how it can transform mobile. &lt;/p&gt;
+
+&lt;h3 id=&quot;deeplinking-in-context&quot;&gt;Deeplinking in Context&lt;/h3&gt;
+
+&lt;p&gt;Mobile is taking over and deep linking is &lt;a href=&quot;http://readwrite.com/2015/01/29/deep-linking-button-urx-sdk-now-hot&quot;&gt;heating up&lt;/a&gt; alongside, as it promises to revolutionize UX and the way in which apps deliver content to users. Industry thought leaders have already started predicting how deeplinking may address the lack of true native page rank or how the end of the native app might be coming.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, news and media coverage focus on the promise of deep linking to provide HTTP-like functionality for mobile apps (more on this below!).  &lt;/p&gt;
+
+&lt;p&gt;Here at Branch we look at all of these things and see a huge opportunity for developers to grow their native app audiences and bring about a fundamental change in the way people interact in the mobile ecosystem. So, digging deeper, what really are the benefits of deep linking? The technology helps app developers, marketers and users in a number of ways. Specifically, deep linking can:&lt;/p&gt;
+
+&lt;p&gt;1.) Drive app install and conversion.&lt;/p&gt;
+
+&lt;p&gt;2.) Track organic growth channels, understand ad campaign impact on app numbers, and analyze K factors.&lt;/p&gt;
+
+&lt;p&gt;3.) Supply dedicated user information &lt;u&gt;between&lt;/u&gt; web/mobile and &lt;u&gt;through&lt;/u&gt; app install.&lt;/p&gt;
+
+&lt;p&gt;4.) Track and manage marketing campaign attribution.&lt;/p&gt;
+
+&lt;p&gt;5.) Linking analygous to HTTP providing a seamless way to interact with apps from links.&lt;/p&gt;
+
+&lt;p&gt;6.) Allow mobile apps to work together, intuitively streamlining the process for developers - all of them!&lt;/p&gt;
+
+&lt;figure class=&quot;imageleft&quot;&gt;
+&lt;a href=&quot;http://branch.io&quot;&gt;
+&lt;img src=&quot;/images/blogs/branch/mobile-deeplinking-basics-1.png&quot; /&gt;
+&lt;/a&gt;
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+  With so many different benefits, it can be difficult to pick the deeplinking solution that does it all best. Branch links help app developers get the most out of deeplinks.
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;b&gt;This last point is particularly important: deep linking can allow your apps to have more exposure, higher installs and conversions, but most importantly, an easier, more intuitive integration with the mobile app ecosystem.&lt;/b&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-a-deep-link&quot;&gt;What’s a Deep Link?&lt;/h3&gt;
+
+&lt;p&gt;The good thing about the internet is that there are many great resources that already exist on this subject. I’m in favor of you reading mine, but if it doesn’t quite suit your fancy, I’d recommend checking out &lt;a href=&quot;http://sarlitt.me/what-is-app-deep-linking/&quot;&gt;this other great read&lt;/a&gt; on Deep Linking.&lt;/p&gt;
+
+&lt;p&gt;Really, deeplinking begins with URIs. &lt;/p&gt;
+
+&lt;p&gt;In programming, a URI (Uniform Resource Identifier) is just a string of characters to identify the name of a resource on a network. URIs allows users to identify and interact with the resource representation over a network using specific protocols. &lt;b&gt;The most common URI out there is the URL, a &lt;a href=&quot;http://en.wikipedia.org/wiki/Uniform_resource_locator&quot;&gt;Uniform Resource Locator&lt;/a&gt; – or more simply, a web address.&lt;/b&gt; URIs are not not limited to just this. URIs can also be comprised of URNs (Uniform Resource Name). In practice a URN functions as a web resource’s “name” while the URL functions as its address. If you’re not sold on their differences, take a look &lt;a href=&quot;http://stackoverflow.com/questions/176264/whats-the-difference-between-a-uri-and-a-url&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;At a very high level a deeplink is just a hyperlink, or a special URI that routes to a resource deeper within a site’s hierarchy. It’s a hyperlink to an indexed or searchable page on a website other than the site’s home page. Generally, a website home page is at the top page in a site’s hierarchy and any other page outside of that is considered a “deep” link. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mobiledeeplinking.org/&quot;&gt;Mobile deep linking&lt;/a&gt; is really the type of “deep linking” that you’ve heard about among conversations with app and web developers. Mobile deep linking functions conceptually in the same way as web deep linking. As we discussed, deep links on the web are direct links to resources “deeper” within a site’s hierarchy. Today the term has come to encompass the methodology of routing to a &lt;a href=&quot;http://www.techopedia.com/definition/27568/native-mobile-app&quot;&gt;native application&lt;/a&gt; via a hyperlink. In the &lt;a href=&quot;http://www.nngroup.com/articles/mobile-native-apps/&quot;&gt;war between web, native and hybrid applications&lt;/a&gt;, deep linking aims to make native applications more functional, more tightly integrated with the web, easier for users to operate. &lt;/p&gt;
+
+&lt;p&gt;So, again, &lt;b&gt;a mobile deep link&lt;/b&gt; is a URI that contains all the information needed to launch directly into an app or a particular location within an app instead of just launching the app home page.&lt;/p&gt;
+
+&lt;h4 id=&quot;deeplinking-examples&quot;&gt;Deeplinking Examples&lt;/h4&gt;
+
+&lt;p&gt;In the case of web deep links, the underlying &lt;a href=&quot;http://www.webopedia.com/TERM/H/HTTP.html&quot;&gt;HTTP&lt;/a&gt; and &lt;a href=&quot;http://en.wikipedia.org/wiki/Uniform_resource_locator&quot;&gt;URL&lt;/a&gt; technologies allow for deep linking by default  – which is why you pretty much never hear the term deep linking reference anything but native app links these days. Native apps, however, do not have this same underlying core technology! It requires the apps to be configured to properly handle a URI.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;In this way, as a URL is an address for a website on the internet, a URI for an app on a mobile device can function the same way IF deep linking technology is built into the app.&lt;/b&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;imageright&quot;&gt;
+&lt;a href=&quot;https://branch.io/features/&quot;&gt;
+&lt;img src=&quot;/images/blogs/branch/mobile-deeplinking-basics-2.png&quot; /&gt;
+&lt;/a&gt;
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+  Branch provides the universal links that the mobile and native app industry has wanted for years. Our links can help plug your app into the same type of deeplinking examples seen below.
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Some simple examples help demonstrate the point…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;http://mycoolwebsite.com&lt;/code&gt; This launches a website with the respective name on the internet! &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;twitter://&lt;/code&gt; This is the iOS URI to launch Twitter’s mobile app. Depending on what follows, this could link deep into the native app with tailored and specific content. If the user doesn’t own the app it could redirect them to the app store, or to the mobile website, or prompt the user for a choice. The possibilities are endless. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;ftp://&lt;/code&gt; This launches the protocol to initiate a file transfer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;YouTube://&lt;/code&gt; This is the iOS URI to launch YouTube’s Mobile app.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;where-it-falls-apart&quot;&gt;Where it Falls Apart&lt;/h3&gt;
+
+&lt;p&gt;If deeplinks are so simple and intuitive, then what’s the problem? Why aren’t deeplinks ubiquitous yet?&lt;/p&gt;
+
+&lt;p&gt;There are a few reasons actually. First, deeplinking isn’t naturally built into the underlying framework of the native experience, like HTTP is built into the web. The only way to integrate deeplinking is through heavy lifting across all mobile platforms a developer supports (App Store, Play Store, Windows etc.) This is a huge barrier to entry for small developers hoping to have universal deeplinks into their app content.&lt;/p&gt;
+
+&lt;p&gt;Another big problem with deeplinking is that it can’t carry data through the app install process. Deeplinks don’t provide context about the user unless they have the app already installed on their device.&lt;/p&gt;
+
+&lt;p&gt;A simple example demonstrates the point. If I pull out my phone and search for something – let’s just say “Branch Decor pinterest” ;) – then I am immediately brought to web results from Google. Let’s assume I’m interested in finding hits on Pinterest. I navigate to the first link, which properly captures these hits. You’ll notice that now I am routed to Pinterest’s mobile site. After a few seconds a popup recommend’s that I open the Pinterest App.&lt;/p&gt;
+
+&lt;figure class=&quot;imageright&quot; style=&quot;margin-bottom:2%&quot;&gt;
+&lt;img src=&quot;/images/blogs/branch/mobile-deeplinking-basics-3.png&quot; /&gt;
+
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+  In this example, I am eventually trying to search for &quot;Branch Decor&quot; on Pinterest. Deeplinking currently can&#39;t pass data through the app install process. This leaves issues when new users are trying to access content on the native app from the web or mobile site. 
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;At this point a few things are going on. First, Pinterest wants to drive me to the native app so that I can view the content in a more seamless way on the app they’ve spent loads of resources designing for native UX. So what happens when I click on the banner popup to navigate to the native app?&lt;/p&gt;
+
+&lt;figure class=&quot;imageright&quot;&gt;
+&lt;img src=&quot;/images/blogs/branch/mobile-deeplinking-basics-4.png&quot; /&gt;
+
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+	The first experience I have clicking on Pinterest&#39;s &quot;Open in App&quot; banner is an error message, then a slow redirect to the App Store. This is fundamentally a broken part of the way deeplinks are being deployed.
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In the current architecture of mobile, I am met with a “Cannot Open Page” error – this is because I had previously downloaded the app, so Pinterest thinks I still have the native app saved on my device. Once it realizes I don’t, it redirects me to the App Store where I am prompted to download the Pinterest App. &lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Okay. That’s not that big of a deal right? Well, actually, yes it is. In a world where &lt;a href=&quot;http://andrewchen.co/mobile-retention-benchmarks-for-2014-vs-2013-show-a-50-drop-in-d1-retention-guest-post/&quot;&gt;over 60% of users drop off less then 24 hours after download&lt;/a&gt; you’ve just provided the user’s first experience migrating to the native app as an error message. The old saying “First Impressions Matter” is still around for a reason. And in the world of deeplinking, this rings clearer than ever before.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;So how does the story end?&lt;/p&gt;
+
+&lt;figure class=&quot;imageright&quot;&gt;
+&lt;img src=&quot;/images/blogs/branch/mobile-deeplinking-basics-5.png&quot; /&gt;
+
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+	&lt;b&gt;Left:&lt;/b&gt; No Branch links are employed, so after this arduous and broken process, the user ends up logging in to Pinterest and is directed to the main homepage, wondering why they can&#39;t access the original content on which they clicked.&lt;br /&gt;
+  &lt;br /&gt;
+    &lt;b&gt;Right:&lt;/b&gt; Branch links are integrated. The user&#39;s data is passed through the install process. Not only did they not hit that pesky error message, but they were automatically, and quickly redirected to the correct App Store and fingerprinted for Pinterest. Now when they open up the app, they are brought right to the content they were looking for. No hacks, no gimmicks, no error messages. UX the way deeplinking intended.
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Again, unfortunately, this is a tale of two deeplinking strategies. In one world, the (Right side of the figure) I would be met with the exact content that I had originally clicked on - “Twig Branch Decor”. But in reality, this is not how deeplinks are integrated. Instead of being brought to the content I wanted, or perhaps a personalized welcome screen, I am instead brought to a non-unique home page and left guessing how to access the content I originally wanted.&lt;/p&gt;
+
+&lt;h3 id=&quot;branch-solves-deeplinking-for-mobile&quot;&gt;Branch Solves Deeplinking for Mobile&lt;/h3&gt;
+
+&lt;p&gt;Branch fixes all of these problems and more. It eliminates the error caused by redirecting to the native app store, it automatically and quickly passes the user and attached data through the app store, and delivers a customized UX after the user downloads the app.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;To put it lightly, Branch deep links are mobile deeplinks on steroids. Our links provide all of the benefits and functionality described at the beginning of this piece and then some: automatic detection of the native app and redirect, flawless data flow &amp;amp; deeplink through the app store installation process, personalized app welcomes, a code-less referral program, the best attribution data collection and analytics dashboard on the market, and, of course, universal deeplinks to all in-app content. &lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Our &lt;a href=&quot;https://branch.io/case-studies/&quot;&gt;case studies&lt;/a&gt; dive deeper into how Branch is delivering on the best deeplink functionality available.&lt;/p&gt;
+
+&lt;p&gt;Branch realizes all of the potential of deeplinking technology and makes it highly accessible.  Our links were created to maximize app growth &amp;amp; provide a tailored user experience. &lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;More importantly, this is just the tip of the iceberg for Branch links. As a company we are focused on serving those we care about most – developers. As such, we constantly build and test new features upon request. As developers need new features, we build them. It’s just that simple.&lt;/b&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;imageleft&quot;&gt;
+&lt;a href=&quot;https://branch.io/features/&quot;&gt;
+&lt;img src=&quot;/images/blogs/branch/mobile-deeplinking-basics-6.png&quot; /&gt;
+&lt;/a&gt;
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+  HotelTonight uses Branch links to drive installs, increase conversions, and provide the best possible UX to its app users. What&#39;s stopping you from doing the same?
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;coming-full-circle-why-mobile-deep-linking-matters&quot;&gt;Coming Full Circle: Why Mobile Deep Linking Matters&lt;/h3&gt;
+
+&lt;p&gt;The greatest benefit of mobile deep linking is the fact that it allows app developers &amp;amp; their marketing teams to bring users directly into a very specific location within the app with a dedicated link, or provide a customized welcome to the app. Deep linking can stop the trend of platforms losing their native users to the web, mobile or just in terms of straight app retention. It can automatically detect the native experience and redirect users accordingly, just as deep links have done &lt;a href=&quot;http://www.nngroup.com/articles/deep-linking-is-good-linking/&quot;&gt;for the web&lt;/a&gt;. And this is just the start. Deep linking can create a &lt;a href=&quot;http://www.appsflyer.com/deep-linking-now-time-mobile-search-ads/&quot;&gt;better native search&lt;/a&gt;, increase &lt;a href=&quot;https://developers.facebook.com/docs/ads-for-apps/mobile-app-ads-engagement&quot;&gt;ad sales&lt;/a&gt;, drive &lt;a href=&quot;http://www.superbcrew.com/branchmetrics-helps-you-get-all-the-data-need-for-your-customer-acquisition-strategy/&quot;&gt;app conversion and organic growth channels&lt;/a&gt;, and overall create a better UX.&lt;/p&gt;
+
+&lt;p&gt;In turn, this type of technology has the potential to increase the ad market across mobile and web, better manage download traffic, bring context to the core content of an app, drive conversions, and ultimately, index all the content on an app for a more intuitive and functional search. &lt;/p&gt;
+
+&lt;p&gt;Whether you’ve experienced the pains of app growth without deep linking or if you’ve just heard the term flung around at the lunch table, deep linking is worth knowing about and understanding. If &lt;a href=&quot;https://soundcloud.com/a16z/a16z-podcast-mobile-is-eating-the-world-and-apple-is-gobbling-fastest&quot;&gt;mobile is eating the world&lt;/a&gt; then deep linking is at the head of the table.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Feb 2015 00:00:00 -0800</pubDate>
+        <link>http://austinhay.com/branch/2015/02/18/Mobile-Deeplinking-Basics.html</link>
+        <guid isPermaLink="true">http://austinhay.com/branch/2015/02/18/Mobile-Deeplinking-Basics.html</guid>
+        
+        <category>Mobile</category>
+        
+        <category>Deeplinking</category>
+        
+        <category>Software</category>
+        
+        <category>App Development</category>
+        
+        <category>Branch Metrics</category>
+        
+        
+        <category>branch</category>
+        
+      </item>
     
       <item>
         <title>Lessons From Accenture</title>
@@ -355,668 +868,6 @@ $ touch spec_helper.rb
         <category>Software</category>
         
         <category>Web-development</category>
-        
-        
-        <category>coding</category>
-        
-      </item>
-    
-      <item>
-        <title>Bitcoining with Ruby</title>
-        <description>&lt;p&gt;With all the news about bitcoin these days, it’s hard not to think about working with the developer platforms that power access to the currency. &lt;a href=&quot;http://coinbase.com&quot;&gt;Coinbase&lt;/a&gt; is one well known bitcoin platform that totally rocks and recently &lt;a href=&quot;http://dealbook.nytimes.com/2015/01/20/coinbase-a-bitcoin-start-up-raises-75-million-in-vote-of-confidence/?_r=0&quot;&gt;raised $75M&lt;/a&gt; in funding to grow their base. From my perspective this looks like a great starting point to learn how to plug into a bitcoin developer API – and that’s exactly what I explored earlier this week.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;imageleft&quot; src=&quot;/images/blogs/coinbase-with-ruby-4.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The full code repository from this post can be found &lt;a href=&quot;https://github.com/AustinHay/coinbase-api-basics&quot;&gt;here&lt;/a&gt; – along with my other motives for exploring the Coinbase API, but I’ll start by demonstrating the end product of using the Coinbase Ruby wrapped API. &lt;/p&gt;
-
-&lt;p&gt;I had used Bitcoin across other apps and had a Bitcoin account before, but I’d never really traded the currency much. I certainly hadn’t dove into the backend of how a bitcoin API functions.&lt;/p&gt;
-
-&lt;p&gt;Bitcoin’s API is incredibly straightforward and easy to use. What do I love most? It’s &lt;a href=&quot;https://github.com/coinbase/coinbase-ruby&quot;&gt;well supported with Ruby&lt;/a&gt;! This made my life a lot easier as this (Ruby) is where my comfort zone is developing.&lt;/p&gt;
-
-&lt;p&gt;Let me walk you through some of the basic take-aways I had from exposing myself to Coinbase’s API.&lt;/p&gt;
-
-&lt;h3 id=&quot;background-on-coinbase-api&quot;&gt;Background on Coinbase API&lt;/h3&gt;
-
-&lt;p&gt;First, you should check out the API docs for yourself. Go &lt;a href=&quot;https://www.coinbase.com/docs/api/overview&quot;&gt;here&lt;/a&gt; to get started. At a high level, the Coinbase API is a simple REST API that supports all of the core bitcoin operations, such as:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Buying / selling &lt;/li&gt;
-  &lt;li&gt;Sending / Requsting via email / BTC address&lt;/li&gt;
-  &lt;li&gt;Exchanging to local currency&lt;/li&gt;
-  &lt;li&gt;Accept payments&lt;/li&gt;
-  &lt;li&gt;Storing securely&lt;/li&gt;
-  &lt;li&gt;Wallet creation &amp;amp; management&lt;/li&gt;
-  &lt;li&gt;Access raw network data, including blocks, transactions and addresses&lt;/li&gt;
-  &lt;li&gt;Manage micro-transactions and recurring payments&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;working-with-ruby&quot;&gt;Working with Ruby&lt;/h3&gt;
-&lt;p&gt;&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/coinbase-with-ruby-1.png&quot; /&gt;
-* &lt;a href=&quot;https://www.coinbase.com/&quot;&gt;Signup&lt;/a&gt; for a Coinbase account.
-* &lt;a href=&quot;https://www.coinbase.com/settings/api&quot;&gt;Enable an API Key&lt;/a&gt; on your CoinBase Account&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Get your machine started with:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;gem install coinbase&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;hmachttpenwikipediaorgwikihash-basedmessageauthenticationcode-authentication&quot;&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Hash-based_message_authentication_code&quot;&gt;HMAC&lt;/a&gt; Authentication:&lt;/h3&gt;
-
-&lt;p&gt;First off, HMAC is wicked cool and in my humble view a bit complicated to wrap your head around at first. A great deep dive on the content is on &lt;a href=&quot;http://security.stackexchange.com/questions/20129/how-when-do-i-use-hmac&quot;&gt;security exchange&lt;/a&gt; – which is definitely worht the time if you have it. Coinbase &lt;a href=&quot;https://www.coinbase.com/docs/api/authentication&quot;&gt;talks security&lt;/a&gt; in their API docs as well. &lt;/p&gt;
-
-&lt;p&gt;For the purposes of this simple tutorial, however, you just need to know that in order to clear HMAC auth you’ll need to &lt;a href=&quot;https://www.coinbase.com/settings/api&quot;&gt;go to your account settings&lt;/a&gt; and setup an API Key. If you’re unsure which type of key to use, here’s a quick reference:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/blogs/coinbase-with-ruby-2.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now you can start using some Ruby to play with Coinbase. First, create a client instance and pass it the API key and Secret from your Coinbase account. &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;coinbase = Coinbase::Client.new(ENV[&#39;COINBASE_API_KEY&#39;], ENV[&#39;COINBASE_API_SECRET&#39;])
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Make sure not to share your API Key or Secret with ANYONE! The reason we use environment variables (and the &lt;a href=&quot;http://www.ruby-doc.org/core-2.2.0/ENV.html&quot;&gt;Ruby accessor&lt;/a&gt;) instead of hard coding it in is because you could expose your account to mailicious users. It’s generally a good security practice to hide your API Keys – read more &lt;a href=&quot;https://www.coinbase.com/docs/api/authentication#security&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In practice for most Ruby apps or lightweight apps (ie Sinatra) this would be easy to implement by adding the Key and Secret to your config YAML file. Make sure to &lt;code&gt;.gitignore&lt;/code&gt; this file so you don’t end up pushing it to your public repository.&lt;/p&gt;
-
-&lt;p&gt;Here’s what your process flow for that might look like if you’re operating from CL:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd [your-coinbase-script-directory]
-git init
-touch config.yaml
-echo &quot;COINBASE_API_KEY: abcdefg12345&quot; &amp;gt;&amp;gt; config.yaml
-echo &quot;COINBASE_API_SECRET: abcdefg12345abcdefg12345&quot; &amp;gt;&amp;gt; config.yaml
-touch .gitignore
-echo &quot;config.yaml&quot; &amp;gt;&amp;gt; .gitignore
-git add .
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now you can store your variables locally and load them up in your script. Here’s a snippet from the script I’ve been playing with to give you a sense of how this might work:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#!/usr/bin/env ruby
-
-require &#39;yaml&#39;
-require &#39;coinbase&#39;
-
-secrets = YAML::load(File.open(&#39;data.yml&#39;))
-
-# Test to make sure your secrets are working
-# puts secrets[&#39;COINBASE_API_KEY&#39;]
-# puts secrets[&#39;COINBASE_API_SECRET&#39;]
-
-coinbase = Coinbase::Client.new(secrets[&#39;COINBASE_API_KEY&#39;], secrets[&#39;COINBASE_API_SECRET&#39;])
-balance = coinbase.balance.to_s
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;As you can see, the implementation is very basic and super powerful. There are tons of other options that you can implement on the Coinbase Github &lt;a href=&quot;https://github.com/coinbase/coinbase-ruby&quot;&gt;Repo&lt;/a&gt; alongside great resource materials as well. I cannot recommend enough the utility of this page! &lt;/p&gt;
-
-&lt;h3 id=&quot;coinbase-tip-implementation&quot;&gt;Coinbase Tip Implementation:&lt;/h3&gt;
-
-&lt;p&gt;So if all this API implementation stuff is too much to handle and you just want a super easy and quick solution to get bitcoin on your personal website, then look no further. Coinbase has an elegant solution for that.&lt;/p&gt;
-
-&lt;p&gt;Visit the &lt;a href=&quot;https://www.coinbase.com/tip#tip-creation-form&quot;&gt;Coinbase Tip&lt;/a&gt; page and enter your custom URL. Coinbase does the dirty work and spits out an integrated JS script for drag and drop functionality in most major websites. This is very similar to the drag and drop functionality of most major web-apps: such as instagram, twitter, strava, facebook, etc.&lt;/p&gt;
-
-&lt;p&gt;Here’s a sample of what the code might look like:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;cb-tip-button&quot; data-content-location=&quot;http://austinhay.com&quot; data-href=&quot;//www.coinbase.com/tip_buttons/show_tip&quot; data-to-user-id=&quot;54b2fbcb0c639c8be50000c5&quot;&amp;gt;&amp;lt;/div&amp;gt;
-&amp;lt;script&amp;gt;!function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src=&quot;https://www.coinbase.com/assets/tips.js&quot;;cjs.parentNode.insertBefore(js,cjs);}(document, &#39;script&#39;, &#39;coinbase-tips&#39;);&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;issues&quot;&gt;Issues:&lt;/h3&gt;
-
-&lt;p&gt;Unfortunately, I did find some issues with Coinbase’s API docs. I’ll point out a few, but this is good to know in case you get stuck while working with their developer set:&lt;/p&gt;
-
-&lt;p&gt;1.) Broken/defunct link referenced as, “api reference,” on the Github Coinbase-Ruby page. &lt;/p&gt;
-
-&lt;p&gt;The dead link is this:&lt;/p&gt;
-
-&lt;p&gt;https://coinbase.com/api/doc&lt;/p&gt;
-
-&lt;p&gt;Possible new links could be:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.coinbase.com/docs/api/overview&quot;&gt;https://www.coinbase.com/docs/api/overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.coinbase.com/api&quot;&gt;https://developers.coinbase.com/api&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;2.) Broken/defunct links for the Python, Ruby and Java examples in the &lt;a href=&quot;https://www.coinbase.com/docs/api/authentication#&quot;&gt;API docs&lt;/a&gt; for authentication:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/blogs/coinbase-with-ruby-3.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After these two, I started hitting some other dead, redirect links. It would be good for them to crawl their API docs and check for these, but otherwise this was a solid showing and I thought everything was very well wwritten and intuitive.&lt;/p&gt;
-
-&lt;h3 id=&quot;need-more&quot;&gt;Need More?&lt;/h3&gt;
-
-&lt;p&gt;Beyond personal implementation the next accomplishment is merchant setup. There are some great &lt;a href=&quot;https://www.coinbase.com/docs/merchant_tools/examples&quot;&gt;examples&lt;/a&gt; with some well known names that can demonstrate OAuth and merchant setup using the API. There’s even an &lt;a href=&quot;https://www.coinbase.com/docs/api/oauth_tutorial&quot;&gt;OAuth tutorial&lt;/a&gt;! If you needed more, this would be the best place to start.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 26 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://austinhay.com/coding/2015/01/26/Bitcoining-with-Ruby.html</link>
-        <guid isPermaLink="true">http://austinhay.com/coding/2015/01/26/Bitcoining-with-Ruby.html</guid>
-        
-        <category>Bitcoin</category>
-        
-        <category>Ruby</category>
-        
-        <category>Software</category>
-        
-        <category>Coinbase</category>
-        
-        <category>API</category>
-        
-        
-        <category>coding</category>
-        
-      </item>
-    
-      <item>
-        <title>Scripting Your Way to Productivity</title>
-        <description>&lt;p&gt;When I set out to learn to code last year, I had no real understanding of how simple web-development languages might increase my productivity and efficiency in my daily routine. In all honesty, I was just eager to learn more of what was going on under the hood of my computer. But as an engineer and somebody with a background and love of technology, I actually believed that I was maxing out my returns on my existing computer knowledge. &lt;b&gt;In hindsight, I could not have been more wrong. Learning to code over the last several months has empowered me not only to develop a new career trajectory, but to excel as a business operator. It’s allowed me to do things faster, better, and more efficiently.&lt;/b&gt; 
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.google.com/search?q=scripting&quot;&gt;
-	&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/scripting-productivity-4.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For me, coding has taken many forms, but one element – &lt;b&gt;scripting&lt;/b&gt; – has proven to be the gold-mine of skill-building. &lt;a href=&quot;http://en.wikipedia.org/wiki/Scripting_language&quot;&gt;Scripting&lt;/a&gt; is fundamentally the process of automating and executing tasks that, alternatively, would have to be performed by hand. &lt;/p&gt;
-
-&lt;p&gt;Think of how many things you do manually every day. Setting up those meeting notes? Scheduling those emails? Transferring small tidbits of data from one excel sheet to another. Sometimes these are essential details of any role. But wouldn’t it be great to invest some additional time upfront to never have to worry about it again? &lt;/p&gt;
-
-&lt;p&gt;Scripting is awesome because it allows you to do this! It lets you take new or existing knowledge of any computer language and build robust tasks that automate the things you spend countless minutes (or hours) on every week. What’s more important is that &lt;b&gt; scripting is not just a great tool for coders – it’s an essential skill for business people, students, blue-collars, white-collars, artists, professors, parents and anyone else who uses a computer to do their daily work.&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Some of these &lt;a href=&quot;http://www.eweek.com/c/a/Enterprise-Applications/How-to-Save-Time-and-Money-using-Scripting-Technology&quot;&gt;high-level biz ops tasks&lt;/a&gt; can be identified easily. But really, you should be thinking about how learning computer programming – and therein investing many upfront hours – can actually increase your performance at work, improve your time flexibility, and cut away the mundane tasks that you might encounter. &lt;/p&gt;
-
-&lt;p&gt;To further this picture, let me give you some examples of how I have used scripting to improve my work flow and become a more efficient operator.&lt;/p&gt;
-
-&lt;h3 id=&quot;bcase-1-personal-use----a-simple-script-to-randomly-select-and-move-photosb&quot;&gt;&lt;b&gt;Case 1: Personal Use – A Simple Script to Randomly Select and Move Photos&lt;/b&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/scripting-productivity-1.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you like this script after reading through it and want to implement the code, find it &lt;a href=&quot;https://github.com/AustinHay/jekyll_website/blob/master/assets/tasks/load.rake&quot;&gt;here on Github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This first case is a personal script I wrote to help randomly select background photos from a huge repository and move them to my blog’s image asset repository. Why did I need to develop a script for this? Because I have a huge database of over 1000 photos that I want to cycle through for my blog. Everytime I pushed changes to my website, I would go through and stare at all 1000+ photos in a tiny folder on my Mac. The chances of me changing these photos intelligently are quite low. &lt;/p&gt;
-
-&lt;p&gt;So after doing this task by hand for a while, I finally decided to build a small script that operated in this way:&lt;/p&gt;
-
-&lt;p&gt;1.) Go to my background-images repository.
-2.) Fetch 10 unique, random, non-repeating images.
-3.) Rename them to fit my CSS tags.
-4.) Copy and move them to my website image assets folder.&lt;/p&gt;
-
-&lt;p&gt;Here’s a quick snippet of what the script ended up looking like:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/blogs/scripting-productivity-2.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The script was actually very easy to build. You see, the thing about high-level languages today is that there are incredible libraries that support the work you’re doing. For Ruby, there is a &lt;code&gt;fileutils gem&lt;/code&gt; that allows you to operate command line functions from a script. You can even add &lt;code&gt;chmod&lt;/code&gt; characterization and run it as a &lt;code&gt;shell script&lt;/code&gt;. In essence, this allows you to create double-click functions that perform WHATEVER YOU WANT!!!&lt;/p&gt;
-
-&lt;p&gt;Okay, you still don’t think this is cool? Let’s check out another case study in my professional work.&lt;/p&gt;
-
-&lt;h3 id=&quot;bcase-2-professional-use----another-simple-script-to-create-on-demand-meeting-note-templatesb&quot;&gt;&lt;b&gt;Case 2: Professional Use – Another Simple Script to Create On-Demand Meeting Note Templates&lt;/b&gt;&lt;/h3&gt;
-
-&lt;p&gt;Like this script as well? It’s also on &lt;a href=&quot;https://github.com/AustinHay/ACN-Meeting-Notes-Generator&quot;&gt;my Github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Part of any analyst role is to document legit meeting notes when working with your clients. I am constantly meeting with the client team members to gather data and insights about the our project scope and deliverables. In the beginning, I started every meeting the same way – prep five minutes before hand by opening up last week’s notes, finding the information I needed to carry over, redesigning the template, inputting the relevant date, time and attendees. Sometimes this simple process could take 10 minutes and I’d be strambling in the first few minutes of my meeting to get settled. &lt;/p&gt;
-
-&lt;p&gt;The more I thought about it, the more I realized that this did NOT have to be this way. Instead of sacrificing more time on the front end, I could use a simple script to automate this process everytime. &lt;/p&gt;
-
-&lt;p&gt;Here’s a quick look at the script:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/blogs/scripting-productivity-3.png&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;bscripting-roib&quot;&gt;&lt;b&gt;Scripting ROI&lt;/b&gt;&lt;/h3&gt;
-
-&lt;p&gt;Now that you’ve seen the power of scripts, it is necessary to talk value. &lt;b&gt;What is the true ROI on scripting?&lt;/b&gt; &lt;/p&gt;
-
-&lt;p&gt;We can use both our previous cases. In Case # 1 - moving photos randomly from one folder to another with unique selecting - took me about 8 minutes to do. This sounds crazy, but you have to remember that the complete process involved navigating to the folder, grabbing 10 “randomly” out of thousands and then copying, pasting and renaming them all. If I completed this task 1 time per week for every week of the year, this is roughly 7 hours! Now, all I have to do is go to command line and type &lt;code&gt;rake load:photos&lt;/code&gt; and those 8 minutes are mine again. &lt;/p&gt;
-
-&lt;p&gt;Similarly, for Case # 2 my – prepping my meeting notes – we can generalize and say that I save 5 minutes per meeting using my script. If I have 10 meetings per week, this is roughly an hour every work week I’m saving – and it means I don’t have to spend that hour mindlessly preparing a Word Doc. &lt;/p&gt;
-
-&lt;h3 id=&quot;bstart-scriptingb&quot;&gt;&lt;b&gt;Start Scripting&lt;/b&gt;&lt;/h3&gt;
-
-&lt;p&gt;I hope you’re sold on the power of scripting to help you unlock higher producivity, more time, and the end of mindless taks. If you’re wondering where to start, do not fear, I’ve included another great resource list below to help you get started. The fundamentals of scripting start on command line. From there, jump into any language you’d like.&lt;/p&gt;
-
-&lt;h4 id=&quot;biintro-to-bashib&quot;&gt;&lt;b&gt;&lt;i&gt;Intro to BASH:&lt;/i&gt;&lt;/b&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://cli.learncodethehardway.org/book/&quot;&gt;Command Line Crash Course&lt;/a&gt; Note: This is actually the site where I first learned to code. This guy does an INCREDIBLE job of teaching a lot of fundamental programming skills. If you’re looking to start somewhere, this site is the place.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc1&quot;&gt;Bash Basics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.tldp.org/LDP/Bash-Beginners-Guide/html/ß&quot;&gt;Bash for Beginners&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.codecoffee.com/tipsforlinux/articles2/043.html&quot;&gt;More Bash!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;At the end of the day, I hope this reading gave you a look into developing a coder mindset. In the future rememeber to think on your daily life and ask yourself:  Is there something I do frequently, every day or every week that I should automate?&lt;/p&gt;
-
-&lt;p&gt;The power starts with YOU.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 24 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://austinhay.com/coding/2015/01/24/Scripting-Your-Way-to-Productivity.html</link>
-        <guid isPermaLink="true">http://austinhay.com/coding/2015/01/24/Scripting-Your-Way-to-Productivity.html</guid>
-        
-        <category>Scripting</category>
-        
-        <category>Web-development</category>
-        
-        <category>Software</category>
-        
-        <category>Business Productivity</category>
-        
-        
-        <category>coding</category>
-        
-      </item>
-    
-      <item>
-        <title>Reflections from Two Summers with Stanford&#39;s Technology &amp; Entpreneurship Programs</title>
-        <description>&lt;p&gt;I was lucky enough to take part in both inaugural Summer Engineering and Technology Study Tours, in the summer of 2013 and 2014. As a two term veteran of the nascent Stanford program, I feel especially proud to have participated in the journey and to have come away with life-long friends, inspiring mentors, and diverse global lessons. In fact, my trip to India this last summer to study business, technology and entrepreneurship with SETS was single-handedly one of the most influential experiences I had during my time at Stanford University.
-&lt;!--more--&gt;
-&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/teis/india-photo-12.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When I walked away from my first Stanford trip to China in 2013, I wrote a &lt;a href=&quot;http://austinhay.com/tecs%20blog/2013/09/14/TECS-2013-Takeaways.html&quot;&gt;short piece&lt;/a&gt; about some of the salient things I learned. Now, reflecting on my second adventure, this time to India, I’ve realized that SETS was much more a journey than a singular trip – one filled with foundational learning in technology, business, culture, global communications and, most importantly, deep personal growth. &lt;/p&gt;
-
-&lt;p&gt;What did I get out of the experience, exactly? Why was SETS so life-changing? Well, for a number of reasons. Here’s just a few…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;There is no substitute for hands on experience in developing countries. You gain intangible understanding of people and human nature by throwing yourself into a place half a world away. &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The relationships you make with your peers on the trip are invaluable – I found some of my closest friends at Stanford who will remain with me for the rest of my life. More importantly, you bond not only through cultural immersion, but through intense intellectual discovery. Nothing quite compares to friends made in this context. &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You get to meet real entrepeneurs and executives who speak about the business landscape with genuine perspective. This goes far beyond anything that can be learned in a textbook or a seminar. These leaders have lived and breathed business in the developing world and have powerful stories to share that can help guide in making impact. These interactions also serve to connect students with lasting mentors and opportunities to return and both live &amp;amp; work in Asia. If you don’t believe me, just take a look at some of the great companies we got to visit last year:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;General Electric Global Research&lt;/li&gt;
-      &lt;li&gt;InfoSys Consulting&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://embraceglobal.org/&quot;&gt;Embrace&lt;/a&gt; – which was actually a product of &lt;a href=&quot;http://extreme.stanford.edu&quot;&gt;Stanford Extreme&lt;/a&gt;!&lt;/li&gt;
-      &lt;li&gt;Microsoft Ventures &lt;/li&gt;
-      &lt;li&gt;Zipdial – recently &lt;a href=&quot;https://blog.twitter.com/2015/bringing-twitter-to-more-people-around-the-world&quot;&gt;acquired&lt;/a&gt; by Twitter for $40M.&lt;/li&gt;
-      &lt;li&gt;NASSCOM&lt;/li&gt;
-      &lt;li&gt;Philips Lighting Innovation Center&lt;/li&gt;
-      &lt;li&gt;IIT Delhi&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://uidai.gov.in/auth.html&quot;&gt;The Unique Authentication Authority of India&lt;/a&gt; – home of the incredible Aadhaar authentication process.&lt;/li&gt;
-      &lt;li&gt;The Times Internet Division&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The challenges of developing countries comes into focus: Poverty, infrastructure, education, a risiing middle class, political strife, and growing civil rights for women, minorities, and the underserved. It was difficult to walk through the crowded streets of cities like Beijing and Bangalore, feel the development occuring, and not take notice of the stark contrasts.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;When I came back from China, I felt changed. Then, again over a year later, going to India with the same program and the same goals, I also came away feeling like a different person than when I had taken off from California.&lt;/p&gt;
-
-&lt;div style=&quot;width: 100%, margin: auto&quot;&gt;
-	&lt;img class=&quot;year-in-review-photos&quot; src=&quot;/images/blogs/teis/india-photo-9.jpg&quot; /&gt;
-
-	&lt;img class=&quot;year-in-review-photos&quot; src=&quot;/images/blogs/2014-year-in-review/friends_india_2.jpg&quot; /&gt;	
-
-	&lt;img class=&quot;year-in-review-photos&quot; src=&quot;/images/blogs/teis/india-photo-11.jpg&quot; /&gt;
-
-	&lt;img class=&quot;year-in-review-photos&quot; src=&quot;/images/blogs/teis/india-photo-8.jpg&quot; /&gt;
-
-	&lt;img class=&quot;year-in-review-photos&quot; src=&quot;/images/blogs/teis/india-photo-6.jpg&quot; /&gt;	
-
-	&lt;img class=&quot;year-in-review-photos&quot; src=&quot;/images/blogs/teis/india-photo-5.jpg&quot; /&gt;
-
-&lt;/div&gt;
-
-&lt;p&gt;My experiences with SETS gave me an unwavering sense of global perspective – I really felt like I had tasted the nuances of life in different countries where socio-economic challenges are so greatly at odds with those of the US. The interactions with local business leaders demonstrated how entrpreneurship functions in a context outside of Silicon Valley and I feel better prepared than ever to pursue a career beyond US borders.&lt;/p&gt;
-
-&lt;p&gt;Lastly, I realized how similar I was to so many others around the world. I fell in love with countries of the East, the opportunities that exist there, and the people that make these locations so incredible. &lt;/p&gt;
-
-&lt;p&gt;If you’re a Stanford student you can and should become involved in this once-in-a-lifetime opportunity. This might be the best chance you’ll ever get to explore an incredible side of the world. Learn more &lt;a href=&quot;http://engineering.stanford.edu/portals/student/global-engineering-programs/sets&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 20 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://austinhay.com/personal%20development/2015/01/20/Reflections-From-SETS.html</link>
-        <guid isPermaLink="true">http://austinhay.com/personal%20development/2015/01/20/Reflections-From-SETS.html</guid>
-        
-        <category>Travel</category>
-        
-        <category>Reflections</category>
-        
-        <category>Global Perspective</category>
-        
-        <category>TEIS</category>
-        
-        <category>TECS</category>
-        
-        <category>SETS</category>
-        
-        <category>India</category>
-        
-        <category>China</category>
-        
-        <category>Stanford</category>
-        
-        
-        <category>personal development</category>
-        
-      </item>
-    
-      <item>
-        <title>For My Friends: A Millenial Guide to Finance</title>
-        <description>&lt;p&gt;
-So you&#39;ve just graduated from college (or grad school). You have $40,000 in loans and don&#39;t know whether it&#39;s better to pay it now or in small increments so that you can begin the coveted journey of &#39;saving&#39;. You have limited investment knowledge, but know that 2015 is the year you need to change. Stock basics? Sure, you own 15 shares of a company or two. Bank account, brokerage account, trading account? Yup. You have them, but hardly use them.
-&lt;/p&gt;
-&lt;!--more--&gt;
-
-&lt;p&gt;If this sounds even remotely familiar then you’ve come to the right place. Personal finance is not really that scary. &lt;b&gt;Like most things, however, it takes time, practice, committment, and a bit of a learning curve to overcome.&lt;/b&gt; The hard truth is that developing a knowledge &amp;amp; understanding of how finance works in your own personal context is one of the most important things you can do to set yourself up for long-term success. You’ve heard this before, but honestly, you should not put this off; start learning right now. &lt;/p&gt;
-
-&lt;h4&gt;&lt;b&gt;The Basics&lt;/b&gt;&lt;/h4&gt;
-
-&lt;p&gt;In the conversations I’ve had about investing with my friends, the question I always get is, &lt;b&gt;&lt;i&gt;“Where do I even start?”&lt;/i&gt;&lt;/b&gt; Easy. Start by reading “&lt;a href=&quot;http://jasonkelly.com/books/smi-html/&quot;&gt;The Neatest Little Guide to Stock Market Investing&lt;/a&gt;” by Jason Kelly. It’s one of the best books I have ever read on the basics of the stock market and will help get you up to speed with the jargon needed to manage your finances. &lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;imageleft&quot; src=&quot;/images/blogs/millenial-guide-to-finance-2.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you’ve taken a swing at your first finance read, you should know that reading and learning is the only way to become truly proficient with personal finance. You should (try) to read all of these in your 20’s:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.investopedia.com/articles/07/ben_graham.asp&quot;&gt;Intelligent Investor&lt;/a&gt; by Benjamin Graham&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Market_Wizards&quot;&gt;Market Wizards&lt;/a&gt; by Jack D. Schwager&lt;/li&gt;
-  &lt;li&gt;“&lt;a href=&quot;http://www.amazon.com/The-Essays-Warren-Buffett-Corporate/dp/1611634091&quot;&gt;The Essays of Warren Buffett: Lessons For Corporate America&lt;/a&gt;” by Warren Buffett, or you can find the PDF &lt;a href=&quot;/pdfs/The.Essays.of.Warren.Buffett.pdf&quot;&gt;free&lt;/a&gt; online almost anywhere…&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.theguardian.com/books/2003/feb/08/society&quot;&gt;Free Lunch&lt;/a&gt; by David Smith&lt;/li&gt;
-  &lt;li&gt;Rich Dad, Poor Dad by Robert Kiyosaki&lt;/li&gt;
-  &lt;li&gt;Beating the Street by Peter Lynch&lt;/li&gt;
-  &lt;li&gt;Investment Science by David Luenberger&lt;/li&gt;
-  &lt;li&gt;Corporate Finance by Berk DeMarzo&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.investopedia.com/&quot;&gt;Investopedia&lt;/a&gt;is also a great online resource to reference when you get stuck, or if you’re just curious.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Beyond this, it helps to develop a better understanding of financial terms and how they apply to long-term investing. Ultimately, you want to know as much as you can so that you can protect yourself from getting in trouble. Equally important is knowledge of what to do with your money as it starts to grow. I’m a big believer in people – you can and will make more money in time if you dedicate yourself to improving by learning!&lt;/p&gt;
-
-&lt;p&gt;This resource list is usually enough to get people started, but I get a lot of common questions. Here are some of the top ones that are worth exploring.&lt;/p&gt;
-
-&lt;h4&gt;&lt;b&gt;What are &quot;securities&quot;?&lt;/b&gt;&lt;/h4&gt;
-
-&lt;p&gt;These are not home protection systems. They refer to the different types of financial objects that exist in the market. Some are very &lt;b&gt;risk-averse&lt;/b&gt; – meaning you’re not going to expose yourself and your portfolio to a huge catastrophy if the market goes up in flames. Other securities are very &lt;b&gt;risky&lt;/b&gt;. If you like Vegas, anxiety, sleepless nights, and roller coasters, then you’re at home here. Here are examples of different securities by type.&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;Risky Securities:&lt;/u&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Stocks&lt;/li&gt;
-  &lt;li&gt;Options&lt;/li&gt;
-  &lt;li&gt;Futures&lt;/li&gt;
-  &lt;li&gt;Mutual Funds&lt;/li&gt;
-  &lt;li&gt;Indexes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;u&gt;Risk-Averse Securities:&lt;/u&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Government Bonds&lt;/li&gt;
-  &lt;li&gt;Corporate Bonds (Still kinda risky, since a corporation &lt;i&gt;can&lt;/i&gt; default)&lt;/li&gt;
-  &lt;li&gt;Plane Jane Interest (ie interest paid from keeping cash in a savings account)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;&lt;b&gt;Is a retirement account different from a savings account?&lt;/b&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/millenial-guide-to-finance-1.png&quot; /&gt;
-Yes, ABSOLUTELY. Generally speaking a savings account – the most common way that young individuals save – is held with a bank. You deposit cash into your account and the bank gives you interest on the money held every month – usually to an abysmally low tune of 0.5%. A retirement account is a different beast of its own. It is usually managed and operated by a &lt;a href=&quot;http://www.ibtimes.com/top-five-online-brokerage-firms-according-investors-business-daily-1493704&quot;&gt;brokerage firm&lt;/a&gt; and can take many &lt;a href=&quot;http://www.irs.gov/Retirement-Plans/Plan-Sponsor/Types-of-Retirement-Plans-1&quot;&gt;different forms&lt;/a&gt; such as…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Individual Retirement Arrangement (IRA)&lt;/li&gt;
-  &lt;li&gt;Roth IRA&lt;/li&gt;
-  &lt;li&gt;401(k)&lt;/li&gt;
-  &lt;li&gt;401(b)&lt;/li&gt;
-  &lt;li&gt;Savings Incentive Match Plans for Employees (SIMPLE IRA)&lt;/li&gt;
-  &lt;li&gt;Simplified Employee Pension (SEP IRA)&lt;/li&gt;
-  &lt;li&gt;And many &lt;a href=&quot;http://www.irs.gov/Retirement-Plans/Plan-Sponsor/Types-of-Retirement-Plans-1&quot;&gt;more&lt;/a&gt;…	&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What’s really important to take away from all of these different options is that each one has different rules associated with it. For instance, there’s a $5,500 limit per year on ROTH IRA accounts. That means you can’t deposit more than this amount without violating IRS tax rules. And you can’t even hold this type of account if you make over $115,000 per year. These types of rules apply to all different types of brokerage and retirement accounts. As you start to invest and put your money down, make sure to read and understand your account types. This will save you tons of time on the back-end when you pay taxes and will also help you grow your financial literacy.&lt;/p&gt;
-
-&lt;h4&gt;&lt;b&gt;All this information was super cool -- but what do &lt;u&gt;you&lt;/u&gt; do?&lt;/b&gt;&lt;/h4&gt;
-
-&lt;p&gt;Personally speaking, I invest across a few different platforms and in a few different accounts. I have two bank accounts where I hold checking and savings accounts to meet my daily needs. For investing and retirement I have Indvidual Investing, IRA, and ROTH IRA accounts with a brokerage firm which I won’t disclose for personal security reasons. One of my employers also gives me a 403(b). For fun I trade options and stocks on the side with two separate smaller trading firms.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;imageleft&quot; src=&quot;/images/blogs/millenial-guide-to-finance-3.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;On that same note, a great and cheap way to flex your actual trading abilities is to open up an account with &lt;a href=&quot;https://www.robinhood.com/&quot;&gt;Robinhood&lt;/a&gt;. It’s a quick, easy, nimble, and millenial-centric app. It cuts out transaction fees, has a streamlined UI, and is highly intuitive. This app would be a great place to start with a few hundred dollars just to test out what it feels like to buy and sell stock or mutual funds. &lt;/p&gt;
-
-&lt;h4&gt;&lt;b&gt;My 4 Simple Rules for Sound Financial Implementation&lt;/b&gt;&lt;/h4&gt;
-
-&lt;p&gt;This always seems like the next step after you’ve taken the time to read and learn about financial investing. I am going to say beforehand that the following simple rules should be taken with a grain of salt! There is no “best” way to invest or save, but there are certain things that can really help you get started on the right foot. Here we go:&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;1. Consolidate you cash and streamline your liquidity.&lt;/b&gt; What this means is to get your money together from all of the accounts you have and develop a game-plan of how you hope to invest. Streamlining your liquidity means getting your processes down so that you can convert assets into cash easily.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;2. Develop a strategy and STRUCTURE.&lt;/b&gt; Every sound financial plan has structure. My suggestion is this:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;25%-35%&lt;/b&gt; of your income and assets in bank checking and savings accounts for daily use, a rainy day, emergencies, vacations and fun.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;50-60%&lt;/b&gt; of your income and assets across your retirement accounts - 401K, 403, IRA, ROTH, SEP, whatever you choose is fine! Just know your accounts and why you have them as you start depositing.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;25-35%&lt;/b&gt; of your income and assets into your growth fund. You can view this as the money you hope to grow as a function of your risk profile. If you’re super risky, maybe this should be lower, or vice-versa. Again this is a personal choice, and there is no right or wrong answer. Make sure you draw the line somewhere. One way people lose lots of money is by not drawing a hard line on how much money they choose to risk in their portfolio. Make the plan, draw the line, and don’t deviate from it until you revisit your strategy for investing.	&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;3. Read all the time.&lt;/b&gt; Learn about finance, talk to your parents and friends about finance, and treat your financial understanding as part of your personal development. The sooner you realize this is part of your overall growth, the better. &lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;4. Re-evaluate your strategy.&lt;/b&gt; It’s really as simple as it sounds. Every 6 months, year or 2 years come back to your accounts. Consolidate your assets. Keep winners, sell losers, take profits and loses and rethink about how you are investing your money. This requires committment, diligence, and structure, but it’s the best way to make sure you don’t let your portfolio slide.&lt;/p&gt;
-
-&lt;h4&gt;&lt;b&gt;More Food for Thought&lt;/b&gt;&lt;/h4&gt;
-
-&lt;p&gt;There is always room for growth and additional learning. Maybe you’re already there (awesome!), but if not, just keep up reading and asking questions. You’ll learn by reading, reflecting and doing. When the time is right, take a look at some of these additional investment concepts that I think are important for all beginners:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Risk &amp;amp; Diversification are inversely related; i.e. to reduce risk you need to DIVERSIFY! How? Different securities; different markets.&lt;/li&gt;
-  &lt;li&gt;Random Walk [ Market Makers v.s. Long Term Impact ]&lt;/li&gt;
-  &lt;li&gt;Mutual Fund Returns vs Market Returns Historically&lt;/li&gt;
-  &lt;li&gt;The Optimal Portfolio&lt;/li&gt;
-  &lt;li&gt;Currency Markets&lt;/li&gt;
-  &lt;li&gt;What is Arbitrage [ Free Lunch ]&lt;/li&gt;
-  &lt;li&gt;20 Year Cycles&lt;/li&gt;
-  &lt;li&gt;Rollover Accounts&lt;/li&gt;
-  &lt;li&gt;The concept of “riding the waves”&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 18 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://austinhay.com/finance/2015/01/18/A-Millenial-Guide-to-Finance.html</link>
-        <guid isPermaLink="true">http://austinhay.com/finance/2015/01/18/A-Millenial-Guide-to-Finance.html</guid>
-        
-        <category>Investing</category>
-        
-        <category>Strategy</category>
-        
-        <category>Life-tools</category>
-        
-        <category>Personal development</category>
-        
-        <category>Banking</category>
-        
-        <category>Stocks</category>
-        
-        <category>Retirement Planning</category>
-        
-        <category>Good Reads</category>
-        
-        
-        <category>finance</category>
-        
-      </item>
-    
-      <item>
-        <title>Entrepreneurs, Becoming Entrepreneurial, and Resources to Get You Started</title>
-        <description>&lt;p&gt;
-&lt;h4&gt;&lt;b&gt;I am not an entrepreneur.&lt;/b&gt;&lt;/h4&gt; 
-	
-I think the word, at one point in the past, had a unique and meaningful place in the language of US business jargon. But now it&#39;s become too out of touch with what it was intended to represent.
-	
-
-&lt;b&gt;Entrepreneurs were those contrarian individuals with grit, determination, clever ideas, and a wacky sense of world paradigms that allowed them to create new, interesting, and risky initiatives that drove measurable change.&lt;/b&gt;
-&lt;/p&gt;
-&lt;!--more--&gt;
-
-&lt;p&gt;I think &lt;a href=&quot;http://www.bhorowitz.com/&quot;&gt;Ben Horowitz&lt;/a&gt; does a good job of defining the scope of a real entrepeneur. Read “&lt;a href=&quot;http://techcrunch.com/2014/03/03/the-hard-thing-about-hard-things-ben-horowitzs-honest-and-real-take-on-entrepreneurship/&quot;&gt;The Hard Thing About Hard Things&lt;/a&gt;” to understand his perspective. I agree that if you haven’t woken up in the night with a cold sweat worrying about the fudiciary responsibility owed to your &lt;a href=&quot;https://about.usc.edu/presidentemeritus/contrarians-guide-to-leadership/&quot;&gt;lieutenants&lt;/a&gt; then you probably can’t claim ownership of the word. This is why I am not an entrepreneur – although, one day with a bit of luck and boatload of hard work, I hope to be distinguished enough to reach that pinnacle of impact.&lt;/p&gt;
-
-&lt;p&gt;That’s not to say there still aren’t a lot of awesome entrepreneurs out there, but the world of technology and computing has led every smart 20+ year old with a knack for app development, or every business major with a creative idea to claim the title and set off on a destruction course. Are you shocked? &lt;a href=&quot;http://www.nytimes.com/2014/03/16/magazine/silicon-valleys-youth-problem.html&quot;&gt;You shouldn’t be&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.entrepreneursforachange.com/10-stupid-business-ideas-that-made-millions/&quot;&gt;Having a cool idea&lt;/a&gt; doesn’t make you an entrepreneur. Failing doesn’t &lt;a href=&quot;http://www.nytimes.com/2014/11/09/business/wearing-your-failures-on-your-sleeve.html&quot;&gt;always&lt;/a&gt; make you an entrepreneur – but I agree failure is a stepping-stone to success, happiness, and growth! Raising money from hungry VCs also doesn’t make you an entrepreneur. &lt;b&gt;But there are plenty of things in the world that make you entrpreneurial.&lt;/b&gt; &lt;/p&gt;
-
-&lt;p&gt;What most people don’t understand or realize is that the qualities that make entrepreneurs great should be separated from the word that has now become vastly over-used. This is one of the great lessons I took away from &lt;a href=&quot;https://profiles.stanford.edu/thomas-byers&quot;&gt;Tom Byers&lt;/a&gt; and his legendary course on “&lt;a href=&quot;http://stvp.stanford.edu/about/&quot;&gt;Entrepreneurial Finance &amp;amp; Management&lt;/a&gt;”.&lt;/p&gt;
-
-&lt;p&gt;So, what does it mean to be entrepreneurial? I am not in a position of supreme authority to shed much light, but I do have an opinion that I believe in: true entrepreneurship and genuine, authentic, classical leadership are inherently tied together. &lt;/p&gt;
-
-&lt;h4&gt;&lt;b&gt;&lt;i&gt;Entrepreneurs, and great leaders, know what matters most. They understand people, demonstrate empathy, exude charisma, encourage feedback &amp;amp; optimism, and are devoted to both their own self-development and the development of others.&lt;/i&gt;&lt;/b&gt;&lt;/h4&gt;
-
-&lt;p&gt;They reflect, improve, fail, and repeat the process in an effort to become better people – which in turns allows them to better lead those they serve,… and, surprisingly enough, lead better companies. And that’s a key distinction that can’t be forgotten.&lt;/p&gt;
-
-&lt;p&gt;Good leaders recognize that they are acting as servants and stewards to others. Similarly, good entrepreneurs – real entrepreneurs – are “in it” for the impact. This isn’t always the case, but it should be; among &lt;a href=&quot;http://www.forbes.com/sites/bruceupbin/2012/09/18/talking-philanthropy-with-marc-benioff/&quot;&gt;the entrepreneurs I admire the most&lt;/a&gt;, it most certainly is true. &lt;/p&gt;
-
-&lt;p&gt;Beyond the soft contours of entrepreneurship that I have described, there is also a technical skillset that begets those who practice entrepreneurship. In my mind, this isn’t just software development or computer science. You don’t have to be a coder or programmer, but analytical prowess and a fascination with math, science, finance, businessn, strategy, and product development are certainly some popular pillars. &lt;/p&gt;
-
-&lt;p&gt;If you’re like me, you’re probably thinking, “this is great and all, but so what?” Not everyone has time to dedicate themselves to the study of these diverse fields, and even if you did, just starting can be complicated and stressful. &lt;/p&gt;
-
-&lt;p&gt;The “so what” is that anyone – you, me, your younger sister, your older manager, she, he, or them – &lt;b&gt;anyone&lt;/b&gt; can become more entrepreneurial, can practice entrepreneurship and therein become a better leader and person. Like most things in life, all it takes is committing to learning and growing. Boom: &lt;a href=&quot;http://www.nytimes.com/2008/07/06/business/06unbox.html&quot;&gt;Growth Mindset 101&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;There you have it. From my point of view, that’s really the power of entrepreneurship. And to get you started, I’ve assembled a list of my favorite reads on just this. Many kudos to the mentors &amp;amp; advisors who have helped me with these wonderful resources.&lt;/p&gt;
-
-&lt;h4&gt;&lt;b&gt;The Resources to Get Started: Entrepreneurship Good Reads&lt;/b&gt;&lt;/h4&gt;
-
-&lt;p&gt;The list(s) below capture some of the best thoughts from awesome leaders, entrepreneurs, VCs, creators, developers, educators, and others. This doesn’t capture even a fraction of the great content out there, so keep scouring the world and send me recommendations! Look at this as a starting point – a launchpad to help you become more entrepreneurial. &lt;/p&gt;
-
-&lt;h4&gt; Blogs: &lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bhorowitz.com/&quot;&gt;http://bhorowitz.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://andreessenhorowitz.com&quot;&gt;http://andreessenhorowitz.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://steveblank.com/&quot;&gt;http://steveblank.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.venturehacks.com/&quot;&gt;http://www.venturehacks.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.avc.com/&quot;&gt;http://www.avc.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.bothsidesofthetable.com/&quot;&gt;http://www.bothsidesofthetable.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://startuplessonslearned.blogspot.com&quot;&gt;http://startuplessonslearned.blogspot.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://redeye.firstround.com/&quot;&gt;http://redeye.firstround.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.forentrepreneurs.com/&quot;&gt;http://www.forentrepreneurs.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;ttp://www.cbinsights.com/research­reports/Silicon­Valley­Venture­Capital­Almanac.pdf&quot;&gt;http://www.cbinsights.com/research­reports/Silicon­Valley­Venture­Capital­Almanac.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://onstartups.com/&quot;&gt;http://onstartups.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.paulgraham.com/&quot;&gt;http://www.paulgraham.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.askthevc.com&quot;&gt;http://www.askthevc.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.feld.com&quot;&gt;http://www.feld.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.trevorloy.com&quot;&gt;http://www.trevorloy.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Also, generally &lt;a href=&quot;http://www.fastcompany.com/&quot;&gt;FastCompany&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://techcrunch.com/&quot;&gt;TechCrunch&lt;/a&gt; can be INCREDIBLE places to learn.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt; Books &amp;amp; Articles:&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://techcrunch.com/2014/03/03/the-hard-thing-about-hard-things-ben-horowitzs-honest-and-real-take-on-entrepreneurship/&quot;&gt;The Hard Thing About Hard things&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;“&lt;a href=&quot;&quot;&gt;How Will You Measure Your Life?&lt;/a&gt;” by Clayton Christensen&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://about.usc.edu/presidentemeritus/contrarians-guide-to-leadership/&quot;&gt;Contrarian’s Guide to Leadership&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.fastcompany.com/1786824/leadership-hall-fame-warren-bennis-author-becoming-leader&quot;&gt;On Becoming a Leader&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.forbes.com/sites/keldjensen/2013/02/05/why-negotiators-still-arent-getting-to-yes/&quot;&gt;Getting to Yes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.amazon.com/Difficult-Conversations-Discuss-What-Matters/dp/0143118447&quot;&gt;Difficult Conversations&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;“&lt;a href=&quot;http://www.ft.com/cms/s/0/86d97610-00ab-11df-ae8d-00144feabdc0.html#axzz3OxWR4tBz&quot;&gt;‘Airline pilot’ protocols in finance&lt;/a&gt;” by Atul Gawande&lt;/li&gt;
-  &lt;li&gt;“&lt;a href=&quot;http://www.claytonchristensen.com/books/the-innovators-dilemma/&quot;&gt;The Innovator’s Dilemma&lt;/a&gt;” by Clayton Christensen&lt;/li&gt;
-  &lt;li&gt;“An Introduction to Stocks and Options for the Tech Entrepreneur or Employee” by David Weekly&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://nymag.com/daily/intelligencer/2014/10/marc-andreessen-in-conversation.html&quot;&gt;On Optimism&lt;/a&gt; by Marc Andreessen… there are so many other great reads on Optimism though! Don’t let this value escape you!&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.fastcompany.com/3033993/hit-the-ground-running/the-intangible-career-trait-that-you-need-to-succeed&quot;&gt;Executive Presence&lt;/a&gt; as seen on FC&lt;/li&gt;
-  &lt;li&gt;“Crossing the Chasm” by G. Moore&lt;/li&gt;
-  &lt;li&gt;“The Founder’s Dilemma” by Naom Wasserman&lt;/li&gt;
-  &lt;li&gt;“&lt;a href=&quot;http://www.forentrepreneurs.com/saas-metrics-2/&quot;&gt;SaaS Metrics 2.0 ­ A Guide to Measuring and Improving What Matters&lt;/a&gt;”” by David Skok&lt;/li&gt;
-  &lt;li&gt;“&lt;a href=&quot;&quot;&gt;The Entrepreneurs Guide to Business Law&lt;/a&gt; by Bagley and Dauchy. This was actually a great recommendation from &lt;a href=&quot;http://www.flywheelventures.com/index.php/website/flywheel_team/&quot;&gt;Trevor Loy&lt;/a&gt;. It’s a leading reference book for legal issues surrounding entrepreneurship and is one of those books that gives you essential jargon and “skills-based” knowledge. &lt;/li&gt;
-  &lt;li&gt;“How to Write a Great Business Plan” by William Sahlman&lt;/li&gt;
-  &lt;li&gt;“&lt;a href=&quot;&quot;&gt;The Neatest Little Guide to Stock Market Investing&lt;/a&gt;”” by Jason Kelly&lt;/li&gt;
-  &lt;li&gt;“&lt;a href=&quot;http://abovethecrowd.com/2009/08/24/what-is-really-happening-to-the-venture-capital-industry/&quot;&gt;What is Really Happening to the Venture Capital Industry&lt;/a&gt;” by Bill Gurley of Benchmark Capital&lt;/li&gt;
-  &lt;li&gt;“Business Plan’s That Work” from Zacharakis, Spinelli and Timmons&lt;/li&gt;
-  &lt;li&gt;“&lt;a href=&quot;http://ospflor63.stanford.edu/upload/handouts/Secret_Sauce_-_Seelig.pdf&quot;&gt;The Secret Sauce of Silicon Valley” by Tina Seelig in “What I Wish I Knew When I Was 20&lt;/a&gt;“
-“&lt;a href=&quot;http://www.sramanamitra.com/2014/01/27/who-are-the-top-vcs-in-silicon-valley-today/&quot;&gt;Who Are The Top VCs in Silicon Valley Today?&lt;/a&gt;””&lt;/li&gt;
-  &lt;li&gt;“&lt;a href=&quot;http://techcrunch.com/2013/11/02/welcome-to-the-unicorn-club/&quot;&gt;Welcome To The Unicorn Club: Learning From Billion­-Dollar Startups&lt;/a&gt;” from Aileen Lee.&lt;/li&gt;
-  &lt;li&gt;“Why the Lean Start­Up Changes Everything” by Steve Blank&lt;/li&gt;
-  &lt;li&gt;Generally, anything about &lt;a href=&quot;http://qz.com/317918/holacracy-at-zappos-its-either-the-future-of-management-or-a-social-experiment-gone-awry/&quot;&gt;Holacracy&lt;/a&gt; (…or Holo-crazy as I’ve sometimes experienced it!)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And in case you’re a glutton for punishment, here’s some other informative and awesome reads that will open up your mind to better leadership…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“The Prince” Niccolo Machiavelli&lt;/li&gt;
-  &lt;li&gt;“The Secrets of Storytelling” by Jeremy Hsu&lt;/li&gt;
-  &lt;li&gt;“Super People” by James Atlas&lt;/li&gt;
-  &lt;li&gt;“Cowboys and Pit Crews” by Atul Gawande&lt;/li&gt;
-  &lt;li&gt;“Earn More Respect” by Warren Bennis&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 14 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://austinhay.com/entrepreneurship/2015/01/14/Entrepreneurs-Becoming-Entrepreneurial-Resources-to-Get-You-Started%20copy.html</link>
-        <guid isPermaLink="true">http://austinhay.com/entrepreneurship/2015/01/14/Entrepreneurs-Becoming-Entrepreneurial-Resources-to-Get-You-Started%20copy.html</guid>
-        
-        <category>Self Development</category>
-        
-        <category>Strategy</category>
-        
-        <category>Leadership</category>
-        
-        <category>Good Reads</category>
-        
-        
-        <category>entrepreneurship</category>
-        
-      </item>
-    
-      <item>
-        <title>Opening Up Open Graph</title>
-        <description>&lt;p&gt;As I’ve dug deeper into how content is displayed across the web, I’ve found that it’s not always as rosy as I’d like. A big problem is that I am a total &lt;code&gt;n00b&lt;/code&gt; and don’t always get my code just right when writing up my thoughts. In turn this means my pages don’t always display correctly across different applicaitons like Facebook or Linked-In. &lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;See how lame this looks? Nobody is going to read this without a picture and some awesome OG tags.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/blogs/open-graph-ex-1.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After doing some research, I’ve found there are amazing &lt;code&gt;meta&lt;/code&gt; tags out there that fall under &lt;a href=&quot;http://ogp.me/&quot;&gt;OpenGraph&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The concept and application is simple. Whenever you list your site on the internet, web crawlers look for &lt;code&gt;meta&lt;/code&gt; tags to compile information about your site and map it within their database. The more &lt;code&gt;meta&lt;/code&gt; information you have the better, as it makes it easier for your website to be properly linked and mapped in a web-search. Beyond this, Facebook, Twitter, and other social media sites use OpenGraph tags in order to generate previews for articles and webpages among many other things. &lt;/p&gt;
-
-&lt;h4 id=&quot;implementation&quot;&gt;Implementation&lt;/h4&gt;
-
-&lt;p&gt;The basic code structure for open graph meta tags is simple:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;meta property=&quot;&quot; content=&quot;&quot; /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;There are different properties as well. Here are a few to get you started:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;property=&quot;og:title&quot;
-property=&quot;og:image&quot; 
-property=&quot;og:site&quot;
-property=&quot;og:description&quot;
-property=&quot;og:type&quot;
-property=&quot;og:url&quot;
-property=&quot;article:author
-property=&quot;article:section&quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;From there you just have to enter the &lt;code&gt;&quot;content&quot;&lt;/code&gt; portion of the code. If you’re doing it with static pages then this is just &lt;code&gt;text&lt;/code&gt;, otherwise you should generate it dynamically. For my own purposes, I used &lt;a href=&quot;http://docs.shopify.com/themes/liquid-documentation/basics&quot;&gt;&lt;code&gt;liquid tags&lt;/code&gt;&lt;/a&gt; and plugged into the power of &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; to generate my tags automatically for every static page I work up. Here’s a code snippet from my website of what this would actually look like:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/blogs/open-graph-ex-2.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Oh, and it’s VERY important to remember to call the &lt;code&gt;og&lt;/code&gt; tag in the beginning of the &lt;code&gt;html&lt;/code&gt;. Just throw this in your &lt;code&gt;head&lt;/code&gt; section somewhere:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;html prefix=&quot;og: http://ogp.me/ns#&quot;/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;As always, this doesn’t even scratch the surface of all the cool things that OpenGraph can deliver. Explore it on your own and &lt;a href=&quot;http://www.austinhay.com/contact&quot;&gt;let me know&lt;/a&gt; what you find. Here are some fun resources that you might check out with more time:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gavick.com/blog/controlling-facebook-link-previews-and-getting-to-know-open-graph&quot;&gt;Getting to Know Open Graph&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.iacquire.com/blog/18-meta-tags-every-webpage-should-have-in-2013&quot;&gt;Essential Meta Tags from 2013&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;How to &lt;a href=&quot;http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/&quot;&gt;implement&lt;/a&gt; in Jekyll, like I did.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 08 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://austinhay.com/coding/2015/01/08/Opening-Up-Open-Graph.html</link>
-        <guid isPermaLink="true">http://austinhay.com/coding/2015/01/08/Opening-Up-Open-Graph.html</guid>
-        
-        <category>Web Development</category>
-        
-        <category>Software</category>
-        
-        <category>Blogging Essentials</category>
         
         
         <category>coding</category>

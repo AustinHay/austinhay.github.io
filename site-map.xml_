@@ -66,6 +66,48 @@
   <!-- Posts -->
   
   <tr>
+  	<td><url><loc>http://www.austinhay.com/sales/2015/03/06/Collaborative-Sales.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-03-06T00:00:00-08:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/podcast/2015/03/01/Podcasting-Takeaways-Part-1.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-03-01T00:00:00-08:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/branch/2015/02/27/A-Big-Announcement.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-02-27T00:00:00-08:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/podcast/2015/02/23/A-New-Frontier-Podcasts.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-02-23T00:00:00-08:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/branch/2015/02/21/Mobile-Page-Rank-in-Review.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-02-21T00:00:00-08:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/branch/2015/02/18/Mobile-Deeplinking-Basics.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-02-18T00:00:00-08:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
   	<td><url><loc>http://www.austinhay.com/personal%20development/2015/02/15/Lessons-From-Accenture.html</loc></td>
     <td><changefreq>daily</changefreq></td>
   	<td><lastmod>2015-02-15T00:00:00-08:00</lastmod></td>
@@ -589,6 +631,66 @@
       </url>
   </tr>
   
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=mobile</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=deeplinking</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=app development</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=page rank</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=native</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=series a</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=personal development</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=collaboration</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=lessons learned</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=selling</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
 
   <!-- Category Indexes -->
   
@@ -624,6 +726,24 @@
   
   <tr>
   	<td><url><loc>http://www.austinhay.com/search.html?category=finance</loc></td>
+  	<td><changefreq>daily</changefreq></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/search.html?category=branch</loc></td>
+  	<td><changefreq>daily</changefreq></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/search.html?category=podcast</loc></td>
+  	<td><changefreq>daily</changefreq></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/search.html?category=sales</loc></td>
   	<td><changefreq>daily</changefreq></td>
     </url>
   </tr>
