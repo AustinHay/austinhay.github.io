@@ -66,6 +66,13 @@
   <!-- Posts -->
   
   <tr>
+  	<td><url><loc>http://www.austinhay.com/branch/2015/03/06/Sell-or-Be-Sold-MWC-2015.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-03-06T00:00:00-08:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
   	<td><url><loc>http://www.austinhay.com/sales/2015/03/06/Collaborative-Sales.html</loc></td>
     <td><changefreq>daily</changefreq></td>
   	<td><lastmod>2015-03-06T00:00:00-08:00</lastmod></td>
@@ -687,6 +694,36 @@
   
   <tr>
   		<td><url><loc>http://www.austinhay.com/search.html?tags=selling</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=mobileworldcongress</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=mwc</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=mwc-2015</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=barcelona</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=spain</loc></td>
   		<td><changefreq>daily</changefreq></td>
       </url>
   </tr>

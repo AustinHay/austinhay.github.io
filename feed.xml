@@ -5,48 +5,284 @@
     <description> is a millenial blogger, engineer &amp; operater focused on strategy, leadership, self-developement, entrepreneurship, and rookie programming. Don&#39;t be a stranger - drop me an email to connect. Contents and code &amp;copy; 2015</description>
     <link>http://austinhay.com/</link>
     <atom:link href="http://austinhay.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Mar 2015 17:40:50 -0700</pubDate>
-    <lastBuildDate>Tue, 10 Mar 2015 17:40:50 -0700</lastBuildDate>
+    <pubDate>Sun, 15 Mar 2015 20:15:55 -0700</pubDate>
+    <lastBuildDate>Sun, 15 Mar 2015 20:15:55 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
+        <title>Sell or Be Sold: Mobile World Congress 2015</title>
+        <description>&lt;p&gt;When we first touched down in Barcelona two weeks ago it was hard to believe I was really there. Just three days before I got a late night call from one of our co-founders with a simple question: &lt;b&gt;Want to go to Spain?&lt;/b&gt; At first I thought she was joking - or maybe referring to a far off conference in the summer. &lt;/p&gt;
+
+&lt;figure class=&quot;imageright-1&quot;&gt;
+&lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-1.jpg&quot; style=&quot;width: 96%; padding: 1%;&quot; /&gt;
+&lt;/a&gt;
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+    With less than 48 hours to spare, we were headed to Barcelona to represent Branch at Mobile World Congress 2015. Talk about a wild ride...
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;No, she was talking about &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;Mobile World Congress 2015&lt;/a&gt; (MWC), arguably the most relevant and compelling gathering of mobile ecosystem leaders from across the globe. It happens every year - more than 90,000 people congregate in Barcelona at the Grand Fira conference center for four days to meet business partners, make new strategic relationships, survey mobile competition, unveil new products, and showcase the power of mobile as a defining part of innovation. &lt;/p&gt;
+
+&lt;p&gt;My journey to MWC began moments after I hung up the phone that fateful Thursday night. It was time to prepare. For most companies, MCW takes serveral months of preperation, but not at &lt;a href=&quot;https://branch.io&quot;&gt;Branch&lt;/a&gt;. After our recent &lt;a href=&quot;http://techcrunch.com/2015/02/26/branch-metrics-raises-15-million-for-its-smarter-mobile-deep-linking-technology/&quot;&gt;Series A&lt;/a&gt; we saw a great opportunity to build relationships, evangelize Branch, make a notable presence, and to learn about the mobile ecosystem. &lt;/p&gt;
+
+&lt;p&gt;Who said you couldn’t pull off an incredibly successful MWC trip in three days? 4 days, 30 miles walking, 100’s of partner meetings, 20 cafe con leches, dozens of cocktail hours, and 18 hour crunches later, this is my story: &lt;b&gt;&lt;a href=&quot;http://www.grantcardone.com/sell-or-be-sold/&quot;&gt;Sell or Be Sold&lt;/a&gt;: Conquering &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;MWC&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-adventure-beginswith-an-app&quot;&gt;The Adventure Begins…with an App&lt;/h3&gt;
+
+&lt;p&gt;One of the most difficult parts of building relationships is the time it takes to manually enter contact information and to properly follow up. Business cards are great but leave you with no lasting memory of the person and what they have to offer. Most people ask for specific requests - they want the link to that PDF you were talking about, or they want to be engaged with your technology in a specific way. The thing that doesn’t change, however, is remembering to log their details, connect, and follow up. &lt;/p&gt;
+
+&lt;figure class=&quot;imageleft-1&quot; style=&quot;width:30%;&quot;&gt;
+&lt;a href=&quot;https://branch.io&quot;&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-2.png&quot; style=&quot;width: 96%; padding: 1%;&quot; /&gt;
+&lt;/a&gt;
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+    Why spend hours logging business cards when we could connect with people right away?
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;With this insight in mind, I started wondering if there were any apps that did this specific task with high resolution. &lt;b&gt;What business productivity tools would allow me to easily connect with those I met at MWC and place them straight into my CRM so that I could easily manage my relationship with them moving forward?&lt;/b&gt; Even more, was there a way that I could streamline when and how I followed up with these individuals?&lt;/p&gt;
+
+&lt;p&gt;At the heart of this issue was the fact that it takes a lot of time to follow up between manually entering business card information and typing out hundreds of personalized emails. In my experience, by the time I get around to drafting follow up emails, I’ve already forgotten the context of how I met the person, the nuances of our relationship, and if I needed to include any important details. There had to be an easier way to shoot the person an email and connect.&lt;/p&gt;
+
+&lt;p&gt;Our “eureka” moment about this business problem hit &lt;a href=&quot;http://derrrick.com/&quot;&gt;Derrick Staten&lt;/a&gt; and I as we sat on the runway at SFO on our way to Spain. Derrick is a gifted iOS developer with &lt;a href=&quot;http://www.forbes.com/sites/ellenhuet/2014/09/15/the-league-dating-app-for-the-elite/&quot;&gt;experience&lt;/a&gt; building awesome apps, so his solution came naturally… why don’t we build an iOS app specifically for us to help solve this problem?&lt;/p&gt;
+
+&lt;p&gt;Over the course of our grueling 12-hour flight to Paris we worked together to build an incredible app that solved all of these problems and tied in to our Branch backend. We also dropped Branch links into our app so that when we connected with people we met at MWC we could better understand how our tech might better serve them.&lt;/p&gt;
+
+&lt;p&gt;The app, in its simplest form, takes the mundane - manually writing an email days after you meet somebody - and turns it into a fun and instananeous process. When we landed later in Barcelona, we tested our prototype and were amazed at the business need this simple app provided. &lt;/p&gt;
+
+&lt;figure class=&quot;imageright-1&quot;&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-3.jpg&quot; style=&quot;width: 96%; padding: 1%;&quot; /&gt;
+
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+  It&#39;s hard to believe that we crunched out an entire application on the airplane. By the time we touched down in Paris we were ready to deploy not only our app, but ourselves, at MWC!
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It begs the question: should more app developers hit the skies for their next big idea?&lt;/p&gt;
+
+&lt;h3 id=&quot;el-cafe-la-fuma-y-las-ramblas&quot;&gt;El Cafe, La Fuma, y Las Ramblas&lt;/h3&gt;
+
+&lt;p&gt;Building an app over the Atlantic was not enough to satiate our thirst for adventure as we took to the streets in Barcelona. First, we found our home for the week in the Gothic district with Luisa, our &lt;a href=&quot;https://www.airbnb.com/users/show/3392163&quot;&gt;Airbnb host&lt;/a&gt; and one of the most welcoming Spaniards I’ve ever met. Then it was time to explore. &lt;/p&gt;
+
+&lt;p&gt;When I was in high school I had lived in Santander and experienced Spain in a way that few 16 year old’s ever do. The things I loved about Barcelona still enamored me as we walked the streets - tortilla de Espana, churros con chocolate, crowded alleyways, signs of la siesta, las ramblas, families out and about at 11 in the evening, and the many plazas with outdoor places to sit, relax, take in the lights and have a glass of wine. Spain is a beautiful country and Barcelona brought back feelings of home I hadn’t felt since living along the northern coast. &lt;/p&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;4&quot; style=&quot;float:left; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 2%; max-width:329px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/zskUbVhJ1u/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_top&quot;&gt;Barcelona nights. So stoked to be repping @branchmetrics at Mobile World Congress! #mwc2015 #barcelona #spain #mobilegrowth #deeplinking #quelinda #noche&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;A photo posted by Austin Hay (@austinahay) on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-03-01T19:12:04+00:00&quot;&gt;Mar 1, 2015 at 11:12am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;grinding-out-the-days&quot;&gt;Grinding out the Days&lt;/h3&gt;
+
+&lt;p&gt;These feelings were quickly swapped for ones of a more intense flavor as we dove into the grind that is &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;MWC&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For those who aren’t familiar with &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;Mobile World Congress&lt;/a&gt;, it’s a four-day sprint where attendees and partners in the mobile hardware, software, applications and everything in between, gather to talk business, showcase their products, and meet as many people as possible. It’s incredibly demanding, both physcially and mentally, but it provides a deep dive into the mobile landscape that no other single event really can. &lt;/p&gt;
+
+&lt;p&gt;This aspect of our adventure started at 6 AM Monday morning as we grabbed a quick coffee and started the multi-mile walk and subway travel to the Grand Fira, a goliath conference complex with over eight independent conference buildings, each the size of football stadium.&lt;/p&gt;
+
+&lt;p&gt;The days were grueling. Every minute was spent taking in the mobile landscape, searching for interesting partnerships, and talking to everyone and anyone. I’m a fundamental believer in people so every conversation took time. Cultivating relationships isn’t easy… it takes time, attention to detail, and the willingness to give people your full self for a period of time. It isn’t enough to say “hello” and talk business. If you want to hook people and keep them engaged you have to look at the conversation as a two way road - one that usually begins with deep listening and learning. This was the process for my partner and I, as we spent the first part of every new conversation asking questions, trying to understand the person and company at hand, and then, only after listening intently for a few minutes, trying to find a way that &lt;a href=&quot;https://branch.io/links&quot;&gt;Branch&lt;/a&gt; might fit with their business.&lt;/p&gt;
+
+&lt;figure class=&quot;imageright&quot;&gt;
+&lt;a href=&quot;http://www.bhorowitz.com/the_struggle&quot;&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-4.jpg&quot; /&gt;
+&lt;/a&gt;
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+  This is just a small part of the &lt;a href=&quot;http://www.bhorowitz.com/the_struggle&quot;&gt;Startup Struggle&lt;/a&gt; that Ben Horowitz outlines. A packed 4 day schedule calls for coffee and persistence.
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;That might be one of the most obvious lessons in the business – &lt;b&gt;selling isn’t about convincing people, it’s about listening.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;These conversations made up the bulk of our trip. When we weren’t finding new people to meet we were back at our Airbnb resting or preparing for the next day. Unfortunately, we didn’t find enough time to explore all that Barcelona has to offer in terms of culture - but we’ll be back.&lt;/p&gt;
+
+&lt;h3 id=&quot;killer-tips-on-how-to-win-mwc&quot;&gt;Killer Tips on How to Win MWC&lt;/h3&gt;
+
+&lt;p&gt;The best part of MWC 2015 was the firsthand experience of joining the conference last minute. By now, you’re probably wondering 1.) if we were successful in our endeavors, and 2.) what we took away from the trip.&lt;/p&gt;
+
+&lt;p&gt;Well, the conversations throughout the week we attended MWC taught us a lot about sales, Branch, mobile, technology and ourselves. The value of listening wasn’t the only lesson. Here’s a list of the top takeaways that are easy to consider when planning your MWC visit:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Plan Ahead&lt;/b&gt;: It goes without saying, but planning in three days is incredibly complicated and made things stressful. Next year if we decide to go to MWC we will definitely plan at least 1 - 2 months ahead of schedule.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;imageright-1&quot;&gt;
+&lt;a href=&quot;&quot;&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-5.jpg&quot; /&gt;
+&lt;/a&gt;
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+  Planning ahead is more than just knowing that you&#39;re going to MWC - you should map out exactly where you plan to spend your days at MWC. We spent most of our time at App World. Figure out where you&#39;ll find the most value and double down in targetting your business relations.
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Hotel&lt;/b&gt;: Location and accommodations both matter. This year we stayed in an Airbnb in the Gothic District near Career d’Boquer (Princessa and Montcada) — this was a central location and was actually perfect. We highly recommend something in this neighborhood for anwyone looking to double down on both the Fira events and the post-day cocktail hours and parties held in the heart of Barcelona. While Airbnb was perfect for our last minute stay, it also had many downsides: 1) not very clean, 2) bad perception for guests or outside parties - couldn’t have meetings there, which was huge bummer, 3) illicit activities that made us uncomfortable (hahaha), and 4) exact residence felt somewhat unsafe. Generally, the Airbnb made our stay much more complicated and less efficient than it could have been. Staying in a hotel would remove this friction and allow people to focus more on what they are there for: MWC. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Number of Attendees&lt;/b&gt;: Generally speaking, it would have been nice to have 4-6 people in total. At least two more would have made it much easier to:&lt;/p&gt;
+
+    &lt;p&gt;1) Scour the floor for good possible leads.&lt;/p&gt;
+
+    &lt;p&gt;2) Set up pre-planned productive meetings.&lt;/p&gt;
+
+    &lt;p&gt;Booths are expensive and not really necessary: We found that big booths in the App World section (Hall 8) were actually very expensive (&amp;gt; $50,000 each) and tied down members to a specific location. We believe that Branch could be more effective if you’re not tied down to a booth and can go from convo to convo. Alternatively, if we do a booth we still need to make sure we have scouts on the floor meeting new leads. A small booth could easily be managed by two people.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;imageleft-1&quot;&gt;
+&lt;a href=&quot;https://branch.io&quot;&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-6.jpg&quot; /&gt;
+&lt;/a&gt;
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+  Sometimes, there&#39;s just no replacement for pounding pavement. Every team going to MWC should have a plan A, a plan B, and even a plan C, but at the end of the day, what&#39;s going to help the most is by putting boots on the ground and executing. You have to be prepared to talk to as many partners as you can. It can be exhausting, but it&#39;s the way to win.
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Set Meetings&lt;/b&gt;: Your team should do everything possible to block off time on the calendar with the most important partners and send your best people to those meetings. Even though we did a good job explaining our tech, it would have been even better if we had sent people who were able to make executive level decisions about how we might work together. Since the conference contains many larger players, and far fewer app developers, for companies looking to engage in mobile software and app development, the focus of this conference should be more geared towards Business Development and Strategic Relations. Look to develop a specific and tailored objective, agenda, message, and knowledge of how you would work with the intended partner (replacing or working with specific technologies). The more specific, the better!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Volume Matters&lt;/b&gt;: There is no way to know in advance how good the quality of a potential lead might be. The only way to be successful is to hit as many people as possible! We found that it was most effective to focus our attention together, as a team, in the beginning, and “divide and conquer” once the primary list of potential partners had been depleted. This strategy may work well or not well depending on your goals and the resources you have available. &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Similarly, in the future, I think it’s best to consider having a team that constantly hits the floor to do just this: meet anyone and everyone. Meanwhile, another team can focus more of their attention on specialized meetings and strategic prospecting. This feeds back into why a team of four would be very important.&lt;/p&gt;
+
+&lt;figure class=&quot;imageright-1&quot;&gt;
+&lt;a href=&quot;&quot;&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-7.jpg&quot; /&gt;
+&lt;/a&gt;
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+  A good place to practice is at the 4YFN -- there are tons of great startups that give you the opportunity to test different prop values, listen, and make great friends in the app ecosystem!
+  &lt;/p&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Know Your Competition&lt;/b&gt;: It’s not just enough to know who they are, but also what they are doing and how you will respond to them. The reality is that most competitors use Mobile World Congress to talk to one another and actually scout the competitive landscape. Make sure you know who your “primary competitors” are before and prepare a list of questions you might get asked. Beyond this, make sure your boots on the ground are prepared! Make a list of the the things your company does not want to discuss — especially proprietary technology, future visions, or strategic partnerships.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Develop Consistent Messaging&lt;/b&gt;: At Branch, we explain our technology and company in many flavors (perhaps too many), but the ultimate story we distribute is consistent. This is incredibly important for your employees and for your business partners. Consistent messaging makes it clear who you are, what you do, and how you might serve them. It also makes it easy for your employees to remember how to explain your culture, brand, technology, and future.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Develop Training Docs &amp;amp; PRACTICE&lt;/b&gt;: This should go without saying. Develop killer training docs to prepare all those who are attending under you company umbrella. Don’t stop with the “travelling basics,” dive deeper into why your company is attending, who you are looking to meet, what type of strategic partnerships you hope to gain, and your pitching plan. The more you do to formalize your thoughts beforehand, the less you leave to error. &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;imageright-1&quot;&gt;
+&lt;a href=&quot;https://branch.io&quot;&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-8.jpg&quot; /&gt;
+&lt;/a&gt;
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+    There will be many different social events to attend at MWC. Don&#39;t be distracted by the noise! Find events where you know at least 1 or 2 partners and they are willing to introduce you to leads that fit your goals.  
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;T-Shirt Handouts&lt;/b&gt;: T-shirts and other swag are essential for startups to help spread their brand and delight potential future customres. However, we recommend keeping the swag handouts to a minimum at MWC. First off, there are over 90,000 people in attendance. There is simply no way you can cover all your bases. You will run out of whatever materials you bring, so choose wisely. More importantly, MWC is a bit more formal than Hackathons or other events. It was very difficult to hand out T-shirts and give away free swag (aka build good relations and spread our brand) when you are also operating out on the fly - and usually out of bags and backpacks. Keep swag - if any -  for a dedicated booth or meetup.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Meetups Should be Official&lt;/b&gt;: Not only should meetups, or compant events, be planned well in advance, but they should be conducted through official channels: i.e. the 4YFN, MWC, or other event sponsors, or conducted at a restaurant so it has a dedicated location. If at a restaurant, make sure to specify that you’ll have a presence and work with the owners/operators to reserve space and put up signage. We think flyers alone, without a presence and dedicated plan, don’t work. This all may sound obvious, but for young companies working on the fly, it might seem tempting to plan an ad hoc happy hour. The reality is that at MWC people block their calendars well in advance. Stay away from on the fly meetings - plan ahead!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Parties with Personal Invites&lt;/b&gt;: There are many parties during MWC to attend and we found the most effective ones were those where we knew at least 1+ of the planners or attendees who was willing to introduce us to other attendees. A good example was at the Picasso Museum tour our first night where a good friend from Relay Ventures introduced us to two of his friends. From there we were able to be introduced to many more. Comparatively, at other parties we attended without a friend or sponsor contact, we found it difficult to meet and qualify opportunities in the same way. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;On-The-Ground Assistance&lt;/b&gt;: For us, our on the ground support was &lt;a href=&quot;https://twitter.com/lidahasbrouck&quot;&gt;Lida&lt;/a&gt;, an awesome Branch employee back at home, who pulled in the clutch when things got crazy in Barcelona. Everyone going to MWC needs their Lida. It’s just too crazy of an event not to have a dedicated staff member to support those closing deals at the Gran Fira. 
+. This may sound ridiculous, but between travel, 10 mile walks, 18 hour days, it just helps to have someone there.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;imageleft-1&quot;&gt;
+&lt;a href=&quot;https://soundcloud.com/branchmetrics/past-present-future-of-branch-metrics&quot;&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-10.png&quot; /&gt;
+&lt;/a&gt;
+  &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
+  It&#39;s simple. And it&#39;s what our Founders like to &lt;a href=&quot;https://soundcloud.com/branchmetrics/past-present-future-of-branch-metrics&quot;&gt;live by&lt;/a&gt;.
+  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;measuring-success&quot;&gt;Measuring Success&lt;/h3&gt;
+
+&lt;p&gt;When we finally sank into our seats Thursday morning at 6 AM on an outbound flight to San Francisco, it felt like an eternity had passed by. Derrick and I collapsed, sleeping half the flight. It all seemed like a dream…&lt;/p&gt;
+
+&lt;p&gt;In less than 72 hours we had cultivated over 100 business relationships, made an internal business app, hosted a &lt;a href=&quot;https://www.branch.io/meetups&quot;&gt;meetup&lt;/a&gt;, &lt;a href=&quot;http://venturebeat.com/2015/03/05/branch-metrics-comes-up-with-gold-at-mobile-world-congress-startup-showdown/&quot;&gt;won a startup pitch&lt;/a&gt;, and attended over a dozen after-hours parties. We operated on what felt like 10 total hours of sleep, drank five coffees a day, logged all our learnings and left feeling like we had done everything possible to make the most of our time in Barcelona.&lt;/p&gt;
+
+&lt;p&gt;This is probably the true metric of success: feeling like you’ve driven as hard as you can and have nothing else to give. Winning at MWC means leaving it all on the Fira floor. Times like this remind me of an important mantra we live by here at Branch…&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 06 Mar 2015 00:00:00 -0800</pubDate>
+        <link>http://austinhay.com/branch/2015/03/06/Sell-or-Be-Sold-MWC-2015.html</link>
+        <guid isPermaLink="true">http://austinhay.com/branch/2015/03/06/Sell-or-Be-Sold-MWC-2015.html</guid>
+        
+        <category>Mobile</category>
+        
+        <category>Native</category>
+        
+        <category>MobileWorldCongress</category>
+        
+        <category>MWC</category>
+        
+        <category>MWC-2015</category>
+        
+        <category>Barcelona</category>
+        
+        <category>Deeplinking</category>
+        
+        <category>Software</category>
+        
+        <category>Spain</category>
+        
+        <category>Personal Development</category>
+        
+        
+        <category>branch</category>
+        
+      </item>
+    
+      <item>
         <title>Collaborative Sales</title>
-        <description>&lt;p&gt;Everyone has felt quota anxiety - that feeling you get when your sales lead puts an often arbitrary number on the number of interactions you need to have with others per unit of time. Sometimes it’s cold outbounds per quarter, sometimes it’s calls per week. No matter what unit of measurement you look at, these quotas are inherently created to drive competition and maximize employee performance. But does it really work? And does it cause more toxicity to your sales team than it does productivity?&lt;/p&gt;
+        <description>&lt;p&gt;Everyone has felt quota anxiety - that feeling you get when your sales lead puts an often arbitrary number on the &lt;u&gt;quantity&lt;/u&gt; of interactions you need to have  with others &lt;u&gt;per unit of time&lt;/u&gt;. Sometimes it’s cold outbounds per quarter, sometimes it’s calls per week. No matter what unit of measurement you look at, these quotas are inherently created to drive competition and maximize employee performance. But does it really work? Or does it cause more toxicity to your sales team than it does productivity?&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/collaborative-sales-1.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;a-new-type-of-selling&quot;&gt;A New Type of Selling&lt;/h3&gt;
 
-&lt;p&gt;Everyone who’s seen Glengarry Glen Ross knows Alec Baldwin’s infamous Art of Selling scene in which he breaks down sales into a contest - 3rd prize is that you’re fired. Baldwin goes on to make some seemingly ridiculous quotes: “Leads are weak? You’re weak.” Sprinkled in are notes of sexism and the punch-line… Always be closing.&lt;/p&gt;
+&lt;p&gt;Everyone who’s seen Glengarry Glen Ross knows Alec Baldwin’s infamous Art of Selling scene in which he breaks down sales into a contest - 3rd prize is that you’re fired. Baldwin goes on to make some seemingly ridiculous quotes: “Leads are weak? You’re weak.” Sprinkled in are notes of sexism and the punch-line… Always be closing. &lt;/p&gt;
 
 &lt;div class=&quot;imageleft&quot;&gt;
-&lt;iframe width=&quot;500px&quot; height=&quot;320px&quot; src=&quot;https://www.youtube.com/embed/zCf46yHIzSo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;auto&quot; src=&quot;https://www.youtube.com/watch?v=3oQZsuJyy-U&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Sales teams often walk far too close to this comical distopia. It may seem innocuous, but strip away all the dramatic lines, the yelling, the ridiculous analogies, and you’re still left with the toxic undertones created by hyper-competitive sales. Sales competition not only leads to &lt;a href=&quot;http://www.tlnt.com/2012/01/10/10-destructive-behaviors-that-can-bring-down-a-team%E2%80%99s-success/&quot;&gt;destructive behaviors&lt;/a&gt; that can tear the sales org apart, but it’s now being questioned as the &lt;a href=&quot;http://enterprise-gamification.com/index.php?option=com_content&amp;amp;view=article&amp;amp;id=197:9-reasons-why-competition-is-bad-for-sales&amp;amp;catid=10&amp;amp;Itemid=16&amp;amp;lang=en&quot;&gt;best practice&lt;/a&gt; in driving effective sales.&lt;/p&gt;
+&lt;p&gt;Sales teams often walk far too close to this comical distopia. It may seem innocuous, but strip away all the dramatic lines, the yelling, the ridiculous analogies, and you’re still left with the dangerous undertones created by hyper-competitive sales. Sales competition not only leads to &lt;a href=&quot;http://www.tlnt.com/2012/01/10/10-destructive-behaviors-that-can-bring-down-a-team%E2%80%99s-success/&quot;&gt;destructive behaviors&lt;/a&gt; that can tear the sales org apart, but it’s now being questioned as the &lt;a href=&quot;http://enterprise-gamification.com/index.php?option=com_content&amp;amp;view=article&amp;amp;id=197:9-reasons-why-competition-is-bad-for-sales&amp;amp;catid=10&amp;amp;Itemid=16&amp;amp;lang=en&quot;&gt;best practice&lt;/a&gt; in driving effective sales.&lt;/p&gt;
 
-&lt;p&gt;This is not to say that some competition isn’t healthy. Competitive sales has been around forever, but there is room for newer, more collaborative sales models that focus on productivity and employee well-being rather than arbitrary bottom lines.&lt;/p&gt;
+&lt;p&gt;This is not to say that some forms of competition aren’t healthy. Competitive sales has been around forever, but there is room for newer, more collaborative sales models that focus on productivity and employee well-being rather than arbitrary bottom lines.&lt;/p&gt;
 
 &lt;p&gt;In fact, for high-tech companies that work very closely with developers in growing their organization through the installation of SDKs or other drop in code, collaborative sales is the key to success. Github speaks to this in a recent podcast:&lt;/p&gt;
 
-&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/194421673&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;20&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/194421673&amp;amp;color=ff5500&amp;amp;inverse=false&amp;amp;auto_play=false&amp;amp;show_user=true&quot;&gt;&lt;/iframe&gt;
 
 &lt;h3 id=&quot;my-perception-the-problem-with-sales-competition&quot;&gt;My Perception: The Problem With Sales Competition&lt;/h3&gt;
 
-&lt;p&gt;Lots of other people have noted the problems with competitive sales, but in my experience, there are a few things that are worth highlighting. All of these are my own opinions and thoughts. Others might disagree or have found a competitive sales team mindset that works! That’s okay. What’s more important is being aware of how others function and adapating your sales team to be as productive as possible.&lt;/p&gt;
+&lt;p&gt;Lots of other people have noted the problems with competitive sales, but in my experience, there are a few things that are worth highlighting. All of these are my own opinions and thoughts. Others might disagree or have found a competitive sales team mindset that works! That’s okay. What’s more important is being aware of how others function and adapating your sales team to be as productive as possible. &lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Competition incentivizes individual accomplishment and success over company goals.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Competition means splitting up value based on quantity &amp;amp; individual — which is wrong! Everyone should feel compelled to jump in and help sell and evangelize your product!&lt;/p&gt;
+    &lt;p&gt;Competition means splitting up value based on quantity &amp;amp; individual, which is wrong! Everyone should feel compelled to jump in and help sell and evangelize your product!&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Without collaboration on the sales team, members may try to keep “secrets” to selling that help them pull greater numbers than other team members. This is immensely toxic and discourages feedback and improvement both at the process and individual level.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Competition makes it hard to learn: everyone brings a certain set of strengths and weaknesses to sales. If we incentivize numbers, people will lose sight of their long-term ability to be awesome at evangelizing Branch. &lt;/p&gt;
+    &lt;p&gt;Competition makes it hard to learn: everyone brings a certain set of strengths and weaknesses to sales. If we incentivize numbers, people will lose sight of their long-term ability to be awesome at evangelizing your company.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;At the end of the day, you’re likely left wondering &lt;b&gt;is it possible to adapt to every single person’s needs?&lt;/b&gt; Unfortunately, the answer is no, probably not. But that isn’t to say that you can’t try to be more accomodating. The reality is that whatever set of sales rules you choose to integrate might rub off wrongly against particular personalities. However, don’t forget that only you have the power to adapt your team and make it more productive. &lt;b&gt;Don’t accept the sales status quo because it’s business as usual&lt;/b&gt;. &lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://blog.branch.io/ideas-are-the-currency-of-growth/&quot;&gt;same advice&lt;/a&gt; that Morgan Brown vocalizes about growth applies applies to sales: &lt;b&gt;it is an iterative and idea-centric process&lt;/b&gt;. Try new things, test what works and what doesn’t, capture valuable metrics, get feedback, learn, improve, and double down when you’ve figured out the best way for your org to sell.&lt;/p&gt;
 
 &lt;h3 id=&quot;collaborative-sales-explained&quot;&gt;Collaborative Sales Explained&lt;/h3&gt;
 
@@ -56,20 +292,23 @@
 2.) Product &amp;amp; company evangelism.
 3.) A change in mindset &amp;amp; jargon: relationship building vs selling.
 4.) Knowledge sharing.
-5.) Data driven selling and team self-awareness.&lt;/p&gt;
+5.) Data-driven selling and team self-awareness.&lt;/p&gt;
 
-&lt;p&gt;These core tenets of collaborative sales not only lead to a more productive sales team, but they can help reduce the anxiety that often goes hand-in-hands with hyper-competition. More imporantly, by focusing on collaboration and sharing you will create an environment where all sales team-members learn and improve, burn out less frequently (or at all), focus on the company’s success, put the the customer first, and, generally, sell more intelligently. &lt;/p&gt;
+&lt;p&gt;These core tenets of collaborative sales not only lead to a more productive sales team, but they can help reduce the anxiety that often goes hand-in-hand with hyper-competition. More imporantly, by focusing on collaboration and sharing you will create an environment where all sales team-members learn and improve, burn out less frequently (or at all), focus on the company’s success, put the the customer first, and, generally, sell more intelligently. &lt;/p&gt;
 
 &lt;h3 id=&quot;collaborative-sales-in-action&quot;&gt;Collaborative Sales in Action&lt;/h3&gt;
 
 &lt;p&gt;Talkin’ the talk is not enough with collaborative sales - you also need to &lt;a href=&quot;https://www.youtube.com/watch?v=qIOFs2onNE0&quot;&gt;walk the walk&lt;/a&gt;. To help sales teams convert, I can point out how collabortive sales worked for my team at &lt;a href=&quot;https://branch.io&quot;&gt;Branch&lt;/a&gt; during Mobile World Congress 2015. &lt;/p&gt;
 
-&lt;p&gt;The two person sales team worked together the entire conference, generating over 100 leads with a &amp;gt; 25% lead reply rate over 3 days. Part of this was due to the nature of the conference, but, I believe, much of this was due to collaborative sales. &lt;b&gt;So what does collaborative sales in action look like?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The two-person sales team worked together the entire conference, generating over 100 leads with a &amp;gt; 25% lead reply rate over 3 days. Part of this was due to the nature of the conference, but, I believe, much of this was due to collaborative sales. &lt;b&gt;So what did collaborative sales in action look like for us?&lt;/b&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Developed an iOS application tool together as a team, that would streamline our sales cycle and allow us to count our total number of leads so we could calculate our total ROI. Amazing meeting of technical talent, sales need, product cycle, and just raw teamwork. It was a great bonding activity that added huge value to our trip and our follow up in the sales cycle. We did this on the plane to Barcelona in a few hours!&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Developed an iOS application tool together as a team, that would streamline our sales cycle and allow us to count our total number of leads so we could calculate our total ROI. Amazing meeting of technical talent, sales need, product cycle, and just raw teamwork. It was a great bonding activity that added huge value to our trip and our follow up in the sales cycle. We did this on the plane to Barcelona in a few hours!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&quot;imageleft&quot; src=&quot;/images/blogs/collaborative-sales-2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Set expectations upfront that we would work together and not set daily quotas, but that we had a cumulative number we wanted to get &lt;b&gt;together&lt;/b&gt;.&lt;/p&gt;
   &lt;/li&gt;
@@ -83,16 +322,16 @@
     &lt;p&gt;Split up when necessary to give ourselves a break, experiment, move quickly, and improve our independent selling abilities. &lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Both of us switched off engaging with very potential important partners to build our experience. This allowed us to build our independent selling skills, learn how to take subtle cues, and &lt;/p&gt;
+    &lt;p&gt;Both of us switched off engaging with very potential important partners to build our experience. This allowed us to build our independent selling skills, and learn how to take subtle cues.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Over time, we became more comfortable listening, understanding one another’s statements, and contributing valuable information that made for a better pitch team pitch.&lt;/p&gt;
+    &lt;p&gt;Over time, we became more comfortable listening, understanding one another’s statements, and contributing valuable information that made for a better presentation.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;final-takeaways&quot;&gt;Final Takeaways&lt;/h3&gt;
 
-&lt;p&gt;There are many advocates for competitive sales - I’m not here to discredit these techniques. I am here to say, however, that new sales teams should consider exploring new techniques when establishing a culture at their sales organization. Quotas are good, but are short-sighted and don’t focus on the long term prosperity of a sales orgs’ people or their ability to deliver results quarter after quarter. And in a world where people are the heart and soul of a company’s success, I think collaborative sales orgs can deliver incredible sales results while maintaining the best sales talent.&lt;/p&gt;
+&lt;p&gt;There are many advocates for competitive sales - I’m not here to discredit these techniques. I am here to say, however, that new sales teams should consider exploring new techniques when establishing a culture at their sales organization. Quotas are good, but are short-sighted and don’t focus on the long-term prosperity of a sales orgs’ people or their ability to deliver results quarter after quarter. And in a world where people are the heart and soul of a company’s success, I think collaborative sales orgs can deliver incredible sales results while maintaining the best sales talent.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 06 Mar 2015 00:00:00 -0800</pubDate>
@@ -118,7 +357,9 @@
         <title>Podcasting Takeaways - Part 1</title>
         <description>&lt;p&gt;Since I began working at &lt;a href=&quot;http://branch.io&quot;&gt;Branch Metrics&lt;/a&gt;, I’ve had the privilege of curating the content and strategy behind our Podcast outreach. &lt;/p&gt;
 
-&lt;p&gt;In the beginning, I drew a lot of inspiration from &lt;a href=&quot;https://twitter.com/mvc&quot;&gt;Michael Copeland&lt;/a&gt; over at the A16Z podcast station. As I started doing more podcasts, I learned some important lessons on creating audio that is well-curated, compelling, thoughtful, interesting, exciting and fun. &lt;/p&gt;
+&lt;!--more--&gt;
+
+&lt;p&gt;In the beginning, I drew a lot of inspiration from &lt;a href=&quot;https://twitter.com/mvc&quot;&gt;Michael Copeland&lt;/a&gt; over at the A16Z podcast station. As I started doing more podcasts, I learned some important lessons on creating audio that is well-curated, compelling, thoughtful, interesting, exciting,  and fun. &lt;/p&gt;
 
 &lt;div class=&quot;imageleft&quot; style=&quot;width:60%;&quot;&gt;
 &lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/138903540&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
@@ -143,7 +384,7 @@
     &lt;p&gt;Acknowlegment &amp;amp; Elaboration: You ask a question to confirm you understand what the speaker is saying and to inquire for deeper elaboration.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Follow up: You want them to immediately follow up on their point with a similar, related point&lt;/p&gt;
+    &lt;p&gt;Follow Up&amp;lt;: You want them to immediately follow up on their point with a similar, related point. &lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Shift Directions: You want to shift into a new question or topic.&lt;/p&gt;
@@ -158,19 +399,19 @@
 
 &lt;p&gt;&lt;b&gt;5.) Know your acknowledgement words:&lt;/b&gt; Almost as important as asking good questions is listening to the responses your speaker gives and ackowledging important points. It likely seems trivial that this made it onto my top tips, but when you’re listening to a speaker tell a compelling story, or describe a fascinating thought on the market, nothing kills the mood than a misplaced comment or word. From what I’ve found, it’s best to keep things simple. Use words like “Yeah, Sure, Interesting, That’s really cool.” The more you try to interrupt, use long-winded and complicated phrases, or distract the listener from the speaker, the more drop-off you’re likely to get.&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;6.) Discussion &amp;amp; conversation vs. interview:&lt;/b&gt; After trying both models, I think there is a time and place for both types of podcasts. However, discussion podcasts tend to have higher listens, more shares, and are much easier to both conduct and listen to. A discussion makes things relaxed and in turn allows the speaker to talk about a subject off the cuff in a way that most audiences never get. &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;6.) Discussion &amp;amp; conversation vs. interview:&lt;/b&gt; After trying both models, I think there is a time and place for both types of podcasts. However, discussion podcasts tend to have higher listens, more shares, and are much easier to both conduct and listen to. A discussion makes things relaxed and in turn allows the speaker to talk about a subject in a way that most audiences never hear. &lt;/p&gt;
 
 &lt;p&gt;An interview can also lead to a great podcast, but most people freeze up when “interviewed” and tend to project prepared, static answers that do not lead to good pocast material. If you’re doing an interview it should be with somebody seasoned and who will be conducting the interview off the cuff (so that it feels more like a discussion) – even if the questions are curated.&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;7.) Don’t forget distribution:&lt;/b&gt; Soundcloud has become my go-to for podcasts because it is incredibly simple to setup and manage. Additionally, Soundcloud has great analytics at a pretty good price-point, which make it a great place to begin logging pods. However, despite this notion, it’s important to remember that there are many other notable channels for podcast distribution. In fact, if you don’t distribute to as many channels as possible, you run the risk of losing listeners. &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;7.) Don’t forget distribution:&lt;/b&gt; SoundCloud has become my go-to for podcasts because it is incredibly simple to setup and manage. Additionally, SoundCloud has great analytics at a pretty good price-point, which make it a great place to begin logging pods. However, despite this notion, it’s important to remember that there are many other notable channels for podcast distribution. In fact, if you don’t distribute to as many channels as possible, you run the risk of losing listeners. &lt;/p&gt;
 
-&lt;p&gt;In this respect, I advise checking out the Soundcloud beta RSS program, which allows you to use your Soundcloud casts to distribute among most RSS aggregators, like iTunes, Stitcher, TuneIn and Instacast. &lt;/p&gt;
+&lt;p&gt;In this respect, I advise checking out the SoundCloud beta RSS program, which allows you to use your SoundCloud casts to distribute among most RSS aggregators, like iTunes, Stitcher, TuneIn, and Instacast. &lt;/p&gt;
 
 &lt;p&gt;Start &lt;a href=&quot;http://help.soundcloud.com/customer/portal/articles/1197932-how-do-i-find-my-rss-feed-&quot;&gt;here&lt;/a&gt; and fill out the application that you’ll see upon reading the first paragraph: RSS beta program &lt;a href=&quot;https://docs.google.com/a/branchmetrics.io/forms/d/19VL22n_LS3MYJOxd54BwFo-a0LFTrnFQbe6kjb5SkyI/viewform&quot;&gt;application&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If approved, you can grab your RSS feed straight from SoundCloud and push a submission into &lt;a href=&quot;https://www.apple.com/itunes/podcasts/specs.html#testing&quot;&gt;iTunes&lt;/a&gt; or other RSS aggregators. By far, this is the simplest way I have found to mass distribute podcasts with as little effort as possible.&lt;/p&gt;
 
-&lt;p&gt;This list isn’t complete, but does capture an amateur’s start to podcasting. The best thing you can do for yourself as you start to curate and record podcasts is to think thoroughly about what your intent, your audience, and yourself. &lt;/p&gt;
+&lt;p&gt;This list isn’t complete, but does capture an amateur’s start to podcasting. The best thing you can do for yourself as you start to curate and record podcasts is to think thoroughly about your intent, your audience, and yourself. &lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;What&lt;/b&gt; is the reason you’re making this podcast? What message or thoughts are you hoping to capture and convey? &lt;/p&gt;
 
@@ -227,11 +468,13 @@
     
       <item>
         <title>A New Frontier: First Podcast @ Branch</title>
-        <description>&lt;p&gt;An exciting career first happened earlier this week: I conducted my first podcast. It seems trivial, but in fact, podcasting is not only a great way to learn, but a great way to dive into a company’s culture and help produce interesting, useful content. In this first podcast, where I interview Branch CEO Alex Austin, we discuss mobile &amp;amp; deeplinking. What’s funny is that the podcast was an immense edification tool for myself; I hope it continues to serve this purpose not only for all the new partners and developers we work with, but also for incoming Branch employees.&lt;/p&gt;
+        <description>&lt;p&gt;An exciting career first happened earlier this week: I conducted my &lt;a href=&quot;https://soundcloud.com/branchmetrics&quot;&gt;first podcast&lt;/a&gt;. It seems trivial, but in fact, podcasting is not only a great way to learn, but a great way to dive into a company’s culture and help produce interesting, useful content. It’s also &lt;a href=&quot;http://digiday.com/platforms/podcasts-5-chars/&quot;&gt;growing&lt;/a&gt; in popularity at an insanely fast rate…&lt;/p&gt;
+
+&lt;p&gt;In this first podcast, where I interview Branch CEO &lt;a href=&quot;https://medium.com/@alexaustin/just-keep-building-ca1e43df8e5a&quot;&gt;Alex Austin&lt;/a&gt;, we discuss mobile &amp;amp; deeplinking. What’s funny is that the podcast was an immense edification tool for myself; I hope it continues to serve this purpose not only for all the new partners and developers we work with, but also for incoming Branch employees.&lt;/p&gt;
 
 &lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192190273&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;Take a listen and give me feedback! What were things you enjoyed? What would you improve? This podcast series will continue, so help me deliver compelling content for you! &lt;/p&gt;
+&lt;p&gt;Take a listen and &lt;a href=&quot;href=&amp;quot;http://austinhay.com/contact&amp;quot;&quot;&gt;give me feedback&lt;/a&gt;! What were things you enjoyed? What would you improve? This podcast series is only starting, so help me deliver the best, most compelling content you’d like to hear!&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 23 Feb 2015 00:00:00 -0800</pubDate>
@@ -262,39 +505,39 @@
 &lt;p&gt;To save you some trouble, I’ve taken the liberty of curating a set of notes on the podcast. Enjoy:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Pre-Page Rank Era of Mobile&lt;/li&gt;
-  &lt;li&gt;When you look at the app store today it’s like looking at Yahoo in 1995&lt;/li&gt;
-  &lt;li&gt;No way to find the right things you want to use on the device&lt;/li&gt;
-  &lt;li&gt;App stores are like Amazon – list everything that exists, but not way to discover and explore this&lt;/li&gt;
-  &lt;li&gt;Pre-NetScape Phase as well: things are happening outside of the browser&lt;/li&gt;
-  &lt;li&gt;How to we find, explore, and interact with content.&lt;/li&gt;
-  &lt;li&gt;There’s the app, webapp, card, url, messaging app etc. but it’s not yet well defined how to find the content you’re looking for and on the dev side, how you explore engage customers within that&lt;/li&gt;
+  &lt;li&gt;We’re in the Pre-Page Rank era of mobile.&lt;/li&gt;
+  &lt;li&gt;When you look at the app store today it’s like looking at Yahoo in 1995.&lt;/li&gt;
+  &lt;li&gt;No way to find the right things you want to use on the device.&lt;/li&gt;
+  &lt;li&gt;App stores are like Amazon – list everything that exists, but difficult to discover and explore.  &lt;/li&gt;
+  &lt;li&gt;Pre-NetScape Phase as well: things are happening outside of the browser.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;How do we find, explore, and interact with content in the future?&lt;/b&gt;&lt;/li&gt;
+  &lt;li&gt;There’s the app, webapp, card, url, messaging app etc., but it’s not yet well defined how to find the content you’re looking for. On the dev side, how you do you explore and engage customers within that?&lt;/li&gt;
   &lt;li&gt;Chris Dixon: Nobody has invented the real page rank for mobile yet.&lt;/li&gt;
-  &lt;li&gt;No HTML for native – no deeplinking through content, no analygous linking structure that you see on the web&lt;/li&gt;
-  &lt;li&gt;You don’t have a universal resource locator for every single piece of content with apps&lt;/li&gt;
-  &lt;li&gt;Even if you deeplink to content you still have to have the app&lt;/li&gt;
-  &lt;li&gt;The reason we had the web is because it was impossibly difficult to do anything else – it was too hard to get people to buy the desktop software&lt;/li&gt;
-  &lt;li&gt;Smartphones are communications platforms that desktops never were &lt;/li&gt;
-  &lt;li&gt;The smartphone itself becomes the social platform – the device itself is the platform&lt;/li&gt;
-  &lt;li&gt;Not limited to the browser… you can do all other sorts of things&lt;/li&gt;
-  &lt;li&gt;Pulling away from native apps (Apple with health/cards)&lt;/li&gt;
-  &lt;li&gt;An app is a view on top of an underlying data store&lt;/li&gt;
+  &lt;li&gt;There is &lt;!-- --&gt;no HTML for native – no deeplinking through content, no analygous linking structure that you see on the web.&lt;/li&gt;
+  &lt;li&gt;You don’t have a universal resource locator for every single piece of content with apps.&lt;/li&gt;
+  &lt;li&gt;Even if you deeplink to content you still need to have the app.&lt;/li&gt;
+  &lt;li&gt;The reason we had the web is because it was impossibly difficult to do anything else – it was too hard to get people to buy desktop software.&lt;/li&gt;
+  &lt;li&gt;Smartphones are communication platforms that desktops never were.&lt;/li&gt;
+  &lt;li&gt;The smartphone itself becomes a social platform – while the device fades into the background. You can see this in the disappearance of “Tech Specs” from most new Apple device intros. The focus is on the user experience, the beauty and more.&lt;/li&gt;
+  &lt;li&gt;Not limited to the browser… you can do all other sorts of things.&lt;/li&gt;
+  &lt;li&gt;Pulling away from native apps. (Apple with health/cards)&lt;/li&gt;
+  &lt;li&gt;You have to remember an app is just a view on top of an underlying data store.&lt;/li&gt;
   &lt;li&gt;Urbit – web links between pages… but how should we link between apps?&lt;/li&gt;
-  &lt;li&gt;We shouldn’t really have to document an API for every app by utilizing the internal directory structure on the local phone&lt;/li&gt;
-  &lt;li&gt;Phones as a distributed data center&lt;/li&gt;
-  &lt;li&gt;Links between applications based on data interces &lt;/li&gt;
-  &lt;li&gt;Large caches of local data – inversion of today’s model of access&lt;/li&gt;
+  &lt;li&gt;We shouldn’t really have to document an API for every app by utilizing the internal directory structure on the local phone.&lt;/li&gt;
+  &lt;li&gt;Phones can be used as a distributed data center.&lt;/li&gt;
+  &lt;li&gt;Links between applications based on data interces. &lt;/li&gt;
+  &lt;li&gt;Large caches of local data – inversion of today’s model of access.&lt;/li&gt;
   &lt;li&gt;Apple runs a full stack with integration based on fingerprinting, wireless, bluetooth etc.&lt;/li&gt;
   &lt;li&gt;Google is trying to the opposite – lifting all its services into the cloud.&lt;/li&gt;
-  &lt;li&gt;Language and player is less important than the mobile interaction – what will the icon on your homescreen look like, how did it get there?, did it appear automatically?, are there downnloads, is it geo-traced?&lt;/li&gt;
-  &lt;li&gt;Deeplinking into apps fades away in this context&lt;/li&gt;
+  &lt;li&gt;Language and player is less important than the mobile interaction – what will the icon on your homescreen look like? How did it get there? Did it appear automatically? Are there downnloads? Is it geo-traced? &lt;/li&gt;
+  &lt;li&gt;Deeplinking into apps fades away in this context.&lt;/li&gt;
   &lt;li&gt;Who is it that is going to kill the native app? Apple.&lt;/li&gt;
   &lt;li&gt;Google might try, but Apple will be the one who turns around and changes the infrastructure and platform.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;killer-questions-on-mobile-amp-deeplinking&quot;&gt;Killer Questions on Mobile &amp;amp; Deeplinking&lt;/h3&gt;
 
-&lt;p&gt;So, where does this leave us 6 months after a deep dive from the industry’s thought leaders into mobile and native? Not much further away from where we were then. As I began thinking about what’s changed, I was actually only able to come up with a new set of questions. Instead of answering questions, which I have no expertise to fully answer, I will instead leave you with a new set of questions – hopefully to help you think about the changing target that is native page rank and the mobile industry as a whole. Since I work for &lt;a href=&quot;https://branch.io&quot;&gt;Branch&lt;/a&gt;, one of my key focuses in mobile is deeplinking… this definitely flavors my view of the world:&lt;/p&gt;
+&lt;p&gt;So, where does this leave us six months after a deep dive from the industry’s thought leaders into mobile and native? Not much further away from where we were then. As I began thinking about what’s changed, I was actually only able to come up with a new set of questions. Instead of answering questions, which I have no expertise to tackle, I will instead leave you with a new set of questions – hopefully to help you think about the changing target that is native page rank and the mobile industry as a whole. By virtue of my connection to &lt;a href=&quot;https://branch.io&quot;&gt;Branch&lt;/a&gt;, one of my key focuses in mobile is deeplinking. This definitely flavors my view of the mobile world:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -307,10 +550,10 @@
     &lt;p&gt;How do you think deeplinking is going to help native apps evolve out of the pre-page rank era of mobile?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Why is deeplinking so much more than just the links?&lt;/p&gt;
+    &lt;p&gt;&lt;b&gt;Why is deeplinking so much more than just the links?&lt;/b&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;How do you think deeplinking could ansser the problem: “You don’t have a universal resource locator for every single piece of content with apps.”&lt;/p&gt;
+    &lt;p&gt;How do you think deeplinking could solve the problem of not having a universal resource locator for every single piece of content with apps?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Do you think Apple is going to kill native apps?&lt;/p&gt;
@@ -319,7 +562,7 @@
     &lt;p&gt;Do you think native apps are going to die off in the same way that desktop software has?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Do you think deeplinking through the app store and deeplinking app content really fades into the background when you think about mobile interaction from a very high level? How does Branch links fit into this ecosystem?&lt;/p&gt;
+    &lt;p&gt;Do you think deeplinking through the app stores and deeplinking app content really fades into the background when you think about mobile interaction from a very high level? How does Branch links fit into this ecosystem?&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -715,159 +958,6 @@
         <category>Web-development</category>
         
         <category>Technology</category>
-        
-        
-        <category>coding</category>
-        
-      </item>
-    
-      <item>
-        <title>Creating Ruby GEMs</title>
-        <description>&lt;p&gt;Every beginner Ruby developer learns the command &lt;code&gt;gem install&lt;/code&gt; early in their career, but it doesn’t take long for most to wonder what’s going on under the hood. As I’ve started to deepen my understanding of Ruby as a programming language, I’ve also become more enamored by Ruby Gems. Following this interest, I jumped into my local Gem environment and tried to make my own.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h3 id=&quot;what-are-ruby-gems&quot;&gt;What Are Ruby Gems?&lt;/h3&gt;
-
-&lt;p&gt;&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/rubygems-1.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For those unfamiliar with Ruby, I can start by defining Gems. A Ruby Gem is simply a &lt;a href=&quot;http://en.wikipedia.org/wiki/Package_manager&quot;&gt;package manager&lt;/a&gt; that provides three main purposes:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;A standard format for distributing Ruby libraries, programs and scripts. &lt;/li&gt;
-  &lt;li&gt;A tool that helps manage library installation.&lt;/li&gt;
-  &lt;li&gt;A server for distributing these libraries.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So, simply put, Ruby Gems are plugin software packages that contain Ruby applications and/or libraries. Gems are a fundamental part of Ruby programming because they extend and manipulate the feature set and full functionality of Ruby applications. Most commonly, Gems are used to implement re-usable features and prevent developers from having to reinvent the wheel. &lt;/p&gt;
-
-&lt;p&gt;This is really how it works with all code libraries. In the past, when you built an incredible script or application that completed some task you might save it for your own purposes to use in all your applications. Over time, thousands of programmers have done this, sharing their work with the world – in this case via Gems using the &lt;a href=&quot;http://guides.rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; software package manager – so that instead of having to go solve every nuanced programming problem they come across, they can plug into the work of others and focus more attention on building the application at hand.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-do-gems-work&quot;&gt;How do Gems Work?&lt;/h3&gt;
-
-&lt;p&gt;At a high level the command &lt;code&gt;gem&lt;/code&gt; is what allows you to work with Ruby Gems from your &lt;a href=&quot;http://cli.learncodethehardway.org/book/&quot;&gt;command line&lt;/a&gt;. If it’s your first time getting started with Ruby (version &amp;gt; 1.9) you will have the RubyGems commands built in, but if not, you can always &lt;a href=&quot;https://rubygems.org/pages/download&quot;&gt;download&lt;/a&gt; and run the installer from RubyGems.org.&lt;/p&gt;
-
-&lt;p&gt;RubyGems.org provides the best resources avaiable for using and working with Ruby Gems – this shouldn’t be surprising! &lt;/p&gt;
-
-&lt;p&gt;What are some of the cool commands you can run from terminal when working with GEMs?&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;gem install [ Gem library Name ]&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;gem search [ Gem library Name ]&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;irb -rpp&lt;/code&gt;: Requires a library when irb loads!&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;gem list&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;gem uninstall [ Gem library name ]&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;ri [ Gem library name ]&lt;/code&gt;: View the documentation of the requested Gem.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;gem server&lt;/code&gt;: Lets you view the documentation for your installed Gems using a local host.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;gem fetch [ Gem library name ]&lt;/code&gt;: Let’s you audit a Gem’s contents without downloading it&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;gem unpack [ Gem library name ]&lt;/code&gt;: After fetching, you can extract the contents from the &lt;code&gt;.gem&lt;/code&gt; file.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This list serves as a launchpad. There are loads of other awesome &lt;a href=&quot;http://guides.rubygems.org/command-reference/&quot;&gt;Gem commands&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://guides.rubygems.org/command-reference/&quot;&gt;&lt;img src=&quot;/images/blogs/rubygems-2.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Now that you have an understanding of ruby Gems and how to work with them, it’s time to turn our attention to the main argument – how to &lt;b&gt;build&lt;/b&gt; Ruby Gems.&lt;/p&gt;
-
-&lt;h3 id=&quot;building-your-own-gem&quot;&gt;Building Your Own Gem&lt;/h3&gt;
-
-&lt;p&gt;The process is actually quite simple. First I recommend checking out these two resources:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://guides.rubygems.org/make-your-own-gem/&quot;&gt;Make Your Own Gem&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://quickleft.com/blog/engineering-lunch-series-step-by-step-guide-to-building-your-first-ruby-gem/&quot;&gt; Step-by-Step Guide to Building Gems &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Installing is easiest using &lt;code&gt;bundle&lt;/code&gt; as explained in the Step by Step guide. It works like this…&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ gem install bundle
-$ bundle gem [ Your Gem name ]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You don’t necessarily have to run bundle in order to create a Gem. You could also use built in Gem commands. First, navigate to where you want to build your Gem in CL. Create a &lt;code&gt;.gemspec&lt;/code&gt; file using the required syntax and nomenclature. Confused? Here’s an &lt;a href=&quot;http://guides.rubygems.org/specification-reference/&quot;&gt;example&lt;/a&gt;. And if that’s not enough, here’s one of my .gemspec files so that you understand what it might look like.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;imageright&quot; src=&quot;/images/blogs/rubygems-3.png&quot; href=&quot;http://guides.rubygems.org/command-reference/&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now that you’ve made your &lt;code&gt;.gemspec&lt;/code&gt; file you can run &lt;code&gt;gem build [ Your gem name].gemspec&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The Gem will automatically get built for you with all the correct directories, subdirectories and required files.&lt;/p&gt;
-
-&lt;p&gt;Similarly, you could just start from scratch by navigating to the directory where you want to build your Gem and creating the following files / sub-directories.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Subdirectories:&lt;/b&gt;
-&lt;code&gt;lib&lt;/code&gt;
-&lt;code&gt;spec&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Files:&lt;/b&gt;
-&lt;code&gt;.gitignore&lt;/code&gt;
-&lt;code&gt;.travis.yml&lt;/code&gt;
-&lt;code&gt;[ GEM NAME ].gemspec&lt;/code&gt;
-&lt;code&gt;Gemfile&lt;/code&gt;
-&lt;code&gt;LICENSE.txt&lt;/code&gt;
-&lt;code&gt;Rakefile&lt;/code&gt;
-&lt;code&gt;README.md&lt;/code&gt;
-&lt;code&gt;GEMLOCK&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;gem-visualization&quot;&gt;Gem Visualization&lt;/h4&gt;
-
-&lt;p&gt;The above list serves as the architecture for your Gem, but you still might be wondering what the tree structure of a Gem looks like. If you ran the previous &lt;code&gt;bundle&lt;/code&gt; commands (or built it yourself) and named your Gem “freewill”, per &lt;a href=&quot;http://guides.rubygems.org/what-is-a-gem/&quot;&gt;this example&lt;/a&gt;, this is what you would have created automatically. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/blogs/rubygems-4.png&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;building-with-test-driven-development&quot;&gt;Building with Test Driven Development&lt;/h4&gt;
-
-&lt;p&gt;From this point you will want to build your Gem using &lt;a href=&quot;http://en.wikipedia.org/wiki/Test-driven_development&quot;&gt;Test-Driven Development&lt;/a&gt; (TDD). Most people use &lt;a href=&quot;http://rspec.info/&quot;&gt;RSpec&lt;/a&gt; to do so. In TTD you’ll want to first add rspec to your Gem:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Gem:Specification.new do |spec|
-   spec.add_development_dependency &#39;rspec&#39;
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now you can create a &lt;code&gt;spec&lt;/code&gt; sub-directory within your Gem home directory. And add &lt;code&gt;spec&lt;/code&gt; helper and Gem test files. Here’s an example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ mkdir spec
-$ cd spec
-$ touch [ Gem Name ]_spec.rb
-$ touch spec_helper.rb
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Using TTD and Rspec is outside of the scope of this article, but you you can add all your tests into these newly created ruby files. Learn more about that &lt;a href=&quot;http://rspec.info/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;deploying-your-gem&quot;&gt;Deploying Your Gem&lt;/h3&gt;
-
-&lt;p&gt;After many hours of building your awesome Gem you’ll probably get to the point where you’re interested in publishing. The &lt;a href=&quot;http://guides.rubygems.org/publishing/&quot;&gt;process&lt;/a&gt; is also very simple. &lt;/p&gt;
-
-&lt;p&gt;The best and easiest way to spread the gospel of your Gem to other Ruby developers (and easily use it in all your projects with a simple &lt;code&gt;gem install&lt;/code&gt; command…) is to publish to &lt;a href=&quot;http://www.rubygems.org&quot;&gt;RubyGems.org&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://rubygems.org/sign_up&quot;&gt;Signup&lt;/a&gt; on their website and then push your Gem:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ gem push [ Your Gem ].gem
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You will be prompted for login information, but RubyGems will save your credentials to &lt;code&gt;~/.gem/credentials&lt;/code&gt; from the command line so that you won’t have to do it everytime you push.&lt;/p&gt;
-
-&lt;h3 id=&quot;wrap-up&quot;&gt;Wrap Up&lt;/h3&gt;
-
-&lt;p&gt;In short, Ruby Gems are a fundamental aspect of coding in Ruby. It doesn’t take much time to start implementing them in your &lt;code&gt;.rb&lt;/code&gt; files with the &lt;code&gt;require&lt;/code&gt; tag, but creating your own Gem is a bit complicated. Hopefully this short intro gives you a first look and provides the resources needed to dive further.&lt;/p&gt;
-
-&lt;p&gt;If you have more time, I highly recommend learning to build Ruby Gems by exploring those Gems that have already been created. You can do this by navigating to the directory where your Gems are stored. Use the following in CL:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ gem environment
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Using your favorite text editor, open up some existing Gems – or Gems that you use frequently – and see how they are built. Compare the architecture you see there to the one I’ve described. Go one step further and see how their tests are established and how their primary &lt;code&gt;.rb&lt;/code&gt; file works. You will learn an extraordinary amount by immersing yourself in existing Gems! Happy coding!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Feb 2015 00:00:00 -0800</pubDate>
-        <link>http://austinhay.com/coding/2015/02/01/Creating-GEMs.html</link>
-        <guid isPermaLink="true">http://austinhay.com/coding/2015/02/01/Creating-GEMs.html</guid>
-        
-        <category>Ruby</category>
-        
-        <category>GEM</category>
-        
-        <category>Software</category>
-        
-        <category>Web-development</category>
         
         
         <category>coding</category>
