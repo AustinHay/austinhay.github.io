@@ -5,12 +5,12 @@
     <description> is a millenial blogger, engineer &amp; operater focused on strategy, leadership, self-developement, entrepreneurship, and rookie programming. Don&#39;t be a stranger - drop me an email to connect. Contents and code &amp;copy; 2015</description>
     <link>http://austinhay.com/</link>
     <atom:link href="http://austinhay.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 15 Mar 2015 20:33:38 -0700</pubDate>
-    <lastBuildDate>Sun, 15 Mar 2015 20:33:38 -0700</lastBuildDate>
+    <pubDate>Sun, 15 Mar 2015 23:23:30 -0700</pubDate>
+    <lastBuildDate>Sun, 15 Mar 2015 23:23:30 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Sell or Be Sold: Mobile World Congress 2015</title>
+        <title>Conquering Mobile World Congress 2015</title>
         <description>&lt;p&gt;When we first touched down in Barcelona two weeks ago it was hard to believe I was really there. Just three days before I got a late night call from one of our co-founders with a simple question: &lt;b&gt;Want to go to Spain?&lt;/b&gt; At first I thought she was joking - or maybe referring to a far off conference in the summer. &lt;/p&gt;
 
 &lt;figure class=&quot;imageright-1&quot;&gt;
@@ -26,7 +26,7 @@
 
 &lt;p&gt;My journey to MWC began moments after I hung up the phone that fateful Thursday night. It was time to prepare. For most companies, MCW takes serveral months of preperation, but not at &lt;a href=&quot;https://branch.io&quot;&gt;Branch&lt;/a&gt;. After our recent &lt;a href=&quot;http://techcrunch.com/2015/02/26/branch-metrics-raises-15-million-for-its-smarter-mobile-deep-linking-technology/&quot;&gt;Series A&lt;/a&gt; we saw a great opportunity to build relationships, evangelize Branch, make a notable presence, and to learn about the mobile ecosystem. &lt;/p&gt;
 
-&lt;p&gt;Who said you couldn’t pull off an incredibly successful MWC trip in three days? 4 days, 30 miles walking, 100’s of partner meetings, 20 cafe con leches, dozens of cocktail hours, and 18 hour crunches later, this is my story: &lt;b&gt;&lt;a href=&quot;http://www.grantcardone.com/sell-or-be-sold/&quot;&gt;Sell or Be Sold&lt;/a&gt;: Conquering &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;MWC&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;Who said you couldn’t pull off an incredibly successful MWC trip in three days? 4 days, 30 miles walking, 100’s of partner meetings, 20 cafe con leches, dozens of cocktail hours, and 18 hour crunches later, this is my story: &lt;b&gt; Conquering &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;MWC&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-adventure-beginswith-an-app&quot;&gt;The Adventure Begins…with an App&lt;/h3&gt;
 
@@ -513,7 +513,7 @@
   &lt;li&gt;&lt;b&gt;How do we find, explore, and interact with content in the future?&lt;/b&gt;&lt;/li&gt;
   &lt;li&gt;There’s the app, webapp, card, url, messaging app etc., but it’s not yet well defined how to find the content you’re looking for. On the dev side, how you do you explore and engage customers within that?&lt;/li&gt;
   &lt;li&gt;Chris Dixon: Nobody has invented the real page rank for mobile yet.&lt;/li&gt;
-  &lt;li&gt;There is &lt;!-- --&gt;no HTML for native – no deeplinking through content, no analygous linking structure that you see on the web.&lt;/li&gt;
+  &lt;li&gt;There is no HTML for native – no deeplinking through content, no analygous linking structure that you see on the web.&lt;/li&gt;
   &lt;li&gt;You don’t have a universal resource locator for every single piece of content with apps.&lt;/li&gt;
   &lt;li&gt;Even if you deeplink to content you still need to have the app.&lt;/li&gt;
   &lt;li&gt;The reason we had the web is because it was impossibly difficult to do anything else – it was too hard to get people to buy desktop software.&lt;/li&gt;
