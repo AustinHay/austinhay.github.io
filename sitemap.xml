@@ -32,9 +32,19 @@
 
   <!-- Posts -->
   
-  <url><loc>http://austinhay.com/branch/2015/03/06/Conquering-MWC-2015.html</loc>
+  <url><loc>http://austinhay.com/podcast/2015/03/22/The-Developer-Experience-and-Goats.html</loc>
   <changefreq>daily</changefreq>
-  <lastmod>2015-03-06T00:00:00-08:00</lastmod>
+  <lastmod>2015-03-22T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url><loc>http://austinhay.com/podcast/2015/03/17/Building-A-High-Growth-Company-CMB.html</loc>
+  <changefreq>daily</changefreq>
+  <lastmod>2015-03-17T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url><loc>http://austinhay.com/branch/2015/03/10/Conquering-MWC-2015.html</loc>
+  <changefreq>daily</changefreq>
+  <lastmod>2015-03-10T00:00:00-07:00</lastmod>
   </url>
   
   <url><loc>http://austinhay.com/sales/2015/03/06/Collaborative-Sales.html</loc>
@@ -484,6 +494,26 @@
     </url>
   
     <url><loc>http://austinhay.com/search.html?tags=spain</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=branch</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=coffee meets bagel</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=mobile growth</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=dmitri gaskin</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=developer experience</loc>
     <changefreq>daily</changefreq>
     </url>
   
