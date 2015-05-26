@@ -66,6 +66,48 @@
   <!-- Posts -->
   
   <tr>
+  	<td><url><loc>http://www.austinhay.com/growth/2015/05/22/Mobile-Growth-with-Pinterest.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-05-22T00:00:00-07:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/deeplinking/2015/04/17/On-the-Failed-Promise-of-Deeplinking.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-04-17T00:00:00-07:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/branch/2015/04/15/Breaking-Down-Contextual-Deeplinking.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-04-15T00:00:00-07:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/branch/2015/04/08/Deeplinked-Mobile-Advertisements.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-04-08T00:00:00-07:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/branch/2015/04/05/What-Mobile-Games-Look-Like-With-Deeplinking.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-04-05T00:00:00-07:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/podcast/2015/03/30/Smart-People-and-Great-Ideas-Not-Enough.html</loc></td>
+    <td><changefreq>daily</changefreq></td>
+  	<td><lastmod>2015-03-30T00:00:00-07:00</lastmod></td>
+    </url>
+  </tr>
+  
+  <tr>
   	<td><url><loc>http://www.austinhay.com/podcast/2015/03/22/The-Developer-Experience-and-Goats.html</loc></td>
     <td><changefreq>daily</changefreq></td>
   	<td><lastmod>2015-03-22T00:00:00-07:00</lastmod></td>
@@ -772,6 +814,66 @@
       </url>
   </tr>
   
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=ben narasin</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=games</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=advertising</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=mnectar</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=contextual deeplinking</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=web to mobile</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=context</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=medium</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=basic deeplinking</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
+  <tr>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags=podcasts</loc></td>
+  		<td><changefreq>daily</changefreq></td>
+      </url>
+  </tr>
+  
 
   <!-- Category Indexes -->
   
@@ -825,6 +927,18 @@
   
   <tr>
   	<td><url><loc>http://www.austinhay.com/search.html?category=sales</loc></td>
+  	<td><changefreq>daily</changefreq></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/search.html?category=deeplinking</loc></td>
+  	<td><changefreq>daily</changefreq></td>
+    </url>
+  </tr>
+  
+  <tr>
+  	<td><url><loc>http://www.austinhay.com/search.html?category=growth</loc></td>
   	<td><changefreq>daily</changefreq></td>
     </url>
   </tr>

@@ -218,14 +218,7 @@ $(document).ready(function(){
               <div class="transparent-background post-content project-text">
             
               <h1 class="post-title">Working Through the Django Tutorial: Outline &amp; Takeaways Part 1</h1>
-              <div>
-        <b>I take tips.</b>
-
-        <div class="cb-tip-button" data-content-location="http://austinhay.com" data-href="//www.coinbase.com/tip_buttons/show_tip" data-to-user-id="54b2fbcb0c639c8be50000c5"></div>
-            
-            <script>!function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src="https://www.coinbase.com/assets/tips.js";cjs.parentNode.insertBefore(js,cjs);}(document, 'script', 'coinbase-tips');</script>
-
-      </div>
+        
 
               <article class="post-content">
                 <p>
@@ -296,18 +289,18 @@ from django.conf import settings
   </li>
   <li><code>urls.py</code> contains the URL declarations for the Django project. You can think of it like <code>routes.rb</code> in Rails. URLs are controlled by the <a href="https://docs.djangoproject.com/en/1.7/topics/http/urls/">URL Dispatcher</a>.
     <ul>
-      <li><b>So, what exactly is the <code>URL Dispatcher</code>?</b> It is the URL scheme that lets you design URLs without framework limitations commonly found in <code>php</code> and <code>cgi</code>. </li>
+      <li><b>So, what exactly is the <code>URL Dispatcher</code>?</b> It is the URL scheme that lets you design URLs without framework limitations commonly found in <code>php</code> and <code>cgi</code>.</li>
       <li>One of the founders of the World Wide Web (yeah, that title is for real) Tim Berners-Lee <a href="http://www.w3.org/Provider/Style/URI">discusses</a> why URIs have to be clean and usable. This is a must read.</li>
       <li><code>URLconf</code> is the Python module made up of pure Python code that maps between URL patterns (simple expressions) and Python functions (your app views).</li>
       <li>Django proccesses a requestFor the sake of not totally regurgitating django docs, just read <a href="https://docs.djangoproject.com/en/1.7/topics/http/urls/#how-django-processes-a-request">here</a>.</li>
-      <li><code>wsgi.py</code> functions as an entry point for WSGI-compatible web servers to serve up your project. </li>
+      <li><code>wsgi.py</code> functions as an entry point for WSGI-compatible web servers to serve up your project.</li>
     </ul>
   </li>
 </ul>
 
 <h4 id="b--rolling-into-databases-apps-vs-projects-and-much-much-more-b"><b>  Rolling into Databases, Apps vs. Projects and much, much more… </b></h4>
 
-<p>From here, you are pretty much set up and ready to start the hard part (or fun part), which entails the actual coding. That’s one beautiful aspect of Django – it handles the grunt work of laying out your project and apps in a way that gives you more time to focus on building your actual content. </p>
+<p>From here, you are pretty much set up and ready to start the hard part (or fun part), which entails the actual coding. That’s one beautiful aspect of Django – it handles the grunt work of laying out your project and apps in a way that gives you more time to focus on building your actual content.</p>
 
 <h4 id="b--key-insights-b"><b>  Key Insights </b></h4>
 
@@ -318,13 +311,13 @@ from django.conf import settings
     <p>Django is filled with instances of pure Python code, <b>which means modules and other app features can be constructed dynamically</b>.</p>
   </li>
   <li>
-    <p>One major difference between Django and a frameowkr like Ruby on Rails is that <b>the data model is totally defined in one place and everything is derived from it</b>. This means that things like migrations are entirely derived from your <code>models.py</code> file. This just acts as a history that Django can roll through to update database schema to match the most current model. </p>
+    <p>One major difference between Django and a frameowkr like Ruby on Rails is that <b>the data model is totally defined in one place and everything is derived from it</b>. This means that things like migrations are entirely derived from your <code>models.py</code> file. This just acts as a history that Django can roll through to update database schema to match the most current model.</p>
   </li>
   <li>
     <p>Taken straight from documentation…“<b>Django apps are ‘pluggable’</b>: You can use an app in multiple projects, and you can distribute apps, because they don’t have to be tied to a given Django installation.” SO Awesome!!!</p>
   </li>
   <li>
-    <p><b>A point of clarity around migrations:</b> As Django docs explains migrations are simply how Django stores changes made to the models you’ve created in your apps (ie …and so it also stores and tracks the changes made to your database schema, since these are derived from your models). These are stored as files on disk and you can read and manipulate them at will. </p>
+    <p><b>A point of clarity around migrations:</b> As Django docs explains migrations are simply how Django stores changes made to the models you’ve created in your apps (ie …and so it also stores and tracks the changes made to your database schema, since these are derived from your models). These are stored as files on disk and you can read and manipulate them at will.</p>
   </li>
 </ul>
 

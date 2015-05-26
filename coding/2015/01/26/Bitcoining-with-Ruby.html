@@ -215,14 +215,7 @@ $(document).ready(function(){
               <div class="transparent-background post-content project-text">
             
               <h1 class="post-title">Bitcoining with Ruby</h1>
-              <div>
-        <b>I take tips.</b>
-
-        <div class="cb-tip-button" data-content-location="http://austinhay.com" data-href="//www.coinbase.com/tip_buttons/show_tip" data-to-user-id="54b2fbcb0c639c8be50000c5"></div>
-            
-            <script>!function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src="https://www.coinbase.com/assets/tips.js";cjs.parentNode.insertBefore(js,cjs);}(document, 'script', 'coinbase-tips');</script>
-
-      </div>
+        
 
               <article class="post-content">
                 <p>
@@ -239,7 +232,7 @@ $(document).ready(function(){
 
 <p><img class="imageleft" src="/images/blogs/coinbase-with-ruby-4.png" /></p>
 
-<p>The full code repository from this post can be found <a href="https://github.com/AustinHay/coinbase-api-basics">here</a> – along with my other motives for exploring the Coinbase API, but I’ll start by demonstrating the end product of using the Coinbase Ruby wrapped API. </p>
+<p>The full code repository from this post can be found <a href="https://github.com/AustinHay/coinbase-api-basics">here</a> – along with my other motives for exploring the Coinbase API, but I’ll start by demonstrating the end product of using the Coinbase Ruby wrapped API.</p>
 
 <p>I had used Bitcoin across other apps and had a Bitcoin account before, but I’d never really traded the currency much. I certainly hadn’t dove into the backend of how a bitcoin API functions.</p>
 
@@ -252,7 +245,7 @@ $(document).ready(function(){
 <p>First, you should check out the API docs for yourself. Go <a href="https://www.coinbase.com/docs/api/overview">here</a> to get started. At a high level, the Coinbase API is a simple REST API that supports all of the core bitcoin operations, such as:</p>
 
 <ul>
-  <li>Buying / selling </li>
+  <li>Buying / selling</li>
   <li>Sending / Requsting via email / BTC address</li>
   <li>Exchanging to local currency</li>
   <li>Accept payments</li>
@@ -275,13 +268,13 @@ $(document).ready(function(){
 
 <h3 id="hmachttpenwikipediaorgwikihash-basedmessageauthenticationcode-authentication"><a href="http://en.wikipedia.org/wiki/Hash-based_message_authentication_code">HMAC</a> Authentication:</h3>
 
-<p>First off, HMAC is wicked cool and in my humble view a bit complicated to wrap your head around at first. A great deep dive on the content is on <a href="http://security.stackexchange.com/questions/20129/how-when-do-i-use-hmac">security exchange</a> – which is definitely worht the time if you have it. Coinbase <a href="https://www.coinbase.com/docs/api/authentication">talks security</a> in their API docs as well. </p>
+<p>First off, HMAC is wicked cool and in my humble view a bit complicated to wrap your head around at first. A great deep dive on the content is on <a href="http://security.stackexchange.com/questions/20129/how-when-do-i-use-hmac">security exchange</a> – which is definitely worht the time if you have it. Coinbase <a href="https://www.coinbase.com/docs/api/authentication">talks security</a> in their API docs as well.</p>
 
 <p>For the purposes of this simple tutorial, however, you just need to know that in order to clear HMAC auth you’ll need to <a href="https://www.coinbase.com/settings/api">go to your account settings</a> and setup an API Key. If you’re unsure which type of key to use, here’s a quick reference:</p>
 
 <p><img src="/images/blogs/coinbase-with-ruby-2.png" /></p>
 
-<p>Now you can start using some Ruby to play with Coinbase. First, create a client instance and pass it the API key and Secret from your Coinbase account. </p>
+<p>Now you can start using some Ruby to play with Coinbase. First, create a client instance and pass it the API key and Secret from your Coinbase account.</p>
 
 <pre><code>coinbase = Coinbase::Client.new(ENV['COINBASE_API_KEY'], ENV['COINBASE_API_SECRET'])
 </code></pre>
@@ -319,7 +312,7 @@ coinbase = Coinbase::Client.new(secrets['COINBASE_API_KEY'], secrets['COINBASE_A
 balance = coinbase.balance.to_s
 </code></pre>
 
-<p>As you can see, the implementation is very basic and super powerful. There are tons of other options that you can implement on the Coinbase Github <a href="https://github.com/coinbase/coinbase-ruby">Repo</a> alongside great resource materials as well. I cannot recommend enough the utility of this page! </p>
+<p>As you can see, the implementation is very basic and super powerful. There are tons of other options that you can implement on the Coinbase Github <a href="https://github.com/coinbase/coinbase-ruby">Repo</a> alongside great resource materials as well. I cannot recommend enough the utility of this page!</p>
 
 <h3 id="coinbase-tip-implementation">Coinbase Tip Implementation:</h3>
 
@@ -337,7 +330,7 @@ balance = coinbase.balance.to_s
 
 <p>Unfortunately, I did find some issues with Coinbase’s API docs. I’ll point out a few, but this is good to know in case you get stuck while working with their developer set:</p>
 
-<p>1.) Broken/defunct link referenced as, “api reference,” on the Github Coinbase-Ruby page. </p>
+<p>1.) Broken/defunct link referenced as, “api reference,” on the Github Coinbase-Ruby page.</p>
 
 <p>The dead link is this:</p>
 

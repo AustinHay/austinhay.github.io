@@ -215,14 +215,7 @@ $(document).ready(function(){
               <div class="transparent-background post-content project-text">
             
               <h1 class="post-title">Creating Ruby GEMs</h1>
-              <div>
-        <b>I take tips.</b>
-
-        <div class="cb-tip-button" data-content-location="http://austinhay.com" data-href="//www.coinbase.com/tip_buttons/show_tip" data-to-user-id="54b2fbcb0c639c8be50000c5"></div>
-            
-            <script>!function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src="https://www.coinbase.com/assets/tips.js";cjs.parentNode.insertBefore(js,cjs);}(document, 'script', 'coinbase-tips');</script>
-
-      </div>
+        
 
               <article class="post-content">
                 <p>
@@ -245,12 +238,12 @@ $(document).ready(function(){
 <p>For those unfamiliar with Ruby, I can start by defining Gems. A Ruby Gem is simply a <a href="http://en.wikipedia.org/wiki/Package_manager">package manager</a> that provides three main purposes:</p>
 
 <ol>
-  <li>A standard format for distributing Ruby libraries, programs and scripts. </li>
+  <li>A standard format for distributing Ruby libraries, programs and scripts.</li>
   <li>A tool that helps manage library installation.</li>
   <li>A server for distributing these libraries.</li>
 </ol>
 
-<p>So, simply put, Ruby Gems are plugin software packages that contain Ruby applications and/or libraries. Gems are a fundamental part of Ruby programming because they extend and manipulate the feature set and full functionality of Ruby applications. Most commonly, Gems are used to implement re-usable features and prevent developers from having to reinvent the wheel. </p>
+<p>So, simply put, Ruby Gems are plugin software packages that contain Ruby applications and/or libraries. Gems are a fundamental part of Ruby programming because they extend and manipulate the feature set and full functionality of Ruby applications. Most commonly, Gems are used to implement re-usable features and prevent developers from having to reinvent the wheel.</p>
 
 <p>This is really how it works with all code libraries. In the past, when you built an incredible script or application that completed some task you might save it for your own purposes to use in all your applications. Over time, thousands of programmers have done this, sharing their work with the world – in this case via Gems using the <a href="http://guides.rubygems.org/">RubyGems</a> software package manager – so that instead of having to go solve every nuanced programming problem they come across, they can plug into the work of others and focus more attention on building the application at hand.</p>
 
@@ -258,7 +251,7 @@ $(document).ready(function(){
 
 <p>At a high level the command <code>gem</code> is what allows you to work with Ruby Gems from your <a href="http://cli.learncodethehardway.org/book/">command line</a>. If it’s your first time getting started with Ruby (version &gt; 1.9) you will have the RubyGems commands built in, but if not, you can always <a href="https://rubygems.org/pages/download">download</a> and run the installer from RubyGems.org.</p>
 
-<p>RubyGems.org provides the best resources avaiable for using and working with Ruby Gems – this shouldn’t be surprising! </p>
+<p>RubyGems.org provides the best resources avaiable for using and working with Ruby Gems – this shouldn’t be surprising!</p>
 
 <p>What are some of the cool commands you can run from terminal when working with GEMs?</p>
 
@@ -321,7 +314,7 @@ $ bundle gem [ Your Gem name ]
 
 <h4 id="gem-visualization">Gem Visualization</h4>
 
-<p>The above list serves as the architecture for your Gem, but you still might be wondering what the tree structure of a Gem looks like. If you ran the previous <code>bundle</code> commands (or built it yourself) and named your Gem “freewill”, per <a href="http://guides.rubygems.org/what-is-a-gem/">this example</a>, this is what you would have created automatically. </p>
+<p>The above list serves as the architecture for your Gem, but you still might be wondering what the tree structure of a Gem looks like. If you ran the previous <code>bundle</code> commands (or built it yourself) and named your Gem “freewill”, per <a href="http://guides.rubygems.org/what-is-a-gem/">this example</a>, this is what you would have created automatically.</p>
 
 <p><img src="/images/blogs/rubygems-4.png" /></p>
 
@@ -346,9 +339,9 @@ $ touch spec_helper.rb
 
 <h3 id="deploying-your-gem">Deploying Your Gem</h3>
 
-<p>After many hours of building your awesome Gem you’ll probably get to the point where you’re interested in publishing. The <a href="http://guides.rubygems.org/publishing/">process</a> is also very simple. </p>
+<p>After many hours of building your awesome Gem you’ll probably get to the point where you’re interested in publishing. The <a href="http://guides.rubygems.org/publishing/">process</a> is also very simple.</p>
 
-<p>The best and easiest way to spread the gospel of your Gem to other Ruby developers (and easily use it in all your projects with a simple <code>gem install</code> command…) is to publish to <a href="http://www.rubygems.org">RubyGems.org</a> </p>
+<p>The best and easiest way to spread the gospel of your Gem to other Ruby developers (and easily use it in all your projects with a simple <code>gem install</code> command…) is to publish to <a href="http://www.rubygems.org">RubyGems.org</a></p>
 
 <p><a href="https://rubygems.org/sign_up">Signup</a> on their website and then push your Gem:</p>
 
