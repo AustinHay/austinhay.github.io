@@ -32,6 +32,11 @@
 
   <!-- Posts -->
   
+  <url><loc>http://austinhay.com/sales/2015/07/10/Building-a-MVP-Sales-Tool.html</loc>
+  <changefreq>daily</changefreq>
+  <lastmod>2015-07-10T00:00:00-07:00</lastmod>
+  </url>
+  
   <url><loc>http://austinhay.com/growth/2015/05/22/Mobile-Growth-with-Pinterest.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2015-05-22T00:00:00-07:00</lastmod>
@@ -584,6 +589,30 @@
     </url>
   
     <url><loc>http://austinhay.com/search.html?tags=podcasts</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=mvp</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=product development</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=product management</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=mobile world congress</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=ios</loc>
+    <changefreq>daily</changefreq>
+    </url>
+  
+    <url><loc>http://austinhay.com/search.html?tags=productivity tools</loc>
     <changefreq>daily</changefreq>
     </url>
   
