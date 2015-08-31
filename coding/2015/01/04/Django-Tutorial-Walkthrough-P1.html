@@ -51,9 +51,8 @@
 
     <!--- Description -->
     
-      <meta property="og:description" content="In order to better familiarize myself with Django I decided to work through the Django simple app tutorial which allows you to create a “polls” app. The walkthrough can be found on Django docs here. 
-
-
+      <meta property="og:description" content="In order to better familiarize myself with Django I decided to work through the Django simple app tutorial which allows you to create a &quot;polls&quot; app. The walkthrough can be found on Django docs here. 
+&lt;!--more--&gt;
 "/>
 
     
@@ -114,17 +113,10 @@
   	<link rel='stylesheet' type='text/csshref=' href='https://fonts.googleapis.com/css?family=Raleway'/>
     <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'/>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 
 <!-- Javascripts -->
-<script type="text/javscript">
-
-$(document).ready(function(){
-  var images = ['../images/post-backgrounds/1.jpg', '../images/post-backgrounds/2.jpg'];
-  $('home-img-top').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
-});
-
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 <script type="text/javascript" src="/assets/js/jekyll-search.js"></script>
 
@@ -168,10 +160,6 @@ $(document).ready(function(){
 
         
 
-        
-          
-        
-          
         
           
         
@@ -230,136 +218,103 @@ $(document).ready(function(){
 		<br>
 	<span class="post-meta">Published: Jan 4, 2015</span>
 </p>
-                <p>In order to better familiarize myself with Django I decided to work through the Django simple app tutorial which allows you to create a “polls” app. The walkthrough can be found on Django docs <a href="https://docs.djangoproject.com/en/1.7/intro/tutorial01/">here</a>. 
-<!--more--></p>
+                <p>In order to better familiarize myself with Django I decided to work through the Django simple app tutorial which allows you to create a &quot;polls&quot; app. The walkthrough can be found on Django docs <a href="https://docs.djangoproject.com/en/1.7/intro/tutorial01/">here</a>. 
+&lt;!--more--&gt;</p>
 
-<h4 id="b-starting-off-b"><b> Starting Off </b></h4>
+<h4><b> Starting Off </b></h4>
 
 <p>Initiate a django project by <code>cd</code> into the directory where you will store your project:</p>
-
-<p><code>
-$ django-admin.py startproject [DIR_NAME]
-</code></p>
-
-<p>This directory name doesn’t matter and you can rename it to anything you want. But inside of this directory you’ll see a layout like this:</p>
-
-<pre><code>[DIR_NAME]/
-	manage.py
-	mysite/
-	__init__.py
-	settings.py
-	urls.py
-	wsgi.py
-</code></pre>
-
-<h4 id="b--breaking-down-the-framework-structure-b"><b>  Breaking Down the Framework structure </b></h4>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ django-admin.py startproject [DIR_NAME]
+</code></pre></div>
+<p>This directory name doesn&#39;t matter and you can rename it to anything you want. But inside of this directory you&#39;ll see a layout like this:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">[DIR_NAME]/
+    manage.py
+    mysite/
+    __init__.py
+    settings.py
+    urls.py
+    wsgi.py
+</code></pre></div>
+<h4><b>  Breaking Down the Framework structure </b></h4>
 
 <p>These different files have the following functions:</p>
 
 <ul>
-  <li>
-    <p><code>[DIR_NAME]</code> is the name of the root directory which contains your project. Django doesn’t care about this, so name it whatever you want, but make sure not to use <code>django</code> or <code>test</code> in your naming as this could create conflicts with the actual app.</p>
-  </li>
-  <li><code>manage.py</code> lets you interact with the Django project. It is a thin wrapper around <code>django-admin.py</code> that does the following:
-    <ul>
-      <li>Places project’s packages on <code>sys.pth</code>.</li>
-      <li>Sets <code>DJANGO_SETTINGS_MODULE</code> environment variable so that it points to your project’s <code>settings.py</code> file.</li>
-      <li>Calls <code>django.setup()</code> to initialize internals for Django.</li>
-      <li>Full documentation <a href="https://docs.djangoproject.com/en/1.7/ref/django-admin/">here</a>.</li>
-      <li>Command <code>options</code> found <a href="https://docs.djangoproject.com/en/1.7/ref/django-admin/#available-commands">here</a>.</li>
-    </ul>
-  </li>
-  <li>
-    <p><code>mysite/</code> is the Python package for the project. Anytime we import anything inside of the project we will use this package name (e.g.<code>mysite.urls</code>).</p>
-  </li>
-  <li>
-    <p><code>__init__.py</code> is just an empty file that indicates that the <code>mysite/</code> directory should be considered a python package.</p>
-  </li>
-  <li><code>settings.py</code> in its simplest form is just a Python module with module-level variables. Since it is a Python module it won’t allow Python syntax errors, it can import values from other settings files, and it can assign settings dynamically using normal python syntax (such as using a for loop).
-    <ul>
-      <li>Settings can be used in your Django app by importing the object <code>django.conf.settings</code>. Since it’s an object, however, you can’t import individual settings. EX:
+<li><p><code>[DIR_NAME]</code> is the name of the root directory which contains your project. Django doesn&#39;t care about this, so name it whatever you want, but make sure not to use <code>django</code> or <code>test</code> in your naming as this could create conflicts with the actual app.</p></li>
+<li><p><code>manage.py</code> lets you interact with the Django project. It is a thin wrapper around <code>django-admin.py</code> that does the following:</p>
+
+<ul>
+<li>Places project&#39;s packages on <code>sys.pth</code>.</li>
+<li>Sets <code>DJANGO_SETTINGS_MODULE</code> environment variable so that it points to your project’s <code>settings.py</code> file.</li>
+<li>Calls <code>django.setup()</code> to initialize internals for Django.</li>
+<li>Full documentation <a href="https://docs.djangoproject.com/en/1.7/ref/django-admin/">here</a>.</li>
+<li>Command <code>options</code> found <a href="https://docs.djangoproject.com/en/1.7/ref/django-admin/#available-commands">here</a>.</li>
+</ul></li>
+<li><p><code>mysite/</code> is the Python package for the project. Anytime we import anything inside of the project we will use this package name (e.g.<code>mysite.urls</code>).</p></li>
+<li><p><code>__init__.py</code> is just an empty file that indicates that the <code>mysite/</code> directory should be considered a python package.</p></li>
+<li><p><code>settings.py</code> in its simplest form is just a Python module with module-level variables. Since it is a Python module it won&#39;t allow Python syntax errors, it can import values from other settings files, and it can assign settings dynamically using normal python syntax (such as using a for loop).</p>
+
+<ul>
+<li>Settings can be used in your Django app by importing the object <code>django.conf.settings</code>. Since it&#39;s an object, however, you can&#39;t import individual settings. EX:
 <code>
 from django.conf import settings
 </code></li>
-      <li>
-        <p>Full documentation on settings and configurations can be found <a href="https://docs.djangoproject.com/en/1.7/topics/settings/">here</a>.</p>
-      </li>
-      <li>There are a RIDICULOUS number of settings. I spent an hour and my brain hurt just going through them all. You should do the <a href="https://docs.djangoproject.com/en/1.7/ref/settings/">same</a>.</li>
-    </ul>
-  </li>
-  <li><code>urls.py</code> contains the URL declarations for the Django project. You can think of it like <code>routes.rb</code> in Rails. URLs are controlled by the <a href="https://docs.djangoproject.com/en/1.7/topics/http/urls/">URL Dispatcher</a>.
-    <ul>
-      <li><b>So, what exactly is the <code>URL Dispatcher</code>?</b> It is the URL scheme that lets you design URLs without framework limitations commonly found in <code>php</code> and <code>cgi</code>.</li>
-      <li>One of the founders of the World Wide Web (yeah, that title is for real) Tim Berners-Lee <a href="http://www.w3.org/Provider/Style/URI">discusses</a> why URIs have to be clean and usable. This is a must read.</li>
-      <li><code>URLconf</code> is the Python module made up of pure Python code that maps between URL patterns (simple expressions) and Python functions (your app views).</li>
-      <li>Django proccesses a requestFor the sake of not totally regurgitating django docs, just read <a href="https://docs.djangoproject.com/en/1.7/topics/http/urls/#how-django-processes-a-request">here</a>.</li>
-      <li><code>wsgi.py</code> functions as an entry point for WSGI-compatible web servers to serve up your project.</li>
-    </ul>
-  </li>
-</ul>
-
-<h4 id="b--rolling-into-databases-apps-vs-projects-and-much-much-more-b"><b>  Rolling into Databases, Apps vs. Projects and much, much more… </b></h4>
-
-<p>From here, you are pretty much set up and ready to start the hard part (or fun part), which entails the actual coding. That’s one beautiful aspect of Django – it handles the grunt work of laying out your project and apps in a way that gives you more time to focus on building your actual content.</p>
-
-<h4 id="b--key-insights-b"><b>  Key Insights </b></h4>
-
-<p>Beyond all the learning curve that comes with pouring over documentation and grappling with new commands, I found there were some interesting points that stuck in my mind…</p>
+<li>Full documentation on settings and configurations can be found <a href="https://docs.djangoproject.com/en/1.7/topics/settings/">here</a>.</li>
+<li>There are a RIDICULOUS number of settings. I spent an hour and my brain hurt just going through them all. You should do the <a href="https://docs.djangoproject.com/en/1.7/ref/settings/">same</a>.</li>
+</ul></li>
+<li><p><code>urls.py</code> contains the URL declarations for the Django project. You can think of it like <code>routes.rb</code> in Rails. URLs are controlled by the <a href="https://docs.djangoproject.com/en/1.7/topics/http/urls/">URL Dispatcher</a>.</p>
 
 <ul>
-  <li>
-    <p>Django is filled with instances of pure Python code, <b>which means modules and other app features can be constructed dynamically</b>.</p>
-  </li>
-  <li>
-    <p>One major difference between Django and a frameowkr like Ruby on Rails is that <b>the data model is totally defined in one place and everything is derived from it</b>. This means that things like migrations are entirely derived from your <code>models.py</code> file. This just acts as a history that Django can roll through to update database schema to match the most current model.</p>
-  </li>
-  <li>
-    <p>Taken straight from documentation…“<b>Django apps are ‘pluggable’</b>: You can use an app in multiple projects, and you can distribute apps, because they don’t have to be tied to a given Django installation.” SO Awesome!!!</p>
-  </li>
-  <li>
-    <p><b>A point of clarity around migrations:</b> As Django docs explains migrations are simply how Django stores changes made to the models you’ve created in your apps (ie …and so it also stores and tracks the changes made to your database schema, since these are derived from your models). These are stored as files on disk and you can read and manipulate them at will.</p>
-  </li>
+<li><b>So, what exactly is the <code>URL Dispatcher</code>?</b> It is the URL scheme that lets you design URLs without framework limitations commonly found in <code>php</code> and <code>cgi</code>. </li>
+<li>One of the founders of the World Wide Web (yeah, that title is for real) Tim Berners-Lee <a href="http://www.w3.org/Provider/Style/URI">discusses</a> why URIs have to be clean and usable. This is a must read.</li>
+<li><code>URLconf</code> is the Python module made up of pure Python code that maps between URL patterns (simple expressions) and Python functions (your app views).</li>
+<li>Django proccesses a requestFor the sake of not totally regurgitating django docs, just read <a href="https://docs.djangoproject.com/en/1.7/topics/http/urls/#how-django-processes-a-request">here</a>.</li>
+<li><code>wsgi.py</code> functions as an entry point for WSGI-compatible web servers to serve up your project. </li>
+</ul></li>
 </ul>
 
-<h4 id="b-beginner-essential-commands-b"><b> Beginner Essential Commands </b></h4>
+<h4><b>  Rolling into Databases, Apps vs. Projects and much, much more... </b></h4>
 
-<p>Throughout the tutorial I took note of the most essential commands that would help me build a Django app and navigate it afterwards. The straight commands are listed below. If you’re confused on one of them, google it!</p>
+<p>From here, you are pretty much set up and ready to start the hard part (or fun part), which entails the actual coding. That&#39;s one beautiful aspect of Django -- it handles the grunt work of laying out your project and apps in a way that gives you more time to focus on building your actual content. </p>
+
+<h4><b>  Key Insights </b></h4>
+
+<p>Beyond all the learning curve that comes with pouring over documentation and grappling with new commands, I found there were some interesting points that stuck in my mind...</p>
+
+<ul>
+<li><p>Django is filled with instances of pure Python code, <b>which means modules and other app features can be constructed dynamically</b>.</p></li>
+<li><p>One major difference between Django and a frameowkr like Ruby on Rails is that <b>the data model is totally defined in one place and everything is derived from it</b>. This means that things like migrations are entirely derived from your <code>models.py</code> file. This just acts as a history that Django can roll through to update database schema to match the most current model. </p></li>
+<li><p>Taken straight from documentation...&quot;<b>Django apps are &#39;pluggable&#39;</b>: You can use an app in multiple projects, and you can distribute apps, because they don&#39;t have to be tied to a given Django installation.&quot; SO Awesome!!!</p></li>
+<li><p><b>A point of clarity around migrations:</b> As Django docs explains migrations are simply how Django stores changes made to the models you&#39;ve created in your apps (ie ...and so it also stores and tracks the changes made to your database schema, since these are derived from your models). These are stored as files on disk and you can read and manipulate them at will. </p></li>
+</ul>
+
+<h4><b> Beginner Essential Commands </b></h4>
+
+<p>Throughout the tutorial I took note of the most essential commands that would help me build a Django app and navigate it afterwards. The straight commands are listed below. If you&#39;re confused on one of them, google it!</p>
 
 <ol>
-  <li>
-    <p><code>$ django-admin.py startproject [DIR_NAME]</code></p>
-  </li>
-  <li>
-    <p><code>python manage.py startapp [APP_NAME]</code></p>
-  </li>
-  <li>
-    <p><code>python manage.py runserver [port or IP address]</code>
- For example:</p>
+<li><p><code>$ django-admin.py startproject [DIR_NAME]</code></p></li>
+<li><p><code>python manage.py startapp [APP_NAME]</code></p></li>
+<li><p><code>python manage.py runserver [port or IP address]</code>
+For example:</p>
 
-    <p><code>python manage.py runserver [0.0.0.0:8000]</code></p>
+<p><code>python manage.py runserver [0.0.0.0:8000]</code></p>
 
-    <p>This could be used to listen on all ports and show off your work on other local machines.</p>
-  </li>
-  <li><code>python manage.py makemigrations [APP_NAME]</code>
-    <ul>
-      <li>Creates migrations for changes made to the models.</li>
-    </ul>
-  </li>
-  <li><code>python manage.py migrate</code>
-    <ul>
-      <li>Actually applies the changes made to models to the database.</li>
-    </ul>
-  </li>
-  <li>
-    <p><code>python manage.py sqlmigrate [APP_NAME] [MIGRATION_NUMBER]</code></p>
-  </li>
-  <li>
-    <p><code>python manage.py check</code></p>
-  </li>
-  <li>
-    <p><code>python manage.py shell</code></p>
-  </li>
-  <li><code>python manage.py shell</code></li>
+<p>This could be used to listen on all ports and show off your work on other local machines.</p></li>
+<li><p><code>python manage.py makemigrations [APP_NAME]</code></p>
+
+<ul>
+<li>Creates migrations for changes made to the models.</li>
+</ul></li>
+<li><p><code>python manage.py migrate</code></p>
+
+<ul>
+<li>Actually applies the changes made to models to the database.</li>
+</ul></li>
+<li><p><code>python manage.py sqlmigrate [APP_NAME] [MIGRATION_NUMBER]</code></p></li>
+<li><p><code>python manage.py check</code></p></li>
+<li><p><code>python manage.py shell</code></p></li>
+<li><p><code>python manage.py shell</code></p></li>
 </ol>
 
               </article>
@@ -378,12 +333,6 @@ from django.conf import settings
           <li>Contact Me:</li>
           <li><a href="mailto:austin@austinhay.com">austin@austinhay.com</a></li>
             </br>
-          <li>
-            <div class="cb-tip-button" data-content-location="http://austinhay.com" data-href="//www.coinbase.com/tip_buttons/show_tip" data-to-user-id="54b2fbcb0c639c8be50000c5"></div>
-            
-            <script>!function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src="https://www.coinbase.com/assets/tips.js";cjs.parentNode.insertBefore(js,cjs);}(document, 'script', 'coinbase-tips');</script>
-          </li>
-
         </ul>
       </div>
 

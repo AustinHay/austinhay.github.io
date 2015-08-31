@@ -51,8 +51,7 @@
 
     <!--- Description -->
     
-      <meta property="og:description" content="As I’ve dug deeper into how content is displayed across the web, I’ve found that it’s not always as rosy as I’d like. A big problem is that I am a total n00b and don’t always get my code just right when writing up my thoughts. In turn this means my pages don’t always display correctly across different applicaitons like Facebook or Linked-In.
-
+      <meta property="og:description" content="As I&#39;ve dug deeper into how content is displayed across the web, I&#39;ve found that it&#39;s not always as rosy as I&#39;d like. A big problem is that I am a total n00b and don&#39;t always get my code just right when writing up my thoughts. In turn this means my pages don&#39;t always display correctly across different applicaitons like Facebook or Linked-In. 
 "/>
 
     
@@ -109,17 +108,10 @@
   	<link rel='stylesheet' type='text/csshref=' href='https://fonts.googleapis.com/css?family=Raleway'/>
     <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'/>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 
 <!-- Javascripts -->
-<script type="text/javscript">
-
-$(document).ready(function(){
-  var images = ['../images/post-backgrounds/1.jpg', '../images/post-backgrounds/2.jpg'];
-  $('home-img-top').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
-});
-
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 <script type="text/javascript" src="/assets/js/jekyll-search.js"></script>
 
@@ -163,10 +155,6 @@ $(document).ready(function(){
 
         
 
-        
-          
-        
-          
         
           
         
@@ -225,54 +213,47 @@ $(document).ready(function(){
 		<br>
 	<span class="post-meta">Published: Jan 8, 2015</span>
 </p>
-                <p>As I’ve dug deeper into how content is displayed across the web, I’ve found that it’s not always as rosy as I’d like. A big problem is that I am a total <code>n00b</code> and don’t always get my code just right when writing up my thoughts. In turn this means my pages don’t always display correctly across different applicaitons like Facebook or Linked-In.</p>
+                <p>As I&#39;ve dug deeper into how content is displayed across the web, I&#39;ve found that it&#39;s not always as rosy as I&#39;d like. A big problem is that I am a total <code>n00b</code> and don&#39;t always get my code just right when writing up my thoughts. In turn this means my pages don&#39;t always display correctly across different applicaitons like Facebook or Linked-In. </p>
 
 <!--more-->
 
 <p>See how lame this looks? Nobody is going to read this without a picture and some awesome OG tags.</p>
 
-<p><img src="/images/blogs/open-graph-ex-1.png" alt="alt text" /></p>
+<p><img src="/images/blogs/open-graph-ex-1.png" alt="alt text"></p>
 
-<p>After doing some research, I’ve found there are amazing <code>meta</code> tags out there that fall under <a href="http://ogp.me/">OpenGraph</a>.</p>
+<p>After doing some research, I&#39;ve found there are amazing <code>meta</code> tags out there that fall under <a href="http://ogp.me/">OpenGraph</a>.</p>
 
-<p>The concept and application is simple. Whenever you list your site on the internet, web crawlers look for <code>meta</code> tags to compile information about your site and map it within their database. The more <code>meta</code> information you have the better, as it makes it easier for your website to be properly linked and mapped in a web-search. Beyond this, Facebook, Twitter, and other social media sites use OpenGraph tags in order to generate previews for articles and webpages among many other things.</p>
+<p>The concept and application is simple. Whenever you list your site on the internet, web crawlers look for <code>meta</code> tags to compile information about your site and map it within their database. The more <code>meta</code> information you have the better, as it makes it easier for your website to be properly linked and mapped in a web-search. Beyond this, Facebook, Twitter, and other social media sites use OpenGraph tags in order to generate previews for articles and webpages among many other things. </p>
 
-<h4 id="implementation">Implementation</h4>
+<h4>Implementation</h4>
 
 <p>The basic code structure for open graph meta tags is simple:</p>
-
-<pre><code>&lt;meta property="" content="" /&gt;
-</code></pre>
-
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;meta property=&quot;&quot; content=&quot;&quot; /&gt;
+</code></pre></div>
 <p>There are different properties as well. Here are a few to get you started:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">property=&quot;og:title&quot;
+property=&quot;og:image&quot; 
+property=&quot;og:site&quot;
+property=&quot;og:description&quot;
+property=&quot;og:type&quot;
+property=&quot;og:url&quot;
+property=&quot;article:author
+property=&quot;article:section&quot;
+</code></pre></div>
+<p>From there you just have to enter the <code>&quot;content&quot;</code> portion of the code. If you&#39;re doing it with static pages then this is just <code>text</code>, otherwise you should generate it dynamically. For my own purposes, I used <a href="http://docs.shopify.com/themes/liquid-documentation/basics"><code>liquid tags</code></a> and plugged into the power of <a href="http://jekyllrb.com/">Jekyll</a> to generate my tags automatically for every static page I work up. Here&#39;s a code snippet from my website of what this would actually look like:</p>
 
-<pre><code>property="og:title"
-property="og:image" 
-property="og:site"
-property="og:description"
-property="og:type"
-property="og:url"
-property="article:author
-property="article:section"
-</code></pre>
+<p><img src="/images/blogs/open-graph-ex-2.png" alt="alt text"></p>
 
-<p>From there you just have to enter the <code>"content"</code> portion of the code. If you’re doing it with static pages then this is just <code>text</code>, otherwise you should generate it dynamically. For my own purposes, I used <a href="http://docs.shopify.com/themes/liquid-documentation/basics"><code>liquid tags</code></a> and plugged into the power of <a href="http://jekyllrb.com/">Jekyll</a> to generate my tags automatically for every static page I work up. Here’s a code snippet from my website of what this would actually look like:</p>
-
-<p><img src="/images/blogs/open-graph-ex-2.png" alt="alt text" /></p>
-
-<p>Oh, and it’s VERY important to remember to call the <code>og</code> tag in the beginning of the <code>html</code>. Just throw this in your <code>head</code> section somewhere:</p>
-
-<pre><code>&lt;html prefix="og: http://ogp.me/ns#"/&gt;
-</code></pre>
-
-<p>As always, this doesn’t even scratch the surface of all the cool things that OpenGraph can deliver. Explore it on your own and <a href="http://www.austinhay.com/contact">let me know</a> what you find. Here are some fun resources that you might check out with more time:</p>
+<p>Oh, and it&#39;s VERY important to remember to call the <code>og</code> tag in the beginning of the <code>html</code>. Just throw this in your <code>head</code> section somewhere:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;html prefix=&quot;og: http://ogp.me/ns#&quot;/&gt;
+</code></pre></div>
+<p>As always, this doesn&#39;t even scratch the surface of all the cool things that OpenGraph can deliver. Explore it on your own and <a href="http://www.austinhay.com/contact">let me know</a> what you find. Here are some fun resources that you might check out with more time:</p>
 
 <ul>
-  <li><a href="https://www.gavick.com/blog/controlling-facebook-link-previews-and-getting-to-know-open-graph">Getting to Know Open Graph</a></li>
-  <li><a href="http://www.iacquire.com/blog/18-meta-tags-every-webpage-should-have-in-2013">Essential Meta Tags from 2013</a></li>
-  <li>How to <a href="http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/">implement</a> in Jekyll, like I did.</li>
+<li><a href="https://www.gavick.com/blog/controlling-facebook-link-previews-and-getting-to-know-open-graph">Getting to Know Open Graph</a></li>
+<li><a href="http://www.iacquire.com/blog/18-meta-tags-every-webpage-should-have-in-2013">Essential Meta Tags from 2013</a></li>
+<li>How to <a href="http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/">implement</a> in Jekyll, like I did.</li>
 </ul>
-
 
               </article>
    
@@ -290,12 +271,6 @@ property="article:section"
           <li>Contact Me:</li>
           <li><a href="mailto:austin@austinhay.com">austin@austinhay.com</a></li>
             </br>
-          <li>
-            <div class="cb-tip-button" data-content-location="http://austinhay.com" data-href="//www.coinbase.com/tip_buttons/show_tip" data-to-user-id="54b2fbcb0c639c8be50000c5"></div>
-            
-            <script>!function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src="https://www.coinbase.com/assets/tips.js";cjs.parentNode.insertBefore(js,cjs);}(document, 'script', 'coinbase-tips');</script>
-          </li>
-
         </ul>
       </div>
 

@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  	<!--  Form CSS sheet link below:-->
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-  </head>
-
   <head prefix="og: http://ogp.me/ns#">
     <!--- Basic Info -->
     <meta charset="utf-8"/>
@@ -97,17 +92,10 @@
   	<link rel='stylesheet' type='text/csshref=' href='https://fonts.googleapis.com/css?family=Raleway'/>
     <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'/>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 
 <!-- Javascripts -->
-<script type="text/javscript">
-
-$(document).ready(function(){
-  var images = ['../images/post-backgrounds/1.jpg', '../images/post-backgrounds/2.jpg'];
-  $('home-img-top').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
-});
-
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 <script type="text/javascript" src="/assets/js/jekyll-search.js"></script>
 
@@ -129,7 +117,6 @@ $(document).ready(function(){
 
 
   <body>
-
     <header class="site-header">
 
   <div class="wrapper">
@@ -152,10 +139,6 @@ $(document).ready(function(){
 
         
 
-        
-          
-        
-          
         
           
         
@@ -196,41 +179,35 @@ $(document).ready(function(){
 
 </header>
 
-      <div>
-      
-      	<!-- <div class="notes-background-img"> if you want a background image for the contact form insert here-->
-          
-         <div class="wrapper project-text">
-          	<div>
-        		
-
-
-<form method="POST" action="http://formspree.io/austin@austinhay.com">
     
-        <div class="form-group">
-            <label for="exampleInputName">Name</label>
-            <input name="name" type="name" class="form-control" id="exampleInputName" placeholder="Enter name">
-        </div>
-    
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email Address</label>
-            <input name="_replyto" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-        </div>
-    
-        <div class="form-group">
-            <label for="exampleTextArea">How Can I Help?</label>
-            <textarea name="message" class="form-control" rows="3"></textarea>    
-        </div>
-      
-        <button type="submit" class="btn btn-primary">Submit</button>
+    	<div>
+        	<div class="wrapper project-text">
+	<form method="POST" action="http://formspree.io/austin@austinhay.com">
+	    
+	        <div class="form-group">
+	            <label for="exampleInputName">Name</label>
+	            <input name="name" type="name" class="form-control" id="exampleInputName" placeholder="Enter name">
+	        </div>
+	    
+	        <div class="form-group">
+	            <label for="exampleInputEmail1">Email Address</label>
+	            <input name="_replyto" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+	        </div>
+	    
+	        <div class="form-group">
+	            <label for="exampleTextArea">How Can I Help?</label>
+	            <textarea name="message" class="form-control" rows="3"></textarea>    
+	        </div>
+	      
+	        <button type="submit" class="btn btn-primary">Submit</button>
 
-    </form>
-          	</div>
-      	</div>
+	</form>
+</div>
+    	</div>
 
-      </div>
+  </body>
 
-    <footer class="site-footer">
+  <footer class="site-footer">
 
   <div class="wrapper">
 
@@ -241,12 +218,6 @@ $(document).ready(function(){
           <li>Contact Me:</li>
           <li><a href="mailto:austin@austinhay.com">austin@austinhay.com</a></li>
             </br>
-          <li>
-            <div class="cb-tip-button" data-content-location="http://austinhay.com" data-href="//www.coinbase.com/tip_buttons/show_tip" data-to-user-id="54b2fbcb0c639c8be50000c5"></div>
-            
-            <script>!function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src="https://www.coinbase.com/assets/tips.js";cjs.parentNode.insertBefore(js,cjs);}(document, 'script', 'coinbase-tips');</script>
-          </li>
-
         </ul>
       </div>
 
@@ -293,7 +264,5 @@ $(document).ready(function(){
 
 </footer>
 
-
-  </body>
 
 </html>

@@ -52,7 +52,6 @@
     <!--- Description -->
     
       <meta property="og:description" content="The phone rang at 7 PM on Thursday night. A strange time to get a phone call from our co-founder, Mada Seghete, but being new, eager and intensely energized by my new role at Branch Metrics, I raced to pick it up.
-
 "/>
 
     
@@ -115,17 +114,10 @@
   	<link rel='stylesheet' type='text/csshref=' href='https://fonts.googleapis.com/css?family=Raleway'/>
     <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'/>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 
 <!-- Javascripts -->
-<script type="text/javscript">
-
-$(document).ready(function(){
-  var images = ['../images/post-backgrounds/1.jpg', '../images/post-backgrounds/2.jpg'];
-  $('home-img-top').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
-});
-
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 <script type="text/javascript" src="/assets/js/jekyll-search.js"></script>
 
@@ -169,10 +161,6 @@ $(document).ready(function(){
 
         
 
-        
-          
-        
-          
         
           
         
@@ -234,22 +222,21 @@ $(document).ready(function(){
                 <p>The phone rang at 7 PM on Thursday night. A strange time to get a phone call from our co-founder, Mada Seghete, but being new, eager and intensely energized by my new role at Branch Metrics, I raced to pick it up.</p>
 
 <!--more-->
-<pre><code>“Hey! Sorry to call… but do you want to go to Spain?”
+<div class="highlight"><pre><code class="language-text" data-lang="text">“Hey! Sorry to call… but do you want to go to Spain?”
 
 “Ummm, yeah…? I guess? Why?”
 
 “Because you’re going tomorrow.”
-</code></pre>
-
+</code></pre></div>
 <p>This short conversation back in March ultimately sent me and one of my technical colleagues on our way to Mobile World Congress to represent Branch for the first time ever on an international stage.</p>
 
 <p>I’ve already told the story of how we tackled Mobile World Congress in 72 hours, and I’ve sat down with one of our earliest investors, Ben Narasin, who accompanied us to Spain, to talk tech and entrepreneurship. You might have even heard about how we took home gold…</p>
 
-<p>But one thing you haven’t heard is the story of how we built a sales tool that ended up with a total cost savings of $10,000 per person.</p>
+<p>But one thing you haven’t heard is the story of how we built a sales tool that ended up with a total cost savings of $10,000 per person. </p>
 
 <p>More importantly, this is the story of how we built this awesome MVP app on the plane to MWC in Barcelona.</p>
 
-<h3 id="how-it-started">How it Started</h3>
+<h3>How it Started</h3>
 
 <p>Derrick and I started the same day at Branch, but in very different roles and with very different niches to fill. Derrick is a hardcore iOS engineer. He started learning a few years ago while at Stanford and dove head first, teaming up with an MBA last fall to launch his own app.</p>
 
@@ -261,7 +248,7 @@ $(document).ready(function(){
 
 <p>The more we wondered about it, the more we realized that actually one of our biggest bottlenecks in terms of time and resources at MWC would not be our ability to network, but our ability to actively follow up and keep our relationships going past the event.</p>
 
-<h3 id="identifying-the-problem">Identifying the Problem</h3>
+<h3>Identifying the Problem</h3>
 
 <p>Somewhere between stuffing our bags into overhead storage and getting cozy in our spacious economy seats, I remember it hit Derrick and I…</p>
 
@@ -273,36 +260,36 @@ $(document).ready(function(){
 
 <p>But, the process and the results were pretty amazing, and that’s what I want to share with developers, product managers, and startup operators who may be convinced that it takes countless resources and time to build cool products that serve unique internal purposes. In fact, it makes me wonder that maybe all you really need is a clever idea, forced working space, a strict deadline, and some intense motivation to build aweseome products.</p>
 
-<h3 id="what-we-built">What We Built</h3>
+<h3>What We Built ###</h3>
 
 <p>By the time we hit the tarmac in Spain we had completed the first prototype of the BNC Connect App.</p>
 
 <figure>
-<img src="/images/blogs/bnc-connect/bnc-connect-1.png" />
-	<p style="font-style:italic; font-size:70%; padding; 1%;">
-		<i>The icon as it appears on iOS for Internal Branch team members using the app.</i>
-	</p>
+<img src="/images/blogs/bnc-connect/bnc-connect-1.png">
+    <p style="font-style:italic; font-size:70%; padding; 1%;">
+        <i>The icon as it appears on iOS for Internal Branch team members using the app.</i>
+    </p>
 </figure>
 
 <ul>
-  <li>Connect</li>
-  <li>Settings</li>
-  <li>Templates</li>
-  <li>Analytics</li>
+<li>Connect</li>
+<li>Settings</li>
+<li>Templates</li>
+<li>Analytics</li>
 </ul>
 
 <p>Let’s walk through each view…</p>
 
 <figure>
-<img src="/images/blogs/bnc-connect/bnc-connect-2.png" />
-	<p style="font-style:italic; font-size:70%; padding; 1%;">
-		<i>Each one of these views served a very specific purpose in helping us contact new individuals at Mobile World Congress. </i>
-	</p>
+<img src="/images/blogs/bnc-connect/bnc-connect-2.png">
+    <p style="font-style:italic; font-size:70%; padding; 1%;">
+        <i>Each one of these views served a very specific purpose in helping us contact new individuals at Mobile World Congress. </i>
+    </p>
 </figure>
 
 <p>Beyond just the initial point of contact and capturing of their information, the app also allowed us to drop each new contact into templated buckets for future follow up.</p>
 
-<h3 id="connecting">Connecting</h3>
+<h3>Connecting</h3>
 
 <p>The Connect homepage allowed us to enter useful information about the person we were meeting. We chose these fields based on what we thought was the raw minimum to follow up with them. More importantly, this is where we tied in our Branch links so that we could track our emails and follow ups (more on this below).</p>
 
@@ -311,37 +298,37 @@ $(document).ready(function(){
 <p><b>Captures all the information and posts it as a Lead to SalesForce.</b> This is huge — you can take anyone you meet on the ground at a conference and instantly drop them into your CRM to make sure they don’t get lost and that you maximize your chance to connect with them in the right way! Gone are the days of stacks of business cards that get lost or mishandled.</p>
 
 <figure>
-<img src="/images/blogs/bnc-connect/bnc-connect-3.png" />
-	<p style="font-style:italic; font-size:70%; padding; 1%;">
-		<i>In fact, you don’t even have to be an app developer to build a sweet Lead form that lets you post to SFDC. You could build a simple web app and use the Web-to-Lead Native SFDC feature to replicate the BNC App in HTML 5!</i>
-	</p>
+<img src="/images/blogs/bnc-connect/bnc-connect-3.png">
+    <p style="font-style:italic; font-size:70%; padding; 1%;">
+        <i>In fact, you don’t even have to be an app developer to build a sweet Lead form that lets you post to SFDC. You could build a simple web app and use the Web-to-Lead Native SFDC feature to replicate the BNC App in HTML 5!</i>
+    </p>
 </figure>
 
 <p><b>Allows you to Draft Emails in Seconds</b>. Based on the conversation you have and subsequently, the information you’d like to send each contact in a follow up email, you can pick a template of pre-generated information that you can then automatically fire off as an email OR that you can save as a draft in your inbox as a reminder or for editing later down the road.</p>
 
 <figure>
-<img src="/images/blogs/bnc-connect/bnc-connect-4.png" />
-	<p style="font-style:italic; font-size:70%; padding; 1%;">
-		<i>When a Branch team member is meeting new contacts in foreign places, like Barcelona, they can use the BNC connect app, fill in the new contact information and hit Connect. That’s when the magic happens.</i>
-	</p>
+<img src="/images/blogs/bnc-connect/bnc-connect-4.png">
+    <p style="font-style:italic; font-size:70%; padding; 1%;">
+        <i>When a Branch team member is meeting new contacts in foreign places, like Barcelona, they can use the BNC connect app, fill in the new contact information and hit Connect. That’s when the magic happens.</i>
+    </p>
 </figure>
 
-<h3 id="the-real-life-saver-following-up">The Real Life-Saver: Following Up</h3>
+<h3>The Real Life-Saver: Following Up</h3>
 
 <p>While templates are not the way to go with most human interactions, they help when you’re busy, on the road and meeting lots of people. Each day at MWC Derrick and I each met over 50 people. We knew it would be hard, if not impossible, to remember every person we talked to, every app we discussed, and every feature that Branch could help them with.</p>
 
 <figure>
-<img src="/images/blogs/bnc-connect/bnc-connect-5.png" />
-	<p style="font-style:italic; font-size:70%; padding; 1%;">
-		<i>With the native email client in iOS we could save drafts right into our inbox so that most of the legwork of following up was done. And for quick contacts to record your meeting and drop them a note for coffee, it proved even more effective!</i>
-	</p>
+<img src="/images/blogs/bnc-connect/bnc-connect-5.png">
+    <p style="font-style:italic; font-size:70%; padding; 1%;">
+        <i>With the native email client in iOS we could save drafts right into our inbox so that most of the legwork of following up was done. And for quick contacts to record your meeting and drop them a note for coffee, it proved even more effective!</i>
+    </p>
 </figure>
 
 <p>They always say to follow up with people promptly — especially when its something important. For us, BNC Connect helped us reach out to our contacts quickly and stay top of mind. It also saved a TON of time simply because we could save basic email drafts that later we could edit once we got back to the hotel.</p>
 
 <p>All the leg work of filling out the TO &amp; BCC fields along with embedding relevant collateral was done for us. I go into the actual time and resources we saved by using the app a bit later…</p>
 
-<h3 id="how-we-used-our-own-links">How we Used our Own Links</h3>
+<h3>How we Used our Own Links</h3>
 
 <p>Lots of people use Branch for contextual deeplinking, passing data through installation, creating beautiful customized onboarding flows, and for incentivizing users with sharing &amp; rewards.</p>
 
@@ -354,28 +341,28 @@ $(document).ready(function(){
 <p>In this case, “branch.io” that we put in our email was a Branch link — universal, trackable, and easily whitelabeled. This enabled us to track how our follow up emails were performing, see link clicks, and understand if our contacts were interested and actually checked out Branch after we emailed them.</p>
 
 <figure>
-<img src="/images/blogs/bnc-connect/bnc-connect-6.png" />
-	<p style="font-style:italic; font-size:70%; padding; 1%;">
-		<i>With Branch’s Dashboard it made it easy to see who we had contacted in one spot. We can track clicks, tie them to user identities and even export the data to run some small analyses to see if there were any trends in email click-through</i>
-	</p>
+<img src="/images/blogs/bnc-connect/bnc-connect-6.png">
+    <p style="font-style:italic; font-size:70%; padding; 1%;">
+        <i>With Branch’s Dashboard it made it easy to see who we had contacted in one spot. We can track clicks, tie them to user identities and even export the data to run some small analyses to see if there were any trends in email click-through</i>
+    </p>
 </figure>
 
 <p>Even more, we leveraged Branch Marketing links to create an “on the fly” marketing link as a way to whitelabel the domain where we hosted our meetup page. This made it easy to create a trackable short URL with Branch that we could leverage for marketing during the actual MWC event.</p>
 
 <figure>
-<img src="/images/blogs/bnc-connect/bnc-connect-7.png" />
-	<p style="font-style:italic; font-size:70%; padding; 1%;">
-		<i>Marketing links are a great way to run quick marketing campaigns that both track clicks and install, but also carry data through install. For us, we mostly cared about the link clicks.</i>
-	</p>
+<img src="/images/blogs/bnc-connect/bnc-connect-7.png">
+    <p style="font-style:italic; font-size:70%; padding; 1%;">
+        <i>Marketing links are a great way to run quick marketing campaigns that both track clicks and install, but also carry data through install. For us, we mostly cared about the link clicks.</i>
+    </p>
 </figure>
 
 <p>Today, we still use this functionality when we visit new places! For example, the Branch team is headed to Echelon and in preparation for the event, we created a Branch marketing link that points to our Singapore meetup page. With Branch we can customize everything about it and track it all in one spot.</p>
 
 <figure>
-<img src="/images/blogs/bnc-connect/bnc-connect-8.png" />
-	<p style="font-style:italic; font-size:70%; padding; 1%;">
-		<i>In our case, we wanted to always ensure that we knew when a Branch link wasn’t created — because we’d need to follow up with that person later. Instead of having a simple time-out. We logged an error and reported in our Export tool, making it easy to follow up with contacts later even if there was no Wifi.</i>
-	</p>
+<img src="/images/blogs/bnc-connect/bnc-connect-8.png">
+    <p style="font-style:italic; font-size:70%; padding; 1%;">
+        <i>In our case, we wanted to always ensure that we knew when a Branch link wasn’t created — because we’d need to follow up with that person later. Instead of having a simple time-out. We logged an error and reported in our Export tool, making it easy to follow up with contacts later even if there was no Wifi.</i>
+    </p>
 </figure>
 
 <p>One edge case we also handled for at MWC aws that we might not actually have that great of cell reception. Think about it — it’s the world’s largest mobile convention with over 70,000 people. Even though it’s focused on mobile, what are the chances that Wifi and cell data would work without a hitch?</p>
@@ -384,28 +371,28 @@ $(document).ready(function(){
 
 <p>What was the end result of all this inside our app? All the utility of tracking with a behemoth emailing platform, all the simplicity and reliability of a linking solution.</p>
 
-<h3 id="diy-with-branch-was-easy">DIY with Branch was Easy</h3>
+<h3>DIY with Branch was Easy</h3>
 
-<p>What was so remarkable is that integrating this core Branch feature inside our app was actually the easiest part of building BNC Connect.</p>
+<p>What was so remarkable is that integrating this core Branch feature inside our app was actually the easiest part of building BNC Connect. </p>
 
 <figure>
-<img src="/images/blogs/bnc-connect/bnc-connect-9.png" />
-	<p style="font-style:italic; font-size:70%; padding; 1%;">
-		<i>initSession &amp; deepLinkHandle, every Branch fan’s favorite calls inside their iOS app. This view from our AppDelegate shows you just how few lines of code you need to get up and running with Branch.</i>
-	</p>
+<img src="/images/blogs/bnc-connect/bnc-connect-9.png">
+    <p style="font-style:italic; font-size:70%; padding; 1%;">
+        <i>initSession & deepLinkHandle, every Branch fan’s favorite calls inside their iOS app. This view from our AppDelegate shows you just how few lines of code you need to get up and running with Branch.</i>
+    </p>
 </figure>
 
-<h3 id="quantifying-success">Quantifying Success</h3>
+<h3>Quantifying Success</h3>
 
 <p>So, for 7 hours of work in a plane, how does this app measure up? Based on my estimates this is what it takes to successfully connect with somebody from an “on the fly encounter” to a complete managed opportunity follow up for the business…</p>
 
 <ul>
-  <li>Enter business card into CRM, like SalesForce, and save —30 seconds.</li>
-  <li>Switch tabs and open up your emailing client — 5 seconds</li>
-  <li>Create new email and copy paste contact information, including necessary CC, BCC, and subject line fields — 25 seconds.</li>
-  <li>Draft up email response — 3 minutes.</li>
-  <li>Find and drop in relevant documents &amp; supporting links — 30 seconds.</li>
-  <li>Double check grammar, spelling, contact information, and then “send” — 2 minutes.</li>
+<li>Enter business card into CRM, like SalesForce, and save —30 seconds.</li>
+<li>Switch tabs and open up your emailing client — 5 seconds</li>
+<li>Create new email and copy paste contact information, including necessary CC, BCC, and subject line fields — 25 seconds.</li>
+<li>Draft up email response — 3 minutes.</li>
+<li>Find and drop in relevant documents &amp; supporting links — 30 seconds.</li>
+<li>Double check grammar, spelling, contact information, and then “send” — 2 minutes.</li>
 </ul>
 
 <p>Total Time from business card to complete follow up? 6.5 minutes (390 seconds).</p>
@@ -413,26 +400,26 @@ $(document).ready(function(){
 <p><b>Now, let’s look at it with BNC Connect:</b></p>
 
 <ul>
-  <li>Enter contact information or business card info directly into the App, which has a much faster and smoother interface, and which directly propagates to the CRM and your email at the same time — 10 seconds.</li>
-  <li>Hit connect and pull up fully completed and filled out email draft — 1 second.</li>
-  <li>Modify pre-filled email template of your choosing — 30 seconds
+<li>Enter contact information or business card info directly into the App, which has a much faster and smoother interface, and which directly propagates to the CRM and your email at the same time — 10 seconds.</li>
+<li>Hit connect and pull up fully completed and filled out email draft — 1 second.</li>
+<li>Modify pre-filled email template of your choosing — 30 seconds
 Send. No need to check grammar, or drop in useful links as those templates have already been built for you — 1 second.</li>
 </ul>
 
-<p>Total Time from business card to complete follow up with the BNC Connect App? 42 seconds. Using the BNC Connect App we built is 9.29 X faster than connecting with people at events via traditional methods. This equates to a 348 second time savings / contact</p>
+<p>Total Time from business card to complete follow up with the BNC Connect App? 42 seconds. Using the BNC Connect App we built is 9.29 X faster than connecting with people at events via traditional methods. This equates to a 348 second time savings / contact </p>
 
-<p>So, the next obvious and logical question to ask is how much total time and resources did Derrick and I save? Making some simple back-of-the-envelope assumptions it’s actually pretty easy to get to a number.</p>
+<p>So, the next obvious and logical question to ask is how much total time and resources did Derrick and I save? Making some simple back-of-the-envelope assumptions it&#39;s actually pretty easy to get to a number. </p>
 
 <p>Let’s make an assumption about the total number of events we’ll host per year and about the number of people we will meet at each event.</p>
 
 <figure>
-<img src="/images/blogs/bnc-connect/bnc-connect-savings-table.png" />
-	<p style="font-style:italic; font-size:70%; padding; 1%;">
-		<i>You can take this model and tailor it any way you want. The reality is that no matter how you spin it, the savings from automating this simple process of entering leads has a cost savings in excess of thousands of dollars.</i>
-	</p>
+<img src="/images/blogs/bnc-connect/bnc-connect-savings-table.png">
+    <p style="font-style:italic; font-size:70%; padding; 1%;">
+        <i>You can take this model and tailor it any way you want. The reality is that no matter how you spin it, the savings from automating this simple process of entering leads has a cost savings in excess of thousands of dollars.</i>
+    </p>
 </figure>
 
-<p>That’s right. You see the number. Over $240,000 in savings with the development of this single app.</p>
+<p>That&#39;s right. You see the number. Over $240,000 in savings with the development of this single app. </p>
 
 <p>It should be painfully clear from our explanation that building ourselves an internal app on the plane ride to Barcelona was incredibly useful from both a productivity, operations, and business perspective. The most important aspect of all this was that we used Branch to serve Branch.</p>
 
@@ -454,12 +441,6 @@ Send. No need to check grammar, or drop in useful links as those templates have 
           <li>Contact Me:</li>
           <li><a href="mailto:austin@austinhay.com">austin@austinhay.com</a></li>
             </br>
-          <li>
-            <div class="cb-tip-button" data-content-location="http://austinhay.com" data-href="//www.coinbase.com/tip_buttons/show_tip" data-to-user-id="54b2fbcb0c639c8be50000c5"></div>
-            
-            <script>!function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src="https://www.coinbase.com/assets/tips.js";cjs.parentNode.insertBefore(js,cjs);}(document, 'script', 'coinbase-tips');</script>
-          </li>
-
         </ul>
       </div>
 

@@ -92,17 +92,10 @@
   	<link rel='stylesheet' type='text/csshref=' href='https://fonts.googleapis.com/css?family=Raleway'/>
     <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'/>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 
 <!-- Javascripts -->
-<script type="text/javscript">
-
-$(document).ready(function(){
-  var images = ['../images/post-backgrounds/1.jpg', '../images/post-backgrounds/2.jpg'];
-  $('home-img-top').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
-});
-
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 <script type="text/javascript" src="/assets/js/jekyll-search.js"></script>
 
@@ -123,21 +116,7 @@ $(document).ready(function(){
 </head>
 
 
-  <head>
-  <script type="text/javscript">
-
-  $(document).ready(function(){
-    var images = ['../images/post-backgrounds/1.jpg', '../images/post-backgrounds/2.jpg'];
-    $('home-img-top').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
-    });
-	</script>
-
-  <script type="text/javascript" src="/assets/js/instafeed.min.js"></script>
-  
-  </head>
-
   <body>
-
     <header class="site-header">
 
   <div class="wrapper">
@@ -160,10 +139,6 @@ $(document).ready(function(){
 
         
 
-        
-          
-        
-          
         
           
         
@@ -204,22 +179,18 @@ $(document).ready(function(){
 
 </header>
 
-	<div>
+    
+    	<div>
+        	<head>
 
-          <div class="wrapper-medium">
-            <div class="transparent-background">
-            
+  <script type="text/javascript" src="/assets/js/instafeed.min.js"></script>
+  
+</head>
 
+<div class="wrapper-medium">
+    
 	<h1 class="page-heading">Follow</h1>
-    <!-- Twitter Widget -->
-          <a href="https://twitter.com/AustinAHay" data-widget-id="540548955508318208" class="twitter-timeline" style="margin: 1%;">Tweets by @AustinAHay</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-          </script>
-		
 
-        <!-- Strava Widget -->
-        <iframe id="strava-widget" height='454' width='300' style="position: relative; margin-right: 4%; margin-left: 4%;" frameborder='0' allowtransparency='true' scrolling='no' src='http://app.strava.com/athletes/3615909/latest-rides/2c6325ca570da2b816ab3644488c4f207bc9cbe4'>
-        </iframe>
 <!-- Instagram Photos -->
           
           
@@ -239,15 +210,41 @@ $(document).ready(function(){
           </script>
           
           <div id="instafeed"></div>
+
+
+
+<div style="height:auto; margin:5%; width= 100%;">
+
+  <!-- Strava Widget -->
+    <div style="display:inline-block; height:450px; min-width:40%; margin: 2%;">
+          <iframe id="strava-widget" height='460' width='300' frameborder='1' allowtransparency='true' scrolling='no' src='http://app.strava.com/athletes/3615909/latest-rides/2c6325ca570da2b816ab3644488c4f207bc9cbe4'>
+          </iframe>
+    </div>
+
+
+<!-- Twitter Widget -->
+    <div style="display:inline-block; min-width: 40%; height:auto; margin:2%;">
+          <a href="https://twitter.com/AustinAHay" data-widget-id="540548955508318208" class="twitter-timeline">Tweets by @AustinAHay
+          </a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+          </script>
+    </div>
+
 </div>
 
 
-            </div>
-          </div>
-        
-      </div>
-    
-    <footer class="site-footer">
+</div>
+
+
+
+  
+              
+
+    	</div>
+
+  </body>
+
+  <footer class="site-footer">
 
   <div class="wrapper">
 
@@ -258,12 +255,6 @@ $(document).ready(function(){
           <li>Contact Me:</li>
           <li><a href="mailto:austin@austinhay.com">austin@austinhay.com</a></li>
             </br>
-          <li>
-            <div class="cb-tip-button" data-content-location="http://austinhay.com" data-href="//www.coinbase.com/tip_buttons/show_tip" data-to-user-id="54b2fbcb0c639c8be50000c5"></div>
-            
-            <script>!function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src="https://www.coinbase.com/assets/tips.js";cjs.parentNode.insertBefore(js,cjs);}(document, 'script', 'coinbase-tips');</script>
-          </li>
-
         </ul>
       </div>
 
@@ -311,8 +302,4 @@ $(document).ready(function(){
 </footer>
 
 
-  </body>
-
 </html>
-
-

@@ -5,8 +5,8 @@
     <description> is a startup operator, casual blogger, &amp; engineer focused on growth, product development, startup management, strategy, leadership, self-development, entrepreneurship, and rookie programming. Don&#39;t be a stranger - drop me an email to connect. Contents and code &amp;copy; 2015</description>
     <link>http://austinhay.com/</link>
     <atom:link href="http://austinhay.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 28 Aug 2015 16:53:05 -0700</pubDate>
-    <lastBuildDate>Fri, 28 Aug 2015 16:53:05 -0700</lastBuildDate>
+    <pubDate>Sun, 30 Aug 2015 22:09:46 -0700</pubDate>
+    <lastBuildDate>Sun, 30 Aug 2015 22:09:46 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -14,22 +14,21 @@
         <description>&lt;p&gt;The phone rang at 7 PM on Thursday night. A strange time to get a phone call from our co-founder, Mada Seghete, but being new, eager and intensely energized by my new role at Branch Metrics, I raced to pick it up.&lt;/p&gt;
 
 &lt;!--more--&gt;
-&lt;pre&gt;&lt;code&gt;“Hey! Sorry to call… but do you want to go to Spain?”
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;“Hey! Sorry to call… but do you want to go to Spain?”
 
 “Ummm, yeah…? I guess? Why?”
 
 “Because you’re going tomorrow.”
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This short conversation back in March ultimately sent me and one of my technical colleagues on our way to Mobile World Congress to represent Branch for the first time ever on an international stage.&lt;/p&gt;
 
 &lt;p&gt;I’ve already told the story of how we tackled Mobile World Congress in 72 hours, and I’ve sat down with one of our earliest investors, Ben Narasin, who accompanied us to Spain, to talk tech and entrepreneurship. You might have even heard about how we took home gold…&lt;/p&gt;
 
-&lt;p&gt;But one thing you haven’t heard is the story of how we built a sales tool that ended up with a total cost savings of $10,000 per person.&lt;/p&gt;
+&lt;p&gt;But one thing you haven’t heard is the story of how we built a sales tool that ended up with a total cost savings of $10,000 per person. &lt;/p&gt;
 
 &lt;p&gt;More importantly, this is the story of how we built this awesome MVP app on the plane to MWC in Barcelona.&lt;/p&gt;
 
-&lt;h3 id=&quot;how-it-started&quot;&gt;How it Started&lt;/h3&gt;
+&lt;h3&gt;How it Started&lt;/h3&gt;
 
 &lt;p&gt;Derrick and I started the same day at Branch, but in very different roles and with very different niches to fill. Derrick is a hardcore iOS engineer. He started learning a few years ago while at Stanford and dove head first, teaming up with an MBA last fall to launch his own app.&lt;/p&gt;
 
@@ -41,7 +40,7 @@
 
 &lt;p&gt;The more we wondered about it, the more we realized that actually one of our biggest bottlenecks in terms of time and resources at MWC would not be our ability to network, but our ability to actively follow up and keep our relationships going past the event.&lt;/p&gt;
 
-&lt;h3 id=&quot;identifying-the-problem&quot;&gt;Identifying the Problem&lt;/h3&gt;
+&lt;h3&gt;Identifying the Problem&lt;/h3&gt;
 
 &lt;p&gt;Somewhere between stuffing our bags into overhead storage and getting cozy in our spacious economy seats, I remember it hit Derrick and I…&lt;/p&gt;
 
@@ -53,36 +52,36 @@
 
 &lt;p&gt;But, the process and the results were pretty amazing, and that’s what I want to share with developers, product managers, and startup operators who may be convinced that it takes countless resources and time to build cool products that serve unique internal purposes. In fact, it makes me wonder that maybe all you really need is a clever idea, forced working space, a strict deadline, and some intense motivation to build aweseome products.&lt;/p&gt;
 
-&lt;h3 id=&quot;what-we-built&quot;&gt;What We Built&lt;/h3&gt;
+&lt;h3&gt;What We Built ###&lt;/h3&gt;
 
 &lt;p&gt;By the time we hit the tarmac in Spain we had completed the first prototype of the BNC Connect App.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-1.png&quot; /&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-		&lt;i&gt;The icon as it appears on iOS for Internal Branch team members using the app.&lt;/i&gt;
-	&lt;/p&gt;
+&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-1.png&quot;&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+        &lt;i&gt;The icon as it appears on iOS for Internal Branch team members using the app.&lt;/i&gt;
+    &lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Connect&lt;/li&gt;
-  &lt;li&gt;Settings&lt;/li&gt;
-  &lt;li&gt;Templates&lt;/li&gt;
-  &lt;li&gt;Analytics&lt;/li&gt;
+&lt;li&gt;Connect&lt;/li&gt;
+&lt;li&gt;Settings&lt;/li&gt;
+&lt;li&gt;Templates&lt;/li&gt;
+&lt;li&gt;Analytics&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Let’s walk through each view…&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-2.png&quot; /&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-		&lt;i&gt;Each one of these views served a very specific purpose in helping us contact new individuals at Mobile World Congress. &lt;/i&gt;
-	&lt;/p&gt;
+&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-2.png&quot;&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+        &lt;i&gt;Each one of these views served a very specific purpose in helping us contact new individuals at Mobile World Congress. &lt;/i&gt;
+    &lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Beyond just the initial point of contact and capturing of their information, the app also allowed us to drop each new contact into templated buckets for future follow up.&lt;/p&gt;
 
-&lt;h3 id=&quot;connecting&quot;&gt;Connecting&lt;/h3&gt;
+&lt;h3&gt;Connecting&lt;/h3&gt;
 
 &lt;p&gt;The Connect homepage allowed us to enter useful information about the person we were meeting. We chose these fields based on what we thought was the raw minimum to follow up with them. More importantly, this is where we tied in our Branch links so that we could track our emails and follow ups (more on this below).&lt;/p&gt;
 
@@ -91,37 +90,37 @@
 &lt;p&gt;&lt;b&gt;Captures all the information and posts it as a Lead to SalesForce.&lt;/b&gt; This is huge — you can take anyone you meet on the ground at a conference and instantly drop them into your CRM to make sure they don’t get lost and that you maximize your chance to connect with them in the right way! Gone are the days of stacks of business cards that get lost or mishandled.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-3.png&quot; /&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-		&lt;i&gt;In fact, you don’t even have to be an app developer to build a sweet Lead form that lets you post to SFDC. You could build a simple web app and use the Web-to-Lead Native SFDC feature to replicate the BNC App in HTML 5!&lt;/i&gt;
-	&lt;/p&gt;
+&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-3.png&quot;&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+        &lt;i&gt;In fact, you don’t even have to be an app developer to build a sweet Lead form that lets you post to SFDC. You could build a simple web app and use the Web-to-Lead Native SFDC feature to replicate the BNC App in HTML 5!&lt;/i&gt;
+    &lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;b&gt;Allows you to Draft Emails in Seconds&lt;/b&gt;. Based on the conversation you have and subsequently, the information you’d like to send each contact in a follow up email, you can pick a template of pre-generated information that you can then automatically fire off as an email OR that you can save as a draft in your inbox as a reminder or for editing later down the road.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-4.png&quot; /&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-		&lt;i&gt;When a Branch team member is meeting new contacts in foreign places, like Barcelona, they can use the BNC connect app, fill in the new contact information and hit Connect. That’s when the magic happens.&lt;/i&gt;
-	&lt;/p&gt;
+&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-4.png&quot;&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+        &lt;i&gt;When a Branch team member is meeting new contacts in foreign places, like Barcelona, they can use the BNC connect app, fill in the new contact information and hit Connect. That’s when the magic happens.&lt;/i&gt;
+    &lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&quot;the-real-life-saver-following-up&quot;&gt;The Real Life-Saver: Following Up&lt;/h3&gt;
+&lt;h3&gt;The Real Life-Saver: Following Up&lt;/h3&gt;
 
 &lt;p&gt;While templates are not the way to go with most human interactions, they help when you’re busy, on the road and meeting lots of people. Each day at MWC Derrick and I each met over 50 people. We knew it would be hard, if not impossible, to remember every person we talked to, every app we discussed, and every feature that Branch could help them with.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-5.png&quot; /&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-		&lt;i&gt;With the native email client in iOS we could save drafts right into our inbox so that most of the legwork of following up was done. And for quick contacts to record your meeting and drop them a note for coffee, it proved even more effective!&lt;/i&gt;
-	&lt;/p&gt;
+&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-5.png&quot;&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+        &lt;i&gt;With the native email client in iOS we could save drafts right into our inbox so that most of the legwork of following up was done. And for quick contacts to record your meeting and drop them a note for coffee, it proved even more effective!&lt;/i&gt;
+    &lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;They always say to follow up with people promptly — especially when its something important. For us, BNC Connect helped us reach out to our contacts quickly and stay top of mind. It also saved a TON of time simply because we could save basic email drafts that later we could edit once we got back to the hotel.&lt;/p&gt;
 
 &lt;p&gt;All the leg work of filling out the TO &amp;amp; BCC fields along with embedding relevant collateral was done for us. I go into the actual time and resources we saved by using the app a bit later…&lt;/p&gt;
 
-&lt;h3 id=&quot;how-we-used-our-own-links&quot;&gt;How we Used our Own Links&lt;/h3&gt;
+&lt;h3&gt;How we Used our Own Links&lt;/h3&gt;
 
 &lt;p&gt;Lots of people use Branch for contextual deeplinking, passing data through installation, creating beautiful customized onboarding flows, and for incentivizing users with sharing &amp;amp; rewards.&lt;/p&gt;
 
@@ -134,28 +133,28 @@
 &lt;p&gt;In this case, “branch.io” that we put in our email was a Branch link — universal, trackable, and easily whitelabeled. This enabled us to track how our follow up emails were performing, see link clicks, and understand if our contacts were interested and actually checked out Branch after we emailed them.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-6.png&quot; /&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-		&lt;i&gt;With Branch’s Dashboard it made it easy to see who we had contacted in one spot. We can track clicks, tie them to user identities and even export the data to run some small analyses to see if there were any trends in email click-through&lt;/i&gt;
-	&lt;/p&gt;
+&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-6.png&quot;&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+        &lt;i&gt;With Branch’s Dashboard it made it easy to see who we had contacted in one spot. We can track clicks, tie them to user identities and even export the data to run some small analyses to see if there were any trends in email click-through&lt;/i&gt;
+    &lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Even more, we leveraged Branch Marketing links to create an “on the fly” marketing link as a way to whitelabel the domain where we hosted our meetup page. This made it easy to create a trackable short URL with Branch that we could leverage for marketing during the actual MWC event.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-7.png&quot; /&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-		&lt;i&gt;Marketing links are a great way to run quick marketing campaigns that both track clicks and install, but also carry data through install. For us, we mostly cared about the link clicks.&lt;/i&gt;
-	&lt;/p&gt;
+&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-7.png&quot;&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+        &lt;i&gt;Marketing links are a great way to run quick marketing campaigns that both track clicks and install, but also carry data through install. For us, we mostly cared about the link clicks.&lt;/i&gt;
+    &lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Today, we still use this functionality when we visit new places! For example, the Branch team is headed to Echelon and in preparation for the event, we created a Branch marketing link that points to our Singapore meetup page. With Branch we can customize everything about it and track it all in one spot.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-8.png&quot; /&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-		&lt;i&gt;In our case, we wanted to always ensure that we knew when a Branch link wasn’t created — because we’d need to follow up with that person later. Instead of having a simple time-out. We logged an error and reported in our Export tool, making it easy to follow up with contacts later even if there was no Wifi.&lt;/i&gt;
-	&lt;/p&gt;
+&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-8.png&quot;&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+        &lt;i&gt;In our case, we wanted to always ensure that we knew when a Branch link wasn’t created — because we’d need to follow up with that person later. Instead of having a simple time-out. We logged an error and reported in our Export tool, making it easy to follow up with contacts later even if there was no Wifi.&lt;/i&gt;
+    &lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;One edge case we also handled for at MWC aws that we might not actually have that great of cell reception. Think about it — it’s the world’s largest mobile convention with over 70,000 people. Even though it’s focused on mobile, what are the chances that Wifi and cell data would work without a hitch?&lt;/p&gt;
@@ -164,28 +163,28 @@
 
 &lt;p&gt;What was the end result of all this inside our app? All the utility of tracking with a behemoth emailing platform, all the simplicity and reliability of a linking solution.&lt;/p&gt;
 
-&lt;h3 id=&quot;diy-with-branch-was-easy&quot;&gt;DIY with Branch was Easy&lt;/h3&gt;
+&lt;h3&gt;DIY with Branch was Easy&lt;/h3&gt;
 
-&lt;p&gt;What was so remarkable is that integrating this core Branch feature inside our app was actually the easiest part of building BNC Connect.&lt;/p&gt;
+&lt;p&gt;What was so remarkable is that integrating this core Branch feature inside our app was actually the easiest part of building BNC Connect. &lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-9.png&quot; /&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-		&lt;i&gt;initSession &amp;amp; deepLinkHandle, every Branch fan’s favorite calls inside their iOS app. This view from our AppDelegate shows you just how few lines of code you need to get up and running with Branch.&lt;/i&gt;
-	&lt;/p&gt;
+&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-9.png&quot;&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+        &lt;i&gt;initSession &amp; deepLinkHandle, every Branch fan’s favorite calls inside their iOS app. This view from our AppDelegate shows you just how few lines of code you need to get up and running with Branch.&lt;/i&gt;
+    &lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&quot;quantifying-success&quot;&gt;Quantifying Success&lt;/h3&gt;
+&lt;h3&gt;Quantifying Success&lt;/h3&gt;
 
 &lt;p&gt;So, for 7 hours of work in a plane, how does this app measure up? Based on my estimates this is what it takes to successfully connect with somebody from an “on the fly encounter” to a complete managed opportunity follow up for the business…&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Enter business card into CRM, like SalesForce, and save —30 seconds.&lt;/li&gt;
-  &lt;li&gt;Switch tabs and open up your emailing client — 5 seconds&lt;/li&gt;
-  &lt;li&gt;Create new email and copy paste contact information, including necessary CC, BCC, and subject line fields — 25 seconds.&lt;/li&gt;
-  &lt;li&gt;Draft up email response — 3 minutes.&lt;/li&gt;
-  &lt;li&gt;Find and drop in relevant documents &amp;amp; supporting links — 30 seconds.&lt;/li&gt;
-  &lt;li&gt;Double check grammar, spelling, contact information, and then “send” — 2 minutes.&lt;/li&gt;
+&lt;li&gt;Enter business card into CRM, like SalesForce, and save —30 seconds.&lt;/li&gt;
+&lt;li&gt;Switch tabs and open up your emailing client — 5 seconds&lt;/li&gt;
+&lt;li&gt;Create new email and copy paste contact information, including necessary CC, BCC, and subject line fields — 25 seconds.&lt;/li&gt;
+&lt;li&gt;Draft up email response — 3 minutes.&lt;/li&gt;
+&lt;li&gt;Find and drop in relevant documents &amp;amp; supporting links — 30 seconds.&lt;/li&gt;
+&lt;li&gt;Double check grammar, spelling, contact information, and then “send” — 2 minutes.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Total Time from business card to complete follow up? 6.5 minutes (390 seconds).&lt;/p&gt;
@@ -193,26 +192,26 @@
 &lt;p&gt;&lt;b&gt;Now, let’s look at it with BNC Connect:&lt;/b&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Enter contact information or business card info directly into the App, which has a much faster and smoother interface, and which directly propagates to the CRM and your email at the same time — 10 seconds.&lt;/li&gt;
-  &lt;li&gt;Hit connect and pull up fully completed and filled out email draft — 1 second.&lt;/li&gt;
-  &lt;li&gt;Modify pre-filled email template of your choosing — 30 seconds
+&lt;li&gt;Enter contact information or business card info directly into the App, which has a much faster and smoother interface, and which directly propagates to the CRM and your email at the same time — 10 seconds.&lt;/li&gt;
+&lt;li&gt;Hit connect and pull up fully completed and filled out email draft — 1 second.&lt;/li&gt;
+&lt;li&gt;Modify pre-filled email template of your choosing — 30 seconds
 Send. No need to check grammar, or drop in useful links as those templates have already been built for you — 1 second.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Total Time from business card to complete follow up with the BNC Connect App? 42 seconds. Using the BNC Connect App we built is 9.29 X faster than connecting with people at events via traditional methods. This equates to a 348 second time savings / contact&lt;/p&gt;
+&lt;p&gt;Total Time from business card to complete follow up with the BNC Connect App? 42 seconds. Using the BNC Connect App we built is 9.29 X faster than connecting with people at events via traditional methods. This equates to a 348 second time savings / contact &lt;/p&gt;
 
-&lt;p&gt;So, the next obvious and logical question to ask is how much total time and resources did Derrick and I save? Making some simple back-of-the-envelope assumptions it’s actually pretty easy to get to a number.&lt;/p&gt;
+&lt;p&gt;So, the next obvious and logical question to ask is how much total time and resources did Derrick and I save? Making some simple back-of-the-envelope assumptions it&amp;#39;s actually pretty easy to get to a number. &lt;/p&gt;
 
 &lt;p&gt;Let’s make an assumption about the total number of events we’ll host per year and about the number of people we will meet at each event.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-savings-table.png&quot; /&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-		&lt;i&gt;You can take this model and tailor it any way you want. The reality is that no matter how you spin it, the savings from automating this simple process of entering leads has a cost savings in excess of thousands of dollars.&lt;/i&gt;
-	&lt;/p&gt;
+&lt;img src=&quot;/images/blogs/bnc-connect/bnc-connect-savings-table.png&quot;&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+        &lt;i&gt;You can take this model and tailor it any way you want. The reality is that no matter how you spin it, the savings from automating this simple process of entering leads has a cost savings in excess of thousands of dollars.&lt;/i&gt;
+    &lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;That’s right. You see the number. Over $240,000 in savings with the development of this single app.&lt;/p&gt;
+&lt;p&gt;That&amp;#39;s right. You see the number. Over $240,000 in savings with the development of this single app. &lt;/p&gt;
 
 &lt;p&gt;It should be painfully clear from our explanation that building ourselves an internal app on the plane ride to Barcelona was incredibly useful from both a productivity, operations, and business perspective. The most important aspect of all this was that we used Branch to serve Branch.&lt;/p&gt;
 
@@ -257,7 +256,7 @@ Send. No need to check grammar, or drop in useful links as those templates have 
 
 &lt;p&gt;In this short conversation with &lt;a href=&quot;http://jwegan.com/&quot;&gt;John Egan&lt;/a&gt;, Lead Growth Engineer at Pinterest, and &lt;a href=&quot;https://medium.com/@alexaustin/just-keep-building-ca1e43df8e5a&quot;&gt;Alex Austin&lt;/a&gt;, CEO and Co-Founder of Branch Metrics, we dive into the most crucial elements of growth that every app developer and mobile expert should care about. &lt;strong&gt;As discussed in this conversation, here are four high-level principles that will help you succeed in driving growth.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;activations--nux&quot;&gt;Activations &amp;amp; NUX&lt;/h3&gt;
+&lt;h3&gt;Activations &amp;amp; NUX&lt;/h3&gt;
 
 &lt;p&gt;Activations are an essential growth metric, but often people don’t know what they mean to their app, or they don’t know where to start in acquiring them. Luckily, John Egan shed some light on activations and explained, “At Pinterest, we view activations — the process of getting someone who just signed up for your service to stick around and become a regular user — as being one of the most important pieces of growth that you have to absolutely nail and continually improve.”&lt;/p&gt;
 
@@ -267,24 +266,24 @@ Send. No need to check grammar, or drop in useful links as those templates have 
 
 &lt;p&gt;&lt;strong&gt;So really then, what’s the deal with activations?&lt;/strong&gt; As John put it, “Users won’t stick around for a variety of reasons, but the biggest reason is that they don’t understand the value your app provides to them.” The key to activations is communicating your value prop effectively. As an app developer, the single best thing you can do to increase activations is to really understand and demonstrate your value prop as soon as you can. Communicate different use cases to users and find the one that really resonates with them.&lt;/p&gt;
 
-&lt;h3 id=&quot;forced-registration-vs-passive-app-use&quot;&gt;Forced Registration vs. Passive App Use?&lt;/h3&gt;
+&lt;h3&gt;Forced Registration vs. Passive App Use?&lt;/h3&gt;
 
 &lt;p&gt;It’s a simple question, and a struggle that apps face when trying to grow their user base in a frictionless way. Just because Pinterest has forced registration (you can’t use Pinterest without signing up) doesn’t mean everyone should. While forced registration is a mixed bag of costs and benefits for every app, the only sure way to know is to do deep analysis around your signup wall. Test and iterate to see what works. If 2–3 months down the line you see that loss reflected in the funnel, then you know that a forced registration strategy may not be the best for your app.&lt;/p&gt;
 
 &lt;p&gt;But beyond just knowing if you need a signup wall is how to drive the success of that signup wall. As John noted, this is where gathering user information before and during signup is so important in improving the user experience. There are a few key approaches to doing this:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Personalize the experience through context&lt;/li&gt;
-  &lt;li&gt;Gather user interests during signup to customize the home-feed&lt;/li&gt;
-  &lt;li&gt;Re-engage users through emails and notifications&lt;/li&gt;
-  &lt;li&gt;Create a habit of visitation&lt;/li&gt;
+&lt;li&gt;Personalize the experience through context&lt;/li&gt;
+&lt;li&gt;Gather user interests during signup to customize the home-feed&lt;/li&gt;
+&lt;li&gt;Re-engage users through emails and notifications&lt;/li&gt;
+&lt;li&gt;Create a habit of visitation&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;This last point from John was particularly clarifying. Pinterest tries to find and send interesting content by email in an attempt to form a habit of visiting the app for great content. Building the habit of visiting the app is important, and app devs can do it by continually showing current users the value their service is providing current users. It’s no surprise that this is so inherently tied with activations, which require you to demonstrate your value proposition early, often, and very clearly.&lt;/p&gt;
 
 &lt;p&gt;I think John put it best when he mentioned that, “keeping users engaged is really all about continuing to deliver on your value proposition.”&lt;/p&gt;
 
-&lt;h3 id=&quot;the-deal-with-sharing-referrals--invites&quot;&gt;The Deal with Sharing, Referrals &amp;amp; Invites&lt;/h3&gt;
+&lt;h3&gt;The Deal with Sharing, Referrals &amp;amp; Invites&lt;/h3&gt;
 
 &lt;p&gt;It’s no surprise, but one of the best ways to drive growth is by implementing sharing and referral features inside of your app that enable organic, word of mouth drivers. In highlighting this thought, John revisited his experience at Shopkick where a majority of their app signups came through invites.&lt;/p&gt;
 
@@ -300,7 +299,8 @@ Send. No need to check grammar, or drop in useful links as those templates have 
 
 &lt;p&gt;Though John and Alex’s advice on building an incredible sharing and referral program should hit home for developers looking to grow their app, it’s important to take it all with a grain of salt. Don’t just go through the motions to check the box for “invites and sharing.” Do it because it matters, do it right, and make your sharing program fun, unique, and easy to participate in. Don’t do it unless it means something to your service.&lt;/p&gt;
 
-&lt;h3 id=&quot;what-product-market-fit-means-in-growth&quot;&gt;What Product-Market Fit Means in Growth&lt;/h3&gt;
+&lt;h3&gt;What Product-Market Fit Means in Growth&lt;/h3&gt;
+
 &lt;p&gt;In our final moments, John and Alex also shared their growth advice for mobile devs just starting the arduous journey of app development. At the core of it all, you have to figure out product-market fit. It may sound obvious and straight out of HBO’s Silicon Valley, but John articulated on what Product Market fit means specifically in terms of growth:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;u&gt;&lt;i&gt;Early Stage Apps&lt;/i&gt;&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -340,10 +340,9 @@ Send. No need to check grammar, or drop in useful links as those templates have 
     
       <item>
         <title>On the Failed Promise of Deeplinking with Scott Rosenberg &amp; the Deeplinked Future</title>
-        <description>&lt;p&gt;Recently, I wrote a critical response to the “Failed promise of deeplinks,” by Scott Rosenberg. You can and should read &lt;a href=&quot;https://medium.com/backchannel/the-failed-promise-of-deep-links-aa307b3abaa5&quot;&gt;his full response&lt;/a&gt;. Then, when you’re ready to hear why there were some disagreements on my end, you should explore &lt;a href=&quot;https://medium.com/@AustinHay/hi-scott-8fd0e4584347&quot;&gt;my response&lt;/a&gt;. Everything here is host on Medium.&lt;/p&gt;
+        <description>&lt;p&gt;Recently, I wrote a critical response to the &amp;quot;Failed promise of deeplinks,&amp;quot; by Scott Rosenberg. You can and should read &lt;a href=&quot;https://medium.com/backchannel/the-failed-promise-of-deep-links-aa307b3abaa5&quot;&gt;his full response&lt;/a&gt;. Then, when you&amp;#39;re ready to hear why there were some disagreements on my end, you should explore &lt;a href=&quot;https://medium.com/@AustinHay/hi-scott-8fd0e4584347&quot;&gt;my response&lt;/a&gt;. Everything here is host on Medium.&lt;/p&gt;
 
-&lt;script async=&quot;&quot; src=&quot;https://static.medium.com/embed.js&quot;&gt;&lt;/script&gt;
-&lt;p&gt;&lt;a class=&quot;m-profile&quot; data-width=&quot;100%&quot; href=&quot;https://medium.com/@AustinHay&quot;&gt;Austin Hay&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&quot;https://static.medium.com/embed.js&quot;&gt;&lt;/script&gt;&lt;a class=&quot;m-profile&quot; data-width=&quot;100%&quot; href=&quot;https://medium.com/@AustinHay&quot;&gt;Austin Hay&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 17 Apr 2015 00:00:00 -0700</pubDate>
         <link>http://austinhay.com/deeplinking/2015/04/17/On-the-Failed-Promise-of-Deeplinking.html</link>
@@ -364,90 +363,89 @@ Send. No need to check grammar, or drop in useful links as those templates have 
     
       <item>
         <title>Breaking Down Contextual Deeplinking?</title>
-        <description>&lt;p&gt;Everyone’s heard the adage before - context matters. In the case of mobile deeplinking, context doesn’t just matter, it’s the difference between simply connecting to the right content and &lt;b&gt;&lt;i&gt;connecting to that content in the right way&lt;/i&gt;&lt;/b&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;Everyone&amp;#39;s heard the adage before - context matters. In the case of mobile deeplinking, context doesn&amp;#39;t just matter, it&amp;#39;s the difference between simply connecting to the right content and &lt;b&gt;&lt;i&gt;connecting to that content in the right way&lt;/i&gt;&lt;/b&gt;. &lt;/p&gt;
 
-&lt;p&gt;Traditional, &lt;b&gt;basic deeplinking&lt;/b&gt; solutions, &lt;a href=&quot;https://medium.com/backchannel/the-failed-promise-of-deep-links-aa307b3abaa5&quot;&gt;which many lament as a failed promise&lt;/a&gt;, claim to deliver users from a link to the content they intended to view. The reality of this promise, however, is much more complicated. Because of the way the app stores function on mobile devices, for both Apple and Google, this process is filled with friction - friction that &lt;b&gt;contextual deeplinking&lt;/b&gt; lets you circumvent.&lt;/p&gt;
+&lt;p&gt;Traditional, &lt;b&gt;basic deeplinking&lt;/b&gt; solutions, &lt;a href=&quot;https://medium.com/backchannel/the-failed-promise-of-deep-links-aa307b3abaa5&quot;&gt;which many lament as a failed promise&lt;/a&gt;, claim to deliver users from a link to the content they intended to view. The reality of this promise, however, is much more complicated. Because of the way the app stores function on mobile devices, for both Apple and Google, this process is filled with friction - friction that &lt;b&gt;contextual deeplinking&lt;/b&gt; lets you circumvent.
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/branch/contextual-deeplinking-2.png&quot; /&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-    It&#39;s hard not to see all the ways that &lt;b&gt;basic deeplinking&lt;/b&gt; is broken.
+&lt;img src=&quot;/images/blogs/branch/contextual-deeplinking-2.png&quot;&gt;&lt;/a&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+    It&amp;#39;s hard not to see all the ways that &lt;b&gt;basic deeplinking&lt;/b&gt; is broken.
     &lt;/p&gt;
-    &lt;/figure&gt;
+    &lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;As highlighted recently through a dive into &lt;a href=&quot;https://blog.branch.io/mobile-deeplinking-basics/?bmp=contextual-deeplinking-blog&quot;&gt;how deeplinking works&lt;/a&gt;, the app store functions as a black box when a user tries to install a native app, stripping all information that came with that user and the link they clicked. It is here that many deeplinking platforms fail to deliver on their promise, as they have no solution for this glaring problem.&lt;/p&gt;
 
-&lt;p&gt;Basic deeplinking can only connect users to an app from anywhere on the web &lt;b&gt;if they already have the app installed&lt;/b&gt;. If they had the app previously and uninstalled it, they can expect an unsavory Safari error. When they don’t have the app installed, basic deeplinking can take them to the App Store, and eventually to the linked app. But this eventuality means more clicks, and as Ben Narasin &lt;a href=&quot;https://blog.branch.io/an-investors-advice-on-building-a-company/?bmp=contextual-deeplinking-blog&quot;&gt;discusses&lt;/a&gt;, more clicks means fewer conversions. And once they get there, users will be served a generic login screen and be left clueless as to where to go next.&lt;/p&gt;
+&lt;p&gt;Basic deeplinking can only connect users to an app from anywhere on the web &lt;b&gt;if they already have the app installed&lt;/b&gt;. If they had the app previously and uninstalled it, they can expect an unsavory Safari error. When they don&amp;#39;t have the app installed, basic deeplinking can take them to the App Store, and eventually to the linked app. But this eventuality means more clicks, and as Ben Narasin &lt;a href=&quot;https://blog.branch.io/an-investors-advice-on-building-a-company/?bmp=contextual-deeplinking-blog&quot;&gt;discusses&lt;/a&gt;, more clicks means fewer conversions. And once they get there, users will be served a generic login screen and be left clueless as to where to go next. &lt;/p&gt;
 
-&lt;h3 id=&quot;why-it-matters&quot;&gt;Why it Matters&lt;/h3&gt;
+&lt;h3&gt;Why it Matters&lt;/h3&gt;
 
-&lt;p&gt;Deeplinking’s profile has been growing lately, with major players taking the &lt;a href=&quot;http://techcrunch.com/2013/08/30/deeplink-me-launches-a-retargeting-network-for-mobile-that-sends-users-back-to-the-apps-theyve-already-installed/?bmp=contextual-deeplinking-blog&quot;&gt;spotlight&lt;/a&gt; as they begin to offer solutions for connecting the web and native ecosystems, and even for providing &lt;a href=&quot;http://techcrunch.com/2015/03/24/deeplink-moves-into-google-territory-with-appwords-a-deep-link-mobile-search-and-ad-platform/?bmp=contextual-deeplinking-blog&quot;&gt;search&lt;/a&gt; and advertising. What tends to get left out of the conversation is the true nature of the type of deeplinking in question and the experience it provides. &lt;b&gt;Basic deeplinking&lt;/b&gt; is not enough to carry the industry forward. It’s not enough to deliver on the promise of connecting people, content and messages across platforms, it’s not enough to &lt;a href=&quot;https://branch.io/features/?bmp=contextual-deeplinking-blog&quot;&gt;create a truly seamless UX&lt;/a&gt;, and it’s not enough to give developers the tools they need to &lt;a href=&quot;https://branch.io/organic-growth/?bmp=contextual-deeplinking-blog&quot;&gt;grow their apps&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Deeplinking&amp;#39;s profile has been growing lately, with major players taking the &lt;a href=&quot;http://techcrunch.com/2013/08/30/deeplink-me-launches-a-retargeting-network-for-mobile-that-sends-users-back-to-the-apps-theyve-already-installed/?bmp=contextual-deeplinking-blog&quot;&gt;spotlight&lt;/a&gt; as they begin to offer solutions for connecting the web and native ecosystems, and even for providing &lt;a href=&quot;http://techcrunch.com/2015/03/24/deeplink-moves-into-google-territory-with-appwords-a-deep-link-mobile-search-and-ad-platform/?bmp=contextual-deeplinking-blog&quot;&gt;search&lt;/a&gt; and advertising. What tends to get left out of the conversation is the true nature of the type of deeplinking in question and the experience it provides. &lt;b&gt;Basic deeplinking&lt;/b&gt; is not enough to carry the industry forward. It&amp;#39;s not enough to deliver on the promise of connecting people, content and messages across platforms, it&amp;#39;s not enough to &lt;a href=&quot;https://branch.io/features/?bmp=contextual-deeplinking-blog&quot;&gt;create a truly seamless UX&lt;/a&gt;, and it&amp;#39;s not enough to give developers the tools they need to &lt;a href=&quot;https://branch.io/organic-growth/?bmp=contextual-deeplinking-blog&quot;&gt;grow their apps&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;Contextual deeplinking&lt;/b&gt; can and does do all of these things that basic linking cannot. But don’t take it just from us - listen some of our amazing partners and industry leaders talk about contextual deeplinking and the power it holds over basic deeplinking:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Contextual deeplinking&lt;/b&gt; can and does do all of these things that basic linking cannot. But don&amp;#39;t take it just from us - listen some of our amazing partners and industry leaders talk about contextual deeplinking and the power it holds over basic deeplinking:&lt;/p&gt;
 
 &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192190273&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&quot;how-basic-deeplinking-isnt-enough&quot;&gt;How Basic Deeplinking Isn’t Enough&lt;/h3&gt;
+&lt;h3&gt;How Basic Deeplinking Isn&amp;#39;t Enough&lt;/h3&gt;
 
-&lt;p&gt;The problems with &lt;b&gt;&lt;a href=&quot;http://blog.bitly.com/post/113868146719/introducing-mobile-deep-linking-by-bitly?bmp=contextual-deeplinking-blog&quot;&gt;basic deeplinking&lt;/a&gt;&lt;/b&gt; are easy to understand, but if you want a full walkthrough, I recommend that you take a look at the complete process breakdown &lt;a href=&quot;https://blog.branch.io/mobile-deeplinking-basics/?bmp=contextual-deeplinking-blog&quot;&gt;here&lt;/a&gt;. &lt;b&gt;Real-life examples also tell the story of why &lt;b&gt;basic deeplinking&lt;/b&gt; isn’t enough.&lt;/b&gt; With &lt;a href=&quot;https://www.eventbrite.com/?bmp=contextual-deeplinking-blog&quot;&gt;Eventbrite&lt;/a&gt;, basic deeplinking only drives users to the App store if they have the app. New users, like myself, are left wondering how they can get back to the content they originally wanted to see.&lt;/p&gt;
+&lt;p&gt;The problems with &lt;b&gt;&lt;a href=&quot;http://blog.bitly.com/post/113868146719/introducing-mobile-deep-linking-by-bitly?bmp=contextual-deeplinking-blog&quot;&gt;basic deeplinking&lt;/a&gt;&lt;/b&gt; are easy to understand, but if you want a full walkthrough, I recommend that you take a look at the complete process breakdown &lt;a href=&quot;https://blog.branch.io/mobile-deeplinking-basics/?bmp=contextual-deeplinking-blog&quot;&gt;here&lt;/a&gt;. &lt;b&gt;Real-life examples also tell the story of why &lt;b&gt;basic deeplinking&lt;/b&gt; isn&amp;#39;t enough.&lt;/b&gt; With &lt;a href=&quot;https://www.eventbrite.com/?bmp=contextual-deeplinking-blog&quot;&gt;Eventbrite&lt;/a&gt;, basic deeplinking only drives users to the App store if they have the app. New users, like myself, are left wondering how they can get back to the content they originally wanted to see.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/branch/contextual-deeplinking-3.png&quot; /&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-		Mada, our wonderful &lt;a href=&quot;https://medium.com/mobile-growth/how-to-make-app-content-as-accessible-as-web-content-f6b19e970bf?bmp=contextual-deeplinking-blog&quot;&gt;co-founder&lt;/a&gt;, invites me to an awesome &lt;a href=&quot;http://www.eventbrite.com/e/mobile-growth-with-flipboard-groupon-app-in-the-air-zynga-yahoo-tickets-16212140950?bmp=contextual-deeplinking-blog&quot;&gt;Mobile Growth Meetup&lt;/a&gt; featuring Flipboard, Groupon, App in the Air, Zynga, and Yahoo. When I click on the link I&#39;m directed to the mobile site, where a banner asks if I want to view the page in the native app. This is where &lt;b&gt;basic deeplinking&lt;/b&gt; stalls - after downloading the app, the context of where I came from is lost. After I open the Eventbrite app to sign up for the Meetup, I&#39;m left scratching my head at a generic signup screen. 
-	&lt;/p&gt;
+&lt;img src=&quot;/images/blogs/branch/contextual-deeplinking-3.png&quot;&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+        Mada, our wonderful &lt;a href=&quot;https://medium.com/mobile-growth/how-to-make-app-content-as-accessible-as-web-content-f6b19e970bf?bmp=contextual-deeplinking-blog&quot;&gt;co-founder&lt;/a&gt;, invites me to an awesome &lt;a href=&quot;http://www.eventbrite.com/e/mobile-growth-with-flipboard-groupon-app-in-the-air-zynga-yahoo-tickets-16212140950?bmp=contextual-deeplinking-blog&quot;&gt;Mobile Growth Meetup&lt;/a&gt; featuring Flipboard, Groupon, App in the Air, Zynga, and Yahoo. When I click on the link I&#39;m directed to the mobile site, where a banner asks if I want to view the page in the native app. This is where &lt;b&gt;basic deeplinking&lt;/b&gt; stalls - after downloading the app, the context of where I came from is lost. After I open the Eventbrite app to sign up for the Meetup, I&#39;m left scratching my head at a generic signup screen. 
+    &lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;And the crazy part about &lt;b&gt;basic deeplinking&lt;/b&gt; is that it doesn’t deliver on its promise to drive users to the right content no matter where they came from. For instance, with &lt;a href=&quot;https://www.lyft.com/&quot;&gt;Lyft&lt;/a&gt;, basic deeplinking doesn’t drive users from SMS to the native app. In fact, the process fails before the user even gets the app.&lt;/p&gt;
+&lt;p&gt;And the crazy part about &lt;b&gt;basic deeplinking&lt;/b&gt; is that it doesn&amp;#39;t deliver on its promise to drive users to the right content no matter where they came from. For instance, with &lt;a href=&quot;https://www.lyft.com/&quot;&gt;Lyft&lt;/a&gt;, basic deeplinking doesn&amp;#39;t drive users from SMS to the native app. In fact, the process fails before the user even gets the app. &lt;/p&gt;
 
 &lt;figure&gt;
-&lt;a href=&quot;https://branch.io/links?bmp=contextual-deeplinking-blog&quot;&gt;&lt;img src=&quot;/images/blogs/branch/contextual-deeplinking-4.png&quot; /&gt;&lt;/a&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-		Lyft often extends incredible deals to incentivize new users to try their great service. I happened to receive an SMS with a promotion code for 10 free rides just this last week. Without &lt;b&gt;contextual deeplinks&lt;/b&gt;, I am redirected to the mobile site, served an error messaged and left without a way to navigate to the native experience. 
-	&lt;/p&gt;
+&lt;a href=&quot;https://branch.io/links?bmp=contextual-deeplinking-blog&quot;&gt;&lt;img src=&quot;/images/blogs/branch/contextual-deeplinking-4.png&quot;&gt;&lt;/a&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+        Lyft often extends incredible deals to incentivize new users to try their great service. I happened to receive an SMS with a promotion code for 10 free rides just this last week. Without &lt;b&gt;contextual deeplinks&lt;/b&gt;, I am redirected to the mobile site, served an error messaged and left without a way to navigate to the native experience. 
+    &lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Well, what about email? Can basic deeplinking help me get from an email I received to the content I am trying to access? For &lt;a href=&quot;https://www.orderaheadapp.com/?bmp=contextual-deeplinking-blog&quot;&gt;Order Ahead&lt;/a&gt;, basic deeplinking similarly directs new users from a free delivery email link to a generic user login screen. &lt;b&gt;Context&lt;/b&gt; about where the user came from, how they got there, and what they are looking for is all lost because basic deeplinks don’t work through install.&lt;/p&gt;
+&lt;p&gt;Well, what about email? Can basic deeplinking help me get from an email I received to the content I am trying to access? For &lt;a href=&quot;https://www.orderaheadapp.com/?bmp=contextual-deeplinking-blog&quot;&gt;Order Ahead&lt;/a&gt;, basic deeplinking similarly directs new users from a free delivery email link to a generic user login screen. &lt;b&gt;Context&lt;/b&gt; about where the user came from, how they got there, and what they are looking for is all lost because basic deeplinks don&amp;#39;t work through install. &lt;/p&gt;
 
 &lt;figure&gt;
-&lt;a href=&quot;https://branch.io/links?bmp=contextual-deeplinking-blog&quot;&gt;&lt;img src=&quot;/images/blogs/branch/contextual-deeplinking-5.png&quot; /&gt;&lt;/a&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+&lt;a href=&quot;https://branch.io/links?bmp=contextual-deeplinking-blog&quot;&gt;&lt;img src=&quot;/images/blogs/branch/contextual-deeplinking-5.png&quot;&gt;&lt;/a&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
     Order Ahead provides amazing customer experiences through their promos. I got an email for a free delivery. After following the link and downloading the app, I was served a generic signup screen. Without context, the Order Ahead app didn&#39;t know where I came from or what I was expecting. Instead of delivering an extremely customized user experience, without &lt;b&gt;context&lt;/b&gt; I was instead left wondering if I even got the free delivery.
-	&lt;/p&gt;
+    &lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;I feel like I’m experiencing &lt;a href=&quot;https://blog.branch.io/mobile-deeplinking-basics/?bmp=contextual-deeplinking-blog&quot;&gt;déjà vu&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I feel like I&amp;#39;m experiencing &lt;a href=&quot;https://blog.branch.io/mobile-deeplinking-basics/?bmp=contextual-deeplinking-blog&quot;&gt;déjà vu&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;You might be thinking to yourself: okay, I see the problem, but it’s not that big of a deal, right? Well, actually, yes it is! It’s a HUGE deal.&lt;/p&gt;
+&lt;p&gt;You might be thinking to yourself: okay, I see the problem, but it&amp;#39;s not that big of a deal, right? Well, actually, yes it is! It&amp;#39;s a HUGE deal. &lt;/p&gt;
 
-&lt;p&gt;In a world where &lt;a href=&quot;http://andrewchen.co/mobile-retention-benchmarks-for-2014-vs-2013-show-a-50-drop-in-d1-retention-guest-post/?bmp=contextual-deeplinking-blog&quot;&gt;over 60% of mobile app users drop off less then 24 hours after download&lt;/a&gt;, you’ve just provided the user’s first experience migrating to the native app as an error message or as a generic login screen. &lt;b&gt;Basic deeplinks don’t remove basic friction in the way contextual deeplinks do.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;In a world where &lt;a href=&quot;http://andrewchen.co/mobile-retention-benchmarks-for-2014-vs-2013-show-a-50-drop-in-d1-retention-guest-post/?bmp=contextual-deeplinking-blog&quot;&gt;over 60% of mobile app users drop off less then 24 hours after download&lt;/a&gt;, you&amp;#39;ve just provided the user&amp;#39;s first experience migrating to the native app as an error message or as a generic login screen. &lt;b&gt;Basic deeplinks don&amp;#39;t remove basic friction in the way contextual deeplinks do.&lt;/b&gt;&lt;/p&gt;
 
-&lt;p&gt;The user, who was &lt;b&gt;&lt;a href=&quot;http://blog.bitly.com/post/113868146719/introducing-mobile-deep-linking-by-bitly&quot;&gt;promised&lt;/a&gt;&lt;/b&gt; that they’d always be delivered to the right web content regardless of where a link was clicked, just got served something they didn’t want or expect.&lt;/p&gt;
+&lt;p&gt;The user, who was &lt;b&gt;&lt;a href=&quot;http://blog.bitly.com/post/113868146719/introducing-mobile-deep-linking-by-bitly&quot;&gt;promised&lt;/a&gt;&lt;/b&gt; that they&amp;#39;d always be delivered to the right web content regardless of where a link was clicked, just got served something they didn&amp;#39;t want or expect.&lt;/p&gt;
 
-&lt;p&gt;The old saying “first impressions matter” is still around for a reason. And in the world of basic deeplinking, this rings clearer than ever before.&lt;/p&gt;
+&lt;p&gt;The old saying &amp;quot;first impressions matter&amp;quot; is still around for a reason. And in the world of basic deeplinking, this rings clearer than ever before.&lt;/p&gt;
 
-&lt;h3 id=&quot;contextual-deeplinking-in-focus&quot;&gt;Contextual Deeplinking in Focus&lt;/h3&gt;
+&lt;h3&gt;Contextual Deeplinking in Focus&lt;/h3&gt;
 
-&lt;p&gt;&lt;b&gt;Contextual deeplinking&lt;/b&gt; begins where basic deeplinking ends. It solves all of these problems and goes even further. With contextual deeplinks, you can understand how, why, and from where users are downloading your app, and then you can pass that data through the install to serve them the best possible user experience when they finally get there.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Contextual deeplinking&lt;/b&gt; begins where basic deeplinking ends. It solves all of these problems and goes even further. With contextual deeplinks, you can understand how, why, and from where users are downloading your app, and then you can pass that data through the install to serve them the best possible user experience when they finally get there. &lt;/p&gt;
 
 &lt;figure&gt;
-&lt;a href=&quot;https://branch.io/links?bmp=contextual-deeplinking-blog&quot;&gt;&lt;img src=&quot;/images/blogs/branch/contextual-deeplinking-1.png&quot; /&gt;&lt;/a&gt;
-	&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+&lt;a href=&quot;https://branch.io/links?bmp=contextual-deeplinking-blog&quot;&gt;&lt;img src=&quot;/images/blogs/branch/contextual-deeplinking-1.png&quot;&gt;&lt;/a&gt;
+    &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
     Branch is the only linking platform that provides genuine contextual deeplinking, a technology that can actually deliver on the promise of deeplinking that so many have hoped for.
     &lt;/p&gt;
     &lt;/figure&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/branch/contextual-deeplinking-6.png&quot; /&gt;
+&lt;img src=&quot;/images/blogs/branch/contextual-deeplinking-6.png&quot;&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;And it doesn’t have to end there - with context, the possibilities are limitless. You can universally deeplink users straight to the content they were looking for, regardless of where they came from (SMS, email, web, social). You can understand the channel from which they arrived at your app, and even build a referral program to reward the person who sent them to you. &lt;b&gt;Contextual deeplinking&lt;/b&gt; is a toolset that empowers app developers to share  apps and their content in the way the web always has: seamlessly.&lt;/p&gt;
+&lt;p&gt;And it doesn&amp;#39;t have to end there - with context, the possibilities are limitless. You can universally deeplink users straight to the content they were looking for, regardless of where they came from (SMS, email, web, social). You can understand the channel from which they arrived at your app, and even build a referral program to reward the person who sent them to you. &lt;b&gt;Contextual deeplinking&lt;/b&gt; is a toolset that empowers app developers to share  apps and their content in the way the web always has: seamlessly.&lt;/p&gt;
 
-&lt;p&gt;…And so, when you choose to &lt;a href=&quot;https://dashboard.branch.io/?bmp=contextual-deeplinking-blog&quot;&gt;take the plunge&lt;/a&gt; and begin deeplinking into your app, remember: context matters.&lt;/p&gt;
+&lt;p&gt;...And so, when you choose to &lt;a href=&quot;https://dashboard.branch.io/?bmp=contextual-deeplinking-blog&quot;&gt;take the plunge&lt;/a&gt; and begin deeplinking into your app, remember: context matters.&lt;/p&gt;
 
-&lt;p style=&quot;font-style:italic; font-size:60%;&quot;&gt;
+&lt;p&gt;&lt;p style=&quot;font-style:italic; font-size:60%;&quot;&gt;
 Want to learn More About the Authors &amp;amp; Designers who help explain and show Contextual deeplinks? Check out Will &amp;amp; Mada on the Branch &lt;a href=&quot;https://branch.io/about&quot;&gt;team page&lt;/a&gt;!
-&lt;p&gt;
-&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Apr 2015 00:00:00 -0700</pubDate>
         <link>http://austinhay.com/branch/2015/04/15/Breaking-Down-Contextual-Deeplinking.html</link>
@@ -466,9 +464,9 @@ Want to learn More About the Authors &amp;amp; Designers who help explain and sh
     
       <item>
         <title>Deeplinked Mobile Advertisements</title>
-        <description>&lt;p&gt;It’s been another grueling few weeks at Branch Metrics, but today we had a big suprise – mobile playable ads with mNectar, another startup in the advertising space.&lt;/p&gt;
+        <description>&lt;p&gt;It&amp;#39;s been another grueling few weeks at Branch Metrics, but today we had a big suprise -- mobile playable ads with mNectar, another startup in the advertising space. &lt;/p&gt;
 
-&lt;p&gt;Combining ads with contextual deeplinking just makes sense, but in case you’re new to deeplinking or how it could be leveraged, you should read my full guest post on the mNectar blog!&lt;/p&gt;
+&lt;p&gt;Combining ads with contextual deeplinking just makes sense, but in case you&amp;#39;re new to deeplinking or how it could be leveraged, you should read my full guest post on the mNectar blog!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.mnectar.com/insights/deeplinking-means-better-mobile-games/&quot;&gt;Deeplinking Means Better Mobile Games&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -493,40 +491,40 @@ Want to learn More About the Authors &amp;amp; Designers who help explain and sh
     
       <item>
         <title>What Mobile Games Look Like with Deeplinking</title>
-        <description>&lt;p&gt;While this article, written with my friend &lt;a href=&quot;https://twitter.com/evanrbarry&quot;&gt;Evan Barry&lt;/a&gt;, can also be seen on the &lt;a href=&quot;https://blog.branch.io/how-mobile-games-are-reinventing-the-industry-with-deep-links/&quot;&gt;Branch blog&lt;/a&gt;, I thought it would be fun to demonstrate how deeplinks can totally change the way games work on mobile.&lt;/p&gt;
+        <description>&lt;p&gt;While this article, written with my friend &lt;a href=&quot;https://twitter.com/evanrbarry&quot;&gt;Evan Barry&lt;/a&gt;, can also be seen on the &lt;a href=&quot;https://blog.branch.io/how-mobile-games-are-reinventing-the-industry-with-deep-links/&quot;&gt;Branch blog&lt;/a&gt;, I thought it would be fun to demonstrate how deeplinks can totally change the way games work on mobile. &lt;/p&gt;
 
 &lt;p&gt;To start, the scale of the mobile gaming industry is overwhelming. As of summer 2014, more than 75 billion apps were downloaded from the App Store. Games made up the highest percentage &lt;a href=&quot;http://www.statista.com/statistics/270291/popular-categories-in-the-app-store/&quot;&gt;at over 21%&lt;/a&gt; of the total downloads. Not only that, games are the top grossing app category in the app stores. In 2015, mobile games are predicted to &lt;a href=&quot;http://fortune.com/2015/01/15/mobile-console-game-revenues-2015/&quot;&gt;surpass console game revenues&lt;/a&gt; for the first time. On Apple’s &lt;a href=&quot;https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewMultiRoom?fcId=935718901&quot;&gt;Best of 2014 list&lt;/a&gt;, 9 out of the 10 top grossing apps throughout 2014 were games. In the same year, games delivered around &lt;a href=&quot;http://gamasutra.com/blogs/IevgenLeonov/20141230/233356/Trends_and_next_steps_for_mobile_games_industry_in_2015.php&quot;&gt;75% of income&lt;/a&gt; on the app store. When the top games are raking in over a &lt;a href=&quot;http://www.statista.com/statistics/263988/top-grossing-mobile-ios-gaming-apps-ranked-by-daily-revenue/&quot;&gt;million dollars a day&lt;/a&gt;, and user acquisition costs have risen &lt;a href=&quot;http://venturebeat.com/2014/10/27/the-cost-of-acquiring-mobile-app-users-is-on-the-rise-again/&quot;&gt;34% in the last year&lt;/a&gt;, &lt;b&gt;what can smaller developers do to get discovered and grow?&lt;/b&gt; Additionally, what can larger mobile game developers do to keep their costs down?&lt;/p&gt;
 
-&lt;p&gt;Mobile game developers offer some of the best insights. At our recent &lt;a href=&quot;https://blog.branch.io/what-the-experts-taught-me-about-mobile-growth/&quot;&gt;meetup at Yahoo&lt;/a&gt;, Josh Lu, Director of Product at Zynga, talked about how they determine if a new user is likely to become a paying customer, and how they change their ad and growth tactics for this user as a result. When Michael Dawson, Head of Business Development and Strategy at Pocket Gems spoke at our &lt;a href=&quot;https://blog.branch.io/mobile-growth-with-500-startups-elevate-pocket-gems-and-hotel-tonight/&quot;&gt;500 startups meetup&lt;/a&gt;, he hinted at the many ways game developers acquire new users such as performance buying, brand advertising, game-to-game promotions, video advertisements, and the success of the free-to-play (F2P) model. At the same time, Apple’s &lt;a href=&quot;http://venturebeat.com/2014/06/21/apples-crackdown-on-incentivizing-app-installs-means-marketers-need-new-tricks/&quot;&gt;crackdown on incentivized installs&lt;/a&gt; restricts gaming apps from “paid bursting” onto the featured lists where they are likely to get noticed and grow organically from there. As a result, game developers are desperately searching for new ways to gain users at low cost.&lt;/p&gt;
+&lt;p&gt;Mobile game developers offer some of the best insights. At our recent &lt;a href=&quot;https://blog.branch.io/what-the-experts-taught-me-about-mobile-growth/&quot;&gt;meetup at Yahoo&lt;/a&gt;, Josh Lu, Director of Product at Zynga, talked about how they determine if a new user is likely to become a paying customer, and how they change their ad and growth tactics for this user as a result. When Michael Dawson, Head of Business Development and Strategy at Pocket Gems spoke at our &lt;a href=&quot;https://blog.branch.io/mobile-growth-with-500-startups-elevate-pocket-gems-and-hotel-tonight/&quot;&gt;500 startups meetup&lt;/a&gt;, he hinted at the many ways game developers acquire new users such as performance buying, brand advertising, game-to-game promotions, video advertisements, and the success of the free-to-play (F2P) model. At the same time, Apple’s &lt;a href=&quot;http://venturebeat.com/2014/06/21/apples-crackdown-on-incentivizing-app-installs-means-marketers-need-new-tricks/&quot;&gt;crackdown on incentivized installs&lt;/a&gt; restricts gaming apps from &amp;quot;paid bursting” onto the featured lists where they are likely to get noticed and grow organically from there. As a result, game developers are desperately searching for new ways to gain users at low cost.&lt;/p&gt;
 
-&lt;iframe src=&quot;https://player.vimeo.com/video/118191706&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/118191706&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;b&gt;Contextual deeplinking is the answer to this search.&lt;/b&gt; With proven results in other verticals, such as a &lt;a href=&quot;https://blog.branch.io/oh-the-places-youll-go-with-gogobot/&quot;&gt;48% increase in conversion&lt;/a&gt; to signups in travel apps, and a &lt;a href=&quot;https://branch.io/the-league-case-study/&quot;&gt;30% increase in installs &lt;/a&gt;through user referrals in dating apps, Branch links are the essential tool for game developers and marketers.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Contextual deeplinking is the answer to this search.&lt;/b&gt; With proven results in other verticals, such as a &lt;a href=&quot;https://blog.branch.io/oh-the-places-youll-go-with-gogobot/&quot;&gt;48% increase in conversion&lt;/a&gt; to signups in travel apps, and a &lt;a href=&quot;https://branch.io/the-league-case-study/&quot;&gt;30% increase in installs &lt;/a&gt;through user referrals in dating apps, Branch links are the essential tool for game developers and marketers. &lt;/p&gt;
 
 &lt;p&gt;And to push the industry further, we announced a &lt;a href=&quot;http://venturebeat.com/2015/04/02/mnectar-teams-up-with-branch-metrics-to-make-mobile-gaming-ads-better/&quot;&gt;partnership with mNectar&lt;/a&gt; earlier this week tailored to deliver the most innovative gaming ads available. mNectar’s playable ads, with embedded deep links, allow users to play games in the ads and continue where they left off in the game after install. Additionally, we’ve created a &lt;a href=&quot;https://github.com/BranchMetrics/Branch-Unity-SDK&quot;&gt;Unity wrapper&lt;/a&gt; that allows developers on the unity platform to easily and quickly build with the power of Branch. But the value of deep links for mobile games doesn’t stop there. In order to demonstrate the power of deep links for mobile games, we’ve created example use cases for games from Big Fish, Two Dots, and Zynga.&lt;/p&gt;
 
-&lt;h3 id=&quot;big-fish-games&quot;&gt;Big Fish Games&lt;/h3&gt;
+&lt;h3&gt;Big Fish Games&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.bigfishgames.com/&quot;&gt;Big Fish Games&amp;lt;/em&amp;gt;&lt;/a&gt; is one of the largest mobile game developers in the world. They create hundreds of games for desktop, online, and mobile. Their flagship mobile game &lt;a href=&quot;http://www.bigfishgames.com/games/7315/big-fish-casino/?ios&quot;&gt;Big Fish Casino&lt;/a&gt; can be used as a great example of how a &lt;a href=&quot;https://branch.io/sharing/&quot;&gt;deeplinked sharing&lt;/a&gt; program can drive and retain new users.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.bigfishgames.com/&quot;&gt;Big Fish Games&lt;/em&gt;&lt;/a&gt; is one of the largest mobile game developers in the world. They create hundreds of games for desktop, online, and mobile. Their flagship mobile game &lt;a href=&quot;http://www.bigfishgames.com/games/7315/big-fish-casino/?ios&quot;&gt;Big Fish Casino&lt;/a&gt; can be used as a great example of how a &lt;a href=&quot;https://branch.io/sharing/&quot;&gt;deeplinked sharing&lt;/a&gt; program can drive and retain new users.&lt;/p&gt;
 
 &lt;p&gt;Currently, Big Fish Casino has a system in place to invite users to empty seats at your blackjack or poker table. This feature is a creative way to engage your friends, but when you click on the sharing icon you can only invite people via Facebook. Not only that, the person must have &lt;strong&gt;already&lt;/strong&gt; downloaded the app and connected it to Facebook. This limits the potential to drive new installs and restricts the number of new users a current user can reach.&lt;/p&gt;
 
-&lt;p&gt;Now imagine that you could invite anyone, on any platform, to join your table and play. After clicking the same sharing icon, a personalized invite and associated deep link is generated that can be shared via email, text, or social media. The referred user clicks on the link, from any device, and is brought to the Big Fish Casino app in the app store. Upon downloading and opening the app for the first time, the new user is linked directly to the table their friend is playing at. No need to manually search or enter promo codes to reach the table. Not only that, to increase the chances they will invite friends, you can utilize a &lt;a href=&quot;https://branch.io/higher-activation-rates/#post-install-offers&quot;&gt;referral program&amp;lt;/em&amp;gt;&lt;/a&gt; to reward the referrer and the new user with chips to start playing with. As seen in Vango’s &lt;a href=&quot;https://branch.io/attachment/VangoCaseStudy.pdf&quot;&gt;2x increase in one-week retention&amp;lt;/em&amp;gt;&lt;/a&gt;, contextually deeplinking to the content that drove a new user to an app can pay large dividends.&lt;/p&gt;
+&lt;p&gt;Now imagine that you could invite anyone, on any platform, to join your table and play. After clicking the same sharing icon, a personalized invite and associated deep link is generated that can be shared via email, text, or social media. The referred user clicks on the link, from any device, and is brought to the Big Fish Casino app in the app store. Upon downloading and opening the app for the first time, the new user is linked directly to the table their friend is playing at. No need to manually search or enter promo codes to reach the table. Not only that, to increase the chances they will invite friends, you can utilize a &lt;a href=&quot;https://branch.io/higher-activation-rates/#post-install-offers&quot;&gt;referral program&lt;/em&gt;&lt;/a&gt; to reward the referrer and the new user with chips to start playing with. As seen in Vango’s &lt;a href=&quot;https://branch.io/attachment/VangoCaseStudy.pdf&quot;&gt;2x increase in one-week retention&lt;/em&gt;&lt;/a&gt;, contextually deeplinking to the content that drove a new user to an app can pay large dividends.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/branch/reinventing-games-1.png&quot; /&gt;
+&lt;img src=&quot;/images/blogs/branch/reinventing-games-1.png&quot;&gt;
 &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
 &lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&quot;two-dots&quot;&gt;Two Dots&lt;/h3&gt;
+&lt;h3&gt;Two Dots&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://weplaydots.com/twodots/&quot;&gt;TwoDots&lt;/a&gt; is a new F2P puzzle game that has gotten a lot of attention lately. The minimalist, single-player sequel of Dots delivers accessible and satisfying challenges that have allowed it to find enormous success.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://weplaydots.com/twodots/&quot;&gt;TwoDots&lt;/em&gt;&lt;/a&gt; is a new F2P puzzle game that has gotten a lot of attention lately. The minimalist, single-player sequel of Dots delivers accessible and satisfying challenges that have allowed it to find enormous success.&lt;/p&gt;
 
 &lt;p&gt;TwoDots does a great job of incorporating gamification tactics. Leveling up, badges in the form of postcards and medals, and leaderboards all create retentive users. However, TwoDots doesn’t have many features within the app that are focused on acquiring new users. Currently, they have a sharing feature that allows users to text your accomplishments to friends in their contacts as an invite to play the game. This invite is non-personalized and non-incentivized, likely resulting in fewer clicks. Not only that, the current sharing URL provided isn’t hyperlinked, creating another barrier to install as potential new users have to manually enter or copy and paste the link into their mobile web browser. Additionally, this URL is generic for the app store so no contextual information is passed through install. As a result the first experience upon opening that app is a standard welcome screen with no context referring to who, or how, they got there.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/branch/reinventing-games-2.png&quot; /&gt;
+&lt;img src=&quot;/images/blogs/branch/reinventing-games-2.png&quot;&gt;
 &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
 &lt;/p&gt;
 &lt;/figure&gt;
@@ -534,52 +532,52 @@ Want to learn More About the Authors &amp;amp; Designers who help explain and sh
 &lt;p&gt;With deep links, the sharing experience can be incentivized and the new user flow would change. A unique link would be generated for each share that is associated with that referrer. The link can be shared via text, email, or social media. If a new user clicks the link, they are brought directly to the app store to download the app. Once the app is downloaded, they are directed to a customized welcome from the referring user, increasing their retention. Since the deep link can track this referring information, these two users will now be connected in the game, such as on the same leaderboard, without any additional steps. This not only improves user experience, conversions, and retention, it allows games to track which users and growth campaigns are responsible for the most downloads.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/branch/reinventing-games-3.png&quot; /&gt;
-&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
-&lt;/p&gt;
-&lt;/figure&gt;
-&lt;figure&gt;
-&lt;img src=&quot;/images/blogs/branch/reinventing-games-3.5.png&quot; /&gt;
+&lt;img src=&quot;/images/blogs/branch/reinventing-games-3.png&quot;&gt;
 &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
 &lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;As a F2P game, TwoDots relies on in-app purchases for revenue. As is standard in the gaming industry, most revenue in these type of games come from “&lt;a href=&quot;http://kotaku.com/who-are-the-whales-driving-free-to-play-gaming-youd-1197333118&quot;&gt;whales&lt;/a&gt;,” big money spenders that make up a low percentage of total users. In fact, a mobile monetization report in 2014 found that &lt;a href=&quot;http://recode.net/2014/02/26/a-long-tail-of-whales-half-of-mobile-games-money-comes-from-0-15-percent-of-players/&quot;&gt;half of F2P in-app purchases came from 0.15 percent of players&lt;/a&gt;. Shocking right? So as a game developer, how can you turn the larger, non-paying players of your game into valuable users? The answer: get them to share your game.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;/images/blogs/branch/reinventing-games-3.5.png&quot;&gt;
+&lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;As a F2P game, TwoDots relies on in-app purchases for revenue. As is standard in the gaming industry, most revenue in these type of games come from “&lt;a href=&quot;http://kotaku.com/who-are-the-whales-driving-free-to-play-gaming-youd-1197333118&quot;&gt;whales&lt;/em&gt;&lt;/a&gt;,” big money spenders that make up a low percentage of total users. In fact, a mobile monetization report in 2014 found that &lt;a href=&quot;http://recode.net/2014/02/26/a-long-tail-of-whales-half-of-mobile-games-money-comes-from-0-15-percent-of-players/&quot;&gt;half of F2P in-app purchases came from 0.15 percent of players&lt;/a&gt;. Shocking right? So as a game developer, how can you turn the larger, non-paying players of your game into valuable users? The answer: get them to share your game.&lt;/p&gt;
 
 &lt;p&gt;CandyCrush used a similar technique to drive the &lt;a href=&quot;http://www.upsight.com/breaking-down-candy-crushs-formula-for-success/&quot;&gt;viral growth&lt;/a&gt; of their app. In order to reach certain levels, users had to invite friends to play the game. Deep links take that one step further by allowing you to reward the referrer AND the new user if they install the app. By incentivizing installs, rather than invites, you are measuring the metrics you really want to see. And with deep links, this all occurs in a seamless UX with no promo codes or extra steps.&lt;/p&gt;
 
 &lt;p&gt;TwoDots currently prompts you to buy Moves and Bombs if you run out of moves on a certain level. After a few failed levels, they’ll have a good understanding of if a user is likely to ever take up this offer. If a user has established themselves as a non-paying player, as most do, its time to try something else. Instead of paying, TwoDots can encourage them to get a friend to download the app in order to get the free Moves and Bombs. Users can create and share a deep link, similar to before. Once a new users downloads and opens the app, they will be rewarded with the supplies needed to complete the level and their friend will be acknowledged for their assist.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/branch/reinventing-games-4.png&quot; /&gt;
+&lt;img src=&quot;/images/blogs/branch/reinventing-games-4.png&quot;&gt;
 &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
 &lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&quot;zynga&quot;&gt;Zynga&lt;/h3&gt;
+&lt;h3&gt;Zynga&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://zynga.com/&quot;&gt;Zynga&lt;/a&gt; is one of the largest mobile game producers in the world. Over the years they’ve had a number of hits at the top of the install and grossing charts. As the mobile gaming market begins to mature they have to deal with an increasing number of competitors in an increasing number of game types.&lt;/p&gt;
+
 &lt;p&gt;Even for some of the larger game developers, deeplinking provides a valuable tool to promote growth and measure attribution, for free. When you’re spending close to $4 per user on acquisition, and have millions of users, keeping costs down will have a large impact on the bottom line. The popularity of games like FarmVille and Words with Friends has given them a large Twitter following. Although this is a great forum to interact with users and provide updates, they aren’t able to currently utilize this Twitter following to bring new users directly to the game.&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;For a limited time, new &amp;quot;Get Your Hands on Fingerling Potatoes&amp;quot; items are available! View details: &lt;a href=&quot;http://t.co/Q46MkxaW8e&quot;&gt;http://t.co/Q46MkxaW8e&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/FarmVille2onWeb?src=hash&quot;&gt;#FarmVille2onWeb&lt;/a&gt;&lt;/p&gt;&amp;mdash; FarmVille 2 (@farmville2) &lt;a href=&quot;https://twitter.com/farmville2/status/582604939500785664&quot;&gt;March 30, 2015&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;For example, their current campaign sounds like it’s offering in-game items for clicking on the link. However, this link only brings users to the website where they announce that the items in the General Store. With deep links, this link could bring users directly to the app where they are rewarded with the gift upon opening. All mobile app developers want users spending as much time as possible in native apps. It’s where they’ve spent their time optimizing user experience and profit from users. Deep links bring users directly to the content that drove them to the app, wherever that may be.&lt;/p&gt;
 
 &lt;p&gt;Lets look at an example that uses social media as a way to encourage users to bring their friends to the app, regardless of if they are current users or not. Many Zynga games they feature a Social Center to encourage users to Tweet and Share different aspects of the game. They currently don’t have many incentives to utilize this feature but deep links can encourage people to share much more. Deep links would allow Zynga to incentivize users with in game credits for having friends download the app. Current game incentives are limited in their function. Apps can either incentivize shares, resulting in increased sharing but not necessarily downloads, or incentivize downloads, which depends on a new user entering a promo code associated with the referring user. Deep links allow apps to incentivize installs without relying on the extra steps of searching for friends or entering promo codes.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/images/blogs/branch/reinventing-games-5.png&quot; /&gt;
+&lt;img src=&quot;/images/blogs/branch/reinventing-games-5.png&quot;&gt;
 &lt;p style=&quot;font-style:italic; font-size:70%; padding; 1%;&quot;&gt;
 &lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&quot;endless-value-with-contextual-deep-links&quot;&gt;Endless Value with Contextual Deep Links&lt;/h3&gt;
+&lt;h3&gt;Endless Value with Contextual Deep Links&lt;/h3&gt;
 
-&lt;p&gt;All mobile games depend on organic growth. In such a large and competitive industry, any change in retention, virality, or user experience can be the difference that drives you towards the critical mass of users necessary for your game to succeed. For small game developers, deep links provide a channel to support viral growth without relying on paid user acquisition. For large companies, deep links can promote an increased ROI by improving UX and reducing the number of steps in the conversion of a new user. These TwoDots, Zynga, and BigFish examples were used to show the versatility of deep links across multiple types of mobile games. In addition, deep links work across multiple platforms meaning the same link works on desktop, Android, and iOS. There are a few deeplinking solutions on the market, but &lt;a href=&quot;https://branch.io/?bmp=blog_games&quot;&gt;only one&lt;/a&gt; that you know I&#39;ll recommend :)
-
-
-&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;All mobile games depend on organic growth. In such a large and competitive industry, any change in retention, virality, or user experience can be the difference that drives you towards the critical mass of users necessary for your game to succeed. For small game developers, deep links provide a channel to support viral growth without relying on paid user acquisition. For large companies, deep links can promote an increased ROI by improving UX and reducing the number of steps in the conversion of a new user. These TwoDots, Zynga, and BigFish examples were used to show the versatility of deep links across multiple types of mobile games. In addition, deep links work across multiple platforms meaning the same link works on desktop, Android, and iOS. There are a few deeplinking solutions on the market, but &lt;a href=&quot;https://branch.io/?bmp=blog_games&quot;&gt;only one&lt;/a&gt; that you know I&amp;#39;ll recommend :)&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Apr 2015 00:00:00 -0700</pubDate>
         <link>http://austinhay.com/branch/2015/04/05/What-Mobile-Games-Look-Like-With-Deeplinking.html</link>
@@ -600,7 +598,7 @@ Want to learn More About the Authors &amp;amp; Designers who help explain and sh
     
       <item>
         <title>Smart People and Great Ideas Aren&#39;t Enough - a Podcast with Ben Narasin @ Triple Point Capital</title>
-        <description>&lt;p&gt;Ben Narasin, President at Triple Point Capital has been an entrepreneur his whole life. I sat down to talk about his story in building great companies, launching apps, the mobile ecosystem, app development, and advice for those growing their app. If you’re building an app-based company, this is the best place to listen.&lt;/p&gt;
+        <description>&lt;p&gt;Ben Narasin, President at Triple Point Capital has been an entrepreneur his whole life. I sat down to talk about his story in building great companies, launching apps, the mobile ecosystem, app development, and advice for those growing their app. If you&amp;#39;re building an app-based company, this is the best place to listen.&lt;/p&gt;
 
 &lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198424637&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
 </description>
@@ -627,11 +625,11 @@ Want to learn More About the Authors &amp;amp; Designers who help explain and sh
         <title>The Developer Experience...and Goats</title>
         <description>&lt;p&gt;I write on here and with Branch Metrics. This is as &lt;a href=&quot;https://blog.branch.io/the-developer-experience-and-goats/&quot;&gt;posted&lt;/a&gt; via the Branch &lt;a href=&quot;https://blog.branch.io&quot;&gt;Blog&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;We have a simple mantra here at Branch: Made by developers, for developers. It’s the essence of our &lt;a href=&quot;https://branch.io/links?bmp=dmitri_podcast&quot;&gt;product&lt;/a&gt; and approach. Nobody at Branch lives it more, than our CTO and cofounder, &lt;a href=&quot;http://www.forbes.com/pictures/mll45kfhf/dmitri-gaskin-19/?bmp=dmitri_podcast&quot;&gt;Dmitri Gaskin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We have a simple mantra here at Branch: Made by developers, for developers. It&amp;#39;s the essence of our &lt;a href=&quot;https://branch.io/links?bmp=dmitri_podcast&quot;&gt;product&lt;/a&gt; and approach. Nobody at Branch lives it more, than our CTO and cofounder, &lt;a href=&quot;http://www.forbes.com/pictures/mll45kfhf/dmitri-gaskin-19/?bmp=dmitri_podcast&quot;&gt;Dmitri Gaskin&lt;/a&gt;.&lt;/p&gt;
 
 &lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/196895389&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;But… Dmitri isn’t your average CTO. In fact, there are few others in the world like him. At 19, Dmitri is an unequivocal master coder and technologist, a &lt;a href=&quot;http://www.forbes.com/pictures/mll45kfhf/dmitri-gaskin-19/?bmp=dmitri_podcast&quot;&gt;Forbes 30-under-30&lt;/a&gt;, a trained shepherd who raises his own goats, a fromager, and a professional accordionist. And for somebody with so many unique talents, Dmitri not only has an incredible story, but some of the greatest advice out there on building tech products and focusing on the developer experience.&lt;/p&gt;
+&lt;p&gt;But... Dmitri isn&amp;#39;t your average CTO. In fact, there are few others in the world like him. At 19, Dmitri is an unequivocal master coder and technologist, a &lt;a href=&quot;http://www.forbes.com/pictures/mll45kfhf/dmitri-gaskin-19/?bmp=dmitri_podcast&quot;&gt;Forbes 30-under-30&lt;/a&gt;, a trained shepherd who raises his own goats, a fromager, and a professional accordionist. And for somebody with so many unique talents, Dmitri not only has an incredible story, but some of the greatest advice out there on building tech products and focusing on the developer experience.&lt;/p&gt;
 
 &lt;p&gt;We feel lucky to have Dmitri with us everday and felt obligated to share some of his great wisdom, and humor, with the world. This is one podcast you will not want to skip.&lt;/p&gt;
 </description>
@@ -660,24 +658,23 @@ Want to learn More About the Authors &amp;amp; Designers who help explain and sh
         <title>Building a High Growth company? Value Your Relationships.</title>
         <description>&lt;p&gt;I write here and with Branch Metrics. This is as &lt;a href=&quot;https://blog.branch.io/how-to-build-a-company-value-your-relationships/&quot;&gt;posted&lt;/a&gt; via the Branch &lt;a href=&quot;https://blog.branch.io&quot;&gt;Blog&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;“All the people around you will serve as the foundation of your company.” Sometimes the best advice for starting a high-growth company has to be served up as simple as possible.&lt;/p&gt;
+&lt;p&gt;&amp;quot;All the people around you will serve as the foundation of your company.&amp;quot; Sometimes the best advice for starting a high-growth company has to be served up as simple as possible.&lt;/p&gt;
 
 &lt;p&gt;In our &lt;a href=&quot;https://soundcloud.com/branchmetrics/branch-metrics-podcast-value-your-relationships&quot;&gt;recent conversation&lt;/a&gt; on mobile growth, Dawoon Kang, Founder, and Adam Berlinsky-Schine, CTO, of &lt;a href=&quot;https://coffeemeetsbagel.com/&quot;&gt;Coffee Meets Bagel&lt;/a&gt; stressed the importance of valuing relationships; fitting advice for a company that has taken center-stage in cultivating a better dating experience.&lt;/p&gt;
 
 &lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/196417233&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;Our thirty minutes together covered a wide variety of topics, from company origins all the way through to the technical complexity of sharing “bagels” before &lt;a href=&quot;https://branch.io/links&quot;&gt;Branch links&lt;/a&gt; were integrated. What resonated most with me was the focus on growing an app’s user base.&lt;/p&gt;
+&lt;p&gt;Our thirty minutes together covered a wide variety of topics, from company origins all the way through to the technical complexity of sharing &amp;quot;bagels&amp;quot; before &lt;a href=&quot;https://branch.io/links&quot;&gt;Branch links&lt;/a&gt; were integrated. What resonated most with me was the focus on growing an app&amp;#39;s user base.&lt;/p&gt;
 
-&lt;p&gt;As Dawoon put it, “Word of mouth isn’t always the best way to grow your app. People always talk about ‘how do you achieve a virality of 1!?’” So then, what’s their solution for young developers looking to achieve strong, organic growth with their apps? Part of it is just time. “The ideal way to grow is to have people love your product so much that they naturally recommend it to other people. But that takes time…” noted Dawoon.&lt;/p&gt;
+&lt;p&gt;As Dawoon put it, &amp;quot;Word of mouth isn&amp;#39;t always the best way to grow your app. People always talk about &amp;#39;how do you achieve a virality of 1!?&amp;#39;&amp;quot; So then, what&amp;#39;s their solution for young developers looking to achieve strong, organic growth with their apps? Part of it is just time. &amp;quot;The ideal way to grow is to have people love your product so much that they naturally recommend it to other people. But that takes time...&amp;quot; noted Dawoon. &lt;/p&gt;
 
 &lt;p&gt;Similar to what we learned in &lt;a href=&quot;https://soundcloud.com/branchmetrics/branch-metrics-podcast-in-search-of-growth-the-best-user-experience&quot;&gt;our chat&lt;/a&gt; with &lt;a href=&quot;http://www.gogobot.com/&quot;&gt;Gogobot&lt;/a&gt;, Dawoon indicated that user experience is the most important aspect for fostering growth. For Coffee Meets Bagel, this means focusing on creating meaningful relationships.&lt;/p&gt;
 
-&lt;p&gt;As we turned our attention to the product, Adam noted that the biggest technical challenges of building Coffee Meets Bagel have been making sure the company’s back-end is constantly evolving. In one account, this hinged on the trouble of migrating a PostGreSQL database to a NoSQL database - a process that still persists for today’s team. Adam pointed out, “Migrations are harder than doing it right the first time, so you really need to do as much as you can in the beginning - because it only gets harder from there.”&lt;/p&gt;
+&lt;p&gt;As we turned our attention to the product, Adam noted that the biggest technical challenges of building Coffee Meets Bagel have been making sure the company&amp;#39;s back-end is constantly evolving. In one account, this hinged on the trouble of migrating a PostGreSQL database to a NoSQL database - a process that still persists for today&amp;#39;s team. Adam pointed out, &amp;quot;Migrations are harder than doing it right the first time, so you really need to do as much as you can in the beginning - because it only gets harder from there.&amp;quot;&lt;/p&gt;
 
-&lt;p&gt;However, as we’ve seen, Coffee Meets Bagel is doing a lot of things right. They plan on using a &lt;a href=&quot;http://techcrunch.com/2015/02/18/dating-app-coffee-meets-bagel-lands-7-8-million-in-series-a/&quot;&gt;recent series&lt;/a&gt; of $7.8 million to continue delivering the best dating experience to more and more people.&lt;/p&gt;
+&lt;p&gt;However, as we&amp;#39;ve seen, Coffee Meets Bagel is doing a lot of things right. They plan on using a &lt;a href=&quot;http://techcrunch.com/2015/02/18/dating-app-coffee-meets-bagel-lands-7-8-million-in-series-a/&quot;&gt;recent series&lt;/a&gt; of $7.8 million to continue delivering the best dating experience to more and more people. &lt;/p&gt;
 
-&lt;p&gt;To learn more about Coffee Meets Bagel’s learning experience and hear their tips on mobile growth, &lt;a href=&quot;https://soundcloud.com/branchmetrics/branch-metrics-podcast-value-your-relationships&quot;&gt;tune in&lt;/a&gt; to our podcast.&lt;/p&gt;
-
+&lt;p&gt;To learn more about Coffee Meets Bagel&amp;#39;s learning experience and hear their tips on mobile growth, &lt;a href=&quot;https://soundcloud.com/branchmetrics/branch-metrics-podcast-value-your-relationships&quot;&gt;tune in&lt;/a&gt; to our podcast.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Mar 2015 00:00:00 -0700</pubDate>
         <link>http://austinhay.com/podcast/2015/03/17/Building-A-High-Growth-Company-CMB.html</link>
@@ -698,30 +695,30 @@ Want to learn More About the Authors &amp;amp; Designers who help explain and sh
     
       <item>
         <title>Conquering Mobile World Congress 2015</title>
-        <description>&lt;p&gt;When we first touched down in Barcelona two weeks ago it was hard to believe I was really there. Just three days before I got a late night call from one of our co-founders with a simple question: &lt;b&gt;Want to go to Spain?&lt;/b&gt; At first I thought she was joking - or maybe referring to a far off conference in the summer.&lt;/p&gt;
+        <description>&lt;p&gt;When we first touched down in Barcelona two weeks ago it was hard to believe I was really there. Just three days before I got a late night call from one of our co-founders with a simple question: &lt;b&gt;Want to go to Spain?&lt;/b&gt; At first I thought she was joking - or maybe referring to a far off conference in the summer. &lt;/p&gt;
 
 &lt;figure class=&quot;imageright-1&quot;&gt;
 &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;
-&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-1.jpg&quot; style=&quot;width: 96%; padding: 1%;&quot; /&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-1.jpg&quot; style=&quot;width: 96%; padding: 1%;&quot;&gt;
 &lt;/a&gt;
   &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
     With less than 48 hours to spare, we were headed to Barcelona to represent Branch at Mobile World Congress 2015. Talk about a wild ride...
   &lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;No, she was talking about &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;Mobile World Congress 2015&lt;/a&gt; (MWC), arguably the most relevant and compelling gathering of mobile ecosystem leaders from across the globe. It happens every year - more than 90,000 people congregate in Barcelona at the Grand Fira conference center for four days to meet business partners, make new strategic relationships, survey mobile competition, unveil new products, and showcase the power of mobile as a defining part of innovation.&lt;/p&gt;
+&lt;p&gt;No, she was talking about &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;Mobile World Congress 2015&lt;/a&gt; (MWC), arguably the most relevant and compelling gathering of mobile ecosystem leaders from across the globe. It happens every year - more than 90,000 people congregate in Barcelona at the Grand Fira conference center for four days to meet business partners, make new strategic relationships, survey mobile competition, unveil new products, and showcase the power of mobile as a defining part of innovation. &lt;/p&gt;
 
-&lt;p&gt;My journey to MWC began moments after I hung up the phone that fateful Thursday night. It was time to prepare. For most companies, MCW takes serveral months of preperation, but not at &lt;a href=&quot;https://branch.io&quot;&gt;Branch&lt;/a&gt;. After our recent &lt;a href=&quot;http://techcrunch.com/2015/02/26/branch-metrics-raises-15-million-for-its-smarter-mobile-deep-linking-technology/&quot;&gt;Series A&lt;/a&gt; we saw a great opportunity to build relationships, evangelize Branch, make a notable presence, and to learn about the mobile ecosystem.&lt;/p&gt;
+&lt;p&gt;My journey to MWC began moments after I hung up the phone that fateful Thursday night. It was time to prepare. For most companies, MCW takes serveral months of preperation, but not at &lt;a href=&quot;https://branch.io&quot;&gt;Branch&lt;/a&gt;. After our recent &lt;a href=&quot;http://techcrunch.com/2015/02/26/branch-metrics-raises-15-million-for-its-smarter-mobile-deep-linking-technology/&quot;&gt;Series A&lt;/a&gt; we saw a great opportunity to build relationships, evangelize Branch, make a notable presence, and to learn about the mobile ecosystem. &lt;/p&gt;
 
-&lt;p&gt;Who said you couldn’t pull off an incredibly successful MWC trip in three days? 4 days, 30 miles walking, 100’s of partner meetings, 20 cafe con leches, dozens of cocktail hours, and 18 hour crunches later, this is my story: &lt;b&gt; Conquering &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;MWC&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;Who said you couldn&amp;#39;t pull off an incredibly successful MWC trip in three days? 4 days, 30 miles walking, 100&amp;#39;s of partner meetings, 20 cafe con leches, dozens of cocktail hours, and 18 hour crunches later, this is my story: &lt;b&gt; Conquering &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;MWC&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;the-adventure-beginswith-an-app&quot;&gt;The Adventure Begins…with an App&lt;/h3&gt;
+&lt;h3&gt;The Adventure Begins...with an App&lt;/h3&gt;
 
-&lt;p&gt;One of the most difficult parts of building relationships is the time it takes to manually enter contact information and to properly follow up. Business cards are great but leave you with no lasting memory of the person and what they have to offer. Most people ask for specific requests - they want the link to that PDF you were talking about, or they want to be engaged with your technology in a specific way. The thing that doesn’t change, however, is remembering to log their details, connect, and follow up.&lt;/p&gt;
+&lt;p&gt;One of the most difficult parts of building relationships is the time it takes to manually enter contact information and to properly follow up. Business cards are great but leave you with no lasting memory of the person and what they have to offer. Most people ask for specific requests - they want the link to that PDF you were talking about, or they want to be engaged with your technology in a specific way. The thing that doesn&amp;#39;t change, however, is remembering to log their details, connect, and follow up. &lt;/p&gt;
 
 &lt;figure class=&quot;imageleft-1&quot; style=&quot;width:30%;&quot;&gt;
 &lt;a href=&quot;https://branch.io&quot;&gt;
-&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-2.png&quot; style=&quot;width: 96%; padding: 1%;&quot; /&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-2.png&quot; style=&quot;width: 96%; padding: 1%;&quot;&gt;
 &lt;/a&gt;
   &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
     Why spend hours logging business cards when we could connect with people right away?
@@ -730,69 +727,70 @@ Want to learn More About the Authors &amp;amp; Designers who help explain and sh
 
 &lt;p&gt;With this insight in mind, I started wondering if there were any apps that did this specific task with high resolution. &lt;b&gt;What business productivity tools would allow me to easily connect with those I met at MWC and place them straight into my CRM so that I could easily manage my relationship with them moving forward?&lt;/b&gt; Even more, was there a way that I could streamline when and how I followed up with these individuals?&lt;/p&gt;
 
-&lt;p&gt;At the heart of this issue was the fact that it takes a lot of time to follow up between manually entering business card information and typing out hundreds of personalized emails. In my experience, by the time I get around to drafting follow up emails, I’ve already forgotten the context of how I met the person, the nuances of our relationship, and if I needed to include any important details. There had to be an easier way to shoot the person an email and connect.&lt;/p&gt;
+&lt;p&gt;At the heart of this issue was the fact that it takes a lot of time to follow up between manually entering business card information and typing out hundreds of personalized emails. In my experience, by the time I get around to drafting follow up emails, I&amp;#39;ve already forgotten the context of how I met the person, the nuances of our relationship, and if I needed to include any important details. There had to be an easier way to shoot the person an email and connect.&lt;/p&gt;
 
-&lt;p&gt;Our “eureka” moment about this business problem hit &lt;a href=&quot;http://derrrick.com/&quot;&gt;Derrick Staten&lt;/a&gt; and I as we sat on the runway at SFO on our way to Spain. Derrick is a gifted iOS developer with &lt;a href=&quot;http://www.forbes.com/sites/ellenhuet/2014/09/15/the-league-dating-app-for-the-elite/&quot;&gt;experience&lt;/a&gt; building awesome apps, so his solution came naturally… why don’t we build an iOS app specifically for us to help solve this problem?&lt;/p&gt;
+&lt;p&gt;Our &amp;quot;eureka&amp;quot; moment about this business problem hit &lt;a href=&quot;http://derrrick.com/&quot;&gt;Derrick Staten&lt;/a&gt; and I as we sat on the runway at SFO on our way to Spain. Derrick is a gifted iOS developer with &lt;a href=&quot;http://www.forbes.com/sites/ellenhuet/2014/09/15/the-league-dating-app-for-the-elite/&quot;&gt;experience&lt;/a&gt; building awesome apps, so his solution came naturally... why don&amp;#39;t we build an iOS app specifically for us to help solve this problem?&lt;/p&gt;
 
 &lt;p&gt;Over the course of our grueling 12-hour flight to Paris we worked together to build an incredible app that solved all of these problems and tied in to our Branch backend. We also dropped Branch links into our app so that when we connected with people we met at MWC we could better understand how our tech might better serve them.&lt;/p&gt;
 
-&lt;p&gt;The app, in its simplest form, takes the mundane - manually writing an email days after you meet somebody - and turns it into a fun and instananeous process. When we landed later in Barcelona, we tested our prototype and were amazed at the business need this simple app provided.&lt;/p&gt;
+&lt;p&gt;The app, in its simplest form, takes the mundane - manually writing an email days after you meet somebody - and turns it into a fun and instananeous process. When we landed later in Barcelona, we tested our prototype and were amazed at the business need this simple app provided. &lt;/p&gt;
 
 &lt;figure class=&quot;imageright-1&quot;&gt;
-&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-3.jpg&quot; style=&quot;width: 96%; padding: 1%;&quot; /&gt;
-
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-3.jpg&quot; style=&quot;width: 96%; padding: 1%;&quot;&gt;
+&lt;/a&gt;
   &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
   It&#39;s hard to believe that we crunched out an entire application on the airplane. By the time we touched down in Paris we were ready to deploy not only our app, but ourselves, at MWC!
   &lt;/p&gt;
-&lt;/figure&gt;
+&lt;/figure&gt; 
 
 &lt;p&gt;It begs the question: should more app developers hit the skies for their next big idea?&lt;/p&gt;
 
-&lt;h3 id=&quot;el-cafe-la-fuma-y-las-ramblas&quot;&gt;El Cafe, La Fuma, y Las Ramblas&lt;/h3&gt;
+&lt;h3&gt;El Cafe, La Fuma, y Las Ramblas&lt;/h3&gt;
 
-&lt;p&gt;Building an app over the Atlantic was not enough to satiate our thirst for adventure as we took to the streets in Barcelona. First, we found our home for the week in the Gothic district with Luisa, our &lt;a href=&quot;https://www.airbnb.com/users/show/3392163&quot;&gt;Airbnb host&lt;/a&gt; and one of the most welcoming Spaniards I’ve ever met. Then it was time to explore.&lt;/p&gt;
+&lt;p&gt;Building an app over the Atlantic was not enough to satiate our thirst for adventure as we took to the streets in Barcelona. First, we found our home for the week in the Gothic district with Luisa, our &lt;a href=&quot;https://www.airbnb.com/users/show/3392163&quot;&gt;Airbnb host&lt;/a&gt; and one of the most welcoming Spaniards I&amp;#39;ve ever met. Then it was time to explore. &lt;/p&gt;
 
-&lt;p&gt;When I was in high school I had lived in Santander and experienced Spain in a way that few 16 year old’s ever do. The things I loved about Barcelona still enamored me as we walked the streets - tortilla de Espana, churros con chocolate, crowded alleyways, signs of la siesta, las ramblas, families out and about at 11 in the evening, and the many plazas with outdoor places to sit, relax, take in the lights and have a glass of wine. Spain is a beautiful country and Barcelona brought back feelings of home I hadn’t felt since living along the northern coast.&lt;/p&gt;
+&lt;p&gt;When I was in high school I had lived in Santander and experienced Spain in a way that few 16 year old&amp;#39;s ever do. The things I loved about Barcelona still enamored me as we walked the streets - tortilla de Espana, churros con chocolate, crowded alleyways, signs of la siesta, las ramblas, families out and about at 11 in the evening, and the many plazas with outdoor places to sit, relax, take in the lights and have a glass of wine. Spain is a beautiful country and Barcelona brought back feelings of home I hadn&amp;#39;t felt since living along the northern coast. &lt;/p&gt;
 
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;4&quot; style=&quot;float:left; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 2%; max-width:329px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/zskUbVhJ1u/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_top&quot;&gt;Barcelona nights. So stoked to be repping @branchmetrics at Mobile World Congress! #mwc2015 #barcelona #spain #mobilegrowth #deeplinking #quelinda #noche&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;A photo posted by Austin Hay (@austinahay) on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-03-01T19:12:04+00:00&quot;&gt;Mar 1, 2015 at 11:12am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned data-instgrm-version=&quot;4&quot; style=&quot;float:left; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 2%; max-width:329px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/zskUbVhJ1u/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_top&quot;&gt;Barcelona nights. So stoked to be repping @branchmetrics at Mobile World Congress! #mwc2015 #barcelona #spain #mobilegrowth #deeplinking #quelinda #noche&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;A photo posted by Austin Hay (@austinahay) on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-03-01T19:12:04+00:00&quot;&gt;Mar 1, 2015 at 11:12am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
 
-&lt;h3 id=&quot;grinding-out-the-days&quot;&gt;Grinding out the Days&lt;/h3&gt;
+&lt;script async defer src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3&gt;Grinding out the Days&lt;/h3&gt;
 
 &lt;p&gt;These feelings were quickly swapped for ones of a more intense flavor as we dove into the grind that is &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;MWC&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;For those who aren’t familiar with &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;Mobile World Congress&lt;/a&gt;, it’s a four-day sprint where attendees and partners in the mobile hardware, software, applications and everything in between, gather to talk business, showcase their products, and meet as many people as possible. It’s incredibly demanding, both physcially and mentally, but it provides a deep dive into the mobile landscape that no other single event really can.&lt;/p&gt;
+&lt;p&gt;For those who aren&amp;#39;t familiar with &lt;a href=&quot;http://www.mobileworldcongress.com/&quot;&gt;Mobile World Congress&lt;/a&gt;, it&amp;#39;s a four-day sprint where attendees and partners in the mobile hardware, software, applications and everything in between, gather to talk business, showcase their products, and meet as many people as possible. It&amp;#39;s incredibly demanding, both physcially and mentally, but it provides a deep dive into the mobile landscape that no other single event really can. &lt;/p&gt;
 
 &lt;p&gt;This aspect of our adventure started at 6 AM Monday morning as we grabbed a quick coffee and started the multi-mile walk and subway travel to the Grand Fira, a goliath conference complex with over eight independent conference buildings, each the size of football stadium.&lt;/p&gt;
 
-&lt;p&gt;The days were grueling. Every minute was spent taking in the mobile landscape, searching for interesting partnerships, and talking to everyone and anyone. I’m a fundamental believer in people so every conversation took time. Cultivating relationships isn’t easy… it takes time, attention to detail, and the willingness to give people your full self for a period of time. It isn’t enough to say “hello” and talk business. If you want to hook people and keep them engaged you have to look at the conversation as a two way road - one that usually begins with deep listening and learning. This was the process for my partner and I, as we spent the first part of every new conversation asking questions, trying to understand the person and company at hand, and then, only after listening intently for a few minutes, trying to find a way that &lt;a href=&quot;https://branch.io/links&quot;&gt;Branch&lt;/a&gt; might fit with their business.&lt;/p&gt;
+&lt;p&gt;The days were grueling. Every minute was spent taking in the mobile landscape, searching for interesting partnerships, and talking to everyone and anyone. I&amp;#39;m a fundamental believer in people so every conversation took time. Cultivating relationships isn&amp;#39;t easy... it takes time, attention to detail, and the willingness to give people your full self for a period of time. It isn&amp;#39;t enough to say &amp;quot;hello&amp;quot; and talk business. If you want to hook people and keep them engaged you have to look at the conversation as a two way road - one that usually begins with deep listening and learning. This was the process for my partner and I, as we spent the first part of every new conversation asking questions, trying to understand the person and company at hand, and then, only after listening intently for a few minutes, trying to find a way that &lt;a href=&quot;https://branch.io/links&quot;&gt;Branch&lt;/a&gt; might fit with their business.&lt;/p&gt;
 
 &lt;figure class=&quot;imageright&quot;&gt;
 &lt;a href=&quot;http://www.bhorowitz.com/the_struggle&quot;&gt;
-&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-4.jpg&quot; /&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-4.jpg&quot;&gt;
 &lt;/a&gt;
   &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
   This is just a small part of the &lt;a href=&quot;http://www.bhorowitz.com/the_struggle&quot;&gt;Startup Struggle&lt;/a&gt; that Ben Horowitz outlines. A packed 4 day schedule calls for coffee and persistence.
   &lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;That might be one of the most obvious lessons in the business – &lt;b&gt;selling isn’t about convincing people, it’s about listening.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;That might be one of the most obvious lessons in the business -- &lt;b&gt;selling isn&amp;#39;t about convincing people, it&amp;#39;s about listening.&lt;/b&gt;&lt;/p&gt;
 
-&lt;p&gt;These conversations made up the bulk of our trip. When we weren’t finding new people to meet we were back at our Airbnb resting or preparing for the next day. Unfortunately, we didn’t find enough time to explore all that Barcelona has to offer in terms of culture - but we’ll be back.&lt;/p&gt;
+&lt;p&gt;These conversations made up the bulk of our trip. When we weren&amp;#39;t finding new people to meet we were back at our Airbnb resting or preparing for the next day. Unfortunately, we didn&amp;#39;t find enough time to explore all that Barcelona has to offer in terms of culture - but we&amp;#39;ll be back.&lt;/p&gt;
 
-&lt;h3 id=&quot;killer-tips-on-how-to-win-mwc&quot;&gt;Killer Tips on How to Win MWC&lt;/h3&gt;
+&lt;h3&gt;Killer Tips on How to Win MWC&lt;/h3&gt;
 
-&lt;p&gt;The best part of MWC 2015 was the firsthand experience of joining the conference last minute. By now, you’re probably wondering 1.) if we were successful in our endeavors, and 2.) what we took away from the trip.&lt;/p&gt;
+&lt;p&gt;The best part of MWC 2015 was the firsthand experience of joining the conference last minute. By now, you&amp;#39;re probably wondering 1.) if we were successful in our endeavors, and 2.) what we took away from the trip.&lt;/p&gt;
 
-&lt;p&gt;Well, the conversations throughout the week we attended MWC taught us a lot about sales, Branch, mobile, technology and ourselves. The value of listening wasn’t the only lesson. Here’s a list of the top takeaways that are easy to consider when planning your MWC visit:&lt;/p&gt;
+&lt;p&gt;Well, the conversations throughout the week we attended MWC taught us a lot about sales, Branch, mobile, technology and ourselves. The value of listening wasn&amp;#39;t the only lesson. Here&amp;#39;s a list of the top takeaways that are easy to consider when planning your MWC visit:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Plan Ahead&lt;/b&gt;: It goes without saying, but planning in three days is incredibly complicated and made things stressful. Next year if we decide to go to MWC we will definitely plan at least 1 - 2 months ahead of schedule.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Plan Ahead&lt;/b&gt;: It goes without saying, but planning in three days is incredibly complicated and made things stressful. Next year if we decide to go to MWC we will definitely plan at least 1 - 2 months ahead of schedule.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure class=&quot;imageright-1&quot;&gt;
 &lt;a href=&quot;&quot;&gt;
-&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-5.jpg&quot; /&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-5.jpg&quot;&gt;
 &lt;/a&gt;
   &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
   Planning ahead is more than just knowing that you&#39;re going to MWC - you should map out exactly where you plan to spend your days at MWC. We spent most of our time at App World. Figure out where you&#39;ll find the most value and double down in targetting your business relations.
@@ -800,23 +798,19 @@ Want to learn More About the Authors &amp;amp; Designers who help explain and sh
 &lt;/figure&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Hotel&lt;/b&gt;: Location and accommodations both matter. This year we stayed in an Airbnb in the Gothic District near Career d’Boquer (Princessa and Montcada) — this was a central location and was actually perfect. We highly recommend something in this neighborhood for anwyone looking to double down on both the Fira events and the post-day cocktail hours and parties held in the heart of Barcelona. While Airbnb was perfect for our last minute stay, it also had many downsides: 1) not very clean, 2) bad perception for guests or outside parties - couldn’t have meetings there, which was huge bummer, 3) illicit activities that made us uncomfortable (hahaha), and 4) exact residence felt somewhat unsafe. Generally, the Airbnb made our stay much more complicated and less efficient than it could have been. Staying in a hotel would remove this friction and allow people to focus more on what they are there for: MWC.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Number of Attendees&lt;/b&gt;: Generally speaking, it would have been nice to have 4-6 people in total. At least two more would have made it much easier to:&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;b&gt;Hotel&lt;/b&gt;: Location and accommodations both matter. This year we stayed in an Airbnb in the Gothic District near Career d’Boquer (Princessa and Montcada) — this was a central location and was actually perfect. We highly recommend something in this neighborhood for anwyone looking to double down on both the Fira events and the post-day cocktail hours and parties held in the heart of Barcelona. While Airbnb was perfect for our last minute stay, it also had many downsides: 1) not very clean, 2) bad perception for guests or outside parties - couldn’t have meetings there, which was huge bummer, 3) illicit activities that made us uncomfortable (hahaha), and 4) exact residence felt somewhat unsafe. Generally, the Airbnb made our stay much more complicated and less efficient than it could have been. Staying in a hotel would remove this friction and allow people to focus more on what they are there for: MWC. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;b&gt;Number of Attendees&lt;/b&gt;: Generally speaking, it would have been nice to have 4-6 people in total. At least two more would have made it much easier to:&lt;/p&gt;
 
-    &lt;p&gt;1) Scour the floor for good possible leads.&lt;/p&gt;
+&lt;p&gt;1) Scour the floor for good possible leads.&lt;/p&gt;
 
-    &lt;p&gt;2) Set up pre-planned productive meetings.&lt;/p&gt;
-
-    &lt;p&gt;Booths are expensive and not really necessary: We found that big booths in the App World section (Hall 8) were actually very expensive (&amp;gt; $50,000 each) and tied down members to a specific location. We believe that Branch could be more effective if you’re not tied down to a booth and can go from convo to convo. Alternatively, if we do a booth we still need to make sure we have scouts on the floor meeting new leads. A small booth could easily be managed by two people.&lt;/p&gt;
-  &lt;/li&gt;
+&lt;p&gt;2) Set up pre-planned productive meetings.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Booths are expensive and not really necessary: We found that big booths in the App World section (Hall 8) were actually very expensive (&amp;gt; $50,000 each) and tied down members to a specific location. We believe that Branch could be more effective if you’re not tied down to a booth and can go from convo to convo. Alternatively, if we do a booth we still need to make sure we have scouts on the floor meeting new leads. A small booth could easily be managed by two people.&lt;/p&gt;
 
 &lt;figure class=&quot;imageleft-1&quot;&gt;
 &lt;a href=&quot;https://branch.io&quot;&gt;
-&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-6.jpg&quot; /&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-6.jpg&quot;&gt;
 &lt;/a&gt;
   &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
   Sometimes, there&#39;s just no replacement for pounding pavement. Every team going to MWC should have a plan A, a plan B, and even a plan C, but at the end of the day, what&#39;s going to help the most is by putting boots on the ground and executing. You have to be prepared to talk to as many partners as you can. It can be exhausting, but it&#39;s the way to win.
@@ -824,39 +818,30 @@ Want to learn More About the Authors &amp;amp; Designers who help explain and sh
 &lt;/figure&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Set Meetings&lt;/b&gt;: Your team should do everything possible to block off time on the calendar with the most important partners and send your best people to those meetings. Even though we did a good job explaining our tech, it would have been even better if we had sent people who were able to make executive level decisions about how we might work together. Since the conference contains many larger players, and far fewer app developers, for companies looking to engage in mobile software and app development, the focus of this conference should be more geared towards Business Development and Strategic Relations. Look to develop a specific and tailored objective, agenda, message, and knowledge of how you would work with the intended partner (replacing or working with specific technologies). The more specific, the better!&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Volume Matters&lt;/b&gt;: There is no way to know in advance how good the quality of a potential lead might be. The only way to be successful is to hit as many people as possible! We found that it was most effective to focus our attention together, as a team, in the beginning, and “divide and conquer” once the primary list of potential partners had been depleted. This strategy may work well or not well depending on your goals and the resources you have available.&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;b&gt;Set Meetings&lt;/b&gt;: Your team should do everything possible to block off time on the calendar with the most important partners and send your best people to those meetings. Even though we did a good job explaining our tech, it would have been even better if we had sent people who were able to make executive level decisions about how we might work together. Since the conference contains many larger players, and far fewer app developers, for companies looking to engage in mobile software and app development, the focus of this conference should be more geared towards Business Development and Strategic Relations. Look to develop a specific and tailored objective, agenda, message, and knowledge of how you would work with the intended partner (replacing or working with specific technologies). The more specific, the better!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;b&gt;Volume Matters&lt;/b&gt;: There is no way to know in advance how good the quality of a potential lead might be. The only way to be successful is to hit as many people as possible! We found that it was most effective to focus our attention together, as a team, in the beginning, and “divide and conquer” once the primary list of potential partners had been depleted. This strategy may work well or not well depending on your goals and the resources you have available. &lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Similarly, in the future, I think it’s best to consider having a team that constantly hits the floor to do just this: meet anyone and everyone. Meanwhile, another team can focus more of their attention on specialized meetings and strategic prospecting. This feeds back into why a team of four would be very important.&lt;/p&gt;
+&lt;p&gt;Similarly, in the future, I think it&amp;#39;s best to consider having a team that constantly hits the floor to do just this: meet anyone and everyone. Meanwhile, another team can focus more of their attention on specialized meetings and strategic prospecting. This feeds back into why a team of four would be very important.&lt;/p&gt;
 
 &lt;figure class=&quot;imageright-1&quot;&gt;
 &lt;a href=&quot;&quot;&gt;
-&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-7.jpg&quot; /&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-7.jpg&quot;&gt;
 &lt;/a&gt;
   &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
   A good place to practice is at the 4YFN -- there are tons of great startups that give you the opportunity to test different prop values, listen, and make great friends in the app ecosystem!
   &lt;/p&gt;
 &lt;/figure&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Know Your Competition&lt;/b&gt;: It’s not just enough to know who they are, but also what they are doing and how you will respond to them. The reality is that most competitors use Mobile World Congress to talk to one another and actually scout the competitive landscape. Make sure you know who your “primary competitors” are before and prepare a list of questions you might get asked. Beyond this, make sure your boots on the ground are prepared! Make a list of the the things your company does not want to discuss — especially proprietary technology, future visions, or strategic partnerships.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Develop Consistent Messaging&lt;/b&gt;: At Branch, we explain our technology and company in many flavors (perhaps too many), but the ultimate story we distribute is consistent. This is incredibly important for your employees and for your business partners. Consistent messaging makes it clear who you are, what you do, and how you might serve them. It also makes it easy for your employees to remember how to explain your culture, brand, technology, and future.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Develop Training Docs &amp;amp; PRACTICE&lt;/b&gt;: This should go without saying. Develop killer training docs to prepare all those who are attending under you company umbrella. Don’t stop with the “travelling basics,” dive deeper into why your company is attending, who you are looking to meet, what type of strategic partnerships you hope to gain, and your pitching plan. The more you do to formalize your thoughts beforehand, the less you leave to error.&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;b&gt;Know Your Competition&lt;/b&gt;: It’s not just enough to know who they are, but also what they are doing and how you will respond to them. The reality is that most competitors use Mobile World Congress to talk to one another and actually scout the competitive landscape. Make sure you know who your &amp;quot;primary competitors&amp;quot; are before and prepare a list of questions you might get asked. Beyond this, make sure your boots on the ground are prepared! Make a list of the the things your company does not want to discuss — especially proprietary technology, future visions, or strategic partnerships.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;b&gt;Develop Consistent Messaging&lt;/b&gt;: At Branch, we explain our technology and company in many flavors (perhaps too many), but the ultimate story we distribute is consistent. This is incredibly important for your employees and for your business partners. Consistent messaging makes it clear who you are, what you do, and how you might serve them. It also makes it easy for your employees to remember how to explain your culture, brand, technology, and future.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;b&gt;Develop Training Docs &amp;amp; PRACTICE&lt;/b&gt;: This should go without saying. Develop killer training docs to prepare all those who are attending under you company umbrella. Don&amp;#39;t stop with the &amp;quot;travelling basics,&amp;quot; dive deeper into why your company is attending, who you are looking to meet, what type of strategic partnerships you hope to gain, and your pitching plan. The more you do to formalize your thoughts beforehand, the less you leave to error. &lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure class=&quot;imageright-1&quot;&gt;
 &lt;a href=&quot;https://branch.io&quot;&gt;
-&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-8.jpg&quot; /&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-8.jpg&quot;&gt;
 &lt;/a&gt;
   &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
     There will be many different social events to attend at MWC. Don&#39;t be distracted by the noise! Find events where you know at least 1 or 2 partners and they are willing to introduce you to leads that fit your goals.  
@@ -864,38 +849,29 @@ Want to learn More About the Authors &amp;amp; Designers who help explain and sh
 &lt;/figure&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;T-Shirt Handouts&lt;/b&gt;: T-shirts and other swag are essential for startups to help spread their brand and delight potential future customres. However, we recommend keeping the swag handouts to a minimum at MWC. First off, there are over 90,000 people in attendance. There is simply no way you can cover all your bases. You will run out of whatever materials you bring, so choose wisely. More importantly, MWC is a bit more formal than Hackathons or other events. It was very difficult to hand out T-shirts and give away free swag (aka build good relations and spread our brand) when you are also operating out on the fly - and usually out of bags and backpacks. Keep swag - if any -  for a dedicated booth or meetup.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Meetups Should be Official&lt;/b&gt;: Not only should meetups, or compant events, be planned well in advance, but they should be conducted through official channels: i.e. the 4YFN, MWC, or other event sponsors, or conducted at a restaurant so it has a dedicated location. If at a restaurant, make sure to specify that you’ll have a presence and work with the owners/operators to reserve space and put up signage. We think flyers alone, without a presence and dedicated plan, don’t work. This all may sound obvious, but for young companies working on the fly, it might seem tempting to plan an ad hoc happy hour. The reality is that at MWC people block their calendars well in advance. Stay away from on the fly meetings - plan ahead!&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Parties with Personal Invites&lt;/b&gt;: There are many parties during MWC to attend and we found the most effective ones were those where we knew at least 1+ of the planners or attendees who was willing to introduce us to other attendees. A good example was at the Picasso Museum tour our first night where a good friend from Relay Ventures introduced us to two of his friends. From there we were able to be introduced to many more. Comparatively, at other parties we attended without a friend or sponsor contact, we found it difficult to meet and qualify opportunities in the same way.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;On-The-Ground Assistance&lt;/b&gt;: For us, our on the ground support was &lt;a href=&quot;https://twitter.com/lidahasbrouck&quot;&gt;Lida&lt;/a&gt;, an awesome Branch employee back at home, who pulled in the clutch when things got crazy in Barcelona. Everyone going to MWC needs their Lida. It’s just too crazy of an event not to have a dedicated staff member to support those closing deals at the Gran Fira. 
-. This may sound ridiculous, but between travel, 10 mile walks, 18 hour days, it just helps to have someone there.&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;b&gt;T-Shirt Handouts&lt;/b&gt;: T-shirts and other swag are essential for startups to help spread their brand and delight potential future customres. However, we recommend keeping the swag handouts to a minimum at MWC. First off, there are over 90,000 people in attendance. There is simply no way you can cover all your bases. You will run out of whatever materials you bring, so choose wisely. More importantly, MWC is a bit more formal than Hackathons or other events. It was very difficult to hand out T-shirts and give away free swag (aka build good relations and spread our brand) when you are also operating out on the fly - and usually out of bags and backpacks. Keep swag - if any -  for a dedicated booth or meetup.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;b&gt;Meetups Should be Official&lt;/b&gt;: Not only should meetups, or compant events, be planned well in advance, but they should be conducted through official channels: i.e. the 4YFN, MWC, or other event sponsors, or conducted at a restaurant so it has a dedicated location. If at a restaurant, make sure to specify that you’ll have a presence and work with the owners/operators to reserve space and put up signage. We think flyers alone, without a presence and dedicated plan, don’t work. This all may sound obvious, but for young companies working on the fly, it might seem tempting to plan an ad hoc happy hour. The reality is that at MWC people block their calendars well in advance. Stay away from on the fly meetings - plan ahead!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;b&gt;Parties with Personal Invites&lt;/b&gt;: There are many parties during MWC to attend and we found the most effective ones were those where we knew at least 1+ of the planners or attendees who was willing to introduce us to other attendees. A good example was at the Picasso Museum tour our first night where a good friend from Relay Ventures introduced us to two of his friends. From there we were able to be introduced to many more. Comparatively, at other parties we attended without a friend or sponsor contact, we found it difficult to meet and qualify opportunities in the same way. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;b&gt;On-The-Ground Assistance&lt;/b&gt;: For us, our on the ground support was &lt;a href=&quot;https://twitter.com/lidahasbrouck&quot;&gt;Lida&lt;/a&gt;, an awesome Branch employee back at home, who pulled in the clutch when things got crazy in Barcelona. Everyone going to MWC needs their Lida. It&amp;#39;s just too crazy of an event not to have a dedicated staff member to support those closing deals at the Gran Fira. 
+. This may sound ridiculous, but between travel, 10 mile walks, 18 hour days, it just helps to have someone there.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure class=&quot;imageleft-1&quot;&gt;
 &lt;a href=&quot;https://soundcloud.com/branchmetrics/past-present-future-of-branch-metrics&quot;&gt;
-&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-10.png&quot; /&gt;
+&lt;img src=&quot;/images/blogs/mwc-2015/sell-or-be-sold-10.png&quot;&gt;
 &lt;/a&gt;
   &lt;p style=&quot;font-style: italic; padding-top: 4%;&quot;&gt;
   It&#39;s simple. And it&#39;s what our Founders like to &lt;a href=&quot;https://soundcloud.com/branchmetrics/past-present-future-of-branch-metrics&quot;&gt;live by&lt;/a&gt;.
   &lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&quot;measuring-success&quot;&gt;Measuring Success&lt;/h3&gt;
+&lt;h3&gt;Measuring Success&lt;/h3&gt;
 
-&lt;p&gt;When we finally sank into our seats Thursday morning at 6 AM on an outbound flight to San Francisco, it felt like an eternity had passed by. Derrick and I collapsed, sleeping half the flight. It all seemed like a dream…&lt;/p&gt;
+&lt;p&gt;When we finally sank into our seats Thursday morning at 6 AM on an outbound flight to San Francisco, it felt like an eternity had passed by. Derrick and I collapsed, sleeping half the flight. It all seemed like a dream...&lt;/p&gt;
 
 &lt;p&gt;In less than 72 hours we had cultivated over 100 business relationships, made an internal business app, hosted a &lt;a href=&quot;https://www.branch.io/meetups&quot;&gt;meetup&lt;/a&gt;, &lt;a href=&quot;http://venturebeat.com/2015/03/05/branch-metrics-comes-up-with-gold-at-mobile-world-congress-startup-showdown/&quot;&gt;won a startup pitch&lt;/a&gt;, and attended over a dozen after-hours parties. We operated on what felt like 10 total hours of sleep, drank five coffees a day, logged all our learnings and left feeling like we had done everything possible to make the most of our time in Barcelona.&lt;/p&gt;
 
-&lt;p&gt;This is probably the true metric of success: feeling like you’ve driven as hard as you can and have nothing else to give. Winning at MWC means leaving it all on the Fira floor. Times like this remind me of an important mantra we live by here at Branch…&lt;/p&gt;
-
+&lt;p&gt;This is probably the true metric of success: feeling like you&amp;#39;ve driven as hard as you can and have nothing else to give. Winning at MWC means leaving it all on the Fira floor. Times like this remind me of an important mantra we live by here at Branch...&lt;/p&gt;
 </description>
         <pubDate>Tue, 10 Mar 2015 00:00:00 -0700</pubDate>
         <link>http://austinhay.com/branch/2015/03/10/Conquering-MWC-2015.html</link>
