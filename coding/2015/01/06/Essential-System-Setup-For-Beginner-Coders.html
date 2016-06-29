@@ -26,7 +26,7 @@
 
     <!--- Keywords (Categories & Tags) -->
     
-            <meta name="keywords" content="coding,Web Development,Software,System Setup,Life Lessons"/>
+            <meta name="keywords" content="Coding,Web Development,Software,System Setup,Life Lessons"/>
         
  
     <!--- OPEN GRAPH DATA -->
@@ -51,7 +51,7 @@
 
     <!--- Description -->
     
-      <meta property="og:description" content="The other day I got setup on a new machine and I found myself scratching my head. How the heck did I get Ruby, Rails, Python and all those other tools set up? My command line tools weren&#39;t even accessible. I am guessing this realization isn&#39;t new to anyone in programming, but it was a new phenomenon to me. I decided the best solution was to draft up a short list of all the items..."/>
+      <meta property="og:description" content="The other day I got setup on a new machine and I found myself scratching my head. How the heck did I get Ruby, Rails, Python and all those other tools set up? My command line tools weren’t even accessible. I am guessing this realization isn’t new to anyone in programming, but it was a new phenomenon to me. I decided the best solution was to draft up a short list of all the items..."/>
 
     
 
@@ -61,7 +61,7 @@
     <!--- Page Category -->
     
         
-            <meta property="article:section" content="coding"/>
+            <meta property="article:section" content="Coding"/>
         
     
 
@@ -128,6 +128,18 @@
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 
+</script>
+
+
+<!-- BRANCH SDK -->
+
+<script type="text/javascript">
+
+    (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+
+    branch.init('key_live_pjb4Wzv0qO7GDCw6TfFtipmpuqfG3luZ', function(err, data) {
+        // callback to handle err or data
+    });
 </script>
 
 </head>
@@ -214,128 +226,150 @@
 		<br>
 	<span class="post-meta">Published: Jan 6, 2015</span>
 </p>
-                <p>The other day I got setup on a new machine and I found myself scratching my head. How the heck did I get Ruby, Rails, Python and all those other tools set up? My command line tools weren&#39;t even accessible. I am guessing this realization isn&#39;t new to anyone in programming, but it was a new phenomenon to me. I decided the best solution was to draft up a short list of all the items I needed to install and how I would install them. For newbies looking to dive into coding, this should serve as a perfect checklist when getting your machine set up. Enjoy!
-&lt;!--more--&gt;
-PS I don&#39;t go into detail explaining each one of these installs or why they are relevant. I just show you how to get stuff up and running with helpful links. I&#39;ll leave the relevancy part to you, as its a good edification process.</p>
+                <p>The other day I got setup on a new machine and I found myself scratching my head. How the heck did I get Ruby, Rails, Python and all those other tools set up? My command line tools weren’t even accessible. I am guessing this realization isn’t new to anyone in programming, but it was a new phenomenon to me. I decided the best solution was to draft up a short list of all the items I needed to install and how I would install them. For newbies looking to dive into coding, this should serve as a perfect checklist when getting your machine set up. Enjoy!
+<!--more-->
+PS I don’t go into detail explaining each one of these installs or why they are relevant. I just show you how to get stuff up and running with helpful links. I’ll leave the relevancy part to you, as its a good edification process.</p>
 
 <p><b>Note</b>: <i>This installation &amp; setup guide is only applicable for those running OS X.</i> I personally was running Yosemite when I did the setup process again, but I went through all this stuff on Lion and Mavericks. Just make sure to pick your installations appropriately from the links provided.</p>
 
-<h3><a href="https://www.google.com/chrome/">Chrome</a></h3>
+<h3 id="chromehttpswwwgooglecomchrome"><a href="https://www.google.com/chrome/">Chrome</a></h3>
+<p>Really? REALLY? You’re not using Chrome? Come on.</p>
 
-<p>Really? REALLY? You&#39;re not using Chrome? Come on.</p>
+<h3 id="markdown-previewhttpschromegooglecomwebstoredetailmarkdown-previewjmchmkecamhbiokiopfpnfgbidieafmd"><a href="https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd">Markdown Preview</a></h3>
+<p>I love writing in Markdown. This handy extension let’s you view files offline in Chrome.</p>
 
-<h3><a href="https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd">Markdown Preview</a></h3>
-
-<p>I love writing in Markdown. This handy extension let&#39;s you view files offline in Chrome.</p>
-
-<h3><a href="http://www.sublimetext.com/">Sublime Text Editor</a></h3>
-
+<h3 id="sublime-text-editorhttpwwwsublimetextcom"><a href="http://www.sublimetext.com/">Sublime Text Editor</a></h3>
 <p>Tons of text editors out there. This one is my favorite. If you install Sublime you should also install the <code>subl</code> CLI. Sublime talks about in their [documentation], but you can also find a read on it <a href="http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/">here</a>.</p>
 
 <p>Long story short:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text"># Check your PATH to verify that usr/local/bin is included
-echo $PATH
-ln -s &quot;/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl&quot; /usr/local/bin/subl
-</code></pre></div>
-<p>You can replace the <code>subl</code> with sublime or anything you want really to call the command. </p>
 
-<h3><a href="https://xquartz.macosforge.org">Latest Version of XQuartz</a></h3>
+<pre><code># Check your PATH to verify that usr/local/bin is included
+echo $PATH
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+</code></pre>
+
+<p>You can replace the <code>subl</code> with sublime or anything you want really to call the command.</p>
+
+<h3 id="latest-version-of-xquartzhttpsxquartzmacosforgeorg"><a href="https://xquartz.macosforge.org">Latest Version of XQuartz</a></h3>
 
 <p>Just download and install the <code>.dmg</code> file.</p>
 
-<h3><a href="http://railsapps.github.io/xcode-command-line-tools.html">Command Line Tools</a></h3>
-<div class="highlight"><pre><code class="language-text" data-lang="text">xcode-select --install
+<h3 id="command-line-toolshttprailsappsgithubioxcode-command-line-toolshtml"><a href="http://railsapps.github.io/xcode-command-line-tools.html">Command Line Tools</a></h3>
+
+<pre><code>xcode-select --install
 gcc --version
 sudo xcodebuild -license
-</code></pre></div>
-<h3><a href="http://brew.sh/">HomeBrew</a></h3>
-<div class="highlight"><pre><code class="language-text" data-lang="text">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre>
+
+<h3 id="homebrewhttpbrewsh"><a href="http://brew.sh/">HomeBrew</a></h3>
+
+<pre><code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
-</code></pre></div>
-<h3><a href="https://www.macports.org/install.php">MacPorts</a></h3>
+</code></pre>
+
+<h3 id="macportshttpswwwmacportsorginstallphp"><a href="https://www.macports.org/install.php">MacPorts</a></h3>
 
 <p>Make sure you have Xcode installed and the licensed accepted. Install the <code>.dmg</code> file corresponding to your version of OS X.</p>
 
-<h3><a href="https://rvm.io/">Ruby Version Manager (RVM)</a></h3>
-<div class="highlight"><pre><code class="language-text" data-lang="text">brew install gpg
+<h3 id="ruby-version-manager-rvmhttpsrvmio"><a href="https://rvm.io/">Ruby Version Manager (RVM)</a></h3>
+
+<pre><code>brew install gpg
 brew install gpg2
 gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
 \curl -sSL https://get.rvm.io | bash -s stable
-</code></pre></div>
-<p>I found that when I first started RVM was a bit confusing. There&#39;s a great cheat sheet <a href="Also,%20a%20great%20RVM%20cheat%20sheet%20can%20be%20found%20%5Bhere%5D(http://cheat.errtheblog.com/s/rvm)">here</a> that will help you keep on track.</p>
+</code></pre>
+
+<p>I found that when I first started RVM was a bit confusing. There’s a great cheat sheet <a href="Also, a great RVM cheat sheet can be found [here](http://cheat.errtheblog.com/s/rvm)">here</a> that will help you keep on track.</p>
 
 <p>Installing Ruby
-There are a few different ways to get Ruby. I&#39;m going to explain a few, but only listen to the last one.</p>
+There are a few different ways to get Ruby. I’m going to explain a few, but only listen to the last one.</p>
 
 <p>First, you could download the <code>.tar.gz</code> for the version you want to install. OS X Yosemite comes with ruby 2.0.0, but you can update it to the latest version or others from this <a href="https://www.ruby-lang.org/en/downloads/">link</a>.</p>
 
 <p>Another way to install Ruby is with <code>rbenv</code> found <a href="https://github.com/sstephenson/ruby-build#readme">here</a>.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">brew install ruby-build
+
+<pre><code>brew install ruby-build
 brew install rbenv
 rbenv install 2.2.0
-</code></pre></div>
-<p>BUT, the way that I&#39;m going to do it, and I recommend you doing it too, is with a Ruby manager, like RVM, which we JUST installed. At the end of installing a few essential version of Ruby, don&#39;t forget to set RVM&#39;s default. I like to use the most current stable build.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">rvm install 1.9.3
+</code></pre>
+
+<p>BUT, the way that I’m going to do it, and I recommend you doing it too, is with a Ruby manager, like RVM, which we JUST installed. At the end of installing a few essential version of Ruby, don’t forget to set RVM’s default. I like to use the most current stable build.</p>
+
+<pre><code>rvm install 1.9.3
 rvm install 2.0.0
 rvm install 2.1.5
 rvm install 2.2.0
 rvm use --default 2.2.0
-</code></pre></div>
-<h3><a href="http://kj-prince.com/code/install-git-mac-osx-homebrew/">Updating Git</a> from the Pre-Installed OS X Version</h3>
+</code></pre>
 
-<p>This isn&#39;t a requirement because Git comes pre-installed on Macs, but it is nice to have the latest stable build, so I&#39;d recommend doing it. There are many ways. If you&#39;re just starting <a href="http://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Github</a> has a nice process flow for it. </p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">brew install git
+<h3 id="updating-githttpkj-princecomcodeinstall-git-mac-osx-homebrew-from-the-pre-installed-os-x-version"><a href="http://kj-prince.com/code/install-git-mac-osx-homebrew/">Updating Git</a> from the Pre-Installed OS X Version</h3>
+<p>This isn’t a requirement because Git comes pre-installed on Macs, but it is nice to have the latest stable build, so I’d recommend doing it. There are many ways. If you’re just starting <a href="http://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Github</a> has a nice process flow for it.</p>
+
+<pre><code>brew install git
 git --version
 which git
-</code></pre></div>
-<p>You should notice that there&#39;s a difference here. The pre-installed OS X Git takes precedence, so let&#39;s fix that. Tell bash to look in the correct path for the Homebrew managed version of Git. Restart your terminal after execution.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">echo &#39;export PATH=&quot;/usr/local/bin:/usr/local/sbin:~/bin:$PATH&quot;&#39; &gt;&gt; ~/.bash_profile
-</code></pre></div>
+</code></pre>
+
+<p>You should notice that there’s a difference here. The pre-installed OS X Git takes precedence, so let’s fix that. Tell bash to look in the correct path for the Homebrew managed version of Git. Restart your terminal after execution.</p>
+
+<pre><code>echo 'export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"' &gt;&gt; ~/.bash_profile
+</code></pre>
+
 <p>When I first starting coding this is one thing that really got me. What the heck is <code>$PATH</code>? Simmer down. Check out this good read on <a href="http://superuser.com/questions/284342/what-are-path-and-other-environment-variables-and-how-can-i-set-or-use-them">environmental variables</a> and all will be revealed.</p>
 
-<h3><a href="http://coffeescript.org/">CoffeeScript</a></h3>
-<div class="highlight"><pre><code class="language-text" data-lang="text">npm install -g coffee-script
-</code></pre></div>
-<h3><a href="http://nodejs.org/">Node.JS</a></h3>
+<h3 id="coffeescripthttpcoffeescriptorg"><a href="http://coffeescript.org/">CoffeeScript</a></h3>
 
+<pre><code>npm install -g coffee-script
+</code></pre>
+
+<h3 id="nodejshttpnodejsorg"><a href="http://nodejs.org/">Node.JS</a></h3>
 <p>Follow the link to download. Or follow it with Brew.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">brew install node
-echo &#39;export NODE_PATH=/usr/local/lib/node_modules&#39; &gt;&gt; ~/.bashrc
-</code></pre></div>
-<h3>Get <a href="https://rubygems.org/pages/download">Ruby Gems</a> &amp; <a href="http://rubyonrails.org/download/">RAILS</a>!</h3>
 
+<pre><code>brew install node
+echo 'export NODE_PATH=/usr/local/lib/node_modules' &gt;&gt; ~/.bashrc
+</code></pre>
+
+<h3 id="get-ruby-gemshttpsrubygemsorgpagesdownload-amp-railshttprubyonrailsorgdownload">Get <a href="https://rubygems.org/pages/download">Ruby Gems</a> &amp; <a href="http://rubyonrails.org/download/">RAILS</a>!</h3>
 <p>No Ruby would be complete without some GEMs. Here are a few to start.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">gem install RubyGems
+
+<pre><code>gem install RubyGems
 gem install rails
 gem install jekyll
 gem install json
-</code></pre></div>
-<h3>Get <a href="https://www.python.org/downloads/">Python</a>!</h3>
+</code></pre>
 
-<p>Most experienced Python-ers know to pick 3.0; I still don&#39;t know all the in&#39;s &amp;amp&#39; out&#39;s and by no means an expert. I do know that 3 is gaining traction and 2 is not going to be used in the long-term horizon. But,if you&#39;re just starting then stick with Zed Shaw in his AMAZING <a href="http://learnpythonthehardway.org/book/">&quot;Learning Python the Hard Way&quot;</a> and just go with 2. Python 3 is cool if you&#39;re building up-to-date apps in Django.</p>
+<h3 id="get-pythonhttpswwwpythonorgdownloads">Get <a href="https://www.python.org/downloads/">Python</a>!</h3>
 
-<h3>Python <a href="">Virtual Environment</a></h3>
-<div class="highlight"><pre><code class="language-text" data-lang="text">sudo pip install virtualenvwrapper
+<p>Most experienced Python-ers know to pick 3.0; I still don’t know all the in’s &amp;amp’ out’s and by no means an expert. I do know that 3 is gaining traction and 2 is not going to be used in the long-term horizon. But,if you’re just starting then stick with Zed Shaw in his AMAZING <a href="http://learnpythonthehardway.org/book/">“Learning Python the Hard Way”</a> and just go with 2. Python 3 is cool if you’re building up-to-date apps in Django.</p>
+
+<h3 id="python-virtual-environment">Python <a href="">Virtual Environment</a></h3>
+
+<pre><code>sudo pip install virtualenvwrapper
 cd
 ls -a
 cat &lt;&lt; EOF &gt;&gt; .bashrc
-    export WORKON_HOME=$HOME/.virtualenvs
-    export PROJECT_HOME=$HOME/Devel
-    source /usr/local/bin/virtualenvwrapper.sh
+	export WORKON_HOME=$HOME/.virtualenvs
+	export PROJECT_HOME=$HOME/Devel
+	source /usr/local/bin/virtualenvwrapper.sh
 EOF
 source ~/.bashrc
-</code></pre></div>
-<h3><a href="https://pip.pypa.io/en/latest/installing.html#python-os-support">Pip</a></h3>
+</code></pre>
 
-<p>Follow the link and click &quot;Save As...&quot; on the the <code>.py</code> file. Save it in your local directory or downloads. Next...</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text"># If you saved it in ~/Downloads...
+<h3 id="piphttpspippypaioenlatestinstallinghtmlpython-os-support"><a href="https://pip.pypa.io/en/latest/installing.html#python-os-support">Pip</a></h3>
+
+<p>Follow the link and click “Save As…” on the the <code>.py</code> file. Save it in your local directory or downloads. Next…</p>
+
+<pre><code># If you saved it in ~/Downloads...
 cd 
 mv ~/downloads/get-pip.py ~/get-pip.py
 sudo python get-pip.py
-</code></pre></div>
-<h3>Get <a href="https://www.djangoproject.com/download/">Django</a></h3>
-<div class="highlight"><pre><code class="language-text" data-lang="text">pip install Django==1.7.2
-</code></pre></div>
+</code></pre>
+
+<h3 id="get-djangohttpswwwdjangoprojectcomdownload">Get <a href="https://www.djangoproject.com/download/">Django</a></h3>
+
+<pre><code>pip install Django==1.7.2
+</code></pre>
+
               </article>
    
             </div>

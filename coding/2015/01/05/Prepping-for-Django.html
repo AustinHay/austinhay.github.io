@@ -26,7 +26,7 @@
 
     <!--- Keywords (Categories & Tags) -->
     
-            <meta name="keywords" content="coding,Web Development,Django,Python,Software"/>
+            <meta name="keywords" content="Coding,Web Development,Django,Python,Software"/>
         
  
     <!--- OPEN GRAPH DATA -->
@@ -51,7 +51,8 @@
 
     <!--- Description -->
     
-      <meta property="og:description" content="In my free time I&#39;ve been trying to dive deeper into alternative web-frameworks and coding languages. Python has been my primary target for its ease-of-use and ubiquity among the web&#39;s top development languages. 
+      <meta property="og:description" content="In my free time I’ve been trying to dive deeper into alternative web-frameworks and coding languages. Python has been my primary target for its ease-of-use and ubiquity among the web’s top development languages.
+
 "/>
 
     
@@ -62,7 +63,7 @@
     <!--- Page Category -->
     
         
-            <meta property="article:section" content="coding"/>
+            <meta property="article:section" content="Coding"/>
         
     
 
@@ -129,6 +130,18 @@
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 
+</script>
+
+
+<!-- BRANCH SDK -->
+
+<script type="text/javascript">
+
+    (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+
+    branch.init('key_live_pjb4Wzv0qO7GDCw6TfFtipmpuqfG3luZ', function(err, data) {
+        // callback to handle err or data
+    });
 </script>
 
 </head>
@@ -215,21 +228,21 @@
 		<br>
 	<span class="post-meta">Published: Jan 5, 2015</span>
 </p>
-                <p>In my free time I&#39;ve been trying to dive deeper into alternative web-frameworks and coding languages. Python has been my primary target for its ease-of-use and ubiquity among the web&#39;s top development languages. </p>
+                <p>In my free time I’ve been trying to dive deeper into alternative web-frameworks and coding languages. Python has been my primary target for its ease-of-use and ubiquity among the web’s top development languages.</p>
 
 <!--more-->
 
-<p>In my experiences learning Python I have found that it&#39;s actually quite similar to Ruby. It&#39;s a lot less cumbersome than C or C++ and it has some killer docs to support both beginner &amp; intermediate programmers. In fact, the &quot;create your own first Django app&quot; is one of the best <a href="https://docs.djangoproject.com/en/1.7/intro/tutorial01/">resources</a> I have found out there.</p>
+<p>In my experiences learning Python I have found that it’s actually quite similar to Ruby. It’s a lot less cumbersome than C or C++ and it has some killer docs to support both beginner &amp; intermediate programmers. In fact, the “create your own first Django app” is one of the best <a href="https://docs.djangoproject.com/en/1.7/intro/tutorial01/">resources</a> I have found out there.</p>
 
 <p>With the hopes to start in a casual coding internship role soon, I took to developing a Python &amp; Django prep guide for my friend, Stephen, at SCOOPR Media. Learning about Django and getting setup on both PyCharm &amp; VirtualEnvironment was difficult and is still confusing, but this guide covers the basics. Enjoy!</p>
 
 <p>The most updated prep file can be found <a href="https://github.com/AustinHay/django_tutorial/blob/master/django_prep.md">here</a></p>
 
-<hr>
+<hr />
 
-<p><img src="https://media.licdn.com/media/p/2/005/0a3/019/1fbd870.png" alt="alt text"></p>
+<p><img src="https://media.licdn.com/media/p/2/005/0a3/019/1fbd870.png" alt="alt text" /></p>
 
-<h1>Django Prep for SCOOPR Internship</h1>
+<h1 id="django-prep-for-scoopr-internship">Django Prep for SCOOPR Internship</h1>
 
 <p>Lead Software Engineer: Stephen Estrada</p>
 
@@ -237,59 +250,76 @@
 
 <p>Updated January 5, 2014</p>
 
-<hr>
+<hr />
 
-<h3>1. Get comfy with CL and learn to create REPO remotely from CL.</h3>
+<h3 id="get-comfy-with-cl-and-learn-to-create-repo-remotely-from-cl">1. Get comfy with CL and learn to create REPO remotely from CL.</h3>
 
-<p>There are a few ways to do it. You could create a custom command in bash, use the API tools from Github, or use HUB, which adds a bunch of cool features. I did it the gritty way -- with straight Github API.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">curl -u USER https://api.github.com/user/repos -d &quot;{\&quot;name\&quot;:\&quot; $REPO_NAME\&quot;}&quot;
-</code></pre></div>
+<p>There are a few ways to do it. You could create a custom command in bash, use the API tools from Github, or use HUB, which adds a bunch of cool features. I did it the gritty way – with straight Github API.</p>
+
+<pre><code>curl -u USER https://api.github.com/user/repos -d "{\"name\":\" $REPO_NAME\"}"
+</code></pre>
+
 <p>Next, you (might?) need to add the remotes:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">git remote add origin git@github.com:USER/REPO_NAME.git
+
+<pre><code>git remote add origin git@github.com:USER/REPO_NAME.git
 git push origin master
-</code></pre></div>
+</code></pre>
+
 <p><strong>USER &amp; REPO_NAME should be replaced with their respective values.</strong></p>
 
-<p>There&#39;s a cool <a href="https://gist.github.com/robwierzbowski/5430952">bash script</a> that automates this process, but I&#39;m not sure if this is kosher with your crew, <a href="https://github.com/stcrestrada">Stephen</a>.</p>
+<p>There’s a cool <a href="https://gist.github.com/robwierzbowski/5430952">bash script</a> that automates this process, but I’m not sure if this is kosher with your crew, <a href="https://github.com/stcrestrada">Stephen</a>.</p>
 
 <p><u><b>Sidenote</b></u>: cURL is an awesome CL tool that I spent a good amount of time learning about. The cURL <a href="http://curl.haxx.se/docs/manpage.html">tags</a> are where the magic is at.</p>
 
-<hr>
+<hr />
 
-<h3>2. Create a virtualenv wrapper for your new repo:</h3>
+<h3 id="create-a-virtualenv-wrapper-for-your-new-repo">2. Create a virtualenv wrapper for your new repo:</h3>
 
-<h4>Step A. Getting Up to Speed on VirtualEnv</h4>
+<h4 id="step-a-getting-up-to-speed-on-virtualenv">Step A. Getting Up to Speed on VirtualEnv</h4>
 
 <p>Follow the <a href="http://virtualenvwrapper.readthedocs.org/en/latest/">link</a> to the virtual wrapper docs.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">$ sudo pip install virtualenvwrapper
+
+<pre><code>$ sudo pip install virtualenvwrapper
 $ cd
 $ ls -a
 $ cat &lt;&lt; EOF &gt;&gt; .bashrc 
-    export WORKON_HOME=$HOME/.virtualenvs
-    export PROJECT_HOME=$HOME/Devel
-    source /usr/local/bin/virtualenvwrapper.sh
+	export WORKON_HOME=$HOME/.virtualenvs
+	export PROJECT_HOME=$HOME/Devel
+	source /usr/local/bin/virtualenvwrapper.sh
 $ EOF
-</code></pre></div>
-<p><em>It&#39;s really important that you use <code>&gt;&gt;</code> on the right hand side of EOF. If you use <code>&gt;</code> then you&#39;ll override your whole .bashrc file. I learned this the hard way...</em></p>
+</code></pre>
+
+<p><em>It’s really important that you use <code>&gt;&gt;</code> on the right hand side of EOF. If you use <code>&gt;</code> then you’ll override your whole .bashrc file. I learned this the hard way…</em></p>
 
 <p>Finally, reload the startup file:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">$ source ~/.bashrc
-</code></pre></div>
-<p><strong>What I learned about Virtual Wrapper so far...</strong></p>
+
+<pre><code>$ source ~/.bashrc
+</code></pre>
+
+<p><strong>What I learned about Virtual Wrapper so far…</strong></p>
 
 <ul>
-<li><p><code>virtualenvwrapper</code> is a virtual environment tool extension that includes wrappers for creating and deleting virtual environments and thus managing development workflow. This makes it easier to work on more than on project at a time without introducing conflicts in the project&#39;s dependencies.</p></li>
-<li><p>The variable <code>WORKON_HOME</code> tells virtual wrapper where to place your virtual environments. Default is <code>$HOME/.virtualenvs</code>. </p></li>
-<li><p>VWrapper is customizable @ <code>virtualwrapper.sh</code>.</p></li>
-<li><p>At startup, Vwrapper finds the first <code>python</code> and <code>virtualenv</code> programs on <code>$PATH</code>. </p></li>
+  <li>
+    <p><code>virtualenvwrapper</code> is a virtual environment tool extension that includes wrappers for creating and deleting virtual environments and thus managing development workflow. This makes it easier to work on more than on project at a time without introducing conflicts in the project’s dependencies.</p>
+  </li>
+  <li>
+    <p>The variable <code>WORKON_HOME</code> tells virtual wrapper where to place your virtual environments. Default is <code>$HOME/.virtualenvs</code>.</p>
+  </li>
+  <li>
+    <p>VWrapper is customizable @ <code>virtualwrapper.sh</code>.</p>
+  </li>
+  <li>
+    <p>At startup, Vwrapper finds the first <code>python</code> and <code>virtualenv</code> programs on <code>$PATH</code>.</p>
+  </li>
 </ul>
 
-<h4>Step B. Creating a wrapper around a Github Repo</h4>
+<h4 id="step-b-creating-a-wrapper-around-a-github-repo">Step B. Creating a wrapper around a Github Repo</h4>
 
 <p>A great <a href="https://github.com/zookeepr/zookeepr/wiki/Creating-a-Development-Environment-with-pip-and-virtualenv">walkthrough</a> is available online. But there are many others as well. We all love <a href="http://stackoverflow.com/">StackOverflow</a>.</p>
 
-<p>First, navigate to the directory where you&#39;ll store your Django projects.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">git clone [https://etc.etc.REPO_NAME] # Just grab the url from Github if you have trouble.
+<p>First, navigate to the directory where you’ll store your Django projects.</p>
+
+<pre><code>git clone [https://etc.etc.REPO_NAME] # Just grab the url from Github if you have trouble.
 mkvirtualenv --no-site-packages REPO_NAME
 $ touch requirements.txt
 $ cat &lt;&lt; EOF &gt; requirements.txt
@@ -323,37 +353,38 @@ $ cat &lt;&lt; EOF &gt; requirements.txt
     wsgiref 
     EOF
 $ pip install -r requirements.txt 
-</code></pre></div>
+</code></pre>
+
 <p><em>Make sure your <code>virtualenv</code> is activated when you run this comand so that pip will only install these packages for this specific virtual environment.</em></p>
 
 <p>All of these requirements were what I found to be useful. This could totally vary on the project. The purpose is mostly to demonstrate how to load custom packages into a virtual environment for use in further development.</p>
 
-<p>Beyond this, there&#39;s so much more that I don&#39;t fully understand about virtual environment; this includes Pylons and a bunch of other stuff. At the very least this will get us off the ground and running. Afterwards, it would be good to check out more virtual environment <a href="http://virtualenvwrapper.readthedocs.org/en/latest/index.html">documentation</a> to fully understand what&#39;s going on.</p>
+<p>Beyond this, there’s so much more that I don’t fully understand about virtual environment; this includes Pylons and a bunch of other stuff. At the very least this will get us off the ground and running. Afterwards, it would be good to check out more virtual environment <a href="http://virtualenvwrapper.readthedocs.org/en/latest/index.html">documentation</a> to fully understand what’s going on.</p>
 
-<hr>
+<hr />
 
-<h3>3. Download PyCharm and play with it</h3>
+<h3 id="download-pycharm-and-play-with-it">3. Download PyCharm and play with it</h3>
 
 <p><a href="https://www.jetbrains.com/pycharm/download/">Download</a> it and play around with it.</p>
 
-<hr>
+<hr />
 
-<h3>4. Make the Django Tutorial Project</h3>
+<h3 id="make-the-django-tutorial-project">4. Make the Django Tutorial Project</h3>
 
 <p>Instructions can be found <a href="https://docs.djangoproject.com/en/1.7/intro/tutorial01/">here</a>.</p>
 
-<hr>
+<hr />
 
-<h3>5. Final Notes</h3>
+<h3 id="final-notes">5. Final Notes</h3>
 
 <p>This internship will be focused on front-end engineering, so keep in mind the <a href="https://docs.djangoproject.com/en/1.7/howto/static-files/">static files architecture</a> and proper placement methodologies.</p>
 
-<p>Become familiar with other web development frameworks, such as Sinatra, Rails, etc. Django is also considered an MVC framework, but goes by another name MVT. Do some research on it.  </p>
+<p>Become familiar with other web development frameworks, such as Sinatra, Rails, etc. Django is also considered an MVC framework, but goes by another name MVT. Do some research on it.</p>
 
-<h3>Additional (awesome) Resources:</h3>
+<h3 id="additional-awesome-resources">Additional (awesome) Resources:</h3>
 
 <ul>
-<li>Great <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">markdown</a> resource. Oh, and <a href="http://nestacms.com/docs/creating-content/markdown-cheat-sheet">another</a>.</li>
+  <li>Great <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">markdown</a> resource. Oh, and <a href="http://nestacms.com/docs/creating-content/markdown-cheat-sheet">another</a>.</li>
 </ul>
 
               </article>

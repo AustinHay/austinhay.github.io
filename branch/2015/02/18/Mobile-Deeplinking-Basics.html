@@ -26,7 +26,7 @@
 
     <!--- Keywords (Categories & Tags) -->
     
-            <meta name="keywords" content="branch,Mobile,Deeplinking,Software,App Development,Branch Metrics"/>
+            <meta name="keywords" content="Branch,Mobile,Deeplinking,Software,App Development,Branch Metrics"/>
         
  
     <!--- OPEN GRAPH DATA -->
@@ -51,8 +51,7 @@
 
     <!--- Description -->
     
-      <meta property="og:description" content="In this short article, oringinally published on Branch, we dive into mobile deeplinking.
-"/>
+      <meta property="og:description" content="In this short article, oringinally published on Branch, we dive into mobile deeplinking. Deep linking has been one of the most talked about trends in tech throughout the last year, but not everyone fully understands what deeplinking even is and how it can transform mobile. Deeplinking in Context Mobile is taking over and deep linking is heating up alongside, as it promises to revolutionize UX and the way in which apps deliver content to users...."/>
 
     
 
@@ -62,7 +61,7 @@
     <!--- Page Category -->
     
         
-            <meta property="article:section" content="branch"/>
+            <meta property="article:section" content="Branch"/>
         
     
 
@@ -131,6 +130,18 @@
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 
+</script>
+
+
+<!-- BRANCH SDK -->
+
+<script type="text/javascript">
+
+    (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+
+    branch.init('key_live_pjb4Wzv0qO7GDCw6TfFtipmpuqfG3luZ', function(err, data) {
+        // callback to handle err or data
+    });
 </script>
 
 </head>
@@ -219,13 +230,13 @@
 </p>
                 <p>In this short article, oringinally <a href="https://blog.branch.io/mobile-deeplinking-basics/">published on Branch</a>, we dive into mobile deeplinking.</p>
 
-<p>Deep linking has been one of the most talked about trends in tech throughout the last year, but not everyone fully understands what deeplinking even is and how it can transform mobile. </p>
+<p>Deep linking has been one of the most talked about trends in tech throughout the last year, but not everyone fully understands what deeplinking even is and how it can transform mobile.</p>
 
-<h3>Deeplinking in Context</h3>
+<h3 id="deeplinking-in-context">Deeplinking in Context</h3>
 
 <p>Mobile is taking over and deep linking is <a href="http://readwrite.com/2015/01/29/deep-linking-button-urx-sdk-now-hot">heating up</a> alongside, as it promises to revolutionize UX and the way in which apps deliver content to users. Industry thought leaders have already started predicting how deeplinking may address the lack of true native page rank or how the end of the native app might be coming.</p>
 
-<p>On the other hand, news and media coverage focus on the promise of deep linking to provide HTTP-like functionality for mobile apps (more on this below!).  </p>
+<p>On the other hand, news and media coverage focus on the promise of deep linking to provide HTTP-like functionality for mobile apps (more on this below!).</p>
 
 <p>Here at Branch we look at all of these things and see a huge opportunity for developers to grow their native app audiences and bring about a fundamental change in the way people interact in the mobile ecosystem. So, digging deeper, what really are the benefits of deep linking? The technology helps app developers, marketers and users in a number of ways. Specifically, deep linking can:</p>
 
@@ -243,7 +254,7 @@
 
 <figure class="imageleft">
 <a href="http://branch.io">
-<img src="/images/blogs/branch/mobile-deeplinking-basics-1.png">
+<img src="/images/blogs/branch/mobile-deeplinking-basics-1.png" />
 </a>
   <p style="font-style: italic; padding-top: 4%;">
   With so many different benefits, it can be difficult to pick the deeplinking solution that does it all best. Branch links help app developers get the most out of deeplinks.
@@ -252,91 +263,99 @@
 
 <p><b>This last point is particularly important: deep linking can allow your apps to have more exposure, higher installs and conversions, but most importantly, an easier, more intuitive integration with the mobile app ecosystem.</b></p>
 
-<h3>What&#39;s a Deep Link?</h3>
+<h3 id="whats-a-deep-link">What’s a Deep Link?</h3>
 
-<p>The good thing about the internet is that there are many great resources that already exist on this subject. I&#39;m in favor of you reading mine, but if it doesn&#39;t quite suit your fancy, I&#39;d recommend checking out <a href="http://sarlitt.me/what-is-app-deep-linking/">this other great read</a> on Deep Linking.</p>
+<p>The good thing about the internet is that there are many great resources that already exist on this subject. I’m in favor of you reading mine, but if it doesn’t quite suit your fancy, I’d recommend checking out <a href="http://sarlitt.me/what-is-app-deep-linking/">this other great read</a> on Deep Linking.</p>
 
-<p>Really, deeplinking begins with URIs. </p>
+<p>Really, deeplinking begins with URIs.</p>
 
-<p>In programming, a URI (Uniform Resource Identifier) is just a string of characters to identify the name of a resource on a network. URIs allows users to identify and interact with the resource representation over a network using specific protocols. <b>The most common URI out there is the URL, a <a href="http://en.wikipedia.org/wiki/Uniform_resource_locator">Uniform Resource Locator</a> -- or more simply, a web address.</b> URIs are not not limited to just this. URIs can also be comprised of URNs (Uniform Resource Name). In practice a URN functions as a web resource&#39;s &quot;name&quot; while the URL functions as its address. If you&#39;re not sold on their differences, take a look <a href="http://stackoverflow.com/questions/176264/whats-the-difference-between-a-uri-and-a-url">here</a>.</p>
+<p>In programming, a URI (Uniform Resource Identifier) is just a string of characters to identify the name of a resource on a network. URIs allows users to identify and interact with the resource representation over a network using specific protocols. <b>The most common URI out there is the URL, a <a href="http://en.wikipedia.org/wiki/Uniform_resource_locator">Uniform Resource Locator</a> – or more simply, a web address.</b> URIs are not not limited to just this. URIs can also be comprised of URNs (Uniform Resource Name). In practice a URN functions as a web resource’s “name” while the URL functions as its address. If you’re not sold on their differences, take a look <a href="http://stackoverflow.com/questions/176264/whats-the-difference-between-a-uri-and-a-url">here</a>.</p>
 
-<p>At a very high level a deeplink is just a hyperlink, or a special URI that routes to a resource deeper within a site&#39;s hierarchy. It&#39;s a hyperlink to an indexed or searchable page on a website other than the site&#39;s home page. Generally, a website home page is at the top page in a site&#39;s hierarchy and any other page outside of that is considered a &quot;deep&quot; link. </p>
+<p>At a very high level a deeplink is just a hyperlink, or a special URI that routes to a resource deeper within a site’s hierarchy. It’s a hyperlink to an indexed or searchable page on a website other than the site’s home page. Generally, a website home page is at the top page in a site’s hierarchy and any other page outside of that is considered a “deep” link.</p>
 
-<p><a href="http://mobiledeeplinking.org/">Mobile deep linking</a> is really the type of &quot;deep linking&quot; that you&#39;ve heard about among conversations with app and web developers. Mobile deep linking functions conceptually in the same way as web deep linking. As we discussed, deep links on the web are direct links to resources &quot;deeper&quot; within a site&#39;s hierarchy. Today the term has come to encompass the methodology of routing to a <a href="http://www.techopedia.com/definition/27568/native-mobile-app">native application</a> via a hyperlink. In the <a href="http://www.nngroup.com/articles/mobile-native-apps/">war between web, native and hybrid applications</a>, deep linking aims to make native applications more functional, more tightly integrated with the web, easier for users to operate. </p>
+<p><a href="http://mobiledeeplinking.org/">Mobile deep linking</a> is really the type of “deep linking” that you’ve heard about among conversations with app and web developers. Mobile deep linking functions conceptually in the same way as web deep linking. As we discussed, deep links on the web are direct links to resources “deeper” within a site’s hierarchy. Today the term has come to encompass the methodology of routing to a <a href="http://www.techopedia.com/definition/27568/native-mobile-app">native application</a> via a hyperlink. In the <a href="http://www.nngroup.com/articles/mobile-native-apps/">war between web, native and hybrid applications</a>, deep linking aims to make native applications more functional, more tightly integrated with the web, easier for users to operate.</p>
 
 <p>So, again, <b>a mobile deep link</b> is a URI that contains all the information needed to launch directly into an app or a particular location within an app instead of just launching the app home page.</p>
 
-<h4>Deeplinking Examples</h4>
+<h4 id="deeplinking-examples">Deeplinking Examples</h4>
 
-<p>In the case of web deep links, the underlying <a href="http://www.webopedia.com/TERM/H/HTTP.html">HTTP</a> and <a href="http://en.wikipedia.org/wiki/Uniform_resource_locator">URL</a> technologies allow for deep linking by default  -- which is why you pretty much never hear the term deep linking reference anything but native app links these days. Native apps, however, do not have this same underlying core technology! It requires the apps to be configured to properly handle a URI.</p>
+<p>In the case of web deep links, the underlying <a href="http://www.webopedia.com/TERM/H/HTTP.html">HTTP</a> and <a href="http://en.wikipedia.org/wiki/Uniform_resource_locator">URL</a> technologies allow for deep linking by default  – which is why you pretty much never hear the term deep linking reference anything but native app links these days. Native apps, however, do not have this same underlying core technology! It requires the apps to be configured to properly handle a URI.</p>
 
 <p><b>In this way, as a URL is an address for a website on the internet, a URI for an app on a mobile device can function the same way IF deep linking technology is built into the app.</b></p>
 
 <figure class="imageright">
 <a href="https://branch.io/features/">
-<img src="/images/blogs/branch/mobile-deeplinking-basics-2.png">
+<img src="/images/blogs/branch/mobile-deeplinking-basics-2.png" />
 </a>
   <p style="font-style: italic; padding-top: 4%;">
   Branch provides the universal links that the mobile and native app industry has wanted for years. Our links can help plug your app into the same type of deeplinking examples seen below.
   </p>
 </figure>
 
-<p>Some simple examples help demonstrate the point...</p>
+<p>Some simple examples help demonstrate the point…</p>
 
 <ul>
-<li><p><code>http://mycoolwebsite.com</code> This launches a website with the respective name on the internet! </p></li>
-<li><p><code>twitter://</code> This is the iOS URI to launch Twitter&#39;s mobile app. Depending on what follows, this could link deep into the native app with tailored and specific content. If the user doesn&#39;t own the app it could redirect them to the app store, or to the mobile website, or prompt the user for a choice. The possibilities are endless. </p></li>
-<li><p><code>ftp://</code> This launches the protocol to initiate a file transfer.</p></li>
-<li><p><code>YouTube://</code> This is the iOS URI to launch YouTube&#39;s Mobile app.</p></li>
+  <li>
+    <p><code>http://mycoolwebsite.com</code> This launches a website with the respective name on the internet!</p>
+  </li>
+  <li>
+    <p><code>twitter://</code> This is the iOS URI to launch Twitter’s mobile app. Depending on what follows, this could link deep into the native app with tailored and specific content. If the user doesn’t own the app it could redirect them to the app store, or to the mobile website, or prompt the user for a choice. The possibilities are endless.</p>
+  </li>
+  <li>
+    <p><code>ftp://</code> This launches the protocol to initiate a file transfer.</p>
+  </li>
+  <li>
+    <p><code>YouTube://</code> This is the iOS URI to launch YouTube’s Mobile app.</p>
+  </li>
 </ul>
 
-<h3>Where it Falls Apart</h3>
+<h3 id="where-it-falls-apart">Where it Falls Apart</h3>
 
-<p>If deeplinks are so simple and intuitive, then what&#39;s the problem? Why aren&#39;t deeplinks ubiquitous yet?</p>
+<p>If deeplinks are so simple and intuitive, then what’s the problem? Why aren’t deeplinks ubiquitous yet?</p>
 
-<p>There are a few reasons actually. First, deeplinking isn&#39;t naturally built into the underlying framework of the native experience, like HTTP is built into the web. The only way to integrate deeplinking is through heavy lifting across all mobile platforms a developer supports (App Store, Play Store, Windows etc.) This is a huge barrier to entry for small developers hoping to have universal deeplinks into their app content.</p>
+<p>There are a few reasons actually. First, deeplinking isn’t naturally built into the underlying framework of the native experience, like HTTP is built into the web. The only way to integrate deeplinking is through heavy lifting across all mobile platforms a developer supports (App Store, Play Store, Windows etc.) This is a huge barrier to entry for small developers hoping to have universal deeplinks into their app content.</p>
 
-<p>Another big problem with deeplinking is that it can&#39;t carry data through the app install process. Deeplinks don&#39;t provide context about the user unless they have the app already installed on their device.</p>
+<p>Another big problem with deeplinking is that it can’t carry data through the app install process. Deeplinks don’t provide context about the user unless they have the app already installed on their device.</p>
 
-<p>A simple example demonstrates the point. If I pull out my phone and search for something -- let&#39;s just say &quot;Branch Decor pinterest&quot; ;) -- then I am immediately brought to web results from Google. Let&#39;s assume I&#39;m interested in finding hits on Pinterest. I navigate to the first link, which properly captures these hits. You&#39;ll notice that now I am routed to Pinterest&#39;s mobile site. After a few seconds a popup recommend&#39;s that I open the Pinterest App.</p>
+<p>A simple example demonstrates the point. If I pull out my phone and search for something – let’s just say “Branch Decor pinterest” ;) – then I am immediately brought to web results from Google. Let’s assume I’m interested in finding hits on Pinterest. I navigate to the first link, which properly captures these hits. You’ll notice that now I am routed to Pinterest’s mobile site. After a few seconds a popup recommend’s that I open the Pinterest App.</p>
 
 <figure class="imageright" style="margin-bottom:2%">
-<img src="/images/blogs/branch/mobile-deeplinking-basics-3.png">
-</a>
+<img src="/images/blogs/branch/mobile-deeplinking-basics-3.png" />
+
   <p style="font-style: italic; padding-top: 4%;">
   In this example, I am eventually trying to search for "Branch Decor" on Pinterest. Deeplinking currently can't pass data through the app install process. This leaves issues when new users are trying to access content on the native app from the web or mobile site. 
   </p>
 </figure>
 
-<p>At this point a few things are going on. First, Pinterest wants to drive me to the native app so that I can view the content in a more seamless way on the app they&#39;ve spent loads of resources designing for native UX. So what happens when I click on the banner popup to navigate to the native app?</p>
+<p>At this point a few things are going on. First, Pinterest wants to drive me to the native app so that I can view the content in a more seamless way on the app they’ve spent loads of resources designing for native UX. So what happens when I click on the banner popup to navigate to the native app?</p>
 
 <figure class="imageright">
-<img src="/images/blogs/branch/mobile-deeplinking-basics-4.png">
-</a>
+<img src="/images/blogs/branch/mobile-deeplinking-basics-4.png" />
+
   <p style="font-style: italic; padding-top: 4%;">
-    The first experience I have clicking on Pinterest's "Open in App" banner is an error message, then a slow redirect to the App Store. This is fundamentally a broken part of the way deeplinks are being deployed.
+	The first experience I have clicking on Pinterest's "Open in App" banner is an error message, then a slow redirect to the App Store. This is fundamentally a broken part of the way deeplinks are being deployed.
   </p>
 </figure>
 
-<p>In the current architecture of mobile, I am met with a &quot;Cannot Open Page&quot; error -- this is because I had previously downloaded the app, so Pinterest thinks I still have the native app saved on my device. Once it realizes I don&#39;t, it redirects me to the App Store where I am prompted to download the Pinterest App. </p>
+<p>In the current architecture of mobile, I am met with a “Cannot Open Page” error – this is because I had previously downloaded the app, so Pinterest thinks I still have the native app saved on my device. Once it realizes I don’t, it redirects me to the App Store where I am prompted to download the Pinterest App.</p>
 
-<p><b>Okay. That&#39;s not that big of a deal right? Well, actually, yes it is. In a world where <a href="http://andrewchen.co/mobile-retention-benchmarks-for-2014-vs-2013-show-a-50-drop-in-d1-retention-guest-post/">over 60% of users drop off less then 24 hours after download</a> you&#39;ve just provided the user&#39;s first experience migrating to the native app as an error message. The old saying &quot;First Impressions Matter&quot; is still around for a reason. And in the world of deeplinking, this rings clearer than ever before.</b></p>
+<p><b>Okay. That’s not that big of a deal right? Well, actually, yes it is. In a world where <a href="http://andrewchen.co/mobile-retention-benchmarks-for-2014-vs-2013-show-a-50-drop-in-d1-retention-guest-post/">over 60% of users drop off less then 24 hours after download</a> you’ve just provided the user’s first experience migrating to the native app as an error message. The old saying “First Impressions Matter” is still around for a reason. And in the world of deeplinking, this rings clearer than ever before.</b></p>
 
 <p>So how does the story end?</p>
 
 <figure class="imageright">
-<img src="/images/blogs/branch/mobile-deeplinking-basics-5.png">
-</a>
+<img src="/images/blogs/branch/mobile-deeplinking-basics-5.png" />
+
   <p style="font-style: italic; padding-top: 4%;">
-    <b>Left:</b> No Branch links are employed, so after this arduous and broken process, the user ends up logging in to Pinterest and is directed to the main homepage, wondering why they can't access the original content on which they clicked.<br>
-  <br>
+	<b>Left:</b> No Branch links are employed, so after this arduous and broken process, the user ends up logging in to Pinterest and is directed to the main homepage, wondering why they can't access the original content on which they clicked.<br />
+  <br />
     <b>Right:</b> Branch links are integrated. The user's data is passed through the install process. Not only did they not hit that pesky error message, but they were automatically, and quickly redirected to the correct App Store and fingerprinted for Pinterest. Now when they open up the app, they are brought right to the content they were looking for. No hacks, no gimmicks, no error messages. UX the way deeplinking intended.
   </p>
 </figure>
 
-<p>Again, unfortunately, this is a tale of two deeplinking strategies. In one world, the (Right side of the figure) I would be met with the exact content that I had originally clicked on - &quot;Twig Branch Decor&quot;. But in reality, this is not how deeplinks are integrated. Instead of being brought to the content I wanted, or perhaps a personalized welcome screen, I am instead brought to a non-unique home page and left guessing how to access the content I originally wanted.</p>
+<p>Again, unfortunately, this is a tale of two deeplinking strategies. In one world, the (Right side of the figure) I would be met with the exact content that I had originally clicked on - “Twig Branch Decor”. But in reality, this is not how deeplinks are integrated. Instead of being brought to the content I wanted, or perhaps a personalized welcome screen, I am instead brought to a non-unique home page and left guessing how to access the content I originally wanted.</p>
 
-<h3>Branch Solves Deeplinking for Mobile</h3>
+<h3 id="branch-solves-deeplinking-for-mobile">Branch Solves Deeplinking for Mobile</h3>
 
 <p>Branch fixes all of these problems and more. It eliminates the error caused by redirecting to the native app store, it automatically and quickly passes the user and attached data through the app store, and delivers a customized UX after the user downloads the app.</p>
 
@@ -344,26 +363,26 @@
 
 <p>Our <a href="https://branch.io/case-studies/">case studies</a> dive deeper into how Branch is delivering on the best deeplink functionality available.</p>
 
-<p>Branch realizes all of the potential of deeplinking technology and makes it highly accessible.  Our links were created to maximize app growth &amp; provide a tailored user experience. </p>
+<p>Branch realizes all of the potential of deeplinking technology and makes it highly accessible.  Our links were created to maximize app growth &amp; provide a tailored user experience.</p>
 
-<p><b>More importantly, this is just the tip of the iceberg for Branch links. As a company we are focused on serving those we care about most -- developers. As such, we constantly build and test new features upon request. As developers need new features, we build them. It&#39;s just that simple.</b></p>
+<p><b>More importantly, this is just the tip of the iceberg for Branch links. As a company we are focused on serving those we care about most – developers. As such, we constantly build and test new features upon request. As developers need new features, we build them. It’s just that simple.</b></p>
 
 <figure class="imageleft">
 <a href="https://branch.io/features/">
-<img src="/images/blogs/branch/mobile-deeplinking-basics-6.png">
+<img src="/images/blogs/branch/mobile-deeplinking-basics-6.png" />
 </a>
   <p style="font-style: italic; padding-top: 4%;">
   HotelTonight uses Branch links to drive installs, increase conversions, and provide the best possible UX to its app users. What's stopping you from doing the same?
   </p>
 </figure>
 
-<h3>Coming Full Circle: Why Mobile Deep Linking Matters</h3>
+<h3 id="coming-full-circle-why-mobile-deep-linking-matters">Coming Full Circle: Why Mobile Deep Linking Matters</h3>
 
 <p>The greatest benefit of mobile deep linking is the fact that it allows app developers &amp; their marketing teams to bring users directly into a very specific location within the app with a dedicated link, or provide a customized welcome to the app. Deep linking can stop the trend of platforms losing their native users to the web, mobile or just in terms of straight app retention. It can automatically detect the native experience and redirect users accordingly, just as deep links have done <a href="http://www.nngroup.com/articles/deep-linking-is-good-linking/">for the web</a>. And this is just the start. Deep linking can create a <a href="http://www.appsflyer.com/deep-linking-now-time-mobile-search-ads/">better native search</a>, increase <a href="https://developers.facebook.com/docs/ads-for-apps/mobile-app-ads-engagement">ad sales</a>, drive <a href="http://www.superbcrew.com/branchmetrics-helps-you-get-all-the-data-need-for-your-customer-acquisition-strategy/">app conversion and organic growth channels</a>, and overall create a better UX.</p>
 
-<p>In turn, this type of technology has the potential to increase the ad market across mobile and web, better manage download traffic, bring context to the core content of an app, drive conversions, and ultimately, index all the content on an app for a more intuitive and functional search. </p>
+<p>In turn, this type of technology has the potential to increase the ad market across mobile and web, better manage download traffic, bring context to the core content of an app, drive conversions, and ultimately, index all the content on an app for a more intuitive and functional search.</p>
 
-<p>Whether you&#39;ve experienced the pains of app growth without deep linking or if you&#39;ve just heard the term flung around at the lunch table, deep linking is worth knowing about and understanding. If <a href="https://soundcloud.com/a16z/a16z-podcast-mobile-is-eating-the-world-and-apple-is-gobbling-fastest">mobile is eating the world</a> then deep linking is at the head of the table.</p>
+<p>Whether you’ve experienced the pains of app growth without deep linking or if you’ve just heard the term flung around at the lunch table, deep linking is worth knowing about and understanding. If <a href="https://soundcloud.com/a16z/a16z-podcast-mobile-is-eating-the-world-and-apple-is-gobbling-fastest">mobile is eating the world</a> then deep linking is at the head of the table.</p>
 
               </article>
    

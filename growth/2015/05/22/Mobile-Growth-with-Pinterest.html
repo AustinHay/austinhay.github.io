@@ -26,7 +26,7 @@
 
     <!--- Keywords (Categories & Tags) -->
     
-            <meta name="keywords" content="growth,Mobile Growth,Podcasts,Engineering,Mobile,Branch"/>
+            <meta name="keywords" content="Growth,Mobile Growth,Podcasts,Engineering,Mobile,Branch"/>
         
  
     <!--- OPEN GRAPH DATA -->
@@ -51,8 +51,7 @@
 
     <!--- Description -->
     
-      <meta property="og:description" content="Building and growing your own app is the modern crucible that every developer faces. The formula to get started often looks the same:
-"/>
+      <meta property="og:description" content="Building and growing your own app is the modern crucible that every developer faces. The formula to get started often looks the same: [ great idea ] + ( smart engineers ) = { awesome app } But the journey of building such apps has a darker side most people will never experience. There are over 1.2 million apps in the iOS store to date and as many, if not more, in the Android Play..."/>
 
     
 
@@ -62,7 +61,7 @@
     <!--- Page Category -->
     
         
-            <meta property="article:section" content="growth"/>
+            <meta property="article:section" content="Growth"/>
         
     
 
@@ -131,6 +130,18 @@
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 
+</script>
+
+
+<!-- BRANCH SDK -->
+
+<script type="text/javascript">
+
+    (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+
+    branch.init('key_live_pjb4Wzv0qO7GDCw6TfFtipmpuqfG3luZ', function(err, data) {
+        // callback to handle err or data
+    });
 </script>
 
 </head>
@@ -233,7 +244,7 @@
 
 <p>In this short conversation with <a href="http://jwegan.com/">John Egan</a>, Lead Growth Engineer at Pinterest, and <a href="https://medium.com/@alexaustin/just-keep-building-ca1e43df8e5a">Alex Austin</a>, CEO and Co-Founder of Branch Metrics, we dive into the most crucial elements of growth that every app developer and mobile expert should care about. <strong>As discussed in this conversation, here are four high-level principles that will help you succeed in driving growth.</strong></p>
 
-<h3>Activations &amp; NUX</h3>
+<h3 id="activations--nux">Activations &amp; NUX</h3>
 
 <p>Activations are an essential growth metric, but often people don’t know what they mean to their app, or they don’t know where to start in acquiring them. Luckily, John Egan shed some light on activations and explained, “At Pinterest, we view activations — the process of getting someone who just signed up for your service to stick around and become a regular user — as being one of the most important pieces of growth that you have to absolutely nail and continually improve.”</p>
 
@@ -243,24 +254,24 @@
 
 <p><strong>So really then, what’s the deal with activations?</strong> As John put it, “Users won’t stick around for a variety of reasons, but the biggest reason is that they don’t understand the value your app provides to them.” The key to activations is communicating your value prop effectively. As an app developer, the single best thing you can do to increase activations is to really understand and demonstrate your value prop as soon as you can. Communicate different use cases to users and find the one that really resonates with them.</p>
 
-<h3>Forced Registration vs. Passive App Use?</h3>
+<h3 id="forced-registration-vs-passive-app-use">Forced Registration vs. Passive App Use?</h3>
 
 <p>It’s a simple question, and a struggle that apps face when trying to grow their user base in a frictionless way. Just because Pinterest has forced registration (you can’t use Pinterest without signing up) doesn’t mean everyone should. While forced registration is a mixed bag of costs and benefits for every app, the only sure way to know is to do deep analysis around your signup wall. Test and iterate to see what works. If 2–3 months down the line you see that loss reflected in the funnel, then you know that a forced registration strategy may not be the best for your app.</p>
 
 <p>But beyond just knowing if you need a signup wall is how to drive the success of that signup wall. As John noted, this is where gathering user information before and during signup is so important in improving the user experience. There are a few key approaches to doing this:</p>
 
 <ul>
-<li>Personalize the experience through context</li>
-<li>Gather user interests during signup to customize the home-feed</li>
-<li>Re-engage users through emails and notifications</li>
-<li>Create a habit of visitation</li>
+  <li>Personalize the experience through context</li>
+  <li>Gather user interests during signup to customize the home-feed</li>
+  <li>Re-engage users through emails and notifications</li>
+  <li>Create a habit of visitation</li>
 </ul>
 
 <p>This last point from John was particularly clarifying. Pinterest tries to find and send interesting content by email in an attempt to form a habit of visiting the app for great content. Building the habit of visiting the app is important, and app devs can do it by continually showing current users the value their service is providing current users. It’s no surprise that this is so inherently tied with activations, which require you to demonstrate your value proposition early, often, and very clearly.</p>
 
 <p>I think John put it best when he mentioned that, “keeping users engaged is really all about continuing to deliver on your value proposition.”</p>
 
-<h3>The Deal with Sharing, Referrals &amp; Invites</h3>
+<h3 id="the-deal-with-sharing-referrals--invites">The Deal with Sharing, Referrals &amp; Invites</h3>
 
 <p>It’s no surprise, but one of the best ways to drive growth is by implementing sharing and referral features inside of your app that enable organic, word of mouth drivers. In highlighting this thought, John revisited his experience at Shopkick where a majority of their app signups came through invites.</p>
 
@@ -276,8 +287,7 @@
 
 <p>Though John and Alex’s advice on building an incredible sharing and referral program should hit home for developers looking to grow their app, it’s important to take it all with a grain of salt. Don’t just go through the motions to check the box for “invites and sharing.” Do it because it matters, do it right, and make your sharing program fun, unique, and easy to participate in. Don’t do it unless it means something to your service.</p>
 
-<h3>What Product-Market Fit Means in Growth</h3>
-
+<h3 id="what-product-market-fit-means-in-growth">What Product-Market Fit Means in Growth</h3>
 <p>In our final moments, John and Alex also shared their growth advice for mobile devs just starting the arduous journey of app development. At the core of it all, you have to figure out product-market fit. It may sound obvious and straight out of HBO’s Silicon Valley, but John articulated on what Product Market fit means specifically in terms of growth:</p>
 
 <p><strong><u><i>Early Stage Apps</i></u></strong></p>

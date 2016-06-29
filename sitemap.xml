@@ -152,7 +152,7 @@
   <lastmod>2015-01-18T00:00:00-08:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/entrepreneurship/2015/01/14/Entrepreneurs-Becoming-Entrepreneurial-Resources-to-Get-You-Started%20copy.html</loc>
+  <url><loc>http://austinhay.com/entrepreneurship/2015/01/14/Entrepreneurs-Becoming-Entrepreneurial-Resources-to-Get-You-Started-copy.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2015-01-14T00:00:00-08:00</lastmod>
   </url>
@@ -237,7 +237,7 @@
   <lastmod>2013-09-10T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/business/2013/09/09/TECS-2013-More%20on-Scale-from-a-Cultural-Perspective.html</loc>
+  <url><loc>http://austinhay.com/business/2013/09/09/TECS-2013-More-on-Scale-from-a-Cultural-Perspective.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2013-09-09T00:00:00-07:00</lastmod>
   </url>
@@ -252,7 +252,7 @@
   <lastmod>2013-09-05T00:00:00-07:00</lastmod>
   </url>
   
-  <url><loc>http://austinhay.com/business/2013/09/01/TECS%202013-First-Impression-Scale.html</loc>
+  <url><loc>http://austinhay.com/business/2013/09/01/TECS-2013-First-Impression-Scale.html</loc>
   <changefreq>daily</changefreq>
   <lastmod>2013-09-01T00:00:00-07:00</lastmod>
   </url>
@@ -624,6 +624,14 @@
   </url>
   
   <url><loc>http://austinhay.com/search.html?category=innovation</loc>
+  <changefreq>daily</changefreq>
+  </url>
+  
+  <url><loc>http://austinhay.com/search.html?category=personal development</loc>
+  <changefreq>daily</changefreq>
+  </url>
+  
+  <url><loc>http://austinhay.com/search.html?category=coding</loc>
   <changefreq>daily</changefreq>
   </url>
   

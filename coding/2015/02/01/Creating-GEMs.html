@@ -26,7 +26,7 @@
 
     <!--- Keywords (Categories & Tags) -->
     
-            <meta name="keywords" content="coding,Ruby,GEM,Software,Web-development"/>
+            <meta name="keywords" content="Coding,Ruby,GEM,Software,Web-development"/>
         
  
     <!--- OPEN GRAPH DATA -->
@@ -51,7 +51,8 @@
 
     <!--- Description -->
     
-      <meta property="og:description" content="Every beginner Ruby developer learns the command gem install early in their career, but it doesn&#39;t take long for most to wonder what&#39;s going on under the hood. As I&#39;ve started to deepen my understanding of Ruby as a programming language, I&#39;ve also become more enamored by Ruby Gems. Following this interest, I jumped into my local Gem environment and tried to make my own.
+      <meta property="og:description" content="Every beginner Ruby developer learns the command gem install early in their career, but it doesn’t take long for most to wonder what’s going on under the hood. As I’ve started to deepen my understanding of Ruby as a programming language, I’ve also become more enamored by Ruby Gems. Following this interest, I jumped into my local Gem environment and tried to make my own.
+
 "/>
 
     
@@ -62,7 +63,7 @@
     <!--- Page Category -->
     
         
-            <meta property="article:section" content="coding"/>
+            <meta property="article:section" content="Coding"/>
         
     
 
@@ -129,6 +130,18 @@
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 
+</script>
+
+
+<!-- BRANCH SDK -->
+
+<script type="text/javascript">
+
+    (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+
+    branch.init('key_live_pjb4Wzv0qO7GDCw6TfFtipmpuqfG3luZ', function(err, data) {
+        // callback to handle err or data
+    });
 </script>
 
 </head>
@@ -215,70 +228,72 @@
 		<br>
 	<span class="post-meta">Published: Feb 1, 2015</span>
 </p>
-                <p>Every beginner Ruby developer learns the command <code>gem install</code> early in their career, but it doesn&#39;t take long for most to wonder what&#39;s going on under the hood. As I&#39;ve started to deepen my understanding of Ruby as a programming language, I&#39;ve also become more enamored by Ruby Gems. Following this interest, I jumped into my local Gem environment and tried to make my own.</p>
+                <p>Every beginner Ruby developer learns the command <code>gem install</code> early in their career, but it doesn’t take long for most to wonder what’s going on under the hood. As I’ve started to deepen my understanding of Ruby as a programming language, I’ve also become more enamored by Ruby Gems. Following this interest, I jumped into my local Gem environment and tried to make my own.</p>
 
 <!--more-->
 
-<h3>What Are Ruby Gems?</h3>
+<h3 id="what-are-ruby-gems">What Are Ruby Gems?</h3>
 
-<p><img class="imageright" src="/images/blogs/rubygems-1.png"></p>
+<p><img class="imageright" src="/images/blogs/rubygems-1.png" /></p>
 
 <p>For those unfamiliar with Ruby, I can start by defining Gems. A Ruby Gem is simply a <a href="http://en.wikipedia.org/wiki/Package_manager">package manager</a> that provides three main purposes:</p>
 
 <ol>
-<li>A standard format for distributing Ruby libraries, programs and scripts. </li>
-<li>A tool that helps manage library installation.</li>
-<li>A server for distributing these libraries.</li>
+  <li>A standard format for distributing Ruby libraries, programs and scripts.</li>
+  <li>A tool that helps manage library installation.</li>
+  <li>A server for distributing these libraries.</li>
 </ol>
 
-<p>So, simply put, Ruby Gems are plugin software packages that contain Ruby applications and/or libraries. Gems are a fundamental part of Ruby programming because they extend and manipulate the feature set and full functionality of Ruby applications. Most commonly, Gems are used to implement re-usable features and prevent developers from having to reinvent the wheel. </p>
+<p>So, simply put, Ruby Gems are plugin software packages that contain Ruby applications and/or libraries. Gems are a fundamental part of Ruby programming because they extend and manipulate the feature set and full functionality of Ruby applications. Most commonly, Gems are used to implement re-usable features and prevent developers from having to reinvent the wheel.</p>
 
-<p>This is really how it works with all code libraries. In the past, when you built an incredible script or application that completed some task you might save it for your own purposes to use in all your applications. Over time, thousands of programmers have done this, sharing their work with the world -- in this case via Gems using the <a href="http://guides.rubygems.org/">RubyGems</a> software package manager -- so that instead of having to go solve every nuanced programming problem they come across, they can plug into the work of others and focus more attention on building the application at hand.</p>
+<p>This is really how it works with all code libraries. In the past, when you built an incredible script or application that completed some task you might save it for your own purposes to use in all your applications. Over time, thousands of programmers have done this, sharing their work with the world – in this case via Gems using the <a href="http://guides.rubygems.org/">RubyGems</a> software package manager – so that instead of having to go solve every nuanced programming problem they come across, they can plug into the work of others and focus more attention on building the application at hand.</p>
 
-<h3>How do Gems Work?</h3>
+<h3 id="how-do-gems-work">How do Gems Work?</h3>
 
-<p>At a high level the command <code>gem</code> is what allows you to work with Ruby Gems from your <a href="http://cli.learncodethehardway.org/book/">command line</a>. If it&#39;s your first time getting started with Ruby (version &gt; 1.9) you will have the RubyGems commands built in, but if not, you can always <a href="https://rubygems.org/pages/download">download</a> and run the installer from RubyGems.org.</p>
+<p>At a high level the command <code>gem</code> is what allows you to work with Ruby Gems from your <a href="http://cli.learncodethehardway.org/book/">command line</a>. If it’s your first time getting started with Ruby (version &gt; 1.9) you will have the RubyGems commands built in, but if not, you can always <a href="https://rubygems.org/pages/download">download</a> and run the installer from RubyGems.org.</p>
 
-<p>RubyGems.org provides the best resources avaiable for using and working with Ruby Gems -- this shouldn&#39;t be surprising! </p>
+<p>RubyGems.org provides the best resources avaiable for using and working with Ruby Gems – this shouldn’t be surprising!</p>
 
 <p>What are some of the cool commands you can run from terminal when working with GEMs?</p>
 
 <ul>
-<li><code>gem install [ Gem library Name ]</code></li>
-<li><code>gem search [ Gem library Name ]</code></li>
-<li><code>irb -rpp</code>: Requires a library when irb loads!</li>
-<li><code>gem list</code></li>
-<li><code>gem uninstall [ Gem library name ]</code></li>
-<li><code>ri [ Gem library name ]</code>: View the documentation of the requested Gem.</li>
-<li><code>gem server</code>: Lets you view the documentation for your installed Gems using a local host.</li>
-<li><code>gem fetch [ Gem library name ]</code>: Let&#39;s you audit a Gem&#39;s contents without downloading it</li>
-<li><code>gem unpack [ Gem library name ]</code>: After fetching, you can extract the contents from the <code>.gem</code> file.</li>
+  <li><code>gem install [ Gem library Name ]</code></li>
+  <li><code>gem search [ Gem library Name ]</code></li>
+  <li><code>irb -rpp</code>: Requires a library when irb loads!</li>
+  <li><code>gem list</code></li>
+  <li><code>gem uninstall [ Gem library name ]</code></li>
+  <li><code>ri [ Gem library name ]</code>: View the documentation of the requested Gem.</li>
+  <li><code>gem server</code>: Lets you view the documentation for your installed Gems using a local host.</li>
+  <li><code>gem fetch [ Gem library name ]</code>: Let’s you audit a Gem’s contents without downloading it</li>
+  <li><code>gem unpack [ Gem library name ]</code>: After fetching, you can extract the contents from the <code>.gem</code> file.</li>
 </ul>
 
 <p>This list serves as a launchpad. There are loads of other awesome <a href="http://guides.rubygems.org/command-reference/">Gem commands</a>.</p>
 
-<p><a href="http://guides.rubygems.org/command-reference/"><img src="/images/blogs/rubygems-2.png"></a></p>
+<p><a href="http://guides.rubygems.org/command-reference/"><img src="/images/blogs/rubygems-2.png" /></a></p>
 
-<p>Now that you have an understanding of ruby Gems and how to work with them, it&#39;s time to turn our attention to the main argument -- how to <b>build</b> Ruby Gems.</p>
+<p>Now that you have an understanding of ruby Gems and how to work with them, it’s time to turn our attention to the main argument – how to <b>build</b> Ruby Gems.</p>
 
-<h3>Building Your Own Gem</h3>
+<h3 id="building-your-own-gem">Building Your Own Gem</h3>
 
 <p>The process is actually quite simple. First I recommend checking out these two resources:</p>
 
 <ul>
-<li><a href="http://guides.rubygems.org/make-your-own-gem/">Make Your Own Gem</a></li>
-<li><a href="https://quickleft.com/blog/engineering-lunch-series-step-by-step-guide-to-building-your-first-ruby-gem/"> Step-by-Step Guide to Building Gems </a></li>
+  <li><a href="http://guides.rubygems.org/make-your-own-gem/">Make Your Own Gem</a></li>
+  <li><a href="https://quickleft.com/blog/engineering-lunch-series-step-by-step-guide-to-building-your-first-ruby-gem/"> Step-by-Step Guide to Building Gems </a></li>
 </ul>
 
-<p>Installing is easiest using <code>bundle</code> as explained in the Step by Step guide. It works like this...</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">$ gem install bundle
+<p>Installing is easiest using <code>bundle</code> as explained in the Step by Step guide. It works like this…</p>
+
+<pre><code>$ gem install bundle
 $ bundle gem [ Your Gem name ]
-</code></pre></div>
-<p>You don&#39;t necessarily have to run bundle in order to create a Gem. You could also use built in Gem commands. First, navigate to where you want to build your Gem in CL. Create a <code>.gemspec</code> file using the required syntax and nomenclature. Confused? Here&#39;s an <a href="http://guides.rubygems.org/specification-reference/">example</a>. And if that&#39;s not enough, here&#39;s one of my .gemspec files so that you understand what it might look like.</p>
+</code></pre>
 
-<p><img class="imageright" src="/images/blogs/rubygems-3.png" href="http://guides.rubygems.org/command-reference/"></p>
+<p>You don’t necessarily have to run bundle in order to create a Gem. You could also use built in Gem commands. First, navigate to where you want to build your Gem in CL. Create a <code>.gemspec</code> file using the required syntax and nomenclature. Confused? Here’s an <a href="http://guides.rubygems.org/specification-reference/">example</a>. And if that’s not enough, here’s one of my .gemspec files so that you understand what it might look like.</p>
 
-<p>Now that you&#39;ve made your <code>.gemspec</code> file you can run <code>gem build [ Your gem name].gemspec</code></p>
+<p><img class="imageright" src="/images/blogs/rubygems-3.png" href="http://guides.rubygems.org/command-reference/" /></p>
+
+<p>Now that you’ve made your <code>.gemspec</code> file you can run <code>gem build [ Your gem name].gemspec</code></p>
 
 <p>The Gem will automatically get built for you with all the correct directories, subdirectories and required files.</p>
 
@@ -298,46 +313,54 @@ $ bundle gem [ Your Gem name ]
 <code>README.md</code>
 <code>GEMLOCK</code></p>
 
-<h4>Gem Visualization</h4>
+<h4 id="gem-visualization">Gem Visualization</h4>
 
-<p>The above list serves as the architecture for your Gem, but you still might be wondering what the tree structure of a Gem looks like. If you ran the previous <code>bundle</code> commands (or built it yourself) and named your Gem &quot;freewill&quot;, per <a href="http://guides.rubygems.org/what-is-a-gem/">this example</a>, this is what you would have created automatically. </p>
+<p>The above list serves as the architecture for your Gem, but you still might be wondering what the tree structure of a Gem looks like. If you ran the previous <code>bundle</code> commands (or built it yourself) and named your Gem “freewill”, per <a href="http://guides.rubygems.org/what-is-a-gem/">this example</a>, this is what you would have created automatically.</p>
 
-<p><img src="/images/blogs/rubygems-4.png"></p>
+<p><img src="/images/blogs/rubygems-4.png" /></p>
 
-<h4>Building with Test Driven Development</h4>
+<h4 id="building-with-test-driven-development">Building with Test Driven Development</h4>
 
-<p>From this point you will want to build your Gem using <a href="http://en.wikipedia.org/wiki/Test-driven_development">Test-Driven Development</a> (TDD). Most people use <a href="http://rspec.info/">RSpec</a> to do so. In TTD you&#39;ll want to first add rspec to your Gem:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">Gem:Specification.new do |spec|
-   spec.add_development_dependency &#39;rspec&#39;
+<p>From this point you will want to build your Gem using <a href="http://en.wikipedia.org/wiki/Test-driven_development">Test-Driven Development</a> (TDD). Most people use <a href="http://rspec.info/">RSpec</a> to do so. In TTD you’ll want to first add rspec to your Gem:</p>
+
+<pre><code>Gem:Specification.new do |spec|
+   spec.add_development_dependency 'rspec'
 end
-</code></pre></div>
-<p>Now you can create a <code>spec</code> sub-directory within your Gem home directory. And add <code>spec</code> helper and Gem test files. Here&#39;s an example:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">$ mkdir spec
+</code></pre>
+
+<p>Now you can create a <code>spec</code> sub-directory within your Gem home directory. And add <code>spec</code> helper and Gem test files. Here’s an example:</p>
+
+<pre><code>$ mkdir spec
 $ cd spec
 $ touch [ Gem Name ]_spec.rb
 $ touch spec_helper.rb
-</code></pre></div>
+</code></pre>
+
 <p>Using TTD and Rspec is outside of the scope of this article, but you you can add all your tests into these newly created ruby files. Learn more about that <a href="http://rspec.info/">here</a>.</p>
 
-<h3>Deploying Your Gem</h3>
+<h3 id="deploying-your-gem">Deploying Your Gem</h3>
 
-<p>After many hours of building your awesome Gem you&#39;ll probably get to the point where you&#39;re interested in publishing. The <a href="http://guides.rubygems.org/publishing/">process</a> is also very simple. </p>
+<p>After many hours of building your awesome Gem you’ll probably get to the point where you’re interested in publishing. The <a href="http://guides.rubygems.org/publishing/">process</a> is also very simple.</p>
 
-<p>The best and easiest way to spread the gospel of your Gem to other Ruby developers (and easily use it in all your projects with a simple <code>gem install</code> command...) is to publish to <a href="http://www.rubygems.org">RubyGems.org</a> </p>
+<p>The best and easiest way to spread the gospel of your Gem to other Ruby developers (and easily use it in all your projects with a simple <code>gem install</code> command…) is to publish to <a href="http://www.rubygems.org">RubyGems.org</a></p>
 
 <p><a href="https://rubygems.org/sign_up">Signup</a> on their website and then push your Gem:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">$ gem push [ Your Gem ].gem
-</code></pre></div>
-<p>You will be prompted for login information, but RubyGems will save your credentials to <code>~/.gem/credentials</code> from the command line so that you won&#39;t have to do it everytime you push.</p>
 
-<h3>Wrap Up</h3>
+<pre><code>$ gem push [ Your Gem ].gem
+</code></pre>
 
-<p>In short, Ruby Gems are a fundamental aspect of coding in Ruby. It doesn&#39;t take much time to start implementing them in your <code>.rb</code> files with the <code>require</code> tag, but creating your own Gem is a bit complicated. Hopefully this short intro gives you a first look and provides the resources needed to dive further.</p>
+<p>You will be prompted for login information, but RubyGems will save your credentials to <code>~/.gem/credentials</code> from the command line so that you won’t have to do it everytime you push.</p>
+
+<h3 id="wrap-up">Wrap Up</h3>
+
+<p>In short, Ruby Gems are a fundamental aspect of coding in Ruby. It doesn’t take much time to start implementing them in your <code>.rb</code> files with the <code>require</code> tag, but creating your own Gem is a bit complicated. Hopefully this short intro gives you a first look and provides the resources needed to dive further.</p>
 
 <p>If you have more time, I highly recommend learning to build Ruby Gems by exploring those Gems that have already been created. You can do this by navigating to the directory where your Gems are stored. Use the following in CL:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">$ gem environment
-</code></pre></div>
-<p>Using your favorite text editor, open up some existing Gems -- or Gems that you use frequently -- and see how they are built. Compare the architecture you see there to the one I&#39;ve described. Go one step further and see how their tests are established and how their primary <code>.rb</code> file works. You will learn an extraordinary amount by immersing yourself in existing Gems! Happy coding!</p>
+
+<pre><code>$ gem environment
+</code></pre>
+
+<p>Using your favorite text editor, open up some existing Gems – or Gems that you use frequently – and see how they are built. Compare the architecture you see there to the one I’ve described. Go one step further and see how their tests are established and how their primary <code>.rb</code> file works. You will learn an extraordinary amount by immersing yourself in existing Gems! Happy coding!</p>
 
               </article>
    

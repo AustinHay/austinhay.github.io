@@ -26,7 +26,7 @@
 
     <!--- Keywords (Categories & Tags) -->
     
-            <meta name="keywords" content="branch,Contextual Deeplinking,Web to Mobile,Context"/>
+            <meta name="keywords" content="Branch,Contextual Deeplinking,Web to Mobile,Context"/>
         
  
     <!--- OPEN GRAPH DATA -->
@@ -51,8 +51,7 @@
 
     <!--- Description -->
     
-      <meta property="og:description" content="Everyone&#39;s heard the adage before - context matters. In the case of mobile deeplinking, context doesn&#39;t just matter, it&#39;s the difference between simply connecting to the right content and connecting to that content in the right way. 
-"/>
+      <meta property="og:description" content="Everyone’s heard the adage before - context matters. In the case of mobile deeplinking, context doesn’t just matter, it’s the difference between simply connecting to the right content and connecting to that content in the right way. Traditional, basic deeplinking solutions, which many lament as a failed promise, claim to deliver users from a link to the content they intended to view. The reality of this promise, however, is much more complicated. Because of the..."/>
 
     
 
@@ -62,7 +61,7 @@
     <!--- Page Category -->
     
         
-            <meta property="article:section" content="branch"/>
+            <meta property="article:section" content="Branch"/>
         
     
 
@@ -127,6 +126,18 @@
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 
+</script>
+
+
+<!-- BRANCH SDK -->
+
+<script type="text/javascript">
+
+    (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+
+    branch.init('key_live_pjb4Wzv0qO7GDCw6TfFtipmpuqfG3luZ', function(err, data) {
+        // callback to handle err or data
+    });
 </script>
 
 </head>
@@ -213,89 +224,90 @@
 		<br>
 	<span class="post-meta">Published: Apr 15, 2015</span>
 </p>
-                <p>Everyone&#39;s heard the adage before - context matters. In the case of mobile deeplinking, context doesn&#39;t just matter, it&#39;s the difference between simply connecting to the right content and <b><i>connecting to that content in the right way</i></b>. </p>
+                <p>Everyone’s heard the adage before - context matters. In the case of mobile deeplinking, context doesn’t just matter, it’s the difference between simply connecting to the right content and <b><i>connecting to that content in the right way</i></b>.</p>
 
-<p>Traditional, <b>basic deeplinking</b> solutions, <a href="https://medium.com/backchannel/the-failed-promise-of-deep-links-aa307b3abaa5">which many lament as a failed promise</a>, claim to deliver users from a link to the content they intended to view. The reality of this promise, however, is much more complicated. Because of the way the app stores function on mobile devices, for both Apple and Google, this process is filled with friction - friction that <b>contextual deeplinking</b> lets you circumvent.
+<p>Traditional, <b>basic deeplinking</b> solutions, <a href="https://medium.com/backchannel/the-failed-promise-of-deep-links-aa307b3abaa5">which many lament as a failed promise</a>, claim to deliver users from a link to the content they intended to view. The reality of this promise, however, is much more complicated. Because of the way the app stores function on mobile devices, for both Apple and Google, this process is filled with friction - friction that <b>contextual deeplinking</b> lets you circumvent.</p>
 <figure>
-<img src="/images/blogs/branch/contextual-deeplinking-2.png"></a>
-    <p style="font-style:italic; font-size:70%; padding; 1%;">
-    It&#39;s hard not to see all the ways that <b>basic deeplinking</b> is broken.
+<img src="/images/blogs/branch/contextual-deeplinking-2.png" />
+	<p style="font-style:italic; font-size:70%; padding; 1%;">
+    It's hard not to see all the ways that <b>basic deeplinking</b> is broken.
     </p>
-    </figure></p>
+    </figure>
 
 <p>As highlighted recently through a dive into <a href="https://blog.branch.io/mobile-deeplinking-basics/?bmp=contextual-deeplinking-blog">how deeplinking works</a>, the app store functions as a black box when a user tries to install a native app, stripping all information that came with that user and the link they clicked. It is here that many deeplinking platforms fail to deliver on their promise, as they have no solution for this glaring problem.</p>
 
-<p>Basic deeplinking can only connect users to an app from anywhere on the web <b>if they already have the app installed</b>. If they had the app previously and uninstalled it, they can expect an unsavory Safari error. When they don&#39;t have the app installed, basic deeplinking can take them to the App Store, and eventually to the linked app. But this eventuality means more clicks, and as Ben Narasin <a href="https://blog.branch.io/an-investors-advice-on-building-a-company/?bmp=contextual-deeplinking-blog">discusses</a>, more clicks means fewer conversions. And once they get there, users will be served a generic login screen and be left clueless as to where to go next. </p>
+<p>Basic deeplinking can only connect users to an app from anywhere on the web <b>if they already have the app installed</b>. If they had the app previously and uninstalled it, they can expect an unsavory Safari error. When they don’t have the app installed, basic deeplinking can take them to the App Store, and eventually to the linked app. But this eventuality means more clicks, and as Ben Narasin <a href="https://blog.branch.io/an-investors-advice-on-building-a-company/?bmp=contextual-deeplinking-blog">discusses</a>, more clicks means fewer conversions. And once they get there, users will be served a generic login screen and be left clueless as to where to go next.</p>
 
-<h3>Why it Matters</h3>
+<h3 id="why-it-matters">Why it Matters</h3>
 
-<p>Deeplinking&#39;s profile has been growing lately, with major players taking the <a href="http://techcrunch.com/2013/08/30/deeplink-me-launches-a-retargeting-network-for-mobile-that-sends-users-back-to-the-apps-theyve-already-installed/?bmp=contextual-deeplinking-blog">spotlight</a> as they begin to offer solutions for connecting the web and native ecosystems, and even for providing <a href="http://techcrunch.com/2015/03/24/deeplink-moves-into-google-territory-with-appwords-a-deep-link-mobile-search-and-ad-platform/?bmp=contextual-deeplinking-blog">search</a> and advertising. What tends to get left out of the conversation is the true nature of the type of deeplinking in question and the experience it provides. <b>Basic deeplinking</b> is not enough to carry the industry forward. It&#39;s not enough to deliver on the promise of connecting people, content and messages across platforms, it&#39;s not enough to <a href="https://branch.io/features/?bmp=contextual-deeplinking-blog">create a truly seamless UX</a>, and it&#39;s not enough to give developers the tools they need to <a href="https://branch.io/organic-growth/?bmp=contextual-deeplinking-blog">grow their apps</a>.</p>
+<p>Deeplinking’s profile has been growing lately, with major players taking the <a href="http://techcrunch.com/2013/08/30/deeplink-me-launches-a-retargeting-network-for-mobile-that-sends-users-back-to-the-apps-theyve-already-installed/?bmp=contextual-deeplinking-blog">spotlight</a> as they begin to offer solutions for connecting the web and native ecosystems, and even for providing <a href="http://techcrunch.com/2015/03/24/deeplink-moves-into-google-territory-with-appwords-a-deep-link-mobile-search-and-ad-platform/?bmp=contextual-deeplinking-blog">search</a> and advertising. What tends to get left out of the conversation is the true nature of the type of deeplinking in question and the experience it provides. <b>Basic deeplinking</b> is not enough to carry the industry forward. It’s not enough to deliver on the promise of connecting people, content and messages across platforms, it’s not enough to <a href="https://branch.io/features/?bmp=contextual-deeplinking-blog">create a truly seamless UX</a>, and it’s not enough to give developers the tools they need to <a href="https://branch.io/organic-growth/?bmp=contextual-deeplinking-blog">grow their apps</a>.</p>
 
-<p><b>Contextual deeplinking</b> can and does do all of these things that basic linking cannot. But don&#39;t take it just from us - listen some of our amazing partners and industry leaders talk about contextual deeplinking and the power it holds over basic deeplinking:</p>
+<p><b>Contextual deeplinking</b> can and does do all of these things that basic linking cannot. But don’t take it just from us - listen some of our amazing partners and industry leaders talk about contextual deeplinking and the power it holds over basic deeplinking:</p>
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192190273&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-<h3>How Basic Deeplinking Isn&#39;t Enough</h3>
+<h3 id="how-basic-deeplinking-isnt-enough">How Basic Deeplinking Isn’t Enough</h3>
 
-<p>The problems with <b><a href="http://blog.bitly.com/post/113868146719/introducing-mobile-deep-linking-by-bitly?bmp=contextual-deeplinking-blog">basic deeplinking</a></b> are easy to understand, but if you want a full walkthrough, I recommend that you take a look at the complete process breakdown <a href="https://blog.branch.io/mobile-deeplinking-basics/?bmp=contextual-deeplinking-blog">here</a>. <b>Real-life examples also tell the story of why <b>basic deeplinking</b> isn&#39;t enough.</b> With <a href="https://www.eventbrite.com/?bmp=contextual-deeplinking-blog">Eventbrite</a>, basic deeplinking only drives users to the App store if they have the app. New users, like myself, are left wondering how they can get back to the content they originally wanted to see.</p>
+<p>The problems with <b><a href="http://blog.bitly.com/post/113868146719/introducing-mobile-deep-linking-by-bitly?bmp=contextual-deeplinking-blog">basic deeplinking</a></b> are easy to understand, but if you want a full walkthrough, I recommend that you take a look at the complete process breakdown <a href="https://blog.branch.io/mobile-deeplinking-basics/?bmp=contextual-deeplinking-blog">here</a>. <b>Real-life examples also tell the story of why <b>basic deeplinking</b> isn’t enough.</b> With <a href="https://www.eventbrite.com/?bmp=contextual-deeplinking-blog">Eventbrite</a>, basic deeplinking only drives users to the App store if they have the app. New users, like myself, are left wondering how they can get back to the content they originally wanted to see.</p>
 
 <figure>
-<img src="/images/blogs/branch/contextual-deeplinking-3.png">
-    <p style="font-style:italic; font-size:70%; padding; 1%;">
-        Mada, our wonderful <a href="https://medium.com/mobile-growth/how-to-make-app-content-as-accessible-as-web-content-f6b19e970bf?bmp=contextual-deeplinking-blog">co-founder</a>, invites me to an awesome <a href="http://www.eventbrite.com/e/mobile-growth-with-flipboard-groupon-app-in-the-air-zynga-yahoo-tickets-16212140950?bmp=contextual-deeplinking-blog">Mobile Growth Meetup</a> featuring Flipboard, Groupon, App in the Air, Zynga, and Yahoo. When I click on the link I'm directed to the mobile site, where a banner asks if I want to view the page in the native app. This is where <b>basic deeplinking</b> stalls - after downloading the app, the context of where I came from is lost. After I open the Eventbrite app to sign up for the Meetup, I'm left scratching my head at a generic signup screen. 
-    </p>
+<img src="/images/blogs/branch/contextual-deeplinking-3.png" />
+	<p style="font-style:italic; font-size:70%; padding; 1%;">
+		Mada, our wonderful <a href="https://medium.com/mobile-growth/how-to-make-app-content-as-accessible-as-web-content-f6b19e970bf?bmp=contextual-deeplinking-blog">co-founder</a>, invites me to an awesome <a href="http://www.eventbrite.com/e/mobile-growth-with-flipboard-groupon-app-in-the-air-zynga-yahoo-tickets-16212140950?bmp=contextual-deeplinking-blog">Mobile Growth Meetup</a> featuring Flipboard, Groupon, App in the Air, Zynga, and Yahoo. When I click on the link I'm directed to the mobile site, where a banner asks if I want to view the page in the native app. This is where <b>basic deeplinking</b> stalls - after downloading the app, the context of where I came from is lost. After I open the Eventbrite app to sign up for the Meetup, I'm left scratching my head at a generic signup screen. 
+	</p>
 </figure>
 
-<p>And the crazy part about <b>basic deeplinking</b> is that it doesn&#39;t deliver on its promise to drive users to the right content no matter where they came from. For instance, with <a href="https://www.lyft.com/">Lyft</a>, basic deeplinking doesn&#39;t drive users from SMS to the native app. In fact, the process fails before the user even gets the app. </p>
+<p>And the crazy part about <b>basic deeplinking</b> is that it doesn’t deliver on its promise to drive users to the right content no matter where they came from. For instance, with <a href="https://www.lyft.com/">Lyft</a>, basic deeplinking doesn’t drive users from SMS to the native app. In fact, the process fails before the user even gets the app.</p>
 
 <figure>
-<a href="https://branch.io/links?bmp=contextual-deeplinking-blog"><img src="/images/blogs/branch/contextual-deeplinking-4.png"></a>
-    <p style="font-style:italic; font-size:70%; padding; 1%;">
-        Lyft often extends incredible deals to incentivize new users to try their great service. I happened to receive an SMS with a promotion code for 10 free rides just this last week. Without <b>contextual deeplinks</b>, I am redirected to the mobile site, served an error messaged and left without a way to navigate to the native experience. 
-    </p>
+<a href="https://branch.io/links?bmp=contextual-deeplinking-blog"><img src="/images/blogs/branch/contextual-deeplinking-4.png" /></a>
+	<p style="font-style:italic; font-size:70%; padding; 1%;">
+		Lyft often extends incredible deals to incentivize new users to try their great service. I happened to receive an SMS with a promotion code for 10 free rides just this last week. Without <b>contextual deeplinks</b>, I am redirected to the mobile site, served an error messaged and left without a way to navigate to the native experience. 
+	</p>
 </figure>
 
-<p>Well, what about email? Can basic deeplinking help me get from an email I received to the content I am trying to access? For <a href="https://www.orderaheadapp.com/?bmp=contextual-deeplinking-blog">Order Ahead</a>, basic deeplinking similarly directs new users from a free delivery email link to a generic user login screen. <b>Context</b> about where the user came from, how they got there, and what they are looking for is all lost because basic deeplinks don&#39;t work through install. </p>
+<p>Well, what about email? Can basic deeplinking help me get from an email I received to the content I am trying to access? For <a href="https://www.orderaheadapp.com/?bmp=contextual-deeplinking-blog">Order Ahead</a>, basic deeplinking similarly directs new users from a free delivery email link to a generic user login screen. <b>Context</b> about where the user came from, how they got there, and what they are looking for is all lost because basic deeplinks don’t work through install.</p>
 
 <figure>
-<a href="https://branch.io/links?bmp=contextual-deeplinking-blog"><img src="/images/blogs/branch/contextual-deeplinking-5.png"></a>
-    <p style="font-style:italic; font-size:70%; padding; 1%;">
+<a href="https://branch.io/links?bmp=contextual-deeplinking-blog"><img src="/images/blogs/branch/contextual-deeplinking-5.png" /></a>
+	<p style="font-style:italic; font-size:70%; padding; 1%;">
     Order Ahead provides amazing customer experiences through their promos. I got an email for a free delivery. After following the link and downloading the app, I was served a generic signup screen. Without context, the Order Ahead app didn't know where I came from or what I was expecting. Instead of delivering an extremely customized user experience, without <b>context</b> I was instead left wondering if I even got the free delivery.
-    </p>
+	</p>
 </figure>
 
-<p>I feel like I&#39;m experiencing <a href="https://blog.branch.io/mobile-deeplinking-basics/?bmp=contextual-deeplinking-blog">déjà vu</a>.</p>
+<p>I feel like I’m experiencing <a href="https://blog.branch.io/mobile-deeplinking-basics/?bmp=contextual-deeplinking-blog">déjà vu</a>.</p>
 
-<p>You might be thinking to yourself: okay, I see the problem, but it&#39;s not that big of a deal, right? Well, actually, yes it is! It&#39;s a HUGE deal. </p>
+<p>You might be thinking to yourself: okay, I see the problem, but it’s not that big of a deal, right? Well, actually, yes it is! It’s a HUGE deal.</p>
 
-<p>In a world where <a href="http://andrewchen.co/mobile-retention-benchmarks-for-2014-vs-2013-show-a-50-drop-in-d1-retention-guest-post/?bmp=contextual-deeplinking-blog">over 60% of mobile app users drop off less then 24 hours after download</a>, you&#39;ve just provided the user&#39;s first experience migrating to the native app as an error message or as a generic login screen. <b>Basic deeplinks don&#39;t remove basic friction in the way contextual deeplinks do.</b></p>
+<p>In a world where <a href="http://andrewchen.co/mobile-retention-benchmarks-for-2014-vs-2013-show-a-50-drop-in-d1-retention-guest-post/?bmp=contextual-deeplinking-blog">over 60% of mobile app users drop off less then 24 hours after download</a>, you’ve just provided the user’s first experience migrating to the native app as an error message or as a generic login screen. <b>Basic deeplinks don’t remove basic friction in the way contextual deeplinks do.</b></p>
 
-<p>The user, who was <b><a href="http://blog.bitly.com/post/113868146719/introducing-mobile-deep-linking-by-bitly">promised</a></b> that they&#39;d always be delivered to the right web content regardless of where a link was clicked, just got served something they didn&#39;t want or expect.</p>
+<p>The user, who was <b><a href="http://blog.bitly.com/post/113868146719/introducing-mobile-deep-linking-by-bitly">promised</a></b> that they’d always be delivered to the right web content regardless of where a link was clicked, just got served something they didn’t want or expect.</p>
 
-<p>The old saying &quot;first impressions matter&quot; is still around for a reason. And in the world of basic deeplinking, this rings clearer than ever before.</p>
+<p>The old saying “first impressions matter” is still around for a reason. And in the world of basic deeplinking, this rings clearer than ever before.</p>
 
-<h3>Contextual Deeplinking in Focus</h3>
+<h3 id="contextual-deeplinking-in-focus">Contextual Deeplinking in Focus</h3>
 
-<p><b>Contextual deeplinking</b> begins where basic deeplinking ends. It solves all of these problems and goes even further. With contextual deeplinks, you can understand how, why, and from where users are downloading your app, and then you can pass that data through the install to serve them the best possible user experience when they finally get there. </p>
+<p><b>Contextual deeplinking</b> begins where basic deeplinking ends. It solves all of these problems and goes even further. With contextual deeplinks, you can understand how, why, and from where users are downloading your app, and then you can pass that data through the install to serve them the best possible user experience when they finally get there.</p>
 
 <figure>
-<a href="https://branch.io/links?bmp=contextual-deeplinking-blog"><img src="/images/blogs/branch/contextual-deeplinking-1.png"></a>
-    <p style="font-style:italic; font-size:70%; padding; 1%;">
+<a href="https://branch.io/links?bmp=contextual-deeplinking-blog"><img src="/images/blogs/branch/contextual-deeplinking-1.png" /></a>
+	<p style="font-style:italic; font-size:70%; padding; 1%;">
     Branch is the only linking platform that provides genuine contextual deeplinking, a technology that can actually deliver on the promise of deeplinking that so many have hoped for.
     </p>
     </figure>
 
 <figure>
-<img src="/images/blogs/branch/contextual-deeplinking-6.png">
+<img src="/images/blogs/branch/contextual-deeplinking-6.png" />
 </figure>
 
-<p>And it doesn&#39;t have to end there - with context, the possibilities are limitless. You can universally deeplink users straight to the content they were looking for, regardless of where they came from (SMS, email, web, social). You can understand the channel from which they arrived at your app, and even build a referral program to reward the person who sent them to you. <b>Contextual deeplinking</b> is a toolset that empowers app developers to share  apps and their content in the way the web always has: seamlessly.</p>
+<p>And it doesn’t have to end there - with context, the possibilities are limitless. You can universally deeplink users straight to the content they were looking for, regardless of where they came from (SMS, email, web, social). You can understand the channel from which they arrived at your app, and even build a referral program to reward the person who sent them to you. <b>Contextual deeplinking</b> is a toolset that empowers app developers to share  apps and their content in the way the web always has: seamlessly.</p>
 
-<p>...And so, when you choose to <a href="https://dashboard.branch.io/?bmp=contextual-deeplinking-blog">take the plunge</a> and begin deeplinking into your app, remember: context matters.</p>
+<p>…And so, when you choose to <a href="https://dashboard.branch.io/?bmp=contextual-deeplinking-blog">take the plunge</a> and begin deeplinking into your app, remember: context matters.</p>
 
-<p><p style="font-style:italic; font-size:60%;">
+<p style="font-style:italic; font-size:60%;">
 Want to learn More About the Authors &amp; Designers who help explain and show Contextual deeplinks? Check out Will &amp; Mada on the Branch <a href="https://branch.io/about">team page</a>!
-<p></p>
+<p>
+</p></p>
 
               </article>
    
